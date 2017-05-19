@@ -1,0 +1,11 @@
+langcode: en
+status: true
+dependencies:
+  enforced:
+    module:
+      - rp_structure
+name: Place Tags
+vid: place_tags
+description: 'Use tags to categorize places.'
+hierarchy: 0
+weight: 14

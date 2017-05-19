@@ -1,0 +1,11 @@
+langcode: en
+status: true
+dependencies:
+  enforced:
+    module:
+      - rp_structure
+name: Person Tags
+vid: person_tags
+description: 'Use tags to categorize persons.'
+hierarchy: 0
+weight: 12

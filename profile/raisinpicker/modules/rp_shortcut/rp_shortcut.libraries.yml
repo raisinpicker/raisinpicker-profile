@@ -1,0 +1,8 @@
+drupal.rp_shortcut:
+  version: VERSION
+  js:
+    - js/rp_shortcut.js
+    - js/mousetrap.min.js
+  dependencies:
+    - core/jquery
+    - core/drupal

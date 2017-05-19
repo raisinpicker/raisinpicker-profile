@@ -1,0 +1,13 @@
+langcode: en
+status: true
+dependencies:
+  enforced:
+    module:
+      - rp_structure
+name: 'Event'
+type: event
+description: 'Content type that can be used to describe events'
+help: ''
+new_revision: false
+preview_mode: 1
+display_submitted: true

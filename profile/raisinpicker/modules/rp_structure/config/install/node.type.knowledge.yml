@@ -1,0 +1,13 @@
+langcode: en
+status: true
+dependencies:
+  enforced:
+    module:
+      - rp_structure
+name: 'Knowledge'
+type: knowledge
+description: 'Basic content type that can be used to describe any kind of knowledge'
+help: ''
+new_revision: false
+preview_mode: 1
+display_submitted: true
