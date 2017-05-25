@@ -1,0 +1,15 @@
+langcode: en
+status: true
+dependencies: {  }
+id: sequence
+label: 'is followed by'
+reverse_label: follows
+directional: true
+transitive: false
+r_unique: false
+min_arity: 2
+max_arity: 2
+source_bundles:
+  'node:*': 'node:*'
+target_bundles:
+  'node:*': 'node:*'

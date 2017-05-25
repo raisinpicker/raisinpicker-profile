@@ -1,0 +1,19 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.user.field_channel
+  module:
+    - options
+id: user.field_channel
+field_name: field_channel
+entity_type: user
+bundle: user
+label: Channel
+description: 'Select your notification channel'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

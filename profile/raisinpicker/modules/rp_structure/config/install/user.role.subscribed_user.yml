@@ -1,0 +1,10 @@
+uuid: 3d7f3020-e8a7-4534-8650-5e61f812cf10
+langcode: en
+status: true
+dependencies: {  }
+id: subscribed_user
+label: 'Subscribed user'
+weight: 3
+is_admin: null
+permissions:
+  - 'use text format restricted_html'

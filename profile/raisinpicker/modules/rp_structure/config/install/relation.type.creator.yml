@@ -1,0 +1,15 @@
+langcode: en
+status: true
+dependencies: {  }
+id: creator
+label: 'is creator of'
+reverse_label: 'is created by'
+directional: true
+transitive: false
+r_unique: false
+min_arity: 2
+max_arity: 2
+source_bundles:
+  'node:*': 'node:*'
+target_bundles:
+  'node:*': 'node:*'

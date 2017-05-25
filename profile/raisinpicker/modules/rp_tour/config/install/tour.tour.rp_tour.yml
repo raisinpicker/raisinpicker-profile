@@ -1,0 +1,37 @@
+id: rp_tour
+module: rp_tour
+label: 'Tour test english'
+langcode: en
+routes:
+  - route_name: rp_tour.1
+tips:
+  rp_tour-1:
+    id: rp_tour-1
+    plugin: text
+    label: 'The first tip'
+    body: 'Is <a href="[site:url]">[site:name]</a> always the best dressed?'
+    weight: 1
+    attributes:
+      data-id: rp_tour-1
+  rp_tour-action:
+    id: rp_tour-3
+    plugin: text
+    label: 'The action'
+    body: 'The action button of awesome'
+    weight: 2
+    attributes:
+      data-class: button-action
+  rp_tour-3:
+    id: rp_tour-3
+    plugin: test
+    label: 'The awesome image'
+    body: 'asdfasdf'
+    weight: 1
+  rp_tour-6:
+    id: rp_tour-6
+    plugin: text
+    label: 'Im a list'
+    body: '<p>Im all these things:</p><ul><li>Modal</li><li>Awesome</li></ul>'
+    weight: 6
+    attributes:
+      data-id: rp_tour-3

@@ -1,0 +1,15 @@
+rp_tour.1:
+  path: '/tour-1'
+  defaults:
+    _controller: '\Drupal\rp_tour\Controller\TourTestController::tourTest1'
+  options:
+    _admin_route: TRUE
+  requirements:
+    _access: 'TRUE'
+
+rp_tour.1_action:
+  path: '/tour-1/action'
+  defaults:
+    _controller: '\Drupal\rp_tour\Controller\TourTestController::tourTest1'
+  requirements:
+    _access: 'TRUE'

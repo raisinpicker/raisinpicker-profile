@@ -1,0 +1,15 @@
+langcode: en
+status: true
+dependencies: {  }
+id: collection
+label: contains
+reverse_label: 'is part of'
+directional: true
+transitive: false
+r_unique: false
+min_arity: 2
+max_arity: 2
+source_bundles:
+  'node:*': 'node:*'
+target_bundles:
+  'node:*': 'node:*'

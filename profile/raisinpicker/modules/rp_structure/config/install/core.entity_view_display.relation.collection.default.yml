@@ -1,0 +1,52 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.relation.collection.field_comment
+    - field.field.relation.collection.field_order
+    - field.field.relation.collection.field_rating
+    - field.field.relation.collection.field_relation_tags
+    - relation.type.collection
+  module:
+    - private_taxonomy
+id: relation.collection.default
+targetEntityType: relation
+bundle: collection
+mode: default
+content:
+  field_comment:
+    type: string
+    weight: 4
+    region: content
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+  field_order:
+    type: number_decimal
+    weight: 2
+    region: content
+    label: above
+    settings:
+      thousand_separator: ''
+      decimal_separator: .
+      scale: 2
+      prefix_suffix: true
+    third_party_settings: {  }
+  field_rating:
+    type: number_integer
+    weight: 1
+    region: content
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+  field_relation_tags:
+    weight: 3
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: private_taxonomy_term_reference_link
+    region: content
+hidden: {  }

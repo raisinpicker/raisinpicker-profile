@@ -1,0 +1,4 @@
+nouislider:
+  version: 1.x
+  js:
+    js/custom.js: {}

@@ -1,0 +1,29 @@
+langcode: en
+status: true
+dependencies: {  }
+id: review
+label: Review
+bundles: {  }
+entity_type: node
+global: false
+weight: 0
+flag_short: 'To be reviewed'
+flag_long: 'Click to flag this node as to be reviewed'
+flag_message: 'Flagged as to be reviewed'
+unflag_short: 'Review done'
+unflag_long: 'Click to flag this node that review is done'
+unflag_message: 'Flagged that review is done'
+unflag_denied_text: ''
+flag_type: 'entity:node'
+link_type: ajax_link
+flagTypeConfig:
+  show_in_links:
+    full: full
+  show_as_field: true
+  show_on_form: false
+  show_contextual_link: false
+  extra_permissions:
+    owner: '0'
+linkTypeConfig:
+  flag_confirmation: 'Flag this content?'
+  unflag_confirmation: 'Unflag this content?'

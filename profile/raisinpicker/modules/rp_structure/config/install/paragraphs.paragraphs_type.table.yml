@@ -1,0 +1,6 @@
+langcode: en
+status: true
+dependencies: {  }
+id: table
+label: Table
+behavior_plugins: {  }

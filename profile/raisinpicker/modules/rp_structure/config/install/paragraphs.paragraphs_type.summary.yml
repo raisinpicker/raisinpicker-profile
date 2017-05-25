@@ -1,0 +1,6 @@
+langcode: en
+status: true
+dependencies: {  }
+id: summary
+label: Summary
+behavior_plugins: {  }

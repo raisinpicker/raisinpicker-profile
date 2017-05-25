@@ -1,0 +1,57 @@
+name: 'Raisin Picker Taxonomies'
+type: module
+description: 'Provides default terms for taxonomies'
+package: Raisin Picker
+core: 8.x
+version: '8.x-1.x-dev'
+dependencies:
+  - default_content
+default_content:
+  taxonomy_term:
+    -5073dfdd-e0ce-47f9-9181-622993793983
+    -1db34ce6-8745-4484-9b7a-34845825ee7f
+    -be4d2d87-4e2f-4ada-97f4-5eaa163bce51
+    -b3897382-2fc5-4468-a2af-799102b9c512
+    -dc01e74a-0708-4fb7-b1f8-8b18d116d1d9
+    -f9987186-3864-497e-82dd-ff75325d91bb
+    -892d4249-117b-4f86-b422-2dae0bfd0a18
+    -bff6d7fc-4845-4ced-8e41-e9da5730cbf7
+    -2b71a783-1d92-4999-8640-e81a83b42342
+    -a89bf952-85c3-430d-b1e3-1b171896fbcb
+    -da066126-a0bb-4a2d-ad3f-785de3e73c22
+    -cae312e0-eb10-4432-97f1-3e44a7e36be8
+    -b96f09c1-c60e-4536-99b3-6f404cd3597f
+    -07aefc95-590b-4f4d-a6af-237517d524ac
+    -49ecf3a1-4eab-47d6-8582-f6222b0ba77d
+    -b490a4e5-f6e2-4f4b-8f54-75e2d879b471
+    -5db02c5c-c214-44cb-8c3c-5b19a8fe5570
+    -1794384c-e1ac-4e6a-9955-8bb925f7f973
+    -69e838f6-d1fb-4a3a-8b1f-24cbafdf6d7e
+    -5262eab6-43c4-49b6-a0d2-077d110cc2c2
+    -eae49e46-373a-479a-ab2c-350f4b847813
+    -1115facd-9eb8-4b16-9140-b9f9ab0e45ec
+    -3127896c-90bc-4e8a-9bfe-775d4fa08a4e
+    -babbe087-900d-4234-b14f-50317990196e
+    -5261e620-f763-41a8-ad37-ccff42bbf4cf
+    -1051e7a2-4da4-4a84-a9b7-7408f7135bac
+    -3a43e3f1-faac-4475-afcf-3900bf5f9691
+    -a9a4d7d6-1e24-4b3f-b6bd-90c421fb0ba7
+    -29717dd7-cb84-4740-855e-751bb81eec14
+    -02a839d0-28c0-4799-a35b-61d2e9a1df0f
+    -b16c9157-b127-4074-9c43-ad0da6fe69af
+    -8160ff90-cf3b-49d0-a0db-a8b293de3c4e
+    -ee668e13-0926-4068-b662-7cb1d20edd9e
+    -4eaa779f-6577-4a31-9070-09e2fb2c94a8
+    -3af54d73-83a9-4182-af9f-471bb37d5e41
+    -90c7281e-e08f-420d-a5e8-2f596cf03b08
+    -fd0c341f-ae2a-463d-b905-1a8fdea6f482
+    -97930784-7f9c-40f0-9b3b-8f7e6324fc6e
+    -1eff00c2-865e-4761-aa23-7293744ff58b
+    -b150dc70-e59d-4dac-b8fa-75a4e6d9c25c
+    -00ee8a21-5049-4ab2-9eee-088e755e8eb4
+    -19e52298-5e46-45c7-9f56-30fa3f4509c4
+    -3f24a35b-318f-4d64-ac49-08f1ca215d1c
+    -c6670dcb-9fd2-4357-b1c9-c3a2bee2e434
+    -d3dc92aa-52f1-4002-a2a8-ef278800402b
+    -e30fd9bb-29c4-44e8-863e-b21669eb83ed
+    -fceb263d-89f5-4758-ad9e-a6aba42ba6df

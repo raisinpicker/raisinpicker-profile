@@ -1,0 +1,23 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.user.field_int_avg_words
+id: user.user.field_int_avg_words
+field_name: field_int_avg_words
+entity_type: user
+bundle: user
+label: 'int avg words'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: !!float 100
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: decimal
