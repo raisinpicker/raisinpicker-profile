@@ -1,0 +1,42 @@
+name: 'Raisin Picker'
+type: profile
+description: 'Raisin Picker, knowledge management tool, Drupal 8.x installation profile.'
+version: '8.x-1.x-dev'
+core: 8.x
+dependencies:
+  - node
+  - history
+  - block
+  - breakpoint
+  - ckeditor
+  - color
+  - config
+  - comment
+  - contextual
+  - contact
+  - menu_link_content
+  - datetime
+  - block_content
+  - quickedit
+  - editor
+  - help
+  - image
+  - menu_ui
+  - options
+  - path
+  - page_cache
+  - dynamic_page_cache
+  - taxonomy
+  - dblog
+  - search
+  - shortcut
+  - toolbar
+  - field_ui
+  - file
+  - views
+  - views_ui
+  - tour
+  - automated_cron
+themes:
+  - rp_material
+  - seven

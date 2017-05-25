@@ -1,0 +1,17 @@
+langcode: en
+status: true
+dependencies: {  }
+id: authenticated
+label: 'Authenticated user'
+weight: 1
+is_admin: false
+permissions:
+  - 'access content'
+  - 'access user profiles'
+  - 'access_unpublished node article'
+  - 'cancel account'
+  - 'change own username'
+  - 'use text format basic_html'
+  - 'view media'
+  - 'view published terms in channel'
+  - 'view published terms in tags'

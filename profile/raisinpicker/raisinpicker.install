@@ -4,6 +4,9 @@
  * Install, update and uninstall functions for the minimal installation profile.
  */
 
+use Drupal\user\Entity\User;
+use Drupal\user\RoleInterface;
+
 ///**
 // * Implements hook_install().
 // *
@@ -11,10 +14,23 @@
 // *
 // * @see system_install()
 // */
-//function minimal_install() {
-//  // Disable the user pictures on nodes.
-//  \Drupal::config('system.theme.global')->set('features.node_user_picture', FALSE)->save();
-//
-//  // Allow visitor account creation, but with administrative approval.
-//  \Drupal::config('user.settings')->set('register', USER_REGISTER_VISITORS_ADMINISTRATIVE_APPROVAL)->save();
-//}
+function raisinpicker_install() {
+  // Set front page to "node".
+  \Drupal::configFactory()->getEditable('system.site')->set('page.front', '/home')->save(TRUE);
+
+  // Allow visitor account creation with administrative approval.
+  $user_settings = \Drupal::configFactory()->getEditable('user.settings');
+  $user_settings->set('register', USER_REGISTER_VISITORS_ADMINISTRATIVE_APPROVAL)->save(TRUE);
+
+  // Assign user 1 the "administrator" role.
+  $user = User::load(1);
+  $user->roles[] = 'administrator';
+  $user->save();
+
+  // We install some menu links, so we have to rebuild the router, to ensure the
+  // menu links are valid.
+  \Drupal::service('router.builder')->rebuildIfNeeded();
+
+  // Enable the admin theme.
+  \Drupal::configFactory()->getEditable('node.settings')->set('use_admin_theme', TRUE)->save(TRUE);
+}
