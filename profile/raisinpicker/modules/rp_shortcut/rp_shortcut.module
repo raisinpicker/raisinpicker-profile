@@ -11,6 +11,5 @@
 function rp_shortcut_page_attachments(array &$attachments) {
   if (\Drupal::currentUser()->hasPermission('access keyboard shortcut')) {
     $attachments['#attached']['library'][] = 'rp_shortcut/drupal.rp_shortcut';
-    ];
   }
 }

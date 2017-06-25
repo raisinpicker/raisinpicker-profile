@@ -7,7 +7,7 @@ rp_structure.admin:
   title: 'Create knowledge'
   description: ''
   parent: rp_structure.create
-  route_name: node.add_knowledge
+  route_name: <front>
   menu_name: main
   weight: 20
 
@@ -35,3 +35,4 @@ rp_structure.tools:
 #  title: 'Home'
 #  route_name: '<front>'
 #  menu_name: main
+#  route_name: node.add_knowledge

@@ -4,3 +4,6 @@ description: Implement UI slider field (no-uislider)
 package: Raisin Picker
 core: 8.x
 version: '8.x-1.x-dev'
+
+libraries:
+  - rp_slider/nouislider

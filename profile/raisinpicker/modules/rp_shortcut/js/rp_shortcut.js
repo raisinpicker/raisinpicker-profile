@@ -1,6 +1,6 @@
 /**
  * @file
- * JavaScript file for the cache_clear_shortcut module.
+ * JavaScript file for the rp_shortcut module.
  */
 
 (function ($, Drupal) {
@@ -12,33 +12,24 @@
     attach: function () {
 
     Mousetrap.bind('4', function() { console.log('keystroke 4'); });
-    Mousetrap.bind('5', function() { window.location = Drupal.url('node/add/knowledge'); });
 
+    Mousetrap.bind('i', function() { window.location = Drupal.url('index'); });
+    Mousetrap.bind('b', function() { window.location = Drupal.url('bulk'); });
+    Mousetrap.bind('s', function() { window.location = Drupal.url('s'); });
+    Mousetrap.bind('h', function() { window.location = Drupal.url('home'); });
 
+    Mousetrap.bind('shift+k', function() { window.location = Drupal.url('node/add/knowledge'); });
+    Mousetrap.bind('shift+u', function() { window.location = Drupal.url('node/add/publication'); });
+    Mousetrap.bind('shift+p', function() { window.location = Drupal.url('node/add/person'); });
+    Mousetrap.bind('shift+e', function() { window.location = Drupal.url('node/add/event'); }); 
+    Mousetrap.bind('shift+l', function() { window.location = Drupal.url('node/add/place'); });               
+    Mousetrap.bind('shift+o', function() { window.location = Drupal.url('node/add/object'); });
+    Mousetrap.bind('shift+c', function() { window.location = Drupal.url('node/add/collection'); });
 
-/*      
-      $('body').once('cache_clear_shortcut').each(function () {
-        // Key events.
-        $(document).keydown(function (event) {
-          if (event.altKey === true && event.keyCode === 67) {
-            $('body').prepend(imageUrl);
-            $.ajax({
-              url: Drupal.url('admin/config/development/performance/clearcache'),
-              dataType: 'json',
-              success: function (data) {
-                $('.cache-load').hide();
-                $('body').prepend('<div class="overlay"><div class="popup"><h2>Cache cleared.</h2><a class="close" href="#">&times;</a></div></div>');
-                $('.overlay .close').click(function () {
-                  $('.overlay').fadeOut();
-                });
-                setTimeout(function () {
-                  $('.overlay').fadeOut();
-                }, 1000);
-              }
-            });
-          }
-        });
-      });
+/**
+    Mousetrap.bind('shift+s', function() {  });   // save form
+    Mousetrap.bind('shift+left', function() {  });   // previous item   
+    Mousetrap.bind('shift+right', function() {  });   // next item
 */
     }
   };
