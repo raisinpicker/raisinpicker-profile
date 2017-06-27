@@ -4,21 +4,3 @@ sigmajs:
     js/graph.js: {}
   dependencies:
     - core/drupalSettings
-
-d3:
-  js:
-    js/d3.v4.min.js: {}
-    js/d3-timeline.js: {}
-
-googlechart:
-  remote: https://www.gstatic.com/charts/
-  version: 1.0
-  header: true
-  license:
-    name: MIT
-    url: https://www.gstatic.com/charts/
-    gpl-compatible: true
-  js:
-    https://www.gstatic.com/charts/loader.js: { type: external, minified: true }
-  dependencies:
-    - core/jquery

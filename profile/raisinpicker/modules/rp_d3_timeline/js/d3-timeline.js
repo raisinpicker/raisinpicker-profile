@@ -1,6 +1,26 @@
 //  A timeline component for d3
 //  version v0.1
 
+    var domElement = "#d3timeline";
+    var sourceFile = "modules/rp_d3_timeline/js/philosophers.csv";
+
+    // Read in the data and construct the timeline
+    d3.csv(sourceFile, function(dataset) {
+
+        timeline(domElement)
+            .data(dataset)
+            .band("mainBand", 0.82)
+            .band("naviBand", 0.08)
+            .xAxis("mainBand")
+            .tooltips("mainBand")
+            .xAxis("naviBand")
+            .labels("mainBand")
+            .labels("naviBand")
+            .brush("naviBand", ["mainBand"])
+            .redraw();
+
+    });
+
 function timeline(domElement) {
 
     //--------------------------------------------------------------------------
@@ -142,7 +162,8 @@ function timeline(domElement) {
             if (item.end == "") {
                 //console.log("1 item.start: " + item.start);
                 //console.log("2 item.end: " + item.end);
-                item.end = new Date(item.start.getTime() + instantOffset);
+                console.log(item.start);
+                item.end = new Date(item.start + instantOffset);
                 //console.log("3 item.end: " + item.end);
                 item.instant = true;
             } else {
@@ -190,7 +211,7 @@ function timeline(domElement) {
         band.parts = [],
         band.instantWidth = 100; // arbitray value
 
-        band.xScale = d3.time.scale()
+        band.xScale = d3.scaleTime()
             .domain([data.minDate, data.maxDate])
             .range([0, band.w]);
 
@@ -386,9 +407,8 @@ function timeline(domElement) {
 
         var band = bands[bandName];
 
-        var axis = d3.svg.axis()
+        var axis = d3.axisBottom()
             .scale(band.xScale)
-            .orient(orientation || "bottom")
             .tickSize(6, 0)
             .tickFormat(function (d) { return toYear(d); });
 
@@ -415,8 +435,8 @@ function timeline(domElement) {
 
         var band = bands[bandName];
 
-        var brush = d3.svg.brush()
-            .x(band.xScale.range([0, band.w]))
+        var brush = d3.brushX()
+            .extent(band.xScale.range([0, band.w]))
             .on("brush", function() {
                 var domain = brush.empty()
                     ? band.xScale.domain()
@@ -466,30 +486,14 @@ function timeline(domElement) {
         // Because JavaScript can't define AD years between 0..99,
         // these years require a special treatment.
 
-        var format = d3.time.format("%Y-%m-%d"),
+        var format = d3.timeFormat("%Y-%m-%d"),
             date,
             year;
 
-        date = format.parse(dateString);
-        if (date !== null) return date;
+        var parse = d3.timeParse("%Y");
 
-        // BC yearStrings are not numbers!
-        if (isNaN(dateString)) { // Handle BC year
-            // Remove non-digits, convert to negative number
-            year = -(dateString.replace(/[^0-9]/g, ""));
-        } else { // Handle AD year
-            // Convert to positive number
-            year = +dateString;
-        }
-        if (year < 0 || year > 99) { // 'Normal' dates
-            date = new Date(year, 6, 1);
-        } else if (year == 0) { // Year 0 is '1 BC'
-            date = new Date (-1, 6, 1);
-        } else { // Create arbitrary year and then set the correct year
-            // For full years, I chose to set the date to mid year (1st of July).
-            date = new Date(year, 6, 1);
-            date.setUTCFullYear(("0000" + year).slice(-4));
-        }
+        date = parse(dateString);
+       
         // Finally create the date
         return date;
     }

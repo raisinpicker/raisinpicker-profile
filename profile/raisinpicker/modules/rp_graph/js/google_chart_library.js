@@ -1,1 +1,0 @@
-jQuery(document).ready(function () { google.charts.load('current', {'packages':['corechart','timeline','orgchart']}); });

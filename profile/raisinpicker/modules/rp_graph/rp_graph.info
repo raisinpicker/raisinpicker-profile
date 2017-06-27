@@ -1,6 +1,0 @@
-name = Raisin Picker Graph
-description = Simple Sigma JS code loader
-core=7.x
-package = "Raisin Picker"
-
-dependencies[] = relation
