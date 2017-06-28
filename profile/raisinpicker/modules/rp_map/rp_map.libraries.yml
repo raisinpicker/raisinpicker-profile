@@ -1,4 +1,4 @@
-googlecalendar:
+gmap:
   js:
     js/chart.js: {}
   dependencies:
