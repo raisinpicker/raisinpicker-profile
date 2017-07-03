@@ -1,7 +1,0 @@
-rp_calendar:
-  path: '/map'
-  defaults:
-    _controller: '\Drupal\rp_map\Controller\RpMapController::info'
-    _title: 'Activity'
-  requirements:
-    _permission: 'access page map'

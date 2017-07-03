@@ -36,7 +36,7 @@
     stack: true,
     verticalScroll: true,
     zoomKey: 'ctrlKey',
-    maxHeight: 200,
+    maxHeight: 800,
     start: new Date(),
     end: new Date(1000*60*60*24 + (new Date()).valueOf()),
   };
