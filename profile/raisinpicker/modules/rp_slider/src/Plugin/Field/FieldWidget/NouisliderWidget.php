@@ -33,7 +33,7 @@ public function formElement(FieldItemListInterface $items, $delta, array $elemen
       '#min' => $field_settings['min'],
       '#max' => $field_settings['max'],
       '#suffix' => '<div class="slider shor slider-material-orange" id="slider"></div>',
-      '#attributes' => array('class' => array('rating-input')),
+      '#attributes' => array('class' => array('rating-input hidden')),
       '#attached' => array(
         'library' => array(
           'rp_slider/nouislider',
