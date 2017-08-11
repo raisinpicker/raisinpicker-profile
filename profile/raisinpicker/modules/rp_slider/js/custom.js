@@ -3,11 +3,11 @@
   'use strict';
 
   Drupal.behaviors.rp_slider_nouislider = {
-    attach: function () {
-
-    $(document).ready(function () {
-
-      var slider = document.getElementById('slider');
+    attach: function (context) {
+//    $(document).ready(function () {
+      $(context).find("#slider").once('myCustomBehavior').each(function(){
+//      var slider = document.getElementById('slider');
+      var slider = $("#slider").get(0);      
       noUiSlider.create(slider, {
         start: 4,
         connect: true,

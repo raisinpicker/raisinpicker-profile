@@ -22,4 +22,5 @@ regions:
 libraries:
   - 'rp_material/global-styling'
   - 'rp_material/roboto'
+  - 'rp_material/material-icons' 
   - 'rp-materialdesign/bootstrap-scripts'
