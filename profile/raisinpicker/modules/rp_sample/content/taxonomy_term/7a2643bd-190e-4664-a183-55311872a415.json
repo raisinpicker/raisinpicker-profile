@@ -1,0 +1,61 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/default\/taxonomy\/term\/205?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/relation_tags"
+        }
+    },
+    "tid": [
+        {
+            "value": 205
+        }
+    ],
+    "uuid": [
+        {
+            "value": "7a2643bd-190e-4664-a183-55311872a415"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "vid": [
+        {
+            "target_id": "relation_tags"
+        }
+    ],
+    "name": [
+        {
+            "value": "Reference",
+            "lang": "en"
+        }
+    ],
+    "description": [
+        {
+            "value": "<p>A references B (and B references A)<\/p>\r\n",
+            "format": "basic_html",
+            "lang": "en"
+        }
+    ],
+    "weight": [
+        {
+            "value": 0
+        }
+    ],
+    "changed": [
+        {
+            "value": 1502280211,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ]
+}

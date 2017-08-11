@@ -1,12 +1,8 @@
 name: 'Raisin Picker Sample Content'
 type: module
-description: 'Provides some sample nodes, tags and relations for demo purposes.'
+description: 'Provides some sample content for demo purposes.'
 package: Raisin Picker
 core: 8.x
 version: '8.x-1.x-dev'
 dependencies:
   - default_content
-default_content:
-  node:
-    - c9a89616-7057-4971-8337-555e425ed782
-    - ...

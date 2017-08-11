@@ -1,0 +1,61 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/default\/taxonomy\/term\/203?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/relation_tags"
+        }
+    },
+    "tid": [
+        {
+            "value": 203
+        }
+    ],
+    "uuid": [
+        {
+            "value": "5b9b234d-58f3-423f-9403-82b2b6640901"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "vid": [
+        {
+            "target_id": "relation_tags"
+        }
+    ],
+    "name": [
+        {
+            "value": "Influence",
+            "lang": "en"
+        }
+    ],
+    "description": [
+        {
+            "value": "<p>A influences B<\/p>\r\n",
+            "format": "basic_html",
+            "lang": "en"
+        }
+    ],
+    "weight": [
+        {
+            "value": 0
+        }
+    ],
+    "changed": [
+        {
+            "value": 1502280129,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ]
+}
