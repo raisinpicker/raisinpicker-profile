@@ -1,7 +1,0 @@
-rp_calendar:
-  path: '/activity'
-  defaults:
-    _controller: '\Drupal\rp_calendar\Controller\RpCalendarController::info'
-    _title: 'Activity'
-  requirements:
-    _permission: 'access page calendar'

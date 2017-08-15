@@ -1,8 +1,0 @@
-name: 'Raisin Picker Sample Content'
-type: module
-description: 'Provides some sample content for demo purposes.'
-package: Raisin Picker
-core: 8.x
-version: '8.x-1.x-dev'
-dependencies:
-  - default_content

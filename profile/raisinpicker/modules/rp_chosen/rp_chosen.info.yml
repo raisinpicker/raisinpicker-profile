@@ -1,8 +1,0 @@
-name: Raisin Picker Chosen
-type: module
-description: custom chosen field
-package: Raisin Picker
-core: 8.x
-version: '8.x-1.x-dev'
-dependencies:
-  - chosen

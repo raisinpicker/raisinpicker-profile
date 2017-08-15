@@ -1,7 +1,0 @@
-rp_graph_graph:
-  path: 'graph'
-  defaults:
-    _controller: '\Drupal\rp_graph\Controller\RpGraphController::info'
-    _title: 'Graph'
-  requirements:
-    _permission: 'access page graph'

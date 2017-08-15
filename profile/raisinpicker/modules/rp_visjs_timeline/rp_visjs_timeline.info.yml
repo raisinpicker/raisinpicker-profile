@@ -1,8 +1,0 @@
-name: Raisin Picker VisJS Timeline
-type: module
-description: VisJS Timeline chart
-package: Raisin Picker
-version: 8.x-1.x-dev
-core: '8.x'
-dependencies:
-  - views

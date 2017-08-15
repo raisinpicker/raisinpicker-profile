@@ -1,9 +1,0 @@
-visjstimeline:
-  js:
-    js/vis-timeline-graph2d.min.js: {}
-    js/custom.js: {}
-  css:
-    component:
-      css/vis-timeline-graph2d.min.css: {}
-  dependencies:
-    - core/jquery

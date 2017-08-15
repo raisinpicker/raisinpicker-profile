@@ -1,8 +1,0 @@
-name: 'Raisin Picker Taxonomies'
-type: module
-description: 'Provides default terms for taxonomies'
-package: Raisin Picker
-core: 8.x
-version: '8.x-1.x-dev'
-dependencies:
-  - default_content
