@@ -1,5 +1,0 @@
-# Schema for the theme setting configuration file of the THEMETITLE theme.
-
-rp_material.settings:
-  type: theme_settings
-  label: 'Raisin Picker settings'
