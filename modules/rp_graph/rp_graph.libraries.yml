@@ -1,0 +1,6 @@
+sigmajs:
+  js:
+    js/sigma.min.js: {}
+    js/graph.js: {}
+  dependencies:
+    - core/drupalSettings
