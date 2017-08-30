@@ -1,0 +1,16 @@
+<?php
+
+/**
+ * Implements hook_theme().
+ */
+function rp_d3_theme(){
+  return array(
+    'rp_d3_graph' => array(
+      'template' => 'd3',
+      'file' => 'rp_d3.theme.inc',
+      'variables' => array(
+        'barchart' => NULL
+      ),
+    ),
+  );
+}

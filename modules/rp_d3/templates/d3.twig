@@ -1,0 +1,23 @@
+{{ attach_library('rp_d3/timeline') }}
+<div id="views-d3-{{id}}" class="{{ classes }}">
+  <script type="text/javascript">
+
+    var sourceFile = "modules/rp_d3_timeline/js/philosophers.csv";
+
+    d3.csv(sourceFile, function(dataset) {
+        timeline("d3graph-{{id}}")
+            .data(dataset)
+            .band("mainBand", 0.82)
+            .band("naviBand", 0.08)
+            .xAxis("mainBand")
+            .tooltips("mainBand")
+            .xAxis("naviBand")
+            .labels("mainBand")
+            .labels("naviBand")
+            .brush("naviBand", ["mainBand"])
+            .redraw();
+    });
+
+  </script>
+  <div id="d3graph-{{id}}"></div>
+</div>
