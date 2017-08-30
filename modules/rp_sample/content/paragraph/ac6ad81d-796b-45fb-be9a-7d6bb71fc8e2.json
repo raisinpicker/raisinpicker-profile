@@ -1,0 +1,134 @@
+{
+    "_links": {
+        "self": {
+            "href": ""
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/paragraph\/description"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/paragraph\/description\/uid": [
+            {
+                "href": "http:\/\/default\/user\/14?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/paragraph\/description\/revision_uid": [
+            {
+                "href": "http:\/\/default\/user\/14?_format=hal_json"
+            }
+        ]
+    },
+    "id": [
+        {
+            "value": 6
+        }
+    ],
+    "uuid": [
+        {
+            "value": "ac6ad81d-796b-45fb-be9a-7d6bb71fc8e2"
+        }
+    ],
+    "revision_id": [
+        {
+            "value": 6
+        }
+    ],
+    "type": [
+        {
+            "target_id": "description"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/paragraph\/description\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/14?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "9329ae9b-6f37-4261-bfb1-1beeacfbdbda"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/paragraph\/description\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/14?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "9329ae9b-6f37-4261-bfb1-1beeacfbdbda"
+                    }
+                ]
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": 1502372544,
+            "lang": "en"
+        }
+    ],
+    "parent_id": [
+        {
+            "value": "403"
+        }
+    ],
+    "parent_type": [
+        {
+            "value": "node"
+        }
+    ],
+    "parent_field_name": [
+        {
+            "value": "field_elements"
+        }
+    ],
+    "behavior_settings": [
+        {
+            "value": "a:0:{}"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "field_text": [
+        {
+            "value": "<p>Nullam dictum dolor nec malesuada malesuada.<\/p>\r\n\r\n<ul>\r\n\t<li>Fusce vehicula neque efficitur, gravida diam in, molestie ex.<\/li>\r\n\t<li>Fusce fringilla elit a tristique gravida.<\/li>\r\n\t<li>Nam fringilla orci maximus eros accumsan blandit.<\/li>\r\n\t<li>Maecenas non mauris mattis, volutpat dui id, finibus nunc.<\/li>\r\n\t<li>Duis ultricies felis vitae lectus volutpat, hendrerit placerat risus vulputate.<\/li>\r\n<\/ul>\r\n\r\n<p>Nullam dictum dolor nec malesuada malesuada. Nullam dictum dolor nec malesuada malesuada.<\/p>\r\n\r\n<ul>\r\n\t<li>Phasellus auctor magna nec diam lacinia, ac fringilla velit tristique.<\/li>\r\n\t<li>Nunc in metus vitae enim posuere ullamcorper.<\/li>\r\n\t<li>Duis venenatis erat in vehicula tincidunt.<\/li>\r\n\t<li>Sed a metus lobortis, convallis quam vitae, volutpat nibh.<\/li>\r\n<\/ul>\r\n",
+            "format": "basic_html"
+        }
+    ],
+    "field_title": [
+        {
+            "value": "This is another idea",
+            "lang": "en"
+        }
+    ]
+}

@@ -1,0 +1,25 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.user.field_review
+  module:
+    - options
+id: user.user.field_review
+field_name: field_review
+entity_type: user
+bundle: user
+label: Review
+description: 'Select when to schedule reviews after a new node has been created'
+required: false
+translatable: false
+default_value:
+  -
+    value: 2w
+  -
+    value: 3m
+  -
+    value: 1y
+default_value_callback: ''
+settings: {  }
+field_type: list_string

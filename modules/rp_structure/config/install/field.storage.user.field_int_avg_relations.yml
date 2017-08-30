@@ -1,0 +1,20 @@
+uuid: bd77264e-a731-455c-a5a4-780c55b39d58
+langcode: en
+status: true
+dependencies:
+  module:
+    - field
+id: user.field_int_avg_relations
+field_name: field_int_avg_relations
+entity_type: user
+type: decimal
+settings:
+  precision: 10
+  scale: 5
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

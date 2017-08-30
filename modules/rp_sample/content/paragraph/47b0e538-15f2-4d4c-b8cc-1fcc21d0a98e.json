@@ -1,0 +1,134 @@
+{
+    "_links": {
+        "self": {
+            "href": ""
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/paragraph\/description"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/paragraph\/description\/uid": [
+            {
+                "href": "http:\/\/default\/user\/14?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/paragraph\/description\/revision_uid": [
+            {
+                "href": "http:\/\/default\/user\/14?_format=hal_json"
+            }
+        ]
+    },
+    "id": [
+        {
+            "value": 9
+        }
+    ],
+    "uuid": [
+        {
+            "value": "47b0e538-15f2-4d4c-b8cc-1fcc21d0a98e"
+        }
+    ],
+    "revision_id": [
+        {
+            "value": 15
+        }
+    ],
+    "type": [
+        {
+            "target_id": "description"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/paragraph\/description\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/14?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "9329ae9b-6f37-4261-bfb1-1beeacfbdbda"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/paragraph\/description\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/14?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "9329ae9b-6f37-4261-bfb1-1beeacfbdbda"
+                    }
+                ]
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": 1502373369,
+            "lang": "en"
+        }
+    ],
+    "parent_id": [
+        {
+            "value": "404"
+        }
+    ],
+    "parent_type": [
+        {
+            "value": "node"
+        }
+    ],
+    "parent_field_name": [
+        {
+            "value": "field_elements"
+        }
+    ],
+    "behavior_settings": [
+        {
+            "value": "a:0:{}"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "field_text": [
+        {
+            "value": "<p>Suspendisse imperdiet suscipit eros, ac sollicitudin erat congue non. Vestibulum non sodales libero. Aliquam a metus ex. Fusce convallis ac diam vel auctor. Sed egestas dapibus mollis. Morbi aliquet dui vitae arcu aliquet sodales. Maecenas et neque sit amet nunc hendrerit placerat. Cras egestas odio lectus, non fermentum dolor facilisis in. Ut bibendum neque id suscipit lobortis. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec nec sem iaculis, elementum elit eu, lacinia nisl. Aliquam interdum felis sed magna posuere tristique. Donec sit amet dictum dolor, a venenatis sapien. Duis vitae volutpat elit, quis efficitur ante.&nbsp;<\/p>\r\n\r\n<p>Praesent eros velit, accumsan sit amet feugiat dapibus, dapibus at ex. Phasellus vestibulum ex sit amet laoreet gravida. Pellentesque id sodales justo. Ut vitae ultrices diam, vel accumsan purus. Pellentesque tincidunt pulvinar sem, quis commodo tortor auctor nec. Aenean id mauris ac mauris egestas pretium. Cras maximus diam pellentesque nibh sodales, sit amet dignissim orci eleifend. Vestibulum at tortor sit amet massa aliquet euismod non at orci.<\/p>\r\n",
+            "format": "basic_html"
+        }
+    ],
+    "field_title": [
+        {
+            "value": "July 2017: Yet another comment",
+            "lang": "en"
+        }
+    ]
+}

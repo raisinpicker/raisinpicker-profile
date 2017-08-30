@@ -1,0 +1,168 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.publication.field_elements
+    - field.field.node.publication.field_rating
+    - field.field.node.publication.field_rel_index
+    - field.field.node.publication.field_rel_score
+    - field.field.node.publication.field_tags
+    - field.field.node.publication.field_words
+    - node.type.publication
+  module:
+    - ds
+    - entity_reference_revisions
+    - term_reference_tree
+    - user
+third_party_settings:
+  ds:
+    layout:
+      id: ds_3col_stacked
+      library: ds/ds_3col_stacked
+      disable_css: false
+      entity_classes: all_classes
+      settings:
+        wrappers:
+          header: div
+          left: div
+          middle: div
+          right: div
+          footer: div
+        outer_wrapper: div
+        attributes: ''
+        link_attribute: ''
+        link_custom: ''
+        classes:
+          layout_class: {  }
+          header: {  }
+          left: {  }
+          middle: {  }
+          right: {  }
+          footer: {  }
+    regions:
+      left:
+        - 'dynamic_token_field:node-content_id'
+        - 'bundle_field:node'
+        - field_rating
+        - node_changed_date
+        - node_post_date
+        - field_words
+        - field_rel_score
+        - field_rel_index
+      middle:
+        - field_elements
+      right:
+        - flag_work_in_progress
+        - flag_review
+        - field_tags
+    fields:
+      'bundle_field:node':
+        plugin_id: 'bundle_field:node'
+        weight: 1
+        label: inline
+        formatter: default
+      'dynamic_token_field:node-content_id':
+        plugin_id: 'dynamic_token_field:node-content_id'
+        weight: 0
+        label: inline
+        formatter: default
+      node_changed_date:
+        plugin_id: node_changed_date
+        weight: 3
+        label: inline
+        formatter: ds_post_date_long
+      node_links:
+        plugin_id: node_links
+        weight: 14
+        label: hidden
+        formatter: default
+        ft:
+          id: default
+          settings:
+            lb: ''
+            lb-col: false
+            classes: {  }
+      node_post_date:
+        plugin_id: node_post_date
+        weight: 4
+        label: inline
+        formatter: ds_post_date_long
+id: node.publication.default
+targetEntityType: node
+bundle: publication
+mode: default
+content:
+  field_elements:
+    type: entity_reference_revisions_entity_view
+    weight: 8
+    region: middle
+    label: above
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+  field_rating:
+    type: number_unformatted
+    weight: 2
+    region: left
+    label: inline
+    settings: {  }
+    third_party_settings: {  }
+  field_rel_index:
+    weight: 7
+    label: inline
+    settings: {  }
+    third_party_settings: {  }
+    type: number_unformatted
+    region: left
+  field_rel_score:
+    weight: 6
+    label: inline
+    settings: {  }
+    third_party_settings: {  }
+    type: number_unformatted
+    region: left
+  field_tags:
+    type: term_reference_tree
+    weight: 11
+    region: right
+    label: above
+    settings: {  }
+    third_party_settings:
+      ds:
+        ds_limit: ''
+        ft:
+          id: default
+          settings:
+            lb: ''
+            lb-col: false
+            classes: {  }
+  field_words:
+    weight: 5
+    label: inline
+    settings: {  }
+    third_party_settings: {  }
+    type: number_unformatted
+    region: left
+  flag_review:
+    weight: 10
+    region: right
+    settings: {  }
+    third_party_settings: {  }
+  flag_work_in_progress:
+    weight: 9
+    region: right
+    settings: {  }
+    third_party_settings: {  }
+  links:
+    weight: 13
+    region: footer
+    settings: {  }
+    third_party_settings: {  }
+  views:
+    weight: 12
+    region: footer
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  langcode: true

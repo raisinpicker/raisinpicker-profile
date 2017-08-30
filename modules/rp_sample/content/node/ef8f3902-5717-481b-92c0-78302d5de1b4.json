@@ -1,0 +1,199 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/default\/node\/402?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/knowledge"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/node\/knowledge\/uid": [
+            {
+                "href": "http:\/\/default\/user\/14?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/knowledge\/revision_uid": [
+            {
+                "href": "http:\/\/default\/user\/14?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/knowledge\/field_elements": [
+            {
+                "href": ""
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/knowledge\/field_tags": [
+            {
+                "href": "http:\/\/default\/taxonomy\/term\/237?_format=hal_json"
+            }
+        ]
+    },
+    "nid": [
+        {
+            "value": 402
+        }
+    ],
+    "uuid": [
+        {
+            "value": "ef8f3902-5717-481b-92c0-78302d5de1b4"
+        }
+    ],
+    "vid": [
+        {
+            "value": 402
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "knowledge"
+        }
+    ],
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "A simple note",
+            "lang": "en"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/node\/knowledge\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/14?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "9329ae9b-6f37-4261-bfb1-1beeacfbdbda"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/knowledge\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/14?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "9329ae9b-6f37-4261-bfb1-1beeacfbdbda"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/knowledge\/field_elements": [
+            {
+                "_links": {
+                    "self": {
+                        "href": ""
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/paragraph\/description"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "e7f8fed5-ea45-4d43-b9d6-e260236b75a1"
+                    }
+                ],
+                "target_revision_id": "3"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/knowledge\/field_tags": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/taxonomy\/term\/237?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/tags"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "02aaf77d-31e2-454c-87c2-0e095f7d54a2"
+                    }
+                ]
+            }
+        ]
+    },
+    "created": [
+        {
+            "value": 1502372356,
+            "lang": "en"
+        }
+    ],
+    "changed": [
+        {
+            "value": 1502372442,
+            "lang": "en"
+        }
+    ],
+    "promote": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": 1502372356
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "field_rating": [
+        {
+            "value": 5
+        }
+    ],
+    "field_rel_index": [
+        {
+            "value": "0.99",
+            "lang": "en"
+        }
+    ],
+    "field_rel_score": [
+        {
+            "value": "1.00",
+            "lang": "en"
+        }
+    ]
+}

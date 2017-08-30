@@ -1,0 +1,25 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.relation.creator.field_comment
+    - field.field.relation.creator.field_rating
+    - field.field.relation.creator.field_relation_tags
+    - relation.type.creator
+  module:
+    - private_taxonomy
+id: relation.creator.default
+targetEntityType: relation
+bundle: creator
+mode: default
+content:
+  field_relation_tags:
+    weight: 1
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: private_taxonomy_term_reference_link
+    region: content
+hidden:
+  field_comment: true
+  field_rating: true

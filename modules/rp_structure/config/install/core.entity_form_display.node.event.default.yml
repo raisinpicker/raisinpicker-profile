@@ -1,0 +1,63 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.event.field_elements
+    - field.field.node.event.field_event_tags
+    - field.field.node.event.field_rating
+    - field.field.node.event.field_tags
+    - node.type.event
+  module:
+    - chosen_field
+    - paragraphs
+id: node.event.default
+targetEntityType: node
+bundle: event
+mode: default
+content:
+  field_elements:
+    type: paragraphs
+    weight: 4
+    region: content
+    settings:
+      title: Paragraph
+      title_plural: Paragraphs
+      edit_mode: open
+      add_mode: dropdown
+      form_display_mode: default
+      default_paragraph_type: ''
+    third_party_settings: {  }
+  field_event_tags:
+    weight: 3
+    settings: {  }
+    third_party_settings: {  }
+    type: chosen_select
+    region: content
+  field_rating:
+    type: number
+    weight: 1
+    region: content
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+  field_tags:
+    type: chosen_select
+    weight: 2
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  title:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: 'Enter title here'
+    third_party_settings: {  }
+hidden:
+  created: true
+  langcode: true
+  path: true
+  promote: true
+  sticky: true
+  uid: true

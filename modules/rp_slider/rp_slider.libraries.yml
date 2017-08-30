@@ -1,0 +1,16 @@
+nouislider:
+  js:
+    js/custom.js: {}
+  dependencies:
+    - rp_slider/nouisliderlib
+  
+nouisliderlib:
+  css:
+    component:
+      css/nouislider.min.css: {}
+  js:
+    js/nouislider.min.js: {}
+  dependencies:
+    - core/jquery
+    - core/jquery.once
+    - core/drupalSettings

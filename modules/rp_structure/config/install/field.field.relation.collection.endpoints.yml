@@ -1,0 +1,24 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.relation.endpoints
+    - relation.type.collection
+  module:
+    - dynamic_entity_reference
+id: relation.collection.endpoints
+field_name: endpoints
+entity_type: relation
+bundle: collection
+label: Endpoints
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  node:
+    handler: 'default:node'
+    handler_settings:
+      target_bundles: null
+field_type: dynamic_entity_reference

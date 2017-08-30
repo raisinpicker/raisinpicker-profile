@@ -1,0 +1,9 @@
+uuid: 1b0844ce-79f8-4052-bcde-d06cacc335e4
+langcode: en
+status: true
+dependencies: {  }
+id: technical
+label: Technical
+weight: 4
+is_admin: null
+permissions: {  }

@@ -1,0 +1,25 @@
+langcode: en
+status: true
+dependencies:
+  module:
+    - private_taxonomy
+    - relation
+    - taxonomy
+id: relation.field_relation_tags
+field_name: field_relation_tags
+entity_type: relation
+type: private_taxonomy_term_reference
+settings:
+  allowed_values:
+    -
+      vocabulary: relation_tags
+      users: '-authenticated-'
+  target_type: taxonomy_term
+  options_list_callback: null
+module: private_taxonomy
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

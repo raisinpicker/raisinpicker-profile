@@ -1,0 +1,10 @@
+<?php
+
+function rp_slider_field_widget_info() {
+  return array(
+    'nouislider_widget' => array(
+      'label' => t('noUiSlider field'),
+      'field types' => array('integer'),
+    ),
+  );
+}

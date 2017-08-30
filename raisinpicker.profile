@@ -11,6 +11,5 @@
  * Allows the profile to alter the site configuration form.
  */
 function raisinpicker_form_install_configure_form_alter(&$form, FormStateInterface $form_state) {
-  // Add a value as example that one can choose an arbitrary site name.
   $form['site_information']['site_name']['#placeholder'] = t('Raisin Picker');
 }

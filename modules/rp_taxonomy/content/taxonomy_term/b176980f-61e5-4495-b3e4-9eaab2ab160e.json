@@ -1,0 +1,61 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/default\/taxonomy\/term\/207?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/relation_tags"
+        }
+    },
+    "tid": [
+        {
+            "value": 207
+        }
+    ],
+    "uuid": [
+        {
+            "value": "b176980f-61e5-4495-b3e4-9eaab2ab160e"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "vid": [
+        {
+            "target_id": "relation_tags"
+        }
+    ],
+    "name": [
+        {
+            "value": "Sequence",
+            "lang": "en"
+        }
+    ],
+    "description": [
+        {
+            "value": "<p>A is followed by B<\/p>\r\n",
+            "format": "basic_html",
+            "lang": "en"
+        }
+    ],
+    "weight": [
+        {
+            "value": 0
+        }
+    ],
+    "changed": [
+        {
+            "value": 1502280295,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ]
+}
