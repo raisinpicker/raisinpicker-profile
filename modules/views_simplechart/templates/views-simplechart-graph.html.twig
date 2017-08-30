@@ -1,0 +1,34 @@
+{{ attach_library('views_simplechart/google-chart') }}
+<div id="views-simplechart-{{id}}" class="{{ classes }}">
+  <script type="text/javascript">
+  {% if metadata.chart_type == 'line' %} 
+    google.charts.load('current', {'packages':['line']}); 
+  {% elseif metadata.chart_type == 'calendar' %}
+    google.charts.load('current', {'packages':['calendar']}); 
+  {% else %} 
+    google.charts.load('current', {'packages':['bar']}); 
+  {% endif %}  
+    google.charts.setOnLoadCallback(drawChart);
+    function drawChart() {    
+      var data = new google.visualization.arrayToDataTable({{ jsondata|raw }});
+      var options = {
+        'legend':{'position':'{{metadata.chart_legend_position}}' },
+        'title':'{{metadata.chart_title}}',
+        {% if metadata.chart_width %} 'width':{{metadata.chart_width}}, {% endif %} 
+        'height':{{metadata.chart_height}},
+        'colors': ['#607D8B','#B0BEC5', '#263238'],
+        'backgroundColor': '#EEEEEE',
+        'axisTitlesPosition': 'none'
+      };
+      {% if metadata.chart_type == 'line' %} 
+        var chart = new google.charts.Line(document.getElementById('views-simplechart-graph-{{id}}'));
+      {% elseif metadata.chart_type == 'calendar' %} 
+        var chart = new google.visualization.Calendar(document.getElementById('views-simplechart-graph-{{id}}'));
+      {% else %}
+        var chart = new google.charts.Bar(document.getElementById('views-simplechart-graph-{{id}}'));
+      {% endif %} 
+      chart.draw(data, options);
+    };
+  </script>
+  <div id="views-simplechart-graph-{{id}}"></div>
+</div>
