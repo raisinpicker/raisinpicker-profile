@@ -1,0 +1,39 @@
+uuid: 950fff2b-0371-4da0-9b29-7a7fe74a2d1e
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.card
+    - field.field.node.place.field_elements
+    - field.field.node.place.field_place_tags
+    - field.field.node.place.field_rating
+    - field.field.node.place.field_rel_index
+    - field.field.node.place.field_rel_score
+    - field.field.node.place.field_tags
+    - field.field.node.place.field_words
+    - node.type.place
+  module:
+    - user
+_core:
+  default_config_hash: 9f_110HxQK32-PbJCQQnM4oQ-0BExpVhSFDU7sNrqZc
+id: node.place.card
+targetEntityType: node
+bundle: place
+mode: card
+content:
+  views:
+    weight: 12
+    region: footer
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  field_elements: true
+  field_place_tags: true
+  field_rating: true
+  field_rel_index: true
+  field_rel_score: true
+  field_tags: true
+  field_words: true
+  flag_review: true
+  flag_work_in_progress: true
+  links: true

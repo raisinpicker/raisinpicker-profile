@@ -1,0 +1,39 @@
+uuid: fa41e5f5-6b58-4285-af97-6cc62feb7556
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.card
+    - field.field.node.person.field_elements
+    - field.field.node.person.field_person_tags
+    - field.field.node.person.field_rating
+    - field.field.node.person.field_rel_index
+    - field.field.node.person.field_rel_score
+    - field.field.node.person.field_tags
+    - field.field.node.person.field_words
+    - node.type.person
+  module:
+    - user
+_core:
+  default_config_hash: vy72cOtKBsq0C6DqPCO3BoaefOVAycXqext5SgWMQmA
+id: node.person.card
+targetEntityType: node
+bundle: person
+mode: card
+content:
+  views:
+    weight: 12
+    region: footer
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  field_elements: true
+  field_person_tags: true
+  field_rating: true
+  field_rel_index: true
+  field_rel_score: true
+  field_tags: true
+  field_words: true
+  flag_review: true
+  flag_work_in_progress: true
+  links: true
