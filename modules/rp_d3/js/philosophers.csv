@@ -65,10 +65,8 @@ start,end,label
 1762,1814,Fichte
 1788,1860,Schopenhauer
 1818,1883,Marx
-1833,1921,Dühring
 1833,1911,Dilthey
 1844,1900,Nietzsche
-1848,1925,Frege
 1859,1952,Dewey
 1859,1941,Bergson
 1872,1970,Russell
@@ -89,7 +87,6 @@ start,end,label
 1921,2002,Rawls
 1923,1991,Stegmüller
 1781,,Critique of Pure Reason
-1818,,The World as Will and Representation
 1739,,A Treatise of Human Nature
 1748,,An Enquiry Concerning Human Understanding
 1807,,The Phenomenology of Spirit

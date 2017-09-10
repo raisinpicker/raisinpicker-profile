@@ -1,6 +1,6 @@
 <?php
 
-function template_preprocess_rp_d3_graph(&$vars) {
+function template_preprocess_rp_d3(&$vars) {
   if (!empty($vars['view'])) {
     $view = $vars['view'];
     $options = $view->style_plugin->options;

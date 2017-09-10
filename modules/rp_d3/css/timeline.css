@@ -1,9 +1,11 @@
 /* axis */
 
+text {
+    font-family: Roboto, sans-serif;
+    font-size: 12px;    
+}
 .axis { /* axis labels */
     fill: #808080;
-    font-family: sans-serif;
-    font-size: 10px;
 }
 
 .axis line{ /* axis tick marks */
@@ -21,35 +23,29 @@
 /* timeline band */
 
 .band { /* band background */
-    fill: #FAFAFA;
+//    fill: #FAFAFA;
 }
 
 /* labels */
 
 .bandLabel {
     fill: #F0F0F0;
-    font: 10px sans-serif;
     font-weight: bold;
 }
 
 .bandMinMaxLabel {
-    fill: blue;
-    font: 10px sans-serif;
+    fill: black;
     font-weight: bold;
 }
 
 .bandMidLabel {
-    fill: red;
-    font: 10px sans-serif;
-    font-style: italic;
+    fill: black;
+
     font-weight: bold;
 }
-
-/* brush */
-
 .brush .extent {
     stroke: gray;
-    fill: blue;
+    fill: black;
     fill-opacity: .1;
 }
 
@@ -58,28 +54,26 @@
 }
 
 .interval {
-    fill: #AAFFFF;
+    fill: #CFD8DC;
     stroke-width: 6;
     cursor : default;
     pointer-events: true;
 }
 
 .instant {
-    fill: #FFAAFF;
+    fill: #90A4AE;
     stroke-width: 6;
     cursor : default;
     /*pointer-events: true;*/
 }
 
 .instantLabel {
-    fill : blue;
-    font: 10px sans-serif;
+    fill : black;
     shape-rendering: crispEdges;
 }
 
 .intervalLabel {
     fill : black;
-    font: 10px sans-serif;
     shape-rendering: crispEdges;
 }
 
@@ -89,19 +83,16 @@
 }
 
 .svg {
-    border-style: solid;
-    border-width: 1px;
-    border-color: black;
-    background-color: #FFFFFF;
+    border: 1px solid #78909C;
 }
 
 .tooltip {
     width: auto;
     position: absolute;
     visibility: hidden;
-    color : black;
+    color : white;
     cursor:default;
-    background-color: #FFFFEE;
+    background-color: #455A64;
     border: 1px solid;
     padding: 4px;
     shape-rendering: crispEdges;

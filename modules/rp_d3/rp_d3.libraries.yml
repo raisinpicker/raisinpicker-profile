@@ -11,16 +11,6 @@ timeline:
     component:
       css/timeline.css: {}
   dependencies:
-    - rp_d3/d3
-google-chart:
-  remote: https://www.gstatic.com/charts/
-  version: 1.0
-  header: true
-  license:
-    name: MIT
-    url: https://www.gstatic.com/charts/
-    gpl-compatible: true
-  js:
-    https://www.gstatic.com/charts/loader.js: { type: external, minified: true }
-  dependencies:
+    - rp_d3/d3-v3
     - core/jquery
+    - core/jquery.once

@@ -1,0 +1,25 @@
+{{ attach_library('rp_d3/timeline') }}
+<div id="views-d3-{{id}}" class="{{ classes }}">
+  <div id="chart-timeline"></div>
+</div>
+
+<script type="text/javascript">
+
+ console.log({{ metadata|json_encode|raw }} );
+
+{% if jsondata %}
+ var jsondata = {{ jsondata|raw }};
+{% endif %}
+
+
+/*
+(function ($, Drupal) {
+  Drupal.behaviors.timeline = {
+    attach: function (context) {
+      $('#chart-{{id}}',context).once('timeline').each(function(){
+      });  
+    }
+  };
+});
+*/
+</script>
