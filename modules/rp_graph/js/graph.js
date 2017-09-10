@@ -16,8 +16,8 @@ var s, i, filter, data,
               person: "person",
               event: "event",
               collection: "view_headline" };
-var A = $.getJSON('/api/graph-nodes');
-var B = $.getJSON('/api/graph-edges');
+var A = $.getJSON('modules/rp_graph/js/graph-nodes.json');
+var B = $.getJSON('modules/rp_graph/js/graph-edges.json');
 sigma.prototype.zoomToNode = function(node, ratio, camera){
   if(typeof camera == "undefined"){
       camera = this.cameras[0];
@@ -80,13 +80,13 @@ var _ = {
 function updatePane (graph, filter) {
   var maxDegree = 20;
   var options = '';
-  graph.nodes().forEach(function(n) {
-    options += '<option data-value="'+n.id+'" />'+n.label;
-    document.getElementById('suggestionList').innerHTML = options;
-  });
-  // graph.nodes().forEach(function(n) {
-   // maxDegree = Math.max(maxDegree, graph.degree(n.id));
- // })
+ // graph.nodes().forEach(function(n) {
+//    options += '<option data-value="'+n.id+'" />'+n.label;
+//    document.getElementById('suggestionList').innerHTML = options;
+//  });
+   graph.nodes().forEach(function(n) {
+    maxDegree = Math.max(maxDegree, graph.degree(n.id));
+  })
   _.$('min-degree').max = maxDegree;
 //  _.$('max-degree-value').textContent = maxDegree;
   _.$('reset-btn').addEventListener("click", function(e) {

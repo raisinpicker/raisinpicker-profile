@@ -2,5 +2,9 @@ sigmajs:
   js:
     js/sigma.min.js: {}
     js/graph.js: {}
+  css:
+    component:
+      css/style.css: {}
   dependencies:
+    - core/jquery
     - core/drupalSettings
