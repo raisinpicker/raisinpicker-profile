@@ -1,17 +1,38 @@
+
 langcode: en
 status: true
 dependencies: {  }
+_core:
+  default_config_hash: dJ0L2DNSj5q6XVZAGsuVDpJTh5UeYkIPwKrUOOpr8YI
 id: authenticated
 label: 'Authenticated user'
 weight: 1
 is_admin: false
 permissions:
+  - 'access comments'
   - 'access content'
-  - 'access user profiles'
-  - 'access_unpublished node article'
-  - 'cancel account'
-  - 'change own username'
+  - 'access shortcuts'
+  - 'access site-wide contact form'
+  - 'administer own taxonomy'
+  - 'create knowledge content'
+  - 'create rel entities'
+  - 'delete any rel entities'
+  - 'delete knowledge revisions'
+  - 'delete own knowledge content'
+  - 'delete own rel entities'
+  - 'delete own terms in tags'
+  - 'delete terms in tags'
+  - 'edit any rel entities'
+  - 'edit own knowledge content'
+  - 'edit own rel entities'
+  - 'edit own terms in tags'
+  - 'edit terms in tags'
+  - 'post comments'
+  - 'revert knowledge revisions'
+  - 'search content'
+  - 'skip comment approval'
   - 'use text format basic_html'
-  - 'view media'
-  - 'view published terms in channel'
-  - 'view published terms in tags'
+  - 'view any rel entities'
+  - 'view knowledge revisions'
+  - 'view own rel entities'
+  - 'view own unpublished content'

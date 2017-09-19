@@ -1,0 +1,13 @@
+
+langcode: en
+status: true
+dependencies:
+  module:
+    - flag
+id: flag_action.star.flag
+label: Star
+type: node
+plugin: 'flag_action:star.flag'
+configuration:
+  flag_id: star
+  flag_action: flag

@@ -1,0 +1,37 @@
+
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.description.field_text
+    - field.field.paragraph.description.field_title
+    - paragraphs.paragraphs_type.description
+  module:
+    - text
+_core:
+  default_config_hash: F4o69nHBHP7YaQiwdvLQyYO6dDsgcD9t-XbcBgrXmF8
+id: paragraph.description.default
+targetEntityType: paragraph
+bundle: description
+mode: default
+content:
+  field_text:
+    type: text_textarea
+    weight: 1
+    region: content
+    settings:
+      rows: 2
+      placeholder: ''
+    third_party_settings: {  }
+  field_title:
+    weight: 0
+    settings:
+      size: 60
+      placeholder: 'Enter description title here'
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+hidden:
+  created: true
+  status: true
+  uid: true

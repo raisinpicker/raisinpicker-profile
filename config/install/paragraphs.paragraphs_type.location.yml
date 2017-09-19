@@ -1,0 +1,9 @@
+
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: LfB4sRhjyP9ZQXfdMRLcpMY7B7GnjbKBfoFwpJbeYvE
+id: location
+label: Location
+behavior_plugins: {  }

@@ -1,0 +1,26 @@
+
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_elements
+    - node.type.event
+  module:
+    - entity_reference_revisions
+_core:
+  default_config_hash: bQj04xtOjgyiE03cfqgWSH5lpNsXn0NNAubMtJ-lnak
+id: node.event.field_elements
+field_name: field_elements
+entity_type: node
+bundle: event
+label: Elements
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    target_bundles: null
+field_type: entity_reference_revisions

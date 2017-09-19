@@ -1,0 +1,14 @@
+
+langcode: en
+status: true
+dependencies:
+  enforced:
+    module:
+      - rp_structure
+_core:
+  default_config_hash: T1pA6UN3-YUU9raXLaM3YXCvl8KbObTlXY2KeGWXawU
+name: 'Publication Tags'
+vid: publication_tags
+description: 'Use tags to categorize publications.'
+hierarchy: 0
+weight: 11

@@ -1,0 +1,14 @@
+
+langcode: en
+status: true
+dependencies:
+  enforced:
+    module:
+      - rp_structure
+_core:
+  default_config_hash: q0Q0LPVnFTtNlQrqjqqxwGIjwdKUDO2rZshGxKqUl1k
+name: 'Person Tags'
+vid: person_tags
+description: 'Use tags to categorize persons.'
+hierarchy: 0
+weight: 12

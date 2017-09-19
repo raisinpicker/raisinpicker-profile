@@ -1,0 +1,16 @@
+disabled: false
+field_template: true
+ft-default: default
+ft-show-colon: false
+classes:
+  region:
+    - well
+    - row
+    - col-md-4
+    - col-md-6
+    - col-md-8
+    - col-md-12
+  field: {  }
+use_field_names: true
+_core:
+  default_config_hash: xfB0qOeoAomOThclNNokdKTrVwXLcXz13SU3-4a5-FY

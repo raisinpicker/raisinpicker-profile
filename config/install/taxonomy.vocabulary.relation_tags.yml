@@ -1,0 +1,16 @@
+
+langcode: en
+status: true
+dependencies:
+  module:
+    - private_taxonomy
+third_party_settings:
+  private_taxonomy:
+    private: 0
+_core:
+  default_config_hash: RECAiS9LUXwivtghppFMQb0ln8FNcGatDhk-pi_fDlU
+name: 'Relation Tags'
+vid: relation_tags
+description: 'Used to categorize relations'
+hierarchy: 0
+weight: 0

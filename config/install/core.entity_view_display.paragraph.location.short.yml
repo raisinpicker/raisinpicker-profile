@@ -1,0 +1,35 @@
+
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.paragraph.short
+    - field.field.paragraph.location.field_geolocation
+    - field.field.paragraph.location.field_title
+    - paragraphs.paragraphs_type.location
+  module:
+    - ds
+_core:
+  default_config_hash: _COJJlBqhQH7EOIUg3ZHRYbBTOVxwBWf98E-QEnTG78
+id: paragraph.location.short
+targetEntityType: paragraph
+bundle: location
+mode: short
+content:
+  field_title:
+    weight: 0
+    label: inline
+    settings:
+      link_to_entity: false
+    third_party_settings:
+      ds:
+        ft:
+          id: default
+          settings:
+            lb: Location
+            lb-col: false
+            classes: {  }
+    type: string
+    region: content
+hidden:
+  field_geolocation: true

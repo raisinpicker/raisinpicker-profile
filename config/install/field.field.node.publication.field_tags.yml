@@ -1,0 +1,32 @@
+
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_tags
+    - node.type.publication
+    - taxonomy.vocabulary.publication_tags
+    - taxonomy.vocabulary.tags
+_core:
+  default_config_hash: Qh2XsppOT71iuWjlBIpciST2ykWB0EZ7h3c_nNH4WUo
+id: node.publication.field_tags
+field_name: field_tags
+entity_type: node
+bundle: publication
+label: Tags
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      publication_tags: publication_tags
+      tags: tags
+    sort:
+      field: _none
+    auto_create: false
+    auto_create_bundle: publication_tags
+field_type: entity_reference

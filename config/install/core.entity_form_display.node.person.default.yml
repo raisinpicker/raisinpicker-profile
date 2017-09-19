@@ -1,0 +1,75 @@
+
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.person.field_elements
+    - field.field.node.person.field_rating
+    - field.field.node.person.field_rel_index
+    - field.field.node.person.field_rel_score
+    - field.field.node.person.field_tags
+    - field.field.node.person.field_words
+    - node.type.person
+  module:
+    - field_layout
+    - layout_discovery
+    - paragraphs
+    - rp_chosen
+    - rp_slider
+third_party_settings:
+  field_layout:
+    id: layout_onecol
+    settings: {  }
+_core:
+  default_config_hash: iXU8cHGKFTXQta9HNJkwBb6AFiYymj9Aj0DQ9f0K03U
+id: node.person.default
+targetEntityType: node
+bundle: person
+mode: default
+content:
+  field_elements:
+    type: entity_reference_paragraphs
+    weight: 4
+    region: content
+    settings:
+      title: Element
+      title_plural: Elements
+      edit_mode: closed
+      add_mode: dropdown
+      form_display_mode: default
+      default_paragraph_type: description
+    third_party_settings: {  }
+  field_rating:
+    type: nouislider_widget
+    weight: 1
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_tags:
+    type: rp_chosen
+    weight: 2
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  flag:
+    weight: 10
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  title:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: 'Enter title here'
+    third_party_settings: {  }
+hidden:
+  created: true
+  field_rel_index: true
+  field_rel_score: true
+  field_words: true
+  path: true
+  promote: true
+  sticky: true
+  uid: true

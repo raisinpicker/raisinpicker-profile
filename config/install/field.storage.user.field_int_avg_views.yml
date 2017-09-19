@@ -1,0 +1,22 @@
+
+langcode: en
+status: true
+dependencies:
+  module:
+    - user
+_core:
+  default_config_hash: AHzPLxfRqh7s_y4utMSh9ty8OwokDhIBgTjNHRF-QG0
+id: user.field_int_avg_views
+field_name: field_int_avg_views
+entity_type: user
+type: decimal
+settings:
+  precision: 10
+  scale: 5
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

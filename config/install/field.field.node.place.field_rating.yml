@@ -1,0 +1,27 @@
+
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_rating
+    - node.type.place
+_core:
+  default_config_hash: EgjGD_7MEzNQeSrbEpdC3W1AAW_dG4cTvNLkd4Lj8Jc
+id: node.place.field_rating
+field_name: field_rating
+entity_type: node
+bundle: place
+label: Rating
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 4
+default_value_callback: ''
+settings:
+  min: 1
+  max: 9
+  prefix: ''
+  suffix: ''
+field_type: integer

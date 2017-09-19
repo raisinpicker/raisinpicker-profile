@@ -1,0 +1,25 @@
+
+langcode: en
+status: true
+dependencies:
+  enforced:
+    module:
+      - rp_structure
+  module:
+    - node
+_core:
+  default_config_hash: hQncTInGkCfjLYtYn_tLErmVD6HZ035fOJMr0FYqVrA
+id: node.field_rel_index
+field_name: field_rel_index
+entity_type: node
+type: decimal
+settings:
+  precision: 10
+  scale: 2
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

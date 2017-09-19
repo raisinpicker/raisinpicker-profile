@@ -1,0 +1,18 @@
+id: outgoing_relations
+label: 'Outgoing relations'
+ui_limit: ''
+properties:
+  block: 'views_block:relations-block_2'
+  use_block_title: true
+  config:
+    id: 'views_block:relations-block_2'
+    label: ''
+    provider: views
+    label_display: visible
+    views_label: ''
+    items_per_page: none
+    context_mapping: {  }
+type: block
+type_label: 'Block field'
+entities:
+  node: node

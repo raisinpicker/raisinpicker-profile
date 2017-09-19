@@ -1,0 +1,35 @@
+
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.date.field_date_time
+    - field.field.paragraph.date.field_title
+    - paragraphs.paragraphs_type.date
+  module:
+    - datetime_range
+_core:
+  default_config_hash: 8bZTh-5fitCP9UkcsggmxFFRbny7Xl-DOssGVQdbgow
+id: paragraph.date.default
+targetEntityType: paragraph
+bundle: date
+mode: default
+content:
+  field_date_time:
+    weight: 1
+    settings: {  }
+    third_party_settings: {  }
+    type: daterange_default
+    region: content
+  field_title:
+    weight: 0
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+hidden:
+  created: true
+  status: true
+  uid: true

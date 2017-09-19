@@ -1,0 +1,9 @@
+
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: LUNCSoZFQEwIU-n44b9O1K-3Xp6J8YvRTBgaHY8Ia2o
+id: summary
+label: Summary
+behavior_plugins: {  }

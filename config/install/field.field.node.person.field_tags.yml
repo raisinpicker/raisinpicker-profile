@@ -1,0 +1,32 @@
+
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_tags
+    - node.type.person
+    - taxonomy.vocabulary.person_tags
+    - taxonomy.vocabulary.tags
+_core:
+  default_config_hash: sBqNKqOBl2oMAzw2MR3YDv4KgbCphMzgX-hyZFeMOgI
+id: node.person.field_tags
+field_name: field_tags
+entity_type: node
+bundle: person
+label: Tags
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      person_tags: person_tags
+      tags: tags
+    sort:
+      field: _none
+    auto_create: false
+    auto_create_bundle: person_tags
+field_type: entity_reference

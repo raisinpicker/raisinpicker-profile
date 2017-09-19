@@ -1,0 +1,26 @@
+
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.paragraph.short
+    - field.field.paragraph.date.field_date_time
+    - field.field.paragraph.date.field_title
+    - paragraphs.paragraphs_type.date
+_core:
+  default_config_hash: G0iqXHiFc6hu1mJjnJxK17zLDA1BxDQ3lSZpkHBX6bI
+id: paragraph.date.short
+targetEntityType: paragraph
+bundle: date
+mode: short
+content:
+  field_title:
+    weight: 0
+    label: inline
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+hidden:
+  field_date_time: true

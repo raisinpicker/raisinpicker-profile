@@ -1,0 +1,93 @@
+
+langcode: en
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.tags
+  module:
+    - ds
+    - text
+third_party_settings:
+  ds:
+    layout:
+      id: bs_2col_stacked
+      library: null
+      disable_css: false
+      entity_classes: all_classes
+      settings:
+        layout:
+          wrapper: div
+          classes:
+            row: row
+          add_layout_class: 1
+          attributes: ''
+        regions:
+          top:
+            wrapper: div
+            classes:
+              col-lg-12: col-lg-12
+            add_region_classes: 1
+            attributes: ''
+          left:
+            wrapper: div
+            classes:
+              col-sm-12: col-sm-12
+              col-md-3: col-md-3
+            add_region_classes: 0
+            attributes: ''
+          right:
+            wrapper: div
+            classes:
+              col-sm-12: col-sm-12
+              col-md-9: col-md-9
+            add_region_classes: 1
+            attributes: ''
+          bottom:
+            wrapper: div
+            classes:
+              col-lg-12: col-lg-12
+            add_region_classes: 1
+            attributes: ''
+    regions:
+      top:
+        - 'dynamic_block_field:taxonomy_term-tabs'
+      left:
+        - description
+        - 'dynamic_token_field:taxonomy_term-meta_data'
+        - 'dynamic_block_field:taxonomy_term-rating_distribution'
+      right:
+        - 'dynamic_block_field:taxonomy_term-term_list'
+    fields:
+      'dynamic_block_field:taxonomy_term-rating_distribution':
+        plugin_id: 'dynamic_block_field:taxonomy_term-rating_distribution'
+        weight: 3
+        label: above
+        formatter: default
+      'dynamic_block_field:taxonomy_term-tabs':
+        plugin_id: 'dynamic_block_field:taxonomy_term-tabs'
+        weight: 0
+        label: hidden
+        formatter: default
+      'dynamic_block_field:taxonomy_term-term_list':
+        plugin_id: 'dynamic_block_field:taxonomy_term-term_list'
+        weight: 4
+        label: hidden
+        formatter: default
+      'dynamic_token_field:taxonomy_term-meta_data':
+        plugin_id: 'dynamic_token_field:taxonomy_term-meta_data'
+        weight: 2
+        label: above
+        formatter: default
+id: taxonomy_term.tags.default
+targetEntityType: taxonomy_term
+bundle: tags
+mode: default
+content:
+  description:
+    label: above
+    type: text_default
+    weight: 1
+    region: left
+    settings: {  }
+    third_party_settings: {  }
+hidden: {  }

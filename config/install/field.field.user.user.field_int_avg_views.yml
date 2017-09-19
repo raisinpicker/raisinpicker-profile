@@ -1,0 +1,28 @@
+
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.user.field_int_avg_views
+  module:
+    - user
+_core:
+  default_config_hash: oBkxK61PqqjpX5NcHYhq6GlO4b51ewN09xmsJ0sP9TI
+id: user.user.field_int_avg_views
+field_name: field_int_avg_views
+entity_type: user
+bundle: user
+label: 'int avg views'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: !!float 1
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: decimal

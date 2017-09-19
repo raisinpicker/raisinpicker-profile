@@ -1,0 +1,16 @@
+
+langcode: en
+status: true
+dependencies:
+  enforced:
+    module:
+      - rp_structure
+_core:
+  default_config_hash: cYiNaIaxmPI5urR1WVUmzcUNph4UF0FsatMuVQ3yJ4Y
+name: Publication
+type: publication
+description: 'Content type that can be used to describe publications'
+help: ''
+new_revision: false
+preview_mode: 1
+display_submitted: true

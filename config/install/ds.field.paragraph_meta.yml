@@ -1,0 +1,11 @@
+id: paragraph_meta
+label: 'Paragraph Meta'
+ui_limit: ''
+properties:
+  content:
+    value: "<p class=\"small\">Type: <strong>[paragraph:type]</strong>, created on [paragraph:created]</p>\r\n"
+    format: full_html
+type: token
+type_label: 'Token field'
+entities:
+  paragraph: paragraph

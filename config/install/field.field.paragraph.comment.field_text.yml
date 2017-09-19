@@ -1,0 +1,23 @@
+
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_text
+    - paragraphs.paragraphs_type.comment
+  module:
+    - text
+_core:
+  default_config_hash: '-cCftuPJxgje2StHBtl_-6rO_8476VZUpt68yMZzfXI'
+id: paragraph.comment.field_text
+field_name: field_text
+entity_type: paragraph
+bundle: comment
+label: Text
+description: 'Enter your comment here'
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

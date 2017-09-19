@@ -1,0 +1,16 @@
+
+langcode: en
+status: true
+dependencies:
+  enforced:
+    module:
+      - rp_structure
+_core:
+  default_config_hash: 6zw0ytZQXZT9EGcGRjciDdoL4Lw-XJQWqbXeHpHWgnE
+name: Object
+type: object
+description: 'Content type that can be used to describe objects'
+help: ''
+new_revision: false
+preview_mode: 1
+display_submitted: true

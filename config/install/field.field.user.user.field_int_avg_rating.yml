@@ -1,0 +1,28 @@
+
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.user.field_int_avg_rating
+  module:
+    - user
+_core:
+  default_config_hash: xLA7DeuskDZPb5bl26nDxsLP4TFZAm6yN1aKQ6CMbEg
+id: user.user.field_int_avg_rating
+field_name: field_int_avg_rating
+entity_type: user
+bundle: user
+label: 'int avg rating'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: !!float 5
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: decimal

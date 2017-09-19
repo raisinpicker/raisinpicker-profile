@@ -1,0 +1,13 @@
+
+langcode: en
+status: true
+dependencies:
+  module:
+    - flag
+id: flag_action.star.unflag
+label: Starred
+type: node
+plugin: 'flag_action:star.unflag'
+configuration:
+  flag_id: star
+  flag_action: unflag

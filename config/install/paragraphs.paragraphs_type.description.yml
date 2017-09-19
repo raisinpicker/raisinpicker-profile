@@ -1,0 +1,9 @@
+
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: KGj2qqOwYthIWm8z9XU2FJYq4qa21TBpKU81Y1wUHLY
+id: description
+label: Description
+behavior_plugins: {  }

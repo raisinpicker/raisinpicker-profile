@@ -1,0 +1,11 @@
+id: meta_data
+label: 'Meta data'
+ui_limit: ''
+properties:
+  content:
+    value: "<p>Tag type:&nbsp;[term:vocabulary:name]</p>\r\n\r\n<p>Parent term:</p>\r\n\r\n<ul>\r\n\t<li>[term:parent]</li>\r\n</ul>\r\n\r\n<p>Sibling terms:</p>\r\n\r\n<ul>\r\n\t<li>...</li>\r\n</ul>\r\n\r\n<p>Children terms:</p>\r\n\r\n<ul>\r\n\t<li>...</li>\r\n</ul>\r\n"
+    format: full_html
+type: token
+type_label: 'Token field'
+entities:
+  taxonomy_term: taxonomy_term

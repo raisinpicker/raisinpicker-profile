@@ -1,0 +1,25 @@
+
+langcode: en
+status: true
+dependencies:
+  enforced:
+    module:
+      - rp_structure
+  module:
+    - node
+_core:
+  default_config_hash: 7vRIExzqO5VuFfNrIq8lNAoL3pyEEYQ-fzMBagrO_EE
+id: node.field_rating
+field_name: field_rating
+entity_type: node
+type: integer
+settings:
+  unsigned: false
+  size: normal
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

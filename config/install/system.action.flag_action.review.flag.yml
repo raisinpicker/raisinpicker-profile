@@ -1,0 +1,13 @@
+
+langcode: en
+status: true
+dependencies:
+  module:
+    - flag
+id: flag_action.review.flag
+label: 'To be reviewed'
+type: node
+plugin: 'flag_action:review.flag'
+configuration:
+  flag_id: review
+  flag_action: flag

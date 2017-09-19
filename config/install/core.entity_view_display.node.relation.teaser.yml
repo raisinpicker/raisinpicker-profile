@@ -1,0 +1,34 @@
+
+langcode: en
+status: false
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.relation.field_comment
+    - field.field.node.relation.field_from
+    - field.field.node.relation.field_rating
+    - field.field.node.relation.field_to
+    - field.field.node.relation.field_type
+    - node.type.relation
+  module:
+    - user
+id: node.relation.teaser
+targetEntityType: node
+bundle: relation
+mode: teaser
+content:
+  flag_review:
+    weight: 10
+    region: content
+  flag_work_in_progress:
+    weight: 10
+    region: content
+  links:
+    weight: 100
+    region: content
+hidden:
+  field_comment: true
+  field_from: true
+  field_rating: true
+  field_to: true
+  field_type: true

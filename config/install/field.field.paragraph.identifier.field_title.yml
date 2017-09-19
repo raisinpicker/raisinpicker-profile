@@ -1,0 +1,21 @@
+
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_title
+    - paragraphs.paragraphs_type.identifier
+_core:
+  default_config_hash: bUZcoaoq1U7VMt8kjTQ3IVP5VuQHdq_R_1t1DGFlusw
+id: paragraph.identifier.field_title
+field_name: field_title
+entity_type: paragraph
+bundle: identifier
+label: Identifier
+description: 'Describe here what the identifier is used for'
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

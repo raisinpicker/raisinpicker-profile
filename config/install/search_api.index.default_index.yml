@@ -1,0 +1,84 @@
+
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_tags
+    - field.storage.node.field_rating
+    - field.storage.node.field_elements
+    - search_api.server.default_database
+  module:
+    - search_api
+    - node
+id: default_index
+name: 'Default Index'
+description: ''
+read_only: false
+field_settings:
+  type:
+    label: 'Content type'
+    datasource_id: 'entity:node'
+    property_path: type
+    type: string
+  created:
+    label: 'Authored on'
+    datasource_id: 'entity:node'
+    property_path: created
+    type: date
+  changed:
+    label: Changed
+    datasource_id: 'entity:node'
+    property_path: changed
+    type: date
+  field_tags:
+    label: Tags
+    datasource_id: 'entity:node'
+    property_path: field_tags
+    type: text
+    dependencies:
+      config:
+        - field.storage.node.field_tags
+  title:
+    label: Title
+    datasource_id: 'entity:node'
+    property_path: title
+    type: string
+  field_rating:
+    label: Rating
+    datasource_id: 'entity:node'
+    property_path: field_rating
+    type: integer
+    dependencies:
+      config:
+        - field.storage.node.field_rating
+  field_elements:
+    label: Elements
+    datasource_id: 'entity:node'
+    property_path: field_elements
+    type: text
+    dependencies:
+      config:
+        - field.storage.node.field_elements
+datasource_settings:
+  'entity:node':
+    bundles:
+      default: true
+      selected: {  }
+    languages:
+      default: true
+      selected: {  }
+processor_settings:
+  add_url: {  }
+  aggregated_field: {  }
+  rendered_item: {  }
+  hierarchy:
+    fields:
+      field_tags: taxonomy_term-parent
+    weights:
+      preprocess_index: -45
+tracker_settings:
+  default: {  }
+options:
+  index_directly: false
+  cron_limit: 300
+server: default_database

@@ -1,0 +1,28 @@
+
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.user.field_int_avg_relations
+  module:
+    - user
+_core:
+  default_config_hash: o-6myUKkM_iW_o4nvKtfM7S4eGL0BlcdbvGaIH5xqOc
+id: user.user.field_int_avg_relations
+field_name: field_int_avg_relations
+entity_type: user
+bundle: user
+label: 'int avg relations'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: !!float 1
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: decimal

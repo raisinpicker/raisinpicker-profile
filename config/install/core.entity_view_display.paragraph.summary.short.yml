@@ -1,0 +1,35 @@
+
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.paragraph.short
+    - field.field.paragraph.summary.field_text
+    - field.field.paragraph.summary.field_title
+    - paragraphs.paragraphs_type.summary
+  module:
+    - ds
+_core:
+  default_config_hash: i2uO2yeGCABmehK4mLjAwy-EvYfasvzh_LfiuxgeM9w
+id: paragraph.summary.short
+targetEntityType: paragraph
+bundle: summary
+mode: short
+content:
+  field_title:
+    weight: 0
+    label: inline
+    settings:
+      link_to_entity: false
+    third_party_settings:
+      ds:
+        ft:
+          id: default
+          settings:
+            lb: Summary
+            lb-col: false
+            classes: {  }
+    type: string
+    region: content
+hidden:
+  field_text: true

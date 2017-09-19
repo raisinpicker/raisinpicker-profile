@@ -1,0 +1,23 @@
+
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.user.field_notification
+  module:
+    - options
+    - user
+_core:
+  default_config_hash: 7TVOOVVApyi4zd0Z3GaY2Og4Z2kxjFccIoGeCJ4iAs4
+id: user.user.field_notification
+field_name: field_notification
+entity_type: user
+bundle: user
+label: Notification
+description: 'Select your notification triggers'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

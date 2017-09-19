@@ -1,0 +1,45 @@
+definitions:
+  contact__site_page:
+    enabled: true
+    menu_name: footer
+    parent: ''
+    weight: 0
+    expanded: false
+  rp_structure__actions_bulk:
+    weight: -50
+    menu_name: main
+    parent: rp_structure.actions
+    enabled: true
+    expanded: false
+  rp_structure__actions_import:
+    weight: -49
+    menu_name: main
+    parent: rp_structure.actions
+    expanded: false
+    enabled: true
+  rp_structure__tasks:
+    enabled: false
+    menu_name: main
+    parent: ''
+    weight: 3
+    expanded: true
+  rp_structure__tasks_reminders:
+    weight: -48
+    parent: rp_structure.actions
+    menu_name: main
+    expanded: false
+    enabled: true
+  rp_structure__tasks_wip:
+    weight: -47
+    parent: rp_structure.actions
+    menu_name: main
+    expanded: false
+    enabled: true
+  rp_structure__tasks_untagged:
+    weight: -46
+    parent: rp_structure.actions
+    menu_name: main
+    expanded: false
+    enabled: true
+_core:
+  default_config_hash: jdY7AU0tU-QsjmiOw3W8vwpYMb-By--_MSFgbqKUTYM

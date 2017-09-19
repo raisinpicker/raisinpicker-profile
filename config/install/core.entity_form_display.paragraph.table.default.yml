@@ -1,0 +1,35 @@
+
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.table.field_table
+    - field.field.paragraph.table.field_title
+    - paragraphs.paragraphs_type.table
+  module:
+    - tablefield
+_core:
+  default_config_hash: 4XnuajCspdOMZbqRn_rbTfwOaw0uNsEn6lETe0iOCaI
+id: paragraph.table.default
+targetEntityType: paragraph
+bundle: table
+mode: default
+content:
+  field_table:
+    type: tablefield
+    weight: 1
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_title:
+    weight: 0
+    settings:
+      size: 60
+      placeholder: 'Enter table title here'
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+hidden:
+  created: true
+  status: true
+  uid: true

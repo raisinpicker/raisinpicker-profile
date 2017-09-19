@@ -1,0 +1,14 @@
+
+langcode: en
+status: true
+dependencies:
+  enforced:
+    module:
+      - rp_structure
+_core:
+  default_config_hash: pWhlqm_7F-JR-dT1jWoO9-XTes4nPq8MBeZNcrjfXnE
+name: 'Place Tags'
+vid: place_tags
+description: 'Use tags to categorize places.'
+hierarchy: 0
+weight: 14

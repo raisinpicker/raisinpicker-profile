@@ -1,0 +1,10 @@
+
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: node.relin
+label: 'Relation Incoming'
+targetEntityType: node
+cache: true

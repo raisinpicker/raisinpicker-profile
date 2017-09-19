@@ -1,0 +1,32 @@
+
+langcode: en
+status: true
+dependencies:
+  module:
+    - options
+    - user
+_core:
+  default_config_hash: gKUttwbCbkm174ZSt4pAS10VkQvtQq2DBs_PnSKlp0M
+id: user.field_channel
+field_name: field_channel
+entity_type: user
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: email
+      label: Email
+    -
+      value: pushover
+      label: Pushover
+    -
+      value: ifttt
+      label: IFTTT
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: -1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

@@ -1,0 +1,82 @@
+
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.card
+    - field.field.node.knowledge.field_elements
+    - field.field.node.knowledge.field_rating
+    - field.field.node.knowledge.field_rel_index
+    - field.field.node.knowledge.field_rel_score
+    - field.field.node.knowledge.field_tags
+    - field.field.node.knowledge.field_words
+    - node.type.knowledge
+  module:
+    - ds
+    - entity_reference_revisions
+    - user
+_core:
+  default_config_hash: _ZJnmbonSySI3P93bcCLBTp8eT9AUVYPkHRXZ7gm3j4
+id: node.knowledge.card
+targetEntityType: node
+bundle: knowledge
+mode: card
+content:
+  field_elements:
+    type: entity_reference_revisions_entity_view
+    weight: 4
+    region: content
+    label: hidden
+    settings:
+      view_mode: short
+      link: ''
+    third_party_settings:
+      ds:
+        ds_limit: ''
+        ft:
+          id: minimal
+          settings:
+            lb: ''
+            lb-col: false
+            classes: {  }
+  field_rating:
+    type: number_integer
+    weight: 0
+    region: content
+    label: hidden
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+  field_rel_index:
+    weight: 2
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: number_unformatted
+    region: content
+  field_rel_score:
+    weight: 1
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: number_unformatted
+    region: content
+  field_tags:
+    type: entity_reference_label
+    weight: 3
+    region: content
+    label: hidden
+    settings:
+      link: true
+    third_party_settings: {  }
+  views:
+    weight: 12
+    region: footer
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  field_words: true
+  flag_review: true
+  flag_work_in_progress: true
+  links: true

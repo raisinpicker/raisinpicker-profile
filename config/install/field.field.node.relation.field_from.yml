@@ -1,0 +1,40 @@
+
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_from
+    - node.type.collection
+    - node.type.event
+    - node.type.knowledge
+    - node.type.object
+    - node.type.person
+    - node.type.place
+    - node.type.publication
+    - node.type.relation
+id: node.relation.field_from
+field_name: field_from
+entity_type: node
+bundle: relation
+label: From
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:node'
+  handler_settings:
+    target_bundles:
+      collection: collection
+      event: event
+      knowledge: knowledge
+      object: object
+      person: person
+      place: place
+      publication: publication
+    sort:
+      field: _none
+    auto_create: false
+    auto_create_bundle: collection
+field_type: entity_reference

@@ -1,0 +1,38 @@
+
+langcode: en
+status: true
+dependencies:
+  module:
+    - options
+    - user
+_core:
+  default_config_hash: NcU90l4zmJPDMmebPt4MjyZIc-F4gfFpz9cFaCdLsHI
+id: user.field_notification
+field_name: field_notification
+entity_type: user
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: review
+      label: 'When a review is set'
+    -
+      value: reviewoverdue
+      label: 'When there are overdue reviews'
+    -
+      value: wipoverdue
+      label: 'When there are overdue works in progress'
+    -
+      value: inactive
+      label: 'When you are inactive for 2 days'
+    -
+      value: feed
+      label: 'When content is added via Feed'
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: -1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

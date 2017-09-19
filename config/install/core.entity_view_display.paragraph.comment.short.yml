@@ -1,0 +1,35 @@
+
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.paragraph.short
+    - field.field.paragraph.comment.field_text
+    - field.field.paragraph.comment.field_title
+    - paragraphs.paragraphs_type.comment
+  module:
+    - ds
+_core:
+  default_config_hash: GGyNRq4SP7hRXVmYsq6if-PMq95hYGjVfN4TG8XgrGg
+id: paragraph.comment.short
+targetEntityType: paragraph
+bundle: comment
+mode: short
+content:
+  field_title:
+    weight: 0
+    label: inline
+    settings:
+      link_to_entity: false
+    third_party_settings:
+      ds:
+        ft:
+          id: minimal
+          settings:
+            lb: Comment
+            lb-col: false
+            classes: {  }
+    type: string
+    region: content
+hidden:
+  field_text: true

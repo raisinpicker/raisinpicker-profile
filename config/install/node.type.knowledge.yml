@@ -1,0 +1,23 @@
+
+langcode: en
+status: true
+dependencies:
+  enforced:
+    module:
+      - rp_structure
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
+_core:
+  default_config_hash: J5ruQ2DRTiTnEqji8cZaVOabSraqVpx_kfMRNREgZNw
+name: Knowledge
+type: knowledge
+description: 'Basic content type that can be used to describe any kind of knowledge'
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: true

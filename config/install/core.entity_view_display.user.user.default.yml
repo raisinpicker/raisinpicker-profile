@@ -1,27 +1,168 @@
+
 langcode: en
 status: true
 dependencies:
   config:
+    - field.field.user.user.field_channel
+    - field.field.user.user.field_int_avg_edits
+    - field.field.user.user.field_int_avg_rating
+    - field.field.user.user.field_int_avg_relations
+    - field.field.user.user.field_int_avg_tags
+    - field.field.user.user.field_int_avg_views
+    - field.field.user.user.field_int_avg_words
+    - field.field.user.user.field_int_tags_max
+    - field.field.user.user.field_notification
+    - field.field.user.user.field_review
     - field.field.user.user.user_picture
-    - image.style.thumbnail
   module:
+    - ds
     - image
+    - options
     - user
+third_party_settings:
+  ds:
+    layout:
+      id: bs_2col
+      library: null
+      disable_css: false
+      entity_classes: all_classes
+      settings:
+        classes: {  }
+        wrappers:
+          ds_content: div
+        outer_wrapper: div
+        attributes: ''
+        link_attribute: ''
+        link_custom: ''
+    regions:
+      left:
+        - member_for
+        - field_int_avg_edits
+        - field_int_avg_rating
+        - field_int_avg_relations
+        - field_int_avg_tags
+        - field_int_avg_views
+        - field_int_avg_words
+        - field_int_tags_max
+        - user_picture
+        - field_channel
+        - field_review
+        - field_notification
+_core:
+  default_config_hash: V51QPCKkgNREKtSmB9Iu2wmAMEpktVpnzklWaZV8UYo
 id: user.user.default
 targetEntityType: user
 bundle: user
 mode: default
 content:
+  field_channel:
+    type: list_default
+    weight: 1
+    region: ds_content
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+  field_int_avg_edits:
+    type: number_decimal
+    weight: 0
+    region: ds_content
+    label: above
+    settings:
+      thousand_separator: ''
+      decimal_separator: .
+      scale: 2
+      prefix_suffix: true
+    third_party_settings: {  }
+  field_int_avg_rating:
+    type: number_decimal
+    weight: 0
+    region: ds_content
+    label: above
+    settings:
+      thousand_separator: ''
+      decimal_separator: .
+      scale: 2
+      prefix_suffix: true
+    third_party_settings: {  }
+  field_int_avg_relations:
+    type: number_decimal
+    weight: 0
+    region: ds_content
+    label: above
+    settings:
+      thousand_separator: ''
+      decimal_separator: .
+      scale: 2
+      prefix_suffix: true
+    third_party_settings: {  }
+  field_int_avg_tags:
+    type: number_decimal
+    weight: 0
+    region: ds_content
+    label: above
+    settings:
+      thousand_separator: ''
+      decimal_separator: .
+      scale: 2
+      prefix_suffix: true
+    third_party_settings: {  }
+  field_int_avg_views:
+    type: number_decimal
+    weight: 0
+    region: ds_content
+    label: above
+    settings:
+      thousand_separator: ''
+      decimal_separator: .
+      scale: 2
+      prefix_suffix: true
+    third_party_settings: {  }
+  field_int_avg_words:
+    type: number_decimal
+    weight: 0
+    region: ds_content
+    label: above
+    settings:
+      thousand_separator: ''
+      decimal_separator: .
+      scale: 2
+      prefix_suffix: true
+    third_party_settings: {  }
+  field_int_tags_max:
+    type: number_integer
+    weight: 0
+    region: ds_content
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+  field_notification:
+    type: list_default
+    weight: 3
+    region: ds_content
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+  field_review:
+    type: list_default
+    weight: 2
+    region: ds_content
+    label: above
+    settings: {  }
+    third_party_settings: {  }
   member_for:
-    weight: 5
-    region: content
+    weight: 0
+    region: ds_content
+    settings: {  }
+    third_party_settings: {  }
   user_picture:
     type: image
     weight: 0
-    region: content
+    region: ds_content
+    label: above
     settings:
-      image_style: thumbnail
-      image_link: content
+      image_style: ''
+      image_link: ''
     third_party_settings: {  }
-    label: hidden
 hidden: {  }

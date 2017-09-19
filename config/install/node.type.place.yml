@@ -1,0 +1,16 @@
+
+langcode: en
+status: true
+dependencies:
+  enforced:
+    module:
+      - rp_structure
+_core:
+  default_config_hash: 8a6Z4EG3SZGP1GBF0hlCxqKNHD7QHkbR8jFA2s1TKBE
+name: Place
+type: place
+description: 'Content type that can be used to describe places'
+help: ''
+new_revision: false
+preview_mode: 1
+display_submitted: true

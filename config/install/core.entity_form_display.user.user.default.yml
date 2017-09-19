@@ -1,35 +1,67 @@
+
 langcode: en
 status: true
 dependencies:
   config:
+    - field.field.user.user.field_channel
+    - field.field.user.user.field_int_avg_edits
+    - field.field.user.user.field_int_avg_rating
+    - field.field.user.user.field_int_avg_relations
+    - field.field.user.user.field_int_avg_tags
+    - field.field.user.user.field_int_avg_views
+    - field.field.user.user.field_int_avg_words
+    - field.field.user.user.field_int_tags_max
+    - field.field.user.user.field_notification
+    - field.field.user.user.field_review
     - field.field.user.user.user_picture
-    - image.style.thumbnail
   module:
-    - image
     - user
+_core:
+  default_config_hash: K-1rBM8mTIkFp9RqOC2tMRUukOQ1xbRCfSKK8dEddnA
 id: user.user.default
 targetEntityType: user
 bundle: user
 mode: default
 content:
   account:
-    weight: -10
+    weight: 0
     region: content
+    settings: {  }
+    third_party_settings: {  }
   contact:
     weight: 5
     region: content
-  language:
-    weight: 0
+  field_channel:
+    type: options_select
+    weight: 2
     region: content
-  timezone:
-    weight: 6
-    region: content
-  user_picture:
-    type: image_image
-    settings:
-      progress_indicator: throbber
-      preview_image_style: thumbnail
+    settings: {  }
     third_party_settings: {  }
-    weight: -1
+  field_notification:
+    type: options_select
+    weight: 3
     region: content
-hidden: {  }
+    settings: {  }
+    third_party_settings: {  }
+  field_review:
+    type: options_select
+    weight: 4
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  timezone:
+    weight: 1
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  field_int_avg_edits: true
+  field_int_avg_rating: true
+  field_int_avg_relations: true
+  field_int_avg_tags: true
+  field_int_avg_views: true
+  field_int_avg_words: true
+  field_int_tags_max: true
+  language: true
+  path: true
+  user_picture: true

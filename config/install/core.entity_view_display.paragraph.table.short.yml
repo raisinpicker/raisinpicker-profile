@@ -1,0 +1,26 @@
+
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.paragraph.short
+    - field.field.paragraph.table.field_table
+    - field.field.paragraph.table.field_title
+    - paragraphs.paragraphs_type.table
+_core:
+  default_config_hash: LvM4fSp5XGbDUKCFm2efsH7mzKs2tUM0xon6m_LQDgk
+id: paragraph.table.short
+targetEntityType: paragraph
+bundle: table
+mode: short
+content:
+  field_title:
+    weight: 0
+    label: inline
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+hidden:
+  field_table: true

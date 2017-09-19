@@ -1,0 +1,70 @@
+
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.place.field_elements
+    - field.field.node.place.field_rating
+    - field.field.node.place.field_rel_index
+    - field.field.node.place.field_rel_score
+    - field.field.node.place.field_tags
+    - field.field.node.place.field_words
+    - node.type.place
+  module:
+    - field_layout
+    - layout_discovery
+    - paragraphs
+    - rp_chosen
+    - rp_slider
+third_party_settings:
+  field_layout:
+    id: layout_onecol
+    settings: {  }
+_core:
+  default_config_hash: 99TDxPzDSM2BzUqtSf_btb_g4C0uwuh5jrEFz8sP7gc
+id: node.place.default
+targetEntityType: node
+bundle: place
+mode: default
+content:
+  field_elements:
+    type: entity_reference_paragraphs
+    weight: 4
+    region: content
+    settings:
+      title: Paragraph
+      title_plural: Paragraphs
+      edit_mode: closed
+      add_mode: dropdown
+      form_display_mode: default
+      default_paragraph_type: description
+    third_party_settings: {  }
+  field_rating:
+    type: nouislider_widget
+    weight: 1
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_tags:
+    type: rp_chosen
+    weight: 2
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  title:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: 'Enter title here'
+    third_party_settings: {  }
+hidden:
+  created: true
+  field_rel_index: true
+  field_rel_score: true
+  field_words: true
+  path: true
+  promote: true
+  sticky: true
+  uid: true

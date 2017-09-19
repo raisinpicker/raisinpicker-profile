@@ -1,0 +1,26 @@
+
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_elements
+    - node.type.publication
+  module:
+    - entity_reference_revisions
+_core:
+  default_config_hash: W_s2wpK2zuxbQuskuOt5APWFDx_8I6vPzveF2ePKC8g
+id: node.publication.field_elements
+field_name: field_elements
+entity_type: node
+bundle: publication
+label: Elements
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    target_bundles: null
+field_type: entity_reference_revisions

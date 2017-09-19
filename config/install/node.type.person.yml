@@ -1,0 +1,16 @@
+
+langcode: en
+status: true
+dependencies:
+  enforced:
+    module:
+      - rp_structure
+_core:
+  default_config_hash: m_mNui_rQFp_7kNi3K6VBjxjYEEsOHUGlhJFMfhCusM
+name: Person
+type: person
+description: 'Content type that can be used to describe persons'
+help: ''
+new_revision: false
+preview_mode: 1
+display_submitted: true

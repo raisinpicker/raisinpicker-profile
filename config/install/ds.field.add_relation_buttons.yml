@@ -1,0 +1,11 @@
+id: add_relation_buttons
+label: 'Add relation buttons'
+ui_limit: ''
+properties:
+  content:
+    value: "<p>\r\n<a class=\"btn btn-primary use-ajax\" data-dialog-type=\"modal\" href=\"/node/add/relation\">Add incoming relation</a>\r\n<a class=\"btn btn-primary use-ajax\" data-dialog-type=\"modal\" href=\"/node/add/relation\">Add outgoing relation</a>\r\n</p>\r\n"
+    format: full_html
+type: token
+type_label: 'Token field'
+entities:
+  node: node

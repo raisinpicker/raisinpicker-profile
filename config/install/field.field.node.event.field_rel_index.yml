@@ -1,0 +1,27 @@
+
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_rel_index
+    - node.type.event
+_core:
+  default_config_hash: aJMxdXINt2z5zk5LhYDPZ135t6IgN_JtWlM2QU5hcww
+id: node.event.field_rel_index
+field_name: field_rel_index
+entity_type: node
+bundle: event
+label: 'Relevance index'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  prefix: ''
+  suffix: ''
+  min: ''
+  max: ''
+field_type: decimal

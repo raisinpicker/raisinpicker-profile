@@ -1,0 +1,16 @@
+node_types:
+  - collection
+  - event
+  - knowledge
+  - object
+  - person
+  - place
+  - publication
+view_modes:
+  - full
+user_roles:
+  - authenticated
+  - administrator
+  - subscribed_user
+excluded_user_roles: {  }
+logs_life_time: 0

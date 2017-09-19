@@ -1,0 +1,25 @@
+
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_words
+    - node.type.person
+_core:
+  default_config_hash: nBmxt9UFeASV7k7aWOnfXWevrQEGuOLOhg3oEvvJy8w
+id: node.person.field_words
+field_name: field_words
+entity_type: node
+bundle: person
+label: Words
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

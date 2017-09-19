@@ -1,0 +1,79 @@
+
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.knowledge.field_elements
+    - field.field.node.knowledge.field_rating
+    - field.field.node.knowledge.field_rel_index
+    - field.field.node.knowledge.field_rel_score
+    - field.field.node.knowledge.field_tags
+    - field.field.node.knowledge.field_words
+    - node.type.knowledge
+  module:
+    - ds
+    - field_layout
+    - paragraphs
+    - rp_chosen
+    - rp_slider
+third_party_settings:
+  field_layout:
+    id: ds_reset
+    settings:
+      wrappers:
+        ds_content: div
+      outer_wrapper: div
+      attributes: ''
+      link_attribute: ''
+      link_custom: ''
+      classes:
+        layout_class: {  }
+        ds_content: {  }
+_core:
+  default_config_hash: 3KRF8vtcgrA13NVHxua2IW4-QsDN_lP-zH0qRgx1jMM
+id: node.knowledge.default
+targetEntityType: node
+bundle: knowledge
+mode: default
+content:
+  field_elements:
+    type: entity_reference_paragraphs
+    weight: 3
+    region: ds_content
+    settings:
+      title: Paragraph
+      title_plural: Paragraphs
+      edit_mode: closed
+      add_mode: dropdown
+      form_display_mode: default
+      default_paragraph_type: description
+    third_party_settings: {  }
+  field_rating:
+    type: nouislider_widget
+    weight: 1
+    region: ds_content
+    settings: {  }
+    third_party_settings: {  }
+  field_tags:
+    type: rp_chosen
+    weight: 2
+    region: ds_content
+    settings: {  }
+    third_party_settings: {  }
+  title:
+    type: string_textfield
+    weight: 0
+    region: ds_content
+    settings:
+      size: 60
+      placeholder: 'Enter title here'
+    third_party_settings: {  }
+hidden:
+  created: true
+  field_rel_index: true
+  field_rel_score: true
+  field_words: true
+  path: true
+  promote: true
+  sticky: true
+  uid: true

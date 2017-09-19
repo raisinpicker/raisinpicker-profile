@@ -1,0 +1,10 @@
+id: rating_distribution
+label: 'Rating distribution'
+ui_limit: 'tags|*'
+properties:
+  block: 'views_block:content_charts-block_1'
+  use_block_title: false
+type: block
+type_label: 'Block field'
+entities:
+  taxonomy_term: taxonomy_term

@@ -1,0 +1,9 @@
+
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: BH3eQPK7H2WhT4Xk0unC6PZQR_vwJdbxmaJHBAdHmIk
+id: comment
+label: Comment
+behavior_plugins: {  }

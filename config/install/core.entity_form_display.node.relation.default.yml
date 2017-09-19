@@ -1,0 +1,57 @@
+
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.relation.field_comment
+    - field.field.node.relation.field_from
+    - field.field.node.relation.field_rating
+    - field.field.node.relation.field_to
+    - field.field.node.relation.field_type
+    - node.type.relation
+  module:
+    - rp_slider
+id: node.relation.default
+targetEntityType: node
+bundle: relation
+mode: default
+content:
+  field_comment:
+    weight: 4
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_from:
+    weight: 1
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+    region: content
+  field_rating:
+    weight: 3
+    settings: {  }
+    third_party_settings: {  }
+    type: nouislider_widget
+    region: content
+  field_to:
+    weight: 2
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+    region: content
+  field_type:
+    weight: 0
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+    region: content
+hidden:
+  created: true
+  path: true
+  promote: true
+  sticky: true
+  title: true
+  uid: true

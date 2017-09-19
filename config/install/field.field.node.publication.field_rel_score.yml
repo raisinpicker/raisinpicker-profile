@@ -1,0 +1,27 @@
+
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_rel_score
+    - node.type.publication
+_core:
+  default_config_hash: FPoJYZnMt6GTAr483BnQ3pmS6e42AuOQu7VOvsXEpt0
+id: node.publication.field_rel_score
+field_name: field_rel_score
+entity_type: node
+bundle: publication
+label: 'Relevance Score'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: !!float 1
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: decimal

@@ -1,0 +1,207 @@
+
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.knowledge.field_elements
+    - field.field.node.knowledge.field_rating
+    - field.field.node.knowledge.field_rel_index
+    - field.field.node.knowledge.field_rel_score
+    - field.field.node.knowledge.field_tags
+    - field.field.node.knowledge.field_words
+    - node.type.knowledge
+  module:
+    - ds
+    - entity_reference_revisions
+    - term_reference_tree
+    - user
+third_party_settings:
+  ds:
+    layout:
+      id: bs_3col_stacked
+      library: null
+      disable_css: false
+      entity_classes: no_classes
+      settings:
+        layout:
+          wrapper: div
+          classes:
+            row: row
+          add_layout_class: 0
+          attributes: ''
+        regions:
+          top:
+            wrapper: div
+            classes:
+              col-sm-12: col-sm-12
+            add_region_classes: 0
+            attributes: ''
+          left:
+            wrapper: div
+            classes:
+              col-sm-12: col-sm-12
+              col-md-3: col-md-3
+            add_region_classes: 0
+            attributes: class|well
+          middle:
+            wrapper: div
+            classes:
+              col-sm-12: col-sm-12
+              col-md-6: col-md-6
+            add_region_classes: 0
+            attributes: ''
+          right:
+            wrapper: div
+            classes:
+              col-sm-12: col-sm-12
+              col-md-3: col-md-3
+            add_region_classes: 0
+            attributes: ''
+          bottom:
+            wrapper: div
+            classes:
+              col-sm-12: col-sm-12
+            add_region_classes: 1
+            attributes: ''
+    regions:
+      top:
+        - 'dynamic_block_field:node-tabs'
+      left:
+        - 'dynamic_token_field:node-node_view_icon'
+        - flag_star
+        - flag_review
+        - node_changed_date
+        - node_post_date
+        - field_words
+        - field_rel_score
+        - field_rel_index
+        - field_tags
+      middle:
+        - field_elements
+      right:
+        - 'dynamic_block_field:node-incoming_relations'
+        - 'dynamic_block_field:node-outgoing_relations'
+        - 'dynamic_token_field:node-add_relation_buttons'
+    fields:
+      'dynamic_block_field:node-incoming_relations':
+        plugin_id: 'dynamic_block_field:node-incoming_relations'
+        weight: 11
+        label: hidden
+        formatter: default
+      'dynamic_block_field:node-outgoing_relations':
+        plugin_id: 'dynamic_block_field:node-outgoing_relations'
+        weight: 12
+        label: hidden
+        formatter: default
+      'dynamic_block_field:node-tabs':
+        plugin_id: 'dynamic_block_field:node-tabs'
+        weight: 0
+        label: hidden
+        formatter: default
+      'dynamic_token_field:node-add_relation_buttons':
+        plugin_id: 'dynamic_token_field:node-add_relation_buttons'
+        weight: 13
+        label: hidden
+        formatter: default
+      'dynamic_token_field:node-node_view_icon':
+        plugin_id: 'dynamic_token_field:node-node_view_icon'
+        weight: 1
+        label: hidden
+        formatter: default
+      node_changed_date:
+        plugin_id: node_changed_date
+        weight: 4
+        label: inline
+        formatter: ds_post_date_long
+      node_post_date:
+        plugin_id: node_post_date
+        weight: 5
+        label: inline
+        formatter: ds_post_date_long
+_core:
+  default_config_hash: _ZJnmbonSySI3P93bcCLBTp8eT9AUVYPkHRXZ7gm3j4
+id: node.knowledge.default
+targetEntityType: node
+bundle: knowledge
+mode: default
+content:
+  field_elements:
+    type: entity_reference_revisions_entity_view
+    weight: 10
+    region: middle
+    label: hidden
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings:
+      ds:
+        ds_limit: ''
+        ft:
+          id: minimal
+          settings:
+            lb: ''
+            lb-col: false
+            classes: {  }
+  field_rel_index:
+    type: number_decimal
+    weight: 8
+    region: left
+    label: above
+    settings:
+      thousand_separator: ''
+      decimal_separator: .
+      scale: 2
+      prefix_suffix: true
+    third_party_settings: {  }
+  field_rel_score:
+    weight: 7
+    label: inline
+    settings: {  }
+    third_party_settings: {  }
+    type: number_unformatted
+    region: left
+  field_tags:
+    type: term_reference_tree
+    weight: 9
+    region: left
+    label: above
+    settings: {  }
+    third_party_settings:
+      ds:
+        ds_limit: ''
+        ft:
+          id: default
+          settings:
+            lb: ''
+            lb-col: false
+            classes: {  }
+  field_words:
+    weight: 6
+    label: inline
+    settings: {  }
+    third_party_settings: {  }
+    type: number_unformatted
+    region: left
+  flag_review:
+    weight: 3
+    region: left
+    settings: {  }
+    third_party_settings: {  }
+  flag_star:
+    weight: 2
+    region: left
+    settings: {  }
+    third_party_settings: {  }
+  flag_work_in_progress:
+    weight: 3
+    region: left
+    settings: {  }
+    third_party_settings: {  }
+  views:
+    weight: 12
+    region: footer
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  field_rating: true
+  links: true
