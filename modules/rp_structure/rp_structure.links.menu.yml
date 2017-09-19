@@ -75,14 +75,6 @@ rp_structure.create_collection:
   menu_name: main
   weight: 7
 
-rp_structure.create_media:
-  title: 'Create media'
-  description: ''
-  parent: rp_structure.create
-  route_name: '<front>'   
-  menu_name: main
-  weight: 8
-
 rp_structure.tasks:
   title: 'Tasks'
   route_name: '<front>'
@@ -152,14 +144,6 @@ rp_structure.tools_index:
   route_name: '<front>'   
   menu_name: main
   weight: 4
-
-rp_structure.tools_media:
-  title: 'Media'
-  description: ''
-  parent: rp_structure.tools
-  route_name: '<front>'   
-  menu_name: main
-  weight: 5
 
 rp_structure.actions:
   title: 'Actions'

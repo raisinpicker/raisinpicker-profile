@@ -1,0 +1,107 @@
+<?php
+
+use Drupal\Core\Form\FormStateInterface;
+
+/**
+ * Implements hook_field_widget_form_alter().
+ */
+function rp_structure_field_widget_daterange_default_form_alter(&$element, &$form_state, $context) {
+   $element['#theme_wrappers'][0] = 'container';
+}
+
+function rp_structure_field_widget_daterange_datelist_form_alter(&$element, &$form_state, $context) {
+   $element['#theme_wrappers'][0] = 'container';
+}
+
+
+/**
+ * Custom submit handler for login form.
+ */
+function _rp_structure_form_relation_node_form($form, FormStateInterface $form_state) {
+
+  $form_state->setRedirect('view.content_list.page_1');
+  drupal_set_message('I am here');
+//    $response = new AjaxResponse();
+//    if ($form_state->hasAnyErrors()) {
+//      $response->addCommand(new ReplaceCommand('#modal_example_form', $form));
+//    }
+//    else {
+//      $response->addCommand(new OpenModalDialogCommand("Success!", 'The modal form has been submitted.', ['width' => 800]));
+//    }
+//    return $response;  
+}
+
+/** 
+ * Implements hook_form_FORM_ID_alter().
+ */
+function rp_structure_form_node_relation_form_alter(&$form, FormStateInterface &$form_state) {
+
+    foreach (array_keys($form['actions']) as $action) {
+      if ($action != 'preview' && isset($form['actions'][$action]['#type']) && $form['actions'][$action]['#type'] === 'submit') {
+        $form['actions'][$action]['#submit'][] = '_rp_structure_form_relation_node_form';
+      }
+    }
+}
+
+
+/*
+function mymodule_form_alter(&$form, &$form_state, $form_id) {
+  // Check when the right form is passed
+  if ($form_id == 'module_formname') {
+    
+    // Add the check box
+    $form['certify'] = array(
+      '#type' => 'checkbox',
+      '#title' => t('I certify that this is my true name'),
+    );
+  }
+}
+
+
+
+
+
+function [MODULENAME]_form_user_login_form_alter(&$form, FormStateInterface $form_state, $form_id) {
+  // Alter login form and add own custom submit handler.
+  
+}
+
+*/
+
+
+
+/*
+function bsmaterial_field_widget_date_form_alter(&$element, &$form_state, $context) {
+    echo "\n bsmaterial_field_widget_form_alter";
+  echo "\n element: ";
+  print_r($element);
+  
+  echo "\n widget type: ";
+  print_r($context['instance']['widget']['type']);
+    $element['#theme_wrappers'][0] = 'container';
+    $element['class'][] = 'asdf3';
+}
+function bsmaterial_field_widget_datetime_form_alter(&$element, &$form_state, $context) {
+    echo "\n bsmaterial_field_widget_form_alter";
+  echo "\n element: ";
+  print_r($element);
+  
+  echo "\n widget type: ";
+  print_r($context['instance']['widget']['type']);
+    $element['#theme_wrappers'][0] = 'container';
+    $element['class'][] = 'asdf4';
+}
+function bsmaterial_field_widget_form_alter(&$element, \Drupal\Core\Form\FormStateInterface $form_state, $context) {
+  $field_name = $context['items']->getName();
+  if ($field_name = 'field_date_time') {
+    $element['#theme_wrappers'][] = 'container';
+  }
+}
+function bsmaterial_field_widget_form_alter(&$element, \Drupal\Core\Form\FormStateInterface $form_state, $context) {
+  // Add a css class to widget form elements for all fields of type mytype.
+  $field_definition = $context['items']->getFieldDefinition();
+  if ($field_definition->getType() == 'mytype') { 
+     $element['#theme_wrappers'][] = 'container';
+  }
+}
+*/
