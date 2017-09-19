@@ -27,12 +27,6 @@ class finderForm extends FormBase {
       '#autocomplete_route_name' => 'view.node_autocomplete_reference'
     */
     ];
-    $form['actions']['#type'] = 'actions';
-    $form['actions']['submit'] = array(
-      '#type' => 'submit',
-      '#value' => $this->t('Go'),
-      '#button_type' => 'primary',
-    );
     return $form;
   }
   /**
