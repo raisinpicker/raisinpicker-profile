@@ -14,10 +14,14 @@
       var options = {
         'legend':{'position':'{{metadata.chart_legend_position}}' },
         'title':'{{metadata.chart_title}}',
+        'backgroundColor': {
+          'fill':'{{metadata.chart_bg}}',
+          'strokeWidth': 1,
+          'stroke': '#CCCCCC'
+        },      
         {% if metadata.chart_width %} 'width':{{metadata.chart_width}}, {% endif %} 
         'height':{{metadata.chart_height}},
         'colors': ['#607D8B','#B0BEC5', '#263238'],
-        'backgroundColor': '#EEEEEE',
         'axisTitlesPosition': 'none'
       };
       {% if metadata.chart_type == 'line' %} 
@@ -27,7 +31,7 @@
       {% else %}
         var chart = new google.charts.Bar(document.getElementById('views-simplechart-graph-{{id}}'));
       {% endif %} 
-      chart.draw(data, options);
+      chart.draw(data, google.charts.Bar.convertOptions(options));
     };
   </script>
   <div id="views-simplechart-graph-{{id}}"></div>

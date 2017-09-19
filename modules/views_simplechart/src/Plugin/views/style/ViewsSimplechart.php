@@ -46,6 +46,7 @@ class ViewsSimplechart extends StylePluginBase {
     $options['chart_legend_position'] = array('default' => 'bottom');
     $options['chart_width'] = array('default' => '400');
     $options['chart_height'] = array('default' => '300');
+    $options['chart_bg'] = array('default' => '#eeeeee');
 
     return $options;
   }
@@ -102,6 +103,12 @@ class ViewsSimplechart extends StylePluginBase {
       '#type' => 'textfield',
       '#size' => '60',
       '#default_value' => $this->options['chart_height'],
+    );
+    $form['chart_bg'] = array(
+      '#title' => t('Chart Background Color'),
+      '#type' => 'textfield',
+      '#size' => '60',
+      '#default_value' => $this->options['chart_bg'],
     );
   }
   
