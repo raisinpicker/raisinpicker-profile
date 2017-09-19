@@ -30,32 +30,46 @@ class RpChosenFieldWidget extends OptionsSelectWidget {
       '#chosen' => 1,    
     );
 
-
     $element_options = $element['#options'];
     $element['#options'] = array();
     
     foreach ($element_options as $value => $label) {
-    
-      // Separates the label from the hierarchy symbols.
-      preg_match("/^(?P<hierarchy_symbols>[\-\ ]*)\ ?(?P<item_string_clean>.*)/", $label, $label_parsed);
-    
-      // Item depth.
-      $item_depth = (int) substr_count($label_parsed['hierarchy_symbols'], '-');
-    
-      // Get the depths by symbol, of the item, if exist, and isn't a none value.
-      if ($item_depth != 0 && $value != '_none') {
-    
-        // Set the new parent string path.
-        $label = $parent_string[$item_depth] = $parent_string[$item_depth-1] . ' » ' . $label_parsed['item_string_clean'];
+      // when $element_options item is an array, there are multiple vocabularies
+      if (is_array($label)) {
+        foreach ($label as $value2 => $label2) {  
+          // Separates the label from the hierarchy symbols.
+          preg_match("/^(?P<hierarchy_symbols>[\-\ ]*)\ ?(?P<item_string_clean>.*)/", $label2, $label_parsed);
+          // Item depth.
+          $item_depth = (int) substr_count($label_parsed['hierarchy_symbols'], '-');
+          // Get the depths by symbol, of the item, if exist, and isn't a none value.
+          if ($item_depth != 0 && $value2 != '_none') {
+            // Set the new parent string path.
+            $label2 = $parent_string[$item_depth] = $parent_string[$item_depth-1] . ' » ' . $label_parsed['item_string_clean'];
+          }
+          else {
+            // Save the first level parent.
+            $parent_string[0] = $label2;
+          }
+          $element['#options'][$value2] = $label2;
+        }  
       }
-      else {
-        // Save the first level parent.
-        $parent_string[0] = $label;
+      else { 
+        // Separates the label from the hierarchy symbols.
+        preg_match("/^(?P<hierarchy_symbols>[\-\ ]*)\ ?(?P<item_string_clean>.*)/", $label, $label_parsed);
+        // Item depth.
+        $item_depth = (int) substr_count($label_parsed['hierarchy_symbols'], '-');
+        // Get the depths by symbol, of the item, if exist, and isn't a none value.
+        if ($item_depth != 0 && $value != '_none') {
+          // Set the new parent string path.
+          $label = $parent_string[$item_depth] = $parent_string[$item_depth-1] . ' » ' . $label_parsed['item_string_clean'];
+        }
+        else {
+          // Save the first level parent.
+          $parent_string[0] = $label;
+        }
+        $element['#options'][$value] = $label;        
       }
-    
-      $element['#options'][$value] = $label;
     }
-
 
     return $element;
   }
