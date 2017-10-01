@@ -1,0 +1,7 @@
+{
+  "name": "raisinpicker/profile-d8",
+  "type": "drupal-profile",
+  "description": "Raisin Picker installation profile",
+  "homepage": "https://github.com/raisinpicker/profile-d8",
+  "license": "GPL-2.0+"
+}
