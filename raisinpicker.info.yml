@@ -3,6 +3,9 @@ type: profile
 description: 'Raisin Picker, knowledge management tool, Drupal 8.x installation profile.'
 version: '8.x-1.x-dev'
 core: 8.x
+distribution:
+  name: Raisin Picker
+  langcode: en
 dependencies:
   - node
   - history
@@ -38,5 +41,5 @@ dependencies:
   - tour
   - automated_cron
 themes:
-  - rp_material
-  - seven
+  - bsmaterial
+  - adminimal_theme

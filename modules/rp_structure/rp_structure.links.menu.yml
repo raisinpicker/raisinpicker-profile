@@ -1,3 +1,11 @@
+rp_structure.star:
+  title: 'Starred'
+  description: 'Starred content'
+  route_name: '<front>'
+  menu_name: main
+  expanded: TRUE
+  weight: 1
+
 rp_structure.create:
   title: 'Create'
   route_name: '<front>'
@@ -75,43 +83,20 @@ rp_structure.create_collection:
   menu_name: main
   weight: 7
 
-rp_structure.tasks:
-  title: 'Tasks'
-  route_name: '<front>'
-  menu_name: main
-  expanded: TRUE
-  weight: 3
-
-rp_structure.tasks_reminders:
-  title: 'Reminders'
-  description: ''
-  parent: rp_structure.tasks
-  route_name: 'view.review.page_1'   
-  menu_name: main
-  weight: 1
-
-rp_structure.tasks_wip:
-  title: 'Work in progress'
-  description: ''
-  parent: rp_structure.tasks
-  route_name: '<front>'   
-  menu_name: main
-  weight: 2
-
-rp_structure.tasks_untagged:
-  title: 'Untagged'
-  description: 'Content that has been tagged yet'
-  parent: rp_structure.tasks
-  route_name: '<front>'   
-  menu_name: main
-  weight: 3
-
 rp_structure.tools:
   title: 'Tools'
   route_name: '<front>'
   menu_name: main
   expanded: TRUE
   weight: 4
+
+rp_structure.tools_tree:
+  title: 'Map'
+  description: 'Map visualizing location data'
+  parent: rp_structure.tools
+  route_name: '<front>'   
+  menu_name: main
+  weight: 1
 
 rp_structure.tools_tree:
   title: 'Tree'
@@ -151,6 +136,22 @@ rp_structure.actions:
   menu_name: main
   expanded: TRUE
   weight: 2
+
+rp_structure.tasks_reminders:
+  title: 'Reminders'
+  description: ''
+  parent: rp_structure.tasks
+  route_name: 'view.review.page_1'   
+  menu_name: main
+  weight: 1
+
+rp_structure.tasks_untagged:
+  title: 'Untagged'
+  description: 'Content that has been tagged yet'
+  parent: rp_structure.tasks
+  route_name: '<front>'   
+  menu_name: main
+  weight: 3
 
 rp_structure.actions_bulk:
   title: 'Bulk operations'

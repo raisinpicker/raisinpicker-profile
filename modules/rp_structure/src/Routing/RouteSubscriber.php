@@ -1,6 +1,6 @@
 <?php
 
-namespace Drupal\rp_routing\Routing;
+namespace Drupal\rp_structure\Routing;
 use Drupal\Core\Routing\RouteSubscriberBase;
 use Symfony\Component\Routing\RouteCollection;
 
