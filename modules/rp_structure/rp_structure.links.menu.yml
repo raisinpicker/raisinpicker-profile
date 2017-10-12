@@ -1,11 +1,3 @@
-rp_structure.star:
-  title: 'Starred'
-  description: 'Starred content'
-  route_name: '<front>'
-  menu_name: main
-  expanded: TRUE
-  weight: 1
-
 rp_structure.create:
   title: 'Create'
   route_name: '<front>'
@@ -33,13 +25,13 @@ rp_structure.create_publication:
   menu_name: main
   weight: 2
 
-rp_structure.create_persion:
-  title: 'Create persion'
+rp_structure.create_person:
+  title: 'Create person'
   description: ''
   parent: rp_structure.create
   route_name: 'node.add'
   route_parameters:
-    node_type: 'persion'    
+    node_type: 'person'    
   menu_name: main
   weight: 3
 
@@ -83,119 +75,194 @@ rp_structure.create_collection:
   menu_name: main
   weight: 7
 
+rp_structure.tasks:
+  title: 'Manage'
+  route_name: '<front>'
+  menu_name: main
+  expanded: TRUE
+  weight: 2
+
+rp_structure.tasks_taxonomy:
+  title: 'Tags'
+  description: 'Manage tags'
+  parent: rp_structure.tasks
+  route_name: 'entity.taxonomy_vocabulary.collection'   
+  menu_name: main
+  weight: 1
+
+rp_structure.tasks_undone:
+  title: 'Filling gaps (soon)'
+  description: 'Content with missing information'
+  parent: rp_structure.tasks
+  route_name: '<front>'   
+  menu_name: main
+  weight: 10
+
+rp_structure.tasks_bulk:
+  title: 'Bulk operations'
+  description: ''
+  parent: rp_structure.tasks
+  route_name: 'view.bulk.page_1'   
+  menu_name: main
+  weight: 5
+
+rp_structure.tasks_import:
+  title: 'Import (soon)'
+  description: ''
+  parent: rp_structure.tasks
+  route_name: '<front>'   
+  menu_name: main
+  weight: 6
+
 rp_structure.tools:
-  title: 'Tools'
+  title: 'Visualize'
   route_name: '<front>'
   menu_name: main
   expanded: TRUE
   weight: 4
 
-rp_structure.tools_tree:
+rp_structure.tools_map:
   title: 'Map'
-  description: 'Map visualizing location data'
+  description: 'Geographical map of location data'
   parent: rp_structure.tools
-  route_name: '<front>'   
+  route_name: 'view.map.page_1'   
   menu_name: main
-  weight: 1
+  weight: 0
 
 rp_structure.tools_tree:
   title: 'Tree'
   description: 'Tag tree'
   parent: rp_structure.tools
-  route_name: '<front>'   
+  route_name: 'view.tag_tree.page_1'   
   menu_name: main
   weight: 1
 
-rp_structure.tools_reader:
-  title: 'Reader'
-  description: ''
-  parent: rp_structure.tools
-  route_name: '<front>'   
-  menu_name: main
-  weight: 2
-
-rp_structure.tools_graph:
-  title: 'Graph'
-  description: ''
-  parent: rp_structure.tools
-  route_name: '<front>'   
-  menu_name: main
-  weight: 3
-
-rp_structure.tools_index:
-  title: 'Index'
-  description: ''
-  parent: rp_structure.tools
-  route_name: '<front>'   
-  menu_name: main
-  weight: 4
-
-rp_structure.actions:
-  title: 'Actions'
-  route_name: '<front>'
-  menu_name: main
-  expanded: TRUE
-  weight: 2
-
-rp_structure.tasks_reminders:
-  title: 'Reminders'
-  description: ''
-  parent: rp_structure.tasks
-  route_name: 'view.review.page_1'   
-  menu_name: main
-  weight: 1
-
-rp_structure.tasks_untagged:
-  title: 'Untagged'
-  description: 'Content that has been tagged yet'
-  parent: rp_structure.tasks
-  route_name: '<front>'   
-  menu_name: main
-  weight: 3
-
-rp_structure.actions_bulk:
-  title: 'Bulk operations'
-  description: ''
-  parent: rp_structure.actions
-  route_name: '<front>'   
-  menu_name: main
-  weight: 1
-
-rp_structure.actions_import:
-  title: 'Import'
-  description: ''
-  parent: rp_structure.actions
-  route_name: '<front>'   
-  menu_name: main
-  weight: 2
-
-rp_structure.reports:
-  title: 'Reports'
+rp_structure.train:
+  title: 'Train'
   route_name: '<front>'
   menu_name: main
   expanded: TRUE
   weight: 5
 
+rp_structure.train_review:
+  title: 'Reviews'
+  description: ''
+  parent: rp_structure.train
+  route_name: 'view.review.page_1'   
+  menu_name: main
+  weight: 1
+
+rp_structure.train_relevant:
+  title: 'Relevant content (soon)'
+  description: ''
+  parent: rp_structure.train
+  route_name: '<front>'   
+  menu_name: main
+  weight: 2
+
+rp_structure.train_quiz:
+  title: 'Quiz (soon)'
+  description: ''
+  parent: rp_structure.train
+  route_name: '<front>'   
+  menu_name: main
+  weight: 3
+
+rp_structure.reports:
+  title: 'Report'
+  route_name: '<front>'
+  menu_name: main
+  expanded: TRUE
+  weight: 5
+
+rp_structure.reports_index:
+  title: 'Index'
+  description: 'List of all content'
+  parent: rp_structure.reports
+  route_name: 'view.content_list.page_1'   
+  menu_name: main
+  weight: 1
+
 rp_structure.reports_recent:
   title: 'Recent activity'
   description: ''
   parent: rp_structure.reports
-  route_name: '<front>'   
+  route_name: 'view.recent.page_1'   
   menu_name: main
-  weight: 1
+  weight: 2
 
 rp_structure.reports_analytics:
-  title: 'Analytics'
+  title: 'Analytics (soon)'
   description: ''
   parent: rp_structure.reports
   route_name: '<front>'   
   menu_name: main
+  weight: 3
+
+rp_structure.starred:
+  title: 'star'
+  description: 'Starred content'
+  route_name: 'view.star.page_1'
+  menu_name: main
+  weight: 20
+  options: 
+    attributes:
+      data-toggle: 'tooltip'
+      class: 'use-ajax material-icons small'
+      data-dialog-type : 'modal'
+
+rp_structure.account:
+  title: 'settings'
+  description: 'Account settings'
+  route_name: 'rp_structure_settings'
+  menu_name: main
+  weight: 21
+  options: 
+    attributes:
+      data-toggle: 'tooltip'      
+      class: 'material-icons small'
+
+rp_structure.cheatsheet:
+  title: 'help_outline'
+  description: 'Cheat Sheet'
+  route_name: 'rp_structure_cheatsheet'
+  menu_name: main
+  weight: 22
+  options: 
+    attributes:
+      data-toggle: 'tooltip'      
+      class: 'use-ajax material-icons small'
+      data-dialog-type : 'modal'
+
+rp_structure.logout:
+  title: 'power_settings_new'
+  description: 'Logout'
+  route_name: 'user.logout'
+  menu_name: main
+  weight: 23
+  options: 
+    attributes:
+      data-toggle: 'tooltip'
+      class: 'material-icons small'
+
+# footer menu
+rp_structure.footer_version:
+  title: 'v0.4 (alpha)'
+  description: 'Current version'
+  route_name: '<nolink>'   
+  menu_name: footer
   weight: 1
 
-rp_structure.reports_relevant:
-  title: 'Relevant content'
+rp_structure.footer_project:
+  title: 'Project site'
   description: ''
-  parent: rp_structure.reports
-  route_name: '<front>'   
-  menu_name: main
-  weight: 1
+  url: 'https://raisinpicker.github.io/'   
+  menu_name: footer
+  weight: 2
+
+rp_structure.footer_contact:
+  title: 'Contact'
+  description: 'Current version'
+  url: 'https://raisinpicker.github.io/'   
+  menu_name: footer
+  weight: 3

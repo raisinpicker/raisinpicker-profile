@@ -44,6 +44,13 @@ function rp_structure_form_node_relation_form_alter(&$form, FormStateInterface &
 }
 
 
+function rp_structure_theme($existing, $type, $theme, $path) {
+  return [
+    'cheatsheet' => [
+    ],
+  ];
+}
+
 /*
 function mymodule_form_alter(&$form, &$form_state, $form_id) {
   // Check when the right form is passed

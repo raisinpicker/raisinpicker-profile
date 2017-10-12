@@ -7,7 +7,7 @@ use Symfony\Component\Routing\RouteCollection;
 /**
  * Class RouteSubscriber.
  *
- * @package Drupal\rp_routing\Routing
+ * @package Drupal\rp_structure\Routing
  * Listens to the dynamic route events.
  */
 class RouteSubscriber extends RouteSubscriberBase {
