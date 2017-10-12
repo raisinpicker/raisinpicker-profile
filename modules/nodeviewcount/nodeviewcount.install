@@ -1,0 +1,48 @@
+<?php
+
+/**
+ * @file
+ * Install, update and uninstall functions for the nodeviewcount module.
+ */
+
+/**
+ * Implements hook_schema().
+ */
+function nodeviewcount_schema() {
+  $schema['nodeviewcount'] = [
+    'description' => 'The count views of node for every user.',
+    'fields' => [
+      'id' => [
+        'description' => 'The unique ID.',
+        'type' => 'serial',
+        'unsigned' => TRUE,
+        'not null' => TRUE,
+      ],
+      'nid' => [
+        'description' => 'The node ID.',
+        'type' => 'int',
+        'unsigned' => TRUE,
+        'not null' => TRUE,
+      ],
+      'uid' => [
+        'description' => 'The user ID who view of node.',
+        'type' => 'int',
+        'unsigned' => TRUE,
+        'not null' => TRUE,
+      ],
+      'timestamp' => [
+        'description' => 'The Unix timestamp when the node was view.',
+        'type' => 'int',
+        'not null' => TRUE,
+        'default' => 0,
+      ],
+    ],
+    'primary key' => ['id'],
+    'indexes' => [
+      'nid_uid' => ['uid', 'nid'],
+      'timestamp' => ['timestamp'],
+    ],
+  ];
+
+  return $schema;
+}

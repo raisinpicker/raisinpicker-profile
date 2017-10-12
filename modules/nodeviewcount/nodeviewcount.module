@@ -1,0 +1,43 @@
+<?php
+
+/**
+ * @file
+ * Primarily Drupal hooks for nodeviewcount module.
+ */
+
+use Drupal\Core\Entity\Display\EntityViewDisplayInterface;
+use Drupal\Core\Url;
+use Drupal\node\NodeInterface;
+
+/**
+ * Implements hook_ENTITY_TYPE_view().
+ */
+function nodeviewcount_node_view(array &$build, NodeInterface $node, EntityViewDisplayInterface $display, $view_mode) {
+  /** @var \Drupal\nodeviewcount\NodeViewCountRecordsManager $records_manager */
+  $records_manager = Drupal::service('nodeviewcount.records_manager');
+  /** @var \Drupal\user\UserInterface $user */
+  $user = Drupal::currentUser();
+  if ($records_manager->isRecordableForNodeType($node) && $records_manager->isRecordableForUserRole($user) && $records_manager->isRecordableForViewMode($view_mode)) {
+    $build['#attached']['library'][] = 'nodeviewcount/nodeviewcount.base';
+    $build['#attached']['drupalSettings']['nodeviewcount']['url'] = Url::fromRoute('nodeviewcount.update_counter')
+      ->toString();
+    $settings = [
+      'nid' => $node->id(),
+      'uid' => $user->id(),
+      'view_mode' => $view_mode,
+    ];
+    $build['#attached']['drupalSettings']['nodeviewcount']['data'][$node->id()] = $settings;
+  }
+}
+
+/**
+ * Implements hook_cron().
+ */
+function nodeviewcount_cron() {
+  /** @var \Drupal\nodeviewcount\NodeViewCountRecordsManager $records_manager */
+  $records_manager = Drupal::service('nodeviewcount.records_manager');
+  $logs_life_time = $records_manager->getLogsLifeTime();
+  if ($logs_life_time > 0) {
+    $records_manager->deleteOldRecords($logs_life_time);
+  }
+}

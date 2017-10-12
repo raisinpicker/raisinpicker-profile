@@ -1,0 +1,29 @@
+# Schema for the configuration files of the nodeviewcount module.
+
+nodeviewcount.settings:
+  type: config_object
+  label: 'Node view count settings'
+  mapping:
+    node_types:
+      type: sequence
+      label: 'Node types'
+      sequence:
+        type: string
+    view_modes:
+      type: sequence
+      label: 'View modes'
+      sequence:
+        type: string
+    user_roles:
+      type: sequence
+      label: 'User roles'
+      sequence:
+        type: string
+    excluded_user_roles:
+      type: sequence
+      label: 'Excluded user roles'
+      sequence:
+        type: string
+    logs_life_time:
+      label: 'Logs life time'
+      type: integer

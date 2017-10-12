@@ -1,0 +1,4 @@
+services:
+  nodeviewcount.records_manager:
+    class: Drupal\nodeviewcount\NodeViewCountRecordsManager
+    arguments: ['@database', '@config.factory']

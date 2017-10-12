@@ -1,0 +1,15 @@
+<?php
+
+/**
+ * @file
+ * Support module for nodeviewcount hooks testing.
+ */
+
+use Drupal\node\NodeInterface;
+
+/**
+ * Implements hook_nodeviewcount_insert().
+ */
+function nodeviewcount_hooks_test_nodeviewcount_insert(NodeInterface $node, $view_mode) {
+  \Drupal::logger('nodeviewcount')->notice($node->getTitle());
+}

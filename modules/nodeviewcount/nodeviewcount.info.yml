@@ -1,0 +1,8 @@
+name: Node view count
+type: module
+description: 'Counts node views for each user.'
+core: 8.x
+configure: nodeviewcount.settings
+
+dependencies:
+  - node
