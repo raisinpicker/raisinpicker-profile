@@ -1,12 +1,10 @@
-
 langcode: en
 status: true
 dependencies:
   config:
     - field.storage.node.field_rel_index
     - node.type.publication
-_core:
-  default_config_hash: bapX6JyLcA71x32dXZO_vPk4Z_q-lXe8qOLTXE3qguM
+
 id: node.publication.field_rel_index
 field_name: field_rel_index
 entity_type: node

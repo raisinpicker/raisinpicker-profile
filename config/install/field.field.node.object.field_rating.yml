@@ -1,12 +1,10 @@
-
 langcode: en
 status: true
 dependencies:
   config:
     - field.storage.node.field_rating
     - node.type.object
-_core:
-  default_config_hash: oIFjhsjs6L1Z1yJcnFs04rrJ-COXjI4WUrvUfbeDI44
+
 id: node.object.field_rating
 field_name: field_rating
 entity_type: node

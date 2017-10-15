@@ -3,7 +3,7 @@ label: 'Node view icon'
 ui_limit: ''
 properties:
   content:
-    value: "<div class=\"clearfix\">\r\n<div class=\"btn btn-fab btn-primary xxl pull-left\" rating=\"[node:field_rating:value]\"><i class=\"material-icons [node:content-type:machine-name]\">&nbsp;</i></div>\r\n\r\n<div class=\"pull-left\" style=\"padding-left:15px;\">\r\n<h4>Rating: <strong>[node:field_rating:value]</strong></h4>\r\n\r\n<h4>Type: <strong>[node:content-type:name]</strong></h4>\r\n</div>\r\n</div>\r\n"
+    value: "<div class=\"clearfix\" style=\"margin-bottom: 20px;\">\r\n<div class=\"btn btn-fab btn-primary xxl pull-left\" rating=\"[node:field_rating:value]\"><i class=\"material-icons [node:content-type:machine-name]\">&nbsp;</i></div>\r\n\r\n<div class=\"pull-left\" style=\"padding-left:15px;padding-top:20px;\">\r\n<h4>Rating: <strong>[node:field_rating:value]</strong></h4>\r\n\r\n<h4>Type: <strong>[node:content-type:name]</strong></h4>\r\n</div>\r\n</div>\r\n"
     format: full_html
 type: token
 type_label: 'Token field'

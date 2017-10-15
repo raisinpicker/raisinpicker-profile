@@ -1,11 +1,9 @@
-
 langcode: en
 status: true
 dependencies:
   module:
     - user
-_core:
-  default_config_hash: Sqk4H5LD7jq6dtcxbSzDbwGVqScoTXcv2caB1fyVAlM
+
 id: user.field_int_tags_max
 field_name: field_int_tags_max
 entity_type: user

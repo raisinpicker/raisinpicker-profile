@@ -1,0 +1,11 @@
+langcode: en
+status: true
+dependencies:
+  module:
+    - bulk_update_fields
+
+id: bulk_update_fields_to_another_value
+label: 'Bulk Update Fields to Another Value'
+type: node
+plugin: bulk_update_fields_action_base
+configuration: {  }

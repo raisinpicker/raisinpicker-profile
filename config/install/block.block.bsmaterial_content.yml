@@ -1,4 +1,3 @@
-
 langcode: en
 status: true
 dependencies:
@@ -6,12 +5,11 @@ dependencies:
     - system
   theme:
     - bsmaterial
-_core:
-  default_config_hash: fNNLN48MSGSLiqwIFywCuxH2Dk_IxDbaP0kYhg_IPrg
+
 id: bsmaterial_content
 theme: bsmaterial
 region: content
-weight: -3
+weight: -7
 provider: null
 plugin: system_main_block
 settings:

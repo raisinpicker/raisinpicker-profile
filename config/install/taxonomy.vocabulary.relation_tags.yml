@@ -1,4 +1,3 @@
-
 langcode: en
 status: true
 dependencies:
@@ -7,8 +6,7 @@ dependencies:
 third_party_settings:
   private_taxonomy:
     private: 0
-_core:
-  default_config_hash: RECAiS9LUXwivtghppFMQb0ln8FNcGatDhk-pi_fDlU
+
 name: 'Relation Tags'
 vid: relation_tags
 description: 'Used to categorize relations'

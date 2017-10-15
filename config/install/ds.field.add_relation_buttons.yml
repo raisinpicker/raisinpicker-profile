@@ -3,7 +3,7 @@ label: 'Add relation buttons'
 ui_limit: ''
 properties:
   content:
-    value: "<p>\r\n<a class=\"btn btn-primary use-ajax\" data-dialog-type=\"modal\" href=\"/node/add/relation\">Add incoming relation</a>\r\n<a class=\"btn btn-primary use-ajax\" data-dialog-type=\"modal\" href=\"/node/add/relation\">Add outgoing relation</a>\r\n</p>\r\n"
+    value: "<p><a class=\"btn btn-primary use-ajax\" data-dialog-options=\"{&quot;width&quot;:900, &quot;buttons&quot;: []}\" data-dialog-type=\"modal\" href=\"/node/add/relation\">Add incoming relation</a> <a class=\"btn btn-primary use-ajax\" data-dialog-type=\"modal\" href=\"/node/add/relation\">Add outgoing relation</a></p>\r\n"
     format: full_html
 type: token
 type_label: 'Token field'

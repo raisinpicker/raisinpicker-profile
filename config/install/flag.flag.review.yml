@@ -1,9 +1,7 @@
-
 langcode: en
 status: true
 dependencies: {  }
-_core:
-  default_config_hash: R694wcAIHP8Yw4lNgtuXj3i3geR5WCXB5F3vfep5A50
+
 id: review
 label: Review
 bundles:
@@ -17,10 +15,10 @@ bundles:
 entity_type: node
 global: false
 weight: 0
-flag_short: 'To be reviewed'
+flag_short: 'To review'
 flag_long: 'Click to flag this node as to be reviewed'
 flag_message: 'Flagged as to be reviewed'
-unflag_short: 'Review done'
+unflag_short: Reviewed
 unflag_long: 'Click to flag this node that review is done'
 unflag_message: 'Flagged that review is done'
 unflag_denied_text: ''

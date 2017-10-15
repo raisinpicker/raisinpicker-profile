@@ -1,4 +1,3 @@
-
 langcode: en
 status: true
 dependencies:
@@ -18,56 +17,113 @@ dependencies:
 third_party_settings:
   ds:
     layout:
-      id: ds_3col_stacked
-      library: ds/ds_3col_stacked
+      id: bs_3col_stacked
+      library: null
       disable_css: false
-      entity_classes: all_classes
+      entity_classes: no_classes
       settings:
-        wrappers:
-          header: div
-          left: div
-          middle: div
-          right: div
-          footer: div
-        outer_wrapper: div
-        attributes: ''
-        link_attribute: ''
-        link_custom: ''
-        classes:
-          layout_class: {  }
+        layout:
+          wrapper: div
+          classes:
+            row: row
+          add_layout_class: 0
+          attributes: ''
+        regions:
+          top:
+            wrapper: div
+            classes:
+              col-sm-12: col-sm-12
+            add_region_classes: 0
+            attributes: ''
+          left:
+            wrapper: div
+            classes:
+              col-sm-12: col-sm-12
+              col-md-3: col-md-3
+            add_region_classes: 0
+            attributes: class|well
+          middle:
+            wrapper: div
+            classes:
+              col-sm-12: col-sm-12
+              col-md-6: col-md-6
+            add_region_classes: 0
+            attributes: ''
+          right:
+            wrapper: div
+            classes:
+              col-sm-12: col-sm-12
+              col-md-3: col-md-3
+            add_region_classes: 0
+            attributes: ''
+          bottom:
+            wrapper: div
+            classes:
+              col-sm-12: col-sm-12
+            add_region_classes: 1
+            attributes: ''
     regions:
+      top:
+        - 'dynamic_block_field:node-tabs'
+        - flag_star
+        - flag_review
       left:
-        - 'bundle_field:node'
-        - field_rating
+        - 'dynamic_token_field:node-node_view_icon'
+        - node_author
         - node_changed_date
         - node_post_date
         - field_words
         - field_rel_score
         - field_rel_index
+        - field_tags
       middle:
         - field_elements
       right:
-        - flag_work_in_progress
-        - flag_review
-        - field_tags
+        - 'dynamic_block_field:node-incoming_relations'
+        - 'dynamic_block_field:node-outgoing_relations'
+        - 'dynamic_token_field:node-add_relation_buttons'
     fields:
-      'bundle_field:node':
-        plugin_id: 'bundle_field:node'
-        weight: 1
-        label: inline
+      'dynamic_block_field:node-incoming_relations':
+        plugin_id: 'dynamic_block_field:node-incoming_relations'
+        weight: 12
+        label: hidden
         formatter: default
+      'dynamic_block_field:node-outgoing_relations':
+        plugin_id: 'dynamic_block_field:node-outgoing_relations'
+        weight: 13
+        label: hidden
+        formatter: default
+      'dynamic_block_field:node-tabs':
+        plugin_id: 'dynamic_block_field:node-tabs'
+        weight: 0
+        label: hidden
+        formatter: default
+      'dynamic_token_field:node-add_relation_buttons':
+        plugin_id: 'dynamic_token_field:node-add_relation_buttons'
+        weight: 14
+        label: hidden
+        formatter: default
+      'dynamic_token_field:node-node_view_icon':
+        plugin_id: 'dynamic_token_field:node-node_view_icon'
+        weight: 3
+        label: hidden
+        formatter: default
+      node_author:
+        plugin_id: node_author
+        weight: 4
+        label: above
+        formatter: author
       node_changed_date:
         plugin_id: node_changed_date
-        weight: 3
-        label: inline
+        weight: 5
+        label: above
         formatter: ds_post_date_long
       node_post_date:
         plugin_id: node_post_date
-        weight: 4
-        label: inline
+        weight: 6
+        label: above
         formatter: ds_post_date_long
-_core:
-  default_config_hash: mrA3YHWAEhUbvRlIfmlC3Tr2P1J8KDjYE96eDC8BBAo
+
 id: node.event.default
 targetEntityType: node
 bundle: event
@@ -75,38 +131,43 @@ mode: default
 content:
   field_elements:
     type: entity_reference_revisions_entity_view
-    weight: 8
+    weight: 11
     region: middle
-    label: above
+    label: hidden
     settings:
       view_mode: default
       link: ''
-    third_party_settings: {  }
-  field_rating:
-    type: number_unformatted
-    weight: 2
-    region: left
-    label: inline
-    settings: {  }
-    third_party_settings: {  }
+    third_party_settings:
+      ds:
+        ds_limit: ''
+        ft:
+          id: minimal
+          settings:
+            lb: ''
+            lb-col: false
+            classes: {  }
   field_rel_index:
-    weight: 7
-    label: inline
-    settings: {  }
-    third_party_settings: {  }
-    type: number_unformatted
+    type: number_decimal
+    weight: 9
     region: left
+    label: above
+    settings:
+      thousand_separator: ''
+      decimal_separator: .
+      scale: 2
+      prefix_suffix: true
+    third_party_settings: {  }
   field_rel_score:
-    weight: 6
-    label: inline
+    weight: 8
+    label: above
     settings: {  }
     third_party_settings: {  }
     type: number_unformatted
     region: left
   field_tags:
     type: term_reference_tree
-    weight: 11
-    region: right
+    weight: 10
+    region: left
     label: above
     settings: {  }
     third_party_settings:
@@ -119,23 +180,25 @@ content:
             lb-col: false
             classes: {  }
   field_words:
-    weight: 5
-    label: inline
+    weight: 7
+    label: above
     settings: {  }
     third_party_settings: {  }
     type: number_unformatted
     region: left
   flag_review:
-    weight: 10
-    region: right
+    weight: 2
+    region: top
     settings: {  }
     third_party_settings: {  }
   flag_star:
-    weight: 10
-    region: content
+    weight: 1
+    region: top
+    settings: {  }
+    third_party_settings: {  }
   flag_work_in_progress:
-    weight: 9
-    region: right
+    weight: 3
+    region: left
     settings: {  }
     third_party_settings: {  }
   views:
@@ -144,4 +207,5 @@ content:
     settings: {  }
     third_party_settings: {  }
 hidden:
+  field_rating: true
   links: true

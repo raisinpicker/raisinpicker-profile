@@ -1,4 +1,3 @@
-
 langcode: en
 status: true
 dependencies: {  }
@@ -16,10 +15,10 @@ entity_type: node
 global: false
 weight: 0
 flag_short: Star
-flag_long: 'Click to star this node'
+flag_long: 'Click to add to starred content'
 flag_message: ''
-unflag_short: Starred
-unflag_long: 'Click to unstar this node'
+unflag_short: Unstar
+unflag_long: 'Click to remove from starred content'
 unflag_message: ''
 unflag_denied_text: ''
 flag_type: 'entity:node'

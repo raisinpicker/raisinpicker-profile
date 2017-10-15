@@ -1,4 +1,3 @@
-
 langcode: en
 status: true
 dependencies:
@@ -7,8 +6,7 @@ dependencies:
       - rp_structure
   module:
     - node
-_core:
-  default_config_hash: hQncTInGkCfjLYtYn_tLErmVD6HZ035fOJMr0FYqVrA
+
 id: node.field_rel_index
 field_name: field_rel_index
 entity_type: node

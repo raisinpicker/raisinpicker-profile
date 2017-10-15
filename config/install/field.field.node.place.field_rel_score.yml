@@ -1,12 +1,10 @@
-
 langcode: en
 status: true
 dependencies:
   config:
     - field.storage.node.field_rel_score
     - node.type.place
-_core:
-  default_config_hash: oJd0jG4VndKR1XSV4M1EXt99ywwxJ1v5yJpr5K9i3zM
+
 id: node.place.field_rel_score
 field_name: field_rel_score
 entity_type: node

@@ -1,4 +1,3 @@
-
 langcode: en
 status: true
 dependencies:
@@ -6,8 +5,7 @@ dependencies:
     - help
   theme:
     - bsmaterial
-_core:
-  default_config_hash: MhtNdV__HKRTab0ZPjkPNfYL4Ng4UPBucDLoC7Rg5Eo
+
 id: bsmaterial_help
 theme: bsmaterial
 region: help

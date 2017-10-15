@@ -1,11 +1,9 @@
-
 langcode: en
 status: true
 dependencies:
   module:
     - paragraphs
-_core:
-  default_config_hash: oFSMrJO0_bKT8jjSIIupZ8uX4YxCELDTKyXUmGM0vm0
+
 id: paragraph.field_id
 field_name: field_id
 entity_type: paragraph

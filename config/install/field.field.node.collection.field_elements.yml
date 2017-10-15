@@ -1,4 +1,3 @@
-
 langcode: en
 status: true
 dependencies:
@@ -7,8 +6,7 @@ dependencies:
     - node.type.collection
   module:
     - entity_reference_revisions
-_core:
-  default_config_hash: wuRbIZwYOariEMv6CU7QV88alcGjmmgWk5UV-9KZlgk
+
 id: node.collection.field_elements
 field_name: field_elements
 entity_type: node

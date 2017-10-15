@@ -1,12 +1,10 @@
-
 langcode: en
 status: true
 dependencies:
   config:
     - field.storage.node.field_rel_index
     - node.type.knowledge
-_core:
-  default_config_hash: L7f_zIXVVtItPrJOsoyfbU5UyMVImmI985R_T490pNU
+
 id: node.knowledge.field_rel_index
 field_name: field_rel_index
 entity_type: node

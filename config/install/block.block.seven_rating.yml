@@ -1,0 +1,27 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - facets.facet.rating
+  module:
+    - facets
+    - system
+  theme:
+    - seven
+id: seven_rating
+theme: seven
+region: header
+weight: -8
+provider: null
+plugin: 'facet_block:rating'
+settings:
+  id: 'facet_block:rating'
+  label: Rating
+  provider: facets
+  label_display: visible
+visibility:
+  request_path:
+    id: request_path
+    pages: '/s*'
+    negate: false
+    context_mapping: {  }

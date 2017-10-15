@@ -1,12 +1,10 @@
-
 langcode: en
 status: true
 dependencies:
   config:
     - field.storage.node.field_words
     - node.type.object
-_core:
-  default_config_hash: 7yOPM5zv2KagdRR3Ua2K455ldhJiaertuvPgcC4w1_Q
+
 id: node.object.field_words
 field_name: field_words
 entity_type: node

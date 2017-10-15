@@ -1,4 +1,3 @@
-
 langcode: en
 status: true
 dependencies:
@@ -6,8 +5,7 @@ dependencies:
     - field.storage.user.field_int_tags_max
   module:
     - user
-_core:
-  default_config_hash: GUlBUM8nRcxX6hSeGdEGpHFaVst1pyN5ZIBKjV7BFH4
+
 id: user.user.field_int_tags_max
 field_name: field_int_tags_max
 entity_type: user

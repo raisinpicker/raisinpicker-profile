@@ -1,4 +1,3 @@
-
 langcode: en
 status: true
 dependencies:
@@ -18,19 +17,29 @@ dependencies:
     - rp_slider
 third_party_settings:
   field_layout:
-    id: ds_reset
+    id: ds_2col_stacked
     settings:
       wrappers:
-        ds_content: div
+        header: div
+        left: div
+        right: div
+        footer: div
       outer_wrapper: div
       attributes: ''
       link_attribute: ''
       link_custom: ''
       classes:
-        layout_class: {  }
-        ds_content: {  }
-_core:
-  default_config_hash: 3KRF8vtcgrA13NVHxua2IW4-QsDN_lP-zH0qRgx1jMM
+        layout_class:
+          row: row
+        header:
+          col-md-12: col-md-12
+        left:
+          col-md-4: col-md-4
+        right:
+          col-md-8: col-md-8
+        footer:
+          col-md-12: col-md-12
+
 id: node.knowledge.default
 targetEntityType: node
 bundle: knowledge
@@ -39,7 +48,7 @@ content:
   field_elements:
     type: entity_reference_paragraphs
     weight: 3
-    region: ds_content
+    region: right
     settings:
       title: Paragraph
       title_plural: Paragraphs
@@ -51,19 +60,19 @@ content:
   field_rating:
     type: nouislider_widget
     weight: 1
-    region: ds_content
+    region: left
     settings: {  }
     third_party_settings: {  }
   field_tags:
     type: rp_chosen
     weight: 2
-    region: ds_content
+    region: left
     settings: {  }
     third_party_settings: {  }
   title:
     type: string_textfield
     weight: 0
-    region: ds_content
+    region: header
     settings:
       size: 60
       placeholder: 'Enter title here'
@@ -75,5 +84,6 @@ hidden:
   field_words: true
   path: true
   promote: true
+  status: true
   sticky: true
   uid: true

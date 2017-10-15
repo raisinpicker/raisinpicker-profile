@@ -1,12 +1,10 @@
-
 langcode: en
 status: true
 dependencies:
   enforced:
     module:
       - rp_structure
-_core:
-  default_config_hash: 8rN5vQqhxuiMz3D9O6A1akSK4c2xgmTIt1ucuXcG_-Q
+
 name: Importer
 type: importer
 description: 'Technical type used for imports/feeds.'

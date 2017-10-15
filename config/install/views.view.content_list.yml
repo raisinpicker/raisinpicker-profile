@@ -1,4 +1,3 @@
-
 langcode: en
 status: true
 dependencies:
@@ -15,8 +14,7 @@ dependencies:
     - datatables
     - node
     - user
-_core:
-  default_config_hash: Dh500mJnyatJ_Tr7jVgLfx1fYrI78I1NF3t0zC4FQAI
+
 id: content_list
 label: 'Content List'
 module: views
@@ -680,9 +678,11 @@ display:
       defaults:
         style: false
         row: false
+        css_class: false
       row:
         type: fields
         options: {  }
+      css_class: datatable
     cache_metadata:
       max-age: 0
       contexts:

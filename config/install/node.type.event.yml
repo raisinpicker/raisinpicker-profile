@@ -1,12 +1,10 @@
-
 langcode: en
 status: true
 dependencies:
   enforced:
     module:
       - rp_structure
-_core:
-  default_config_hash: LbefbdpBtFl1il9ybWBKvkiyirxjTYOp3udhbO69N8I
+
 name: Event
 type: event
 description: 'Content type that can be used to describe events'

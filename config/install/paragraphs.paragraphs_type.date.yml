@@ -1,9 +1,7 @@
-
 langcode: en
 status: true
 dependencies: {  }
-_core:
-  default_config_hash: bY73KGDFtXvepKuEUfzPNLkdc-5Co-u5KClqD4CxhHI
+
 id: date
 label: Date
 behavior_plugins: {  }

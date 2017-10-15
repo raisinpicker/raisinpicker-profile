@@ -1,0 +1,23 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.paragraph.short
+    - field.field.paragraph.custom_field.field_id
+    - field.field.paragraph.custom_field.field_title
+    - paragraphs.paragraphs_type.custom_field
+id: paragraph.custom_field.short
+targetEntityType: paragraph
+bundle: custom_field
+mode: short
+content:
+  field_title:
+    type: string
+    weight: 0
+    region: content
+    label: inline
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+hidden:
+  field_id: true

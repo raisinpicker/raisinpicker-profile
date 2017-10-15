@@ -1,4 +1,3 @@
-
 langcode: en
 status: true
 dependencies:
@@ -10,7 +9,7 @@ dependencies:
 id: finder
 theme: bsmaterial
 region: sidebar_second
-weight: 0
+weight: -6
 provider: null
 plugin: rp_finder
 settings:

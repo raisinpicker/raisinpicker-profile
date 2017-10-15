@@ -1,4 +1,3 @@
-
 langcode: en
 status: true
 dependencies:
@@ -30,12 +29,12 @@ third_party_settings:
       ds_content:
         - field_title
         - 'dynamic_token_field:paragraph-paragraph_meta'
-        - field_date_time
         - 'dynamic_token_field:paragraph-paragraph_actions'
+        - field_date_time
     fields:
       'dynamic_token_field:paragraph-paragraph_actions':
         plugin_id: 'dynamic_token_field:paragraph-paragraph_actions'
-        weight: 3
+        weight: 2
         label: hidden
         formatter: default
       'dynamic_token_field:paragraph-paragraph_meta':
@@ -43,35 +42,19 @@ third_party_settings:
         weight: 1
         label: hidden
         formatter: default
-_core:
-  default_config_hash: G0iqXHiFc6hu1mJjnJxK17zLDA1BxDQ3lSZpkHBX6bI
+
 id: paragraph.date.default
 targetEntityType: paragraph
 bundle: date
 mode: default
 content:
   field_date_time:
-    weight: 2
+    weight: 3
     label: hidden
     settings:
       timezone_override: ''
       format_type: medium
       separator: '-'
-    third_party_settings:
-      ds:
-        ft:
-          id: default
-          settings:
-            lb: ''
-            lb-col: false
-            classes: {  }
-    type: daterange_default
-    region: ds_content
-  field_title:
-    weight: 0
-    label: hidden
-    settings:
-      link_to_entity: false
     third_party_settings:
       ds:
         ft:
@@ -89,7 +72,7 @@ content:
             fis-cl: ''
             fis-at: ''
             fi: true
-            fi-el: h2
+            fi-el: h4
             fi-cl: ''
             fi-at: ''
             suffix: ''
@@ -100,6 +83,42 @@ content:
             ow-def-cl: false
             fis: false
             fis-def-at: false
+            fi-def-at: false
+    type: daterange_default
+    region: ds_content
+  field_title:
+    weight: 0
+    label: inline
+    settings:
+      link_to_entity: false
+    third_party_settings:
+      ds:
+        ft:
+          id: expert
+          settings:
+            lb: ''
+            prefix: ''
+            lbw: true
+            lbw-el: span
+            lbw-cl: 'label label-primary'
+            lbw-at: ''
+            ow: true
+            ow-el: h2
+            ow-cl: ''
+            ow-at: ''
+            fis-el: ''
+            fis-cl: ''
+            fis-at: ''
+            fi-el: h2
+            fi-cl: ''
+            fi-at: ''
+            suffix: ''
+            lb-col: false
+            ow-def-at: false
+            ow-def-cl: false
+            fis: false
+            fis-def-at: false
+            fi: false
             fi-def-at: false
     type: string
     region: ds_content

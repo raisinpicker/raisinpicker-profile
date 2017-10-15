@@ -1,4 +1,3 @@
-
 langcode: en
 status: true
 dependencies:
@@ -15,8 +14,7 @@ dependencies:
     - ds
     - entity_reference_revisions
     - user
-_core:
-  default_config_hash: _ZJnmbonSySI3P93bcCLBTp8eT9AUVYPkHRXZ7gm3j4
+
 id: node.knowledge.card
 targetEntityType: node
 bundle: knowledge
@@ -70,6 +68,9 @@ content:
     settings:
       link: true
     third_party_settings: {  }
+  flag_star:
+    weight: 10
+    region: content
   views:
     weight: 12
     region: footer

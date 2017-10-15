@@ -1,9 +1,0 @@
-
-langcode: en
-status: true
-dependencies: {  }
-_core:
-  default_config_hash: ZmZPHzVjduQyrPhI2-Ld7DlkmYb8EZcoSe0lw7i9QdU
-id: identifier
-label: Identifier
-behavior_plugins: {  }

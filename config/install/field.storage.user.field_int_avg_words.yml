@@ -1,11 +1,9 @@
-
 langcode: en
 status: true
 dependencies:
   module:
     - user
-_core:
-  default_config_hash: qApViGz0cEJ17vhjzjBWM6y7bTFlbOFO8SW3Adu-yCg
+
 id: user.field_int_avg_words
 field_name: field_int_avg_words
 entity_type: user

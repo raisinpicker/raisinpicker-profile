@@ -1,4 +1,3 @@
-
 langcode: en
 status: true
 dependencies:
@@ -9,8 +8,7 @@ dependencies:
     - entity_reference_revisions
     - node
     - paragraphs
-_core:
-  default_config_hash: 0GJIsQ3TaqubxcpnSyMJMtLLVy_vhrpXM9OVGyGXC4U
+
 id: node.field_elements
 field_name: field_elements
 entity_type: node

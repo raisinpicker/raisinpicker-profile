@@ -1,10 +1,8 @@
-_core:
-  default_config_hash: _5qrDuRmWmRVjW00si3U1s1NrgrocA4N653EYGRfgEE
+
 schemas:
   bootstrap: 8000
   bsmaterial: 8000
 popover_enabled: 0
-tooltip_enabled: 0
 button_iconize: 0
 button_size: btn-sm
 navbar_position: static-top
@@ -18,6 +16,12 @@ region_wells:
   sidebar_first: well
   sidebar_second: ''
   footer: ''
+table_condensed: 1
+table_hover: 0
+table_striped: 0
+tooltip_placement: 'auto top'
+tooltip_container: ''
+tooltip_delay: '0'
 favicon:
   mimetype: image/vnd.microsoft.icon
   path: ''
@@ -32,7 +36,4 @@ logo:
   path: ''
   url: ''
   use_default: false
-table_condensed: 1
-table_hover: 0
-table_striped: 0
 table: ''

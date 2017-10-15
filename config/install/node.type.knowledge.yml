@@ -1,4 +1,3 @@
-
 langcode: en
 status: true
 dependencies:
@@ -12,12 +11,11 @@ third_party_settings:
     available_menus:
       - main
     parent: 'main:'
-_core:
-  default_config_hash: J5ruQ2DRTiTnEqji8cZaVOabSraqVpx_kfMRNREgZNw
+
 name: Knowledge
 type: knowledge
 description: 'Basic content type that can be used to describe any kind of knowledge'
 help: ''
 new_revision: true
-preview_mode: 1
+preview_mode: 0
 display_submitted: true

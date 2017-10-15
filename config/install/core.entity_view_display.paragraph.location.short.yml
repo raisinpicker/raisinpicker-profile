@@ -1,4 +1,3 @@
-
 langcode: en
 status: true
 dependencies:
@@ -9,8 +8,7 @@ dependencies:
     - paragraphs.paragraphs_type.location
   module:
     - ds
-_core:
-  default_config_hash: _COJJlBqhQH7EOIUg3ZHRYbBTOVxwBWf98E-QEnTG78
+
 id: paragraph.location.short
 targetEntityType: paragraph
 bundle: location

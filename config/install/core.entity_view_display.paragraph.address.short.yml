@@ -1,0 +1,32 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.paragraph.short
+    - field.field.paragraph.address.field_address
+    - field.field.paragraph.address.field_title
+    - paragraphs.paragraphs_type.address
+  module:
+    - ds
+id: paragraph.address.short
+targetEntityType: paragraph
+bundle: address
+mode: short
+content:
+  field_title:
+    weight: 0
+    label: inline
+    settings:
+      link_to_entity: false
+    third_party_settings:
+      ds:
+        ft:
+          id: default
+          settings:
+            lb: ''
+            lb-col: false
+            classes: {  }
+    type: string
+    region: content
+hidden:
+  field_address: true

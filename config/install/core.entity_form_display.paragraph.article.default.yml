@@ -1,4 +1,3 @@
-
 langcode: en
 status: true
 dependencies:
@@ -7,9 +6,14 @@ dependencies:
     - field.field.paragraph.article.field_title
     - paragraphs.paragraphs_type.article
   module:
+    - field_layout
+    - layout_discovery
     - text
-_core:
-  default_config_hash: 8i4pfIs0cnLly0MwSBx7aVgl9o56xHEYbluGASrMuwE
+third_party_settings:
+  field_layout:
+    id: layout_onecol
+    settings: {  }
+
 id: paragraph.article.default
 targetEntityType: paragraph
 bundle: article
@@ -29,7 +33,7 @@ content:
     region: content
     settings:
       size: 60
-      placeholder: ''
+      placeholder: 'Enter article title here'
     third_party_settings: {  }
 hidden:
   created: true

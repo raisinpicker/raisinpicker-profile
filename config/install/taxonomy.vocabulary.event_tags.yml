@@ -1,12 +1,10 @@
-
 langcode: en
 status: true
 dependencies:
   enforced:
     module:
       - rp_structure
-_core:
-  default_config_hash: hzpbBbUYsLOZtgOgn0Hyvo--ZzmGnjA1KtAM6jr4cbc
+
 name: 'Event Tags'
 vid: event_tags
 description: 'Use tags to categorize events.'

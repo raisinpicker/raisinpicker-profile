@@ -1,4 +1,3 @@
-
 langcode: en
 status: true
 dependencies:
@@ -7,8 +6,7 @@ dependencies:
     - node.type.event
   module:
     - entity_reference_revisions
-_core:
-  default_config_hash: bQj04xtOjgyiE03cfqgWSH5lpNsXn0NNAubMtJ-lnak
+
 id: node.event.field_elements
 field_name: field_elements
 entity_type: node

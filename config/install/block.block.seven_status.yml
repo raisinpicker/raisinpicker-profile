@@ -1,0 +1,38 @@
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:12ade4ab-db49-46f7-b9f0-9a353be2707b'
+  module:
+    - block_content
+    - system
+    - user
+  theme:
+    - seven
+id: seven_status
+theme: seven
+region: highlighted
+weight: 0
+provider: null
+plugin: 'block_content:12ade4ab-db49-46f7-b9f0-9a353be2707b'
+settings:
+  id: 'block_content:12ade4ab-db49-46f7-b9f0-9a353be2707b'
+  label: Status
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }
+  user_role:
+    id: user_role
+    roles:
+      authenticated: authenticated
+    negate: false
+    context_mapping:
+      user: '@user.current_user_context:current_user'

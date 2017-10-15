@@ -1,8 +1,8 @@
-
 langcode: en
 status: true
 dependencies:
   config:
+    - core.entity_view_mode.node.card
     - field.storage.node.field_rating
     - node.type.collection
     - node.type.event
@@ -12,11 +12,11 @@ dependencies:
     - node.type.place
     - node.type.publication
   module:
+    - better_exposed_filters
     - node
     - user
     - views_infinite_scroll
-_core:
-  default_config_hash: 76RT-N9PElhhcoH1SEe2vM4oc1UOxYXFwYnQ8AcumoM
+
 id: recent
 label: Recent
 module: views
@@ -598,6 +598,57 @@ display:
     display_options:
       display_extenders: {  }
       path: recent
+      style:
+        type: grid
+        options:
+          uses_fields: false
+          columns: 2
+          automatic_width: true
+          alignment: horizontal
+          col_class_default: false
+          col_class_custom: col-md-6
+          row_class_default: false
+          row_class_custom: row
+      defaults:
+        style: false
+        row: false
+        use_ajax: false
+        exposed_form: false
+      row:
+        type: 'entity:node'
+        options:
+          relationship: none
+          view_mode: card
+      use_ajax: true
+      exposed_form:
+        type: bef
+        options:
+          submit_button: Apply
+          reset_button: false
+          reset_button_label: Reset
+          exposed_sorts_label: 'Sort by'
+          expose_sort_order: true
+          sort_asc_label: Asc
+          sort_desc_label: Desc
+          input_required: false
+          text_input_required: 'Select any filter and click on Apply to see results'
+          bef:
+            general:
+              allow_secondary: false
+              secondary_label: 'Advanced options'
+              autosubmit: true
+              autosubmit_hide: true
+            sort:
+              bef_format: default
+              advanced:
+                collapsible: false
+                collapsible_label: 'Sort options'
+                combine: false
+                combine_rewrite: ''
+                reset: false
+                reset_label: ''
+                is_secondary: false
+          text_input_required_format: basic_html
     cache_metadata:
       max-age: -1
       contexts:

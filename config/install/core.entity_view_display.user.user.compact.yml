@@ -1,17 +1,37 @@
-
 langcode: en
-status: true
+status: false
 dependencies:
   config:
     - core.entity_view_mode.user.compact
+    - field.field.user.user.field_channel
+    - field.field.user.user.field_int_avg_edits
+    - field.field.user.user.field_int_avg_rating
+    - field.field.user.user.field_int_avg_relations
+    - field.field.user.user.field_int_avg_tags
+    - field.field.user.user.field_int_avg_views
+    - field.field.user.user.field_int_avg_words
+    - field.field.user.user.field_int_tags_max
+    - field.field.user.user.field_notification
+    - field.field.user.user.field_review
+    - field.field.user.user.user_picture
   module:
     - user
-_core:
-  default_config_hash: '-cLsS3M3JycipXQt9rEb81_HxKneReoGuRh8ijcOPXs'
+
 id: user.user.compact
 targetEntityType: user
 bundle: user
 mode: compact
 content: {  }
 hidden:
+  field_channel: true
+  field_int_avg_edits: true
+  field_int_avg_rating: true
+  field_int_avg_relations: true
+  field_int_avg_tags: true
+  field_int_avg_views: true
+  field_int_avg_words: true
+  field_int_tags_max: true
+  field_notification: true
+  field_review: true
   member_for: true
+  user_picture: true

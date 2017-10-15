@@ -1,4 +1,3 @@
-
 langcode: en
 status: true
 dependencies:
@@ -6,8 +5,7 @@ dependencies:
     - file
     - image
     - paragraphs
-_core:
-  default_config_hash: 6edwvsyS9k0MbVc6Z-AtdxZkWojtKj-7vghXFvleFa8
+
 id: paragraph.field_image
 field_name: field_image
 entity_type: paragraph

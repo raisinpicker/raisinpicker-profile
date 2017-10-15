@@ -1,12 +1,10 @@
-
 langcode: en
 status: true
 dependencies:
   config:
     - field.storage.node.field_words
     - node.type.event
-_core:
-  default_config_hash: eLWUkTAKnaHUiAXGz4pk3nNS5pzjy6Q-N4wCLYaZd1w
+
 id: node.event.field_words
 field_name: field_words
 entity_type: node

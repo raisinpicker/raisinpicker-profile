@@ -1,4 +1,3 @@
-
 langcode: en
 status: true
 dependencies:
@@ -7,8 +6,7 @@ dependencies:
     - node.type.publication
   module:
     - entity_reference_revisions
-_core:
-  default_config_hash: W_s2wpK2zuxbQuskuOt5APWFDx_8I6vPzveF2ePKC8g
+
 id: node.publication.field_elements
 field_name: field_elements
 entity_type: node
