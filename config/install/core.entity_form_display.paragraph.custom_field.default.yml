@@ -1,0 +1,39 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.custom_field.field_id
+    - field.field.paragraph.custom_field.field_title
+    - paragraphs.paragraphs_type.custom_field
+  module:
+    - field_layout
+    - layout_discovery
+third_party_settings:
+  field_layout:
+    id: layout_onecol
+    settings: {  }
+id: paragraph.custom_field.default
+targetEntityType: paragraph
+bundle: custom_field
+mode: default
+content:
+  field_id:
+    weight: 2
+    settings:
+      size: 60
+      placeholder: 'Enter value'
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_title:
+    weight: 0
+    settings:
+      size: 60
+      placeholder: 'Enter type of value'
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+hidden:
+  created: true
+  status: true
+  uid: true

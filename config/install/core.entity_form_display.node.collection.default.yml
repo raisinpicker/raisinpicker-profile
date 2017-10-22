@@ -1,4 +1,3 @@
-
 langcode: en
 status: true
 dependencies:
@@ -11,44 +10,69 @@ dependencies:
     - field.field.node.collection.field_words
     - node.type.collection
   module:
-    - chosen_field
+    - ds
+    - field_layout
     - paragraphs
-_core:
-  default_config_hash: CYiTeP_j8uHiophgBEEsGybe82bEp6vXTms0BQv2AWI
+    - rp_chosen
+    - rp_slider
+third_party_settings:
+  field_layout:
+    id: ds_2col_stacked
+    settings:
+      wrappers:
+        header: div
+        left: div
+        right: div
+        footer: div
+      outer_wrapper: div
+      attributes: ''
+      link_attribute: ''
+      link_custom: ''
+      classes:
+        layout_class:
+          row: row
+        header:
+          col-md-12: col-md-12
+        left:
+          col-md-4: col-md-4
+        right:
+          col-md-8: col-md-8
+        footer:
+          col-md-12: col-md-12
+
 id: node.collection.default
 targetEntityType: node
 bundle: collection
 mode: default
 content:
   field_elements:
-    type: paragraphs
-    weight: 4
-    region: content
+    type: entity_reference_paragraphs
+    weight: 3
+    region: right
     settings:
       title: Paragraph
       title_plural: Paragraphs
-      edit_mode: open
+      edit_mode: closed
       add_mode: dropdown
       form_display_mode: default
-      default_paragraph_type: ''
+      default_paragraph_type: description
     third_party_settings: {  }
   field_rating:
-    type: number
+    type: nouislider_widget
     weight: 1
-    region: content
-    settings:
-      placeholder: ''
+    region: left
+    settings: {  }
     third_party_settings: {  }
   field_tags:
-    type: chosen_select
+    type: rp_chosen
     weight: 2
-    region: content
+    region: left
     settings: {  }
     third_party_settings: {  }
   title:
     type: string_textfield
     weight: 0
-    region: content
+    region: header
     settings:
       size: 60
       placeholder: 'Enter title here'
@@ -60,5 +84,6 @@ hidden:
   field_words: true
   path: true
   promote: true
+  status: true
   sticky: true
   uid: true

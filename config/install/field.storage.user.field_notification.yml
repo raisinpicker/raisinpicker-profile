@@ -1,12 +1,10 @@
-
 langcode: en
 status: true
 dependencies:
   module:
     - options
     - user
-_core:
-  default_config_hash: NcU90l4zmJPDMmebPt4MjyZIc-F4gfFpz9cFaCdLsHI
+
 id: user.field_notification
 field_name: field_notification
 entity_type: user

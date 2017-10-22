@@ -1,4 +1,3 @@
-
 langcode: en
 status: true
 dependencies: {  }
@@ -156,7 +155,7 @@ display:
           decimal: .
           separator: ''
           format_plural: false
-          format_plural_string: "1\x03@count"
+          format_plural_string: !!binary MQNAY291bnQ=
           prefix: ''
           suffix: ''
           entity_type: null

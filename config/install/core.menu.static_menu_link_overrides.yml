@@ -17,12 +17,6 @@ definitions:
     parent: rp_structure.actions
     expanded: false
     enabled: true
-  rp_structure__tasks:
-    enabled: false
-    menu_name: main
-    parent: ''
-    weight: 3
-    expanded: true
   rp_structure__tasks_reminders:
     weight: -48
     parent: rp_structure.actions
@@ -41,5 +35,46 @@ definitions:
     menu_name: main
     expanded: false
     enabled: true
-_core:
-  default_config_hash: jdY7AU0tU-QsjmiOw3W8vwpYMb-By--_MSFgbqKUTYM
+  standard__front_page:
+    weight: -50
+    menu_name: main
+    parent: ''
+    enabled: false
+    expanded: false
+  rp_structure__create:
+    weight: -49
+    menu_name: main
+    parent: ''
+    expanded: true
+    enabled: true
+  rp_structure__tasks:
+    weight: -48
+    menu_name: main
+    parent: ''
+    expanded: true
+    enabled: true
+  rp_structure__tools:
+    weight: -47
+    menu_name: main
+    parent: ''
+    expanded: true
+    enabled: true
+  rp_structure__reports:
+    weight: -46
+    menu_name: main
+    parent: ''
+    expanded: true
+    enabled: true
+  rp_structure__train:
+    weight: -45
+    menu_name: main
+    parent: ''
+    expanded: true
+    enabled: true
+  rp_structure__starred:
+    weight: -44
+    menu_name: main
+    parent: ''
+    expanded: false
+    enabled: true
+

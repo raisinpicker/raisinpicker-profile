@@ -1,11 +1,9 @@
-
 langcode: en
 status: true
 dependencies:
   theme:
     - bsmaterial
-_core:
-  default_config_hash: 1TQP4b3ZnlzvIH9bj6cpCz_SyUHdJjLQkZnHpikjjhw
+
 id: bsmaterial_page_title
 theme: bsmaterial
 region: header

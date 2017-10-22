@@ -1,4 +1,3 @@
-
 langcode: en
 status: true
 dependencies:
@@ -9,8 +8,7 @@ dependencies:
     - paragraphs.paragraphs_type.comment
   module:
     - ds
-_core:
-  default_config_hash: GGyNRq4SP7hRXVmYsq6if-PMq95hYGjVfN4TG8XgrGg
+
 id: paragraph.comment.short
 targetEntityType: paragraph
 bundle: comment

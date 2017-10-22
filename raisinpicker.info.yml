@@ -7,39 +7,99 @@ distribution:
   name: Raisin Picker
   langcode: en
 dependencies:
-  - node
-  - history
+  - action
+  - address
+  - admin_toolbar
+  - admin_toolbar_tools
+  - auto_entitylabel
+  - automated_cron
+  - backup_migrate
+  - better_exposed_filters
   - block
+  - block_content
+  - bootstrap_layouts
   - breakpoint
+  - bulk_update_fields
+  - chosen
+  - chosen_field
+  - chosen_lib
   - ckeditor
   - color
   - config
-  - comment
-  - contextual
-  - contact
-  - menu_link_content
+  - csv_serialization
+  - ctools
+  - datatables
   - datetime
-  - block_content
-  - quickedit
-  - editor
-  - help
-  - image
-  - menu_ui
-  - options
-  - path
-  - page_cache
-  - dynamic_page_cache
-  - taxonomy
+  - datetime_range
   - dblog
-  - search
-  - shortcut
-  - toolbar
+  - default_content
+  - devel
+  - diff
+  - dynamic_page_cache
+  - editor
+  - entity_reference_revisions
+  - facets
+  - facets_range_widget
+  - field
+  - field_layout
   - field_ui
   - file
-  - views
+  - filter
+  - flag
+  - geolocation
+  - hal
+  - help
+  - image
+  - inline_form_errors
+  - layout_discovery
+  - leaflet
+  - leaflet_more_maps
+  - leaflet_views
+  - link
+  - menu_ui
+  - node
+  - nodeviewcount
+  - options
+  - page_cache
+  - path
+  - pathauto
+  - private_taxonomy
+  - redirect
+  - rest
+  - rules
+  - search_api
+  - search_api_autocomplete
+  - search_api_db
+  - search_api_views_taxonomy
+  - serialization
+  - system
+  - tablefield
+  - taxonomy
+  - term_reference_tree
+  - text
+  - token
+  - toolbar
+  - typed_data
+  - update
+  - user
+  - views_autocomplete_filters
+  - views_data_export
+  - views_infinite_scroll
+  - views_simplechart
+  - views_tree
   - views_ui
-  - tour
-  - automated_cron
+  - ds
+  - menu_link_content
+  - ds_extras
+  - views
+  - paragraphs
+  - rp_structure
+  - rp_chosen
+  - rp_d3
+  - rp_finder
+  - rp_graph
+  - rp_shortcut
+  - rp_slider
 themes:
   - bsmaterial
   - adminimal_theme

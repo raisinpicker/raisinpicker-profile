@@ -1,4 +1,3 @@
-
 langcode: en
 status: true
 dependencies:
@@ -8,8 +7,7 @@ dependencies:
     - system
   theme:
     - bsmaterial
-_core:
-  default_config_hash: h06zhb3xV9_2_3Zy9NsyylL7YBaEDlMwMEqNwAn8kMo
+
 id: bsmaterial_footer
 theme: bsmaterial
 region: footer

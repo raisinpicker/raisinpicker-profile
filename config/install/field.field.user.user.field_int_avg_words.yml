@@ -1,4 +1,3 @@
-
 langcode: en
 status: true
 dependencies:
@@ -6,8 +5,7 @@ dependencies:
     - field.storage.user.field_int_avg_words
   module:
     - user
-_core:
-  default_config_hash: LyoBRn_aRh_VB7QPfmrQghwYGgiXtaoSJiGXpEa0yWk
+
 id: user.user.field_int_avg_words
 field_name: field_int_avg_words
 entity_type: user

@@ -1,9 +1,7 @@
-
 langcode: en
 status: true
 dependencies: {  }
-_core:
-  default_config_hash: VWyUYjDSS2SbLUoPC3RxZR8WmhAXLrb7xrWXENygBXA
+
 id: subscribed_user
 label: 'Subscribed user'
 weight: 3

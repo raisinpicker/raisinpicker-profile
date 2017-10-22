@@ -1,15 +1,13 @@
-
 langcode: en
 status: true
 dependencies:
   theme:
     - bsmaterial
-_core:
-  default_config_hash: ffxthelqQF8xcr4GTG4HlaNNsluiHftN0pujmQpW0bQ
+
 id: bsmaterial_local_actions
 theme: bsmaterial
 region: content
-weight: -5
+weight: -8
 provider: null
 plugin: local_actions_block
 settings:

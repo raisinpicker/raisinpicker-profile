@@ -1,12 +1,10 @@
-
 langcode: en
 status: true
 dependencies:
   enforced:
     module:
       - rp_structure
-_core:
-  default_config_hash: ztzhpfZ1HrlRKue_NeIe847w9Cz87YiFvFnUZg-Q950
+
 name: 'Object Tags'
 vid: object_tags
 description: 'Use tags to categorize objects.'

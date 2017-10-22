@@ -1,4 +1,3 @@
-
 langcode: en
 status: true
 dependencies:
@@ -6,8 +5,7 @@ dependencies:
     - field.storage.user.field_int_avg_rating
   module:
     - user
-_core:
-  default_config_hash: xLA7DeuskDZPb5bl26nDxsLP4TFZAm6yN1aKQ6CMbEg
+
 id: user.user.field_int_avg_rating
 field_name: field_int_avg_rating
 entity_type: user

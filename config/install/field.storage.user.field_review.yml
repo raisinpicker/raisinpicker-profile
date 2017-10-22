@@ -1,12 +1,10 @@
-
 langcode: en
 status: true
 dependencies:
   module:
     - options
     - user
-_core:
-  default_config_hash: IBTDPC5WIw0TrUO372dT79CulGnYPRU7aPwWc3_PLnc
+
 id: user.field_review
 field_name: field_review
 entity_type: user

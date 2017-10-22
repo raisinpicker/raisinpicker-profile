@@ -1,4 +1,3 @@
-
 langcode: en
 status: true
 dependencies:
@@ -31,20 +30,13 @@ third_party_settings:
         - field_title
         - 'dynamic_token_field:paragraph-paragraph_meta'
         - field_text
-        - 'dynamic_token_field:paragraph-paragraph_actions'
     fields:
-      'dynamic_token_field:paragraph-paragraph_actions':
-        plugin_id: 'dynamic_token_field:paragraph-paragraph_actions'
-        weight: 3
-        label: hidden
-        formatter: default
       'dynamic_token_field:paragraph-paragraph_meta':
         plugin_id: 'dynamic_token_field:paragraph-paragraph_meta'
         weight: 1
         label: hidden
         formatter: default
-_core:
-  default_config_hash: _Tdiq5BrUVuY-TDG8OFJokD6EnSy38NoWGmocHGmgqI
+
 id: paragraph.article.default
 targetEntityType: paragraph
 bundle: article
@@ -52,7 +44,7 @@ mode: default
 content:
   field_text:
     type: text_default
-    weight: 2
+    weight: 3
     region: ds_content
     label: hidden
     settings: {  }
@@ -61,7 +53,7 @@ content:
     type: string
     weight: 0
     region: ds_content
-    label: hidden
+    label: inline
     settings:
       link_to_entity: false
     third_party_settings:
@@ -71,26 +63,26 @@ content:
           settings:
             lb: ''
             prefix: ''
-            lbw-el: ''
-            lbw-cl: ''
+            lbw: true
+            lbw-el: span
+            lbw-cl: field--label
             lbw-at: ''
-            ow-el: ''
+            ow: true
+            ow-el: h2
             ow-cl: ''
             ow-at: ''
             fis-el: ''
             fis-cl: ''
             fis-at: ''
-            fi: true
             fi-el: h2
             fi-cl: ''
             fi-at: ''
             suffix: ''
-            lbw: false
             lb-col: false
-            ow: false
             ow-def-at: false
             ow-def-cl: false
             fis: false
             fis-def-at: false
+            fi: false
             fi-def-at: false
 hidden: {  }

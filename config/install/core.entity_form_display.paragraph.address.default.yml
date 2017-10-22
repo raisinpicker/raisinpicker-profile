@@ -1,0 +1,39 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.address.field_address
+    - field.field.paragraph.address.field_title
+    - paragraphs.paragraphs_type.address
+  module:
+    - address
+    - field_layout
+    - layout_discovery
+third_party_settings:
+  field_layout:
+    id: layout_onecol
+    settings: {  }
+id: paragraph.address.default
+targetEntityType: paragraph
+bundle: address
+mode: default
+content:
+  field_address:
+    weight: 1
+    settings:
+      default_country: site_default
+    third_party_settings: {  }
+    type: address_default
+    region: content
+  field_title:
+    weight: 0
+    settings:
+      size: 60
+      placeholder: 'Enter address title here'
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+hidden:
+  created: true
+  status: true
+  uid: true

@@ -1,11 +1,9 @@
-
 langcode: en
 status: true
 dependencies:
   module:
     - user
-_core:
-  default_config_hash: ApnKOISntHy-VA7v0p5Pw7pTnUfpFo2u66A29_MO5yY
+
 id: user.field_int_avg_rating
 field_name: field_int_avg_rating
 entity_type: user

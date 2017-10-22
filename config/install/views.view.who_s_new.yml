@@ -1,11 +1,9 @@
-
 langcode: en
 status: true
 dependencies:
   module:
     - user
-_core:
-  default_config_hash: o_8fSWHZOVIbydZACGsSX09DtuJhqkRmNOzcVj-4bQI
+
 id: who_s_new
 label: 'Who''s new'
 module: user

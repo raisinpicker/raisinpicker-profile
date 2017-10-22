@@ -1,0 +1,13 @@
+nodeviewcount.settings:
+  path: '/admin/config/content/nodeviewcount'
+  defaults:
+    _form: 'Drupal\nodeviewcount\Form\NodeViewCountSettingsForm'
+    _title: 'Node view count settings'
+  requirements:
+    _permission: 'administer modules'
+nodeviewcount.update_counter:
+  path: '/nodeviewcount/updateCounter'
+  defaults:
+    _controller: '\Drupal\nodeviewcount\Controller\NodeViewCountController::updateCounter'
+  requirements:
+    _permission: 'access content'

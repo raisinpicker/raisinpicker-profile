@@ -1,4 +1,3 @@
-
 langcode: en
 status: true
 dependencies:
@@ -9,8 +8,7 @@ dependencies:
     - node
     - user
     - views_infinite_scroll
-_core:
-  default_config_hash: SspEb79myl6DbtBTMQP21hD2PulYX_9zxxeXliTj8VM
+
 id: history
 label: History
 module: views

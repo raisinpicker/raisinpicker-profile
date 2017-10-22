@@ -1,4 +1,3 @@
-
 langcode: en
 status: true
 dependencies:
@@ -12,7 +11,7 @@ dependencies:
 id: exposedformbulkpage_1
 theme: bsmaterial
 region: sidebar_first
-weight: 0
+weight: -9
 provider: null
 plugin: 'views_exposed_filter_block:bulk-page_1'
 settings:

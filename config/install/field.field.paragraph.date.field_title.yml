@@ -1,12 +1,10 @@
-
 langcode: en
 status: true
 dependencies:
   config:
     - field.storage.paragraph.field_title
     - paragraphs.paragraphs_type.date
-_core:
-  default_config_hash: j5Uu3en9sKMgtaXS0h9yyyjrC22KBmUFXFAKpoVPALI
+
 id: paragraph.date.field_title
 field_name: field_title
 entity_type: paragraph

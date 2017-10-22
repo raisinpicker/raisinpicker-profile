@@ -1,12 +1,10 @@
-
 langcode: en
 status: true
 dependencies:
   config:
     - field.storage.node.field_rating
     - node.type.event
-_core:
-  default_config_hash: fUMWnGvjKwPfirbdpahmpkCbnA18dIhWZPbuDr6TkFw
+
 id: node.event.field_rating
 field_name: field_rating
 entity_type: node

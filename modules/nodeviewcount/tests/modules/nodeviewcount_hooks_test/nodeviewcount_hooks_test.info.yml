@@ -1,0 +1,5 @@
+name: 'Nodeviewcount module hooks tests'
+type: module
+description: 'Support module for nodeviewcount hooks testing.'
+package: Testing
+core: 8.x

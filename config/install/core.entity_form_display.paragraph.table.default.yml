@@ -1,4 +1,3 @@
-
 langcode: en
 status: true
 dependencies:
@@ -8,8 +7,7 @@ dependencies:
     - paragraphs.paragraphs_type.table
   module:
     - tablefield
-_core:
-  default_config_hash: 4XnuajCspdOMZbqRn_rbTfwOaw0uNsEn6lETe0iOCaI
+
 id: paragraph.table.default
 targetEntityType: paragraph
 bundle: table

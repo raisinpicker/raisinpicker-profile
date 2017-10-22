@@ -1,9 +1,7 @@
-
 langcode: en
 status: true
 dependencies: {  }
-_core:
-  default_config_hash: T62CA-wJIq_VQOnTt6QCjncMqJjV9fftRbhhjWM9daY
+
 id: article
 label: Article
 behavior_plugins: {  }

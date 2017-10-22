@@ -1,9 +1,7 @@
-
 langcode: en
 status: true
 dependencies: {  }
-_core:
-  default_config_hash: z7Fbfn8hXby7YzhVCOo65jVfBgo4c9hpFfv1r1h-joU
+
 id: technical
 label: Technical
 weight: 4

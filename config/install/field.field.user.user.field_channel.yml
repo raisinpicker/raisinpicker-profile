@@ -1,4 +1,3 @@
-
 langcode: en
 status: true
 dependencies:
@@ -7,8 +6,7 @@ dependencies:
   module:
     - options
     - user
-_core:
-  default_config_hash: GEEXHYBKQSGKpd68zmY-iliUWbl6DsbpYbvhZG93odA
+
 id: user.user.field_channel
 field_name: field_channel
 entity_type: user

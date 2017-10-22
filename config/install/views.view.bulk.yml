@@ -1,4 +1,3 @@
-
 langcode: en
 status: true
 dependencies:
@@ -12,13 +11,14 @@ dependencies:
     - node.type.person
     - node.type.place
     - node.type.publication
+    - taxonomy.vocabulary.tags
   module:
     - better_exposed_filters
     - node
+    - taxonomy
     - user
     - views_autocomplete_filters
-_core:
-  default_config_hash: j6loU8A2nc_nZbuTDhg1Sshofgahrlx3gUBP1pvxSoo
+
 id: bulk
 label: Bulk
 module: views
@@ -53,7 +53,7 @@ display:
         type: bef
         options:
           submit_button: Apply
-          reset_button: false
+          reset_button: true
           reset_button_label: Reset
           exposed_sorts_label: 'Sort by'
           expose_sort_order: true
@@ -67,6 +67,45 @@ display:
               secondary_label: 'Advanced options'
               autosubmit: false
               autosubmit_hide: false
+            sort:
+              bef_format: default
+              advanced:
+                collapsible: false
+                collapsible_label: 'Sort options'
+                combine: false
+                combine_rewrite: ''
+                reset: false
+                reset_label: ''
+                is_secondary: false
+            type_1:
+              bef_format: bef
+              more_options:
+                bef_select_all_none: false
+                bef_collapsible: false
+                is_secondary: false
+                rewrite:
+                  filter_rewrite_values: ''
+            title:
+              bef_format: default
+              more_options:
+                is_secondary: false
+                placeholder_text: ''
+            field_rating_value:
+              bef_format: default
+              slider_options:
+                bef_slider_min: null
+                bef_slider_max: null
+                bef_slider_step: !!float 1
+                bef_slider_animate: ''
+                bef_slider_orientation: ''
+              more_options:
+                is_secondary: false
+            field_tags_target_id:
+              bef_format: default
+              more_options:
+                is_secondary: false
+                rewrite:
+                  filter_rewrite_values: ''
           text_input_required_format: basic_html
       pager:
         type: mini
@@ -142,10 +181,11 @@ display:
           action_title: Action
           include_exclude: include
           selected_actions:
+            - bulk_update_fields_to_another_value
             - flag_action.review.flag
             - flag_action.review.unflag
-            - flag_action.work_in_progress.flag
-            - flag_action.work_in_progress.unflag
+            - flag_action.star.flag
+            - flag_action.star.unflag
             - node_delete_action
           entity_type: node
           plugin_id: node_bulk_form
@@ -517,7 +557,7 @@ display:
             identifier: type_1
             required: false
             remember: false
-            multiple: false
+            multiple: true
             remember_roles:
               authenticated: authenticated
               anonymous: '0'
@@ -554,7 +594,7 @@ display:
           expose:
             operator_id: title_op
             label: Title
-            description: ''
+            description: 'Enter words contained in title'
             use_operator: false
             operator: title_op
             identifier: title
@@ -589,22 +629,153 @@ display:
           entity_type: node
           entity_field: title
           plugin_id: views_autocomplete_filters_string
+        field_rating_value:
+          id: field_rating_value
+          table: node__field_rating
+          field: field_rating_value
+          relationship: none
+          group_type: group
+          admin_label: ''
+          operator: '='
+          value:
+            min: ''
+            max: ''
+            value: ''
+          group: 1
+          exposed: true
+          expose:
+            operator_id: field_rating_value_op
+            label: Rating
+            description: ''
+            use_operator: false
+            operator: field_rating_value_op
+            identifier: field_rating_value
+            required: false
+            remember: false
+            multiple: false
+            remember_roles:
+              authenticated: authenticated
+              anonymous: '0'
+              administrator: '0'
+              subscribed_user: '0'
+              technical: '0'
+          is_grouped: false
+          group_info:
+            label: ''
+            description: ''
+            identifier: ''
+            optional: true
+            widget: select
+            multiple: false
+            remember: false
+            default_group: All
+            default_group_multiple: {  }
+            group_items: {  }
+          plugin_id: numeric
+        field_tags_target_id:
+          id: field_tags_target_id
+          table: node__field_tags
+          field: field_tags_target_id
+          relationship: none
+          group_type: group
+          admin_label: ''
+          operator: or
+          value: {  }
+          group: 1
+          exposed: true
+          expose:
+            operator_id: field_tags_target_id_op
+            label: Tags
+            description: ''
+            use_operator: false
+            operator: field_tags_target_id_op
+            identifier: field_tags_target_id
+            required: false
+            remember: false
+            multiple: false
+            remember_roles:
+              authenticated: authenticated
+              anonymous: '0'
+              administrator: '0'
+              subscribed_user: '0'
+              technical: '0'
+            reduce: false
+          is_grouped: false
+          group_info:
+            label: ''
+            description: ''
+            identifier: ''
+            optional: true
+            widget: select
+            multiple: false
+            remember: false
+            default_group: All
+            default_group_multiple: {  }
+            group_items: {  }
+          reduce_duplicates: false
+          type: textfield
+          limit: true
+          vid: tags
+          hierarchy: true
+          error_message: true
+          plugin_id: taxonomy_index_tid
       sorts:
         created:
           id: created
           table: node_field_data
           field: created
-          order: DESC
-          entity_type: node
-          entity_field: created
-          plugin_id: date
           relationship: none
           group_type: group
           admin_label: ''
-          exposed: false
+          order: DESC
+          exposed: true
           expose:
-            label: ''
+            label: Created
           granularity: second
+          entity_type: node
+          entity_field: created
+          plugin_id: date
+        field_rating_value:
+          id: field_rating_value
+          table: node__field_rating
+          field: field_rating_value
+          relationship: none
+          group_type: group
+          admin_label: ''
+          order: DESC
+          exposed: true
+          expose:
+            label: Rating
+          plugin_id: standard
+        changed:
+          id: changed
+          table: node_field_data
+          field: changed
+          relationship: none
+          group_type: group
+          admin_label: ''
+          order: DESC
+          exposed: true
+          expose:
+            label: Changed
+          granularity: second
+          entity_type: node
+          entity_field: changed
+          plugin_id: date
+        title:
+          id: title
+          table: node_field_data
+          field: title
+          relationship: none
+          group_type: group
+          admin_label: ''
+          order: DESC
+          exposed: true
+          expose:
+            label: Title
+          entity_type: node
+          entity_field: title
+          plugin_id: standard
       title: Bulk
       header: {  }
       footer: {  }
@@ -619,6 +790,9 @@ display:
         - 'languages:language_interface'
         - url
         - url.query_args
+        - 'url.query_args:sort_by'
+        - 'url.query_args:sort_order'
+        - user
         - 'user.node_grants:view'
         - user.permissions
       tags:
@@ -640,6 +814,9 @@ display:
         - 'languages:language_interface'
         - url
         - url.query_args
+        - 'url.query_args:sort_by'
+        - 'url.query_args:sort_order'
+        - user
         - 'user.node_grants:view'
         - user.permissions
       tags:

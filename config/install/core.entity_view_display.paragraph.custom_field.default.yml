@@ -1,0 +1,87 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.custom_field.field_id
+    - field.field.paragraph.custom_field.field_title
+    - paragraphs.paragraphs_type.custom_field
+  module:
+    - ds
+third_party_settings:
+  ds:
+    layout:
+      id: ds_reset
+      library: null
+      disable_css: false
+      entity_classes: all_classes
+      settings:
+        wrappers:
+          ds_content: div
+        outer_wrapper: div
+        attributes: ''
+        link_attribute: ''
+        link_custom: ''
+        classes:
+          layout_class: {  }
+          ds_content: {  }
+    regions:
+      ds_content:
+        - field_title
+        - 'dynamic_token_field:paragraph-paragraph_meta'
+        - field_id
+    fields:
+      'dynamic_token_field:paragraph-paragraph_meta':
+        plugin_id: 'dynamic_token_field:paragraph-paragraph_meta'
+        weight: 1
+        label: hidden
+        formatter: default
+id: paragraph.custom_field.default
+targetEntityType: paragraph
+bundle: custom_field
+mode: default
+content:
+  field_id:
+    weight: 3
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: ds_content
+  field_title:
+    weight: 0
+    label: inline
+    settings:
+      link_to_entity: false
+    third_party_settings:
+      ds:
+        ft:
+          id: expert
+          settings:
+            lb: ''
+            prefix: ''
+            lbw: true
+            lbw-el: span
+            lbw-cl: field--label
+            lbw-at: ''
+            ow: true
+            ow-el: h2
+            ow-cl: ''
+            ow-at: ''
+            fis-el: ''
+            fis-cl: ''
+            fis-at: ''
+            fi-el: ''
+            fi-cl: ''
+            fi-at: ''
+            suffix: ''
+            lb-col: false
+            ow-def-at: false
+            ow-def-cl: false
+            fis: false
+            fis-def-at: false
+            fi: false
+            fi-def-at: false
+    type: string
+    region: ds_content
+hidden: {  }

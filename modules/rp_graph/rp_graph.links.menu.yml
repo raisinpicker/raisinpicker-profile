@@ -1,0 +1,7 @@
+rp_graph.graph:
+  title: 'Graph'
+  description: 'Visualization of relations'
+  parent: rp_structure.tools
+  route_name: 'rp_graph_graph'   
+  menu_name: main
+  weight: 3

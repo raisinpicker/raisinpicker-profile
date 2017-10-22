@@ -1,1 +1,4274 @@
-{"nodes":[{"id":7,"label":"Victor  Hugo","ctype":"person","rating":8,"rids":1},{"id":16,"label":"Theodor Fontane","ctype":"person","rating":5,"rids":1},{"id":17,"label":"Theodor Storm","ctype":"person","rating":4,"rids":2},{"id":23,"label":"Alain de Botton","ctype":"person","rating":6,"rids":1},{"id":26,"label":"Nassim Nicholas Taleb","ctype":"person","rating":5,"rids":1},{"id":42,"label":"Peter von Matt","ctype":"person","rating":5,"rids":1},{"id":59,"label":"Peter Bauer","ctype":"person","rating":5,"rids":1},{"id":78,"label":"Ralph Waldo Emerson","ctype":"person","rating":5,"rids":1},{"id":82,"label":"Richard Dawkins","ctype":"person","rating":5,"rids":1},{"id":92,"label":"Max Weber","ctype":"person","rating":7,"rids":1},{"id":93,"label":"Max Frisch","ctype":"person","rating":7,"rids":2},{"id":99,"label":"Mark Twain","ctype":"person","rating":5,"rids":2},{"id":109,"label":"Milton Friedman","ctype":"person","rating":5,"rids":2},{"id":117,"label":"Karl Kraus","ctype":"person","rating":5,"rids":1},{"id":118,"label":"Karl Popper","ctype":"person","rating":9,"rids":7},{"id":128,"label":"Karl Valentin","ctype":"person","rating":5,"rids":1},{"id":131,"label":"Mancur Olsen","ctype":"person","rating":6,"rids":1},{"id":140,"label":"Leo Tolstoy","ctype":"person","rating":5,"rids":1},{"id":145,"label":"Margit v. Mises","ctype":"person","rating":5,"rids":1},{"id":154,"label":"Johann Wolfgang von Goethe","ctype":"person","rating":8,"rids":2},{"id":168,"label":"Heinrich von Kleist","ctype":"person","rating":6,"rids":1},{"id":172,"label":"Henryk M. Broder","ctype":"person","rating":5,"rids":1},{"id":173,"label":"Henry David Thoreau","ctype":"person","rating":5,"rids":1},{"id":177,"label":"Gerhard  Vollmer","ctype":"person","rating":5,"rids":1},{"id":178,"label":"Gerhard Polt","ctype":"person","rating":5,"rids":2},{"id":181,"label":"Gottfried Keller","ctype":"person","rating":8,"rids":2},{"id":193,"label":"James Buchanan","ctype":"person","rating":6,"rids":2},{"id":213,"label":"Edmund Burke","ctype":"person","rating":8,"rids":1},{"id":214,"label":"E.T.A. Hoffmann ","ctype":"person","rating":5,"rids":1},{"id":227,"label":"Claude-Frederic Bastiat","ctype":"person","rating":9,"rids":1},{"id":230,"label":"Dale Carnegie","ctype":"person","rating":5,"rids":1},{"id":243,"label":"Friedrich Schiller","ctype":"person","rating":6,"rids":1},{"id":244,"label":"Gary Becker","ctype":"person","rating":5,"rids":1},{"id":252,"label":"Friedrich D\u00fcrrenmatt","ctype":"person","rating":6,"rids":3},{"id":261,"label":"Fredmund Malik","ctype":"person","rating":5,"rids":2},{"id":274,"label":"Ayn Rand","ctype":"person","rating":5,"rids":1},{"id":286,"label":"Charles Dickens","ctype":"person","rating":5,"rids":1},{"id":287,"label":"Charles Darwin","ctype":"person","rating":5,"rids":1},{"id":296,"label":"Margaret Thatcher, Volume 1: The Grocer's Daughter","ctype":"publication","rating":4,"rids":1},{"id":297,"label":"Margaret Thatcher, Volume 2: The Iron Lady","ctype":"publication","rating":4,"rids":1},{"id":300,"label":"Psychologie der Massen","ctype":"publication","rating":4,"rids":1},{"id":302,"label":"Quantentheorie: Eine Einfuehrung ","ctype":"publication","rating":6,"rids":1},{"id":311,"label":"Ortsbestimmung der Gegenwart","ctype":"publication","rating":4,"rids":1},{"id":315,"label":"Der Schwarze Schwan: Die Macht hoechst unwahrscheinlicher Ereignisse","ctype":"publication","rating":4,"rids":1},{"id":317,"label":"Wort sei Dank: Von der Anwendung und Wirkung effektiver Sprachmuster","ctype":"publication","rating":4,"rids":5},{"id":318,"label":"Das flow - Erlebnis: Jenseits von Angst und Langeweile: im Tun aufgehen","ctype":"publication","rating":8,"rids":2},{"id":321,"label":"Die Kunst des klaren Denkens. 52 Denkfehler","ctype":"publication","rating":8,"rids":1},{"id":332,"label":"Grundsaetze der Wirtschaftspolitik","ctype":"publication","rating":4,"rids":1},{"id":333,"label":"Die Gesellschaft freier Menschen","ctype":"publication","rating":4,"rids":1},{"id":337,"label":"Jenseits von Angebot und Nachfrage: Ein Klassiker der Sozialen Marktwirtschaft ","ctype":"publication","rating":6,"rids":1},{"id":339,"label":"Die Grenzen der Wirksamkeit des Staates","ctype":"publication","rating":4,"rids":1},{"id":340,"label":"Die Gesellschaftskrisis der Gegenwart","ctype":"publication","rating":4,"rids":1},{"id":342,"label":"Internationale Ordnung - heute","ctype":"publication","rating":4,"rids":1},{"id":344,"label":"Candide","ctype":"publication","rating":4,"rids":2},{"id":349,"label":"Buddenbrooks","ctype":"publication","rating":6,"rids":1},{"id":350,"label":"Der Zauberberg","ctype":"publication","rating":7,"rids":1},{"id":351,"label":"Summa theologiae (Summe der Theologie)","ctype":"publication","rating":4,"rids":1},{"id":356,"label":"Holzfaellen","ctype":"publication","rating":4,"rids":1},{"id":363,"label":"Handbuch der Schweizer Geschichte 1","ctype":"publication","rating":5,"rids":1},{"id":370,"label":"Der Staat","ctype":"publication","rating":4,"rids":1},{"id":372,"label":"What Social Classes Owe To Each Other","ctype":"publication","rating":4,"rids":1},{"id":374,"label":"Tauben im Gras","ctype":"publication","rating":4,"rids":1},{"id":385,"label":"The Selfish Gene","ctype":"publication","rating":9,"rids":1},{"id":387,"label":"Anarchie, Staat, Utopia","ctype":"publication","rating":4,"rids":1},{"id":395,"label":"Speeches on Question of Public Policy","ctype":"publication","rating":4,"rids":1},{"id":397,"label":"Essays von Ralph Waldo Emerson","ctype":"publication","rating":4,"rids":1},{"id":398,"label":"Opium fuer Intellektuelle","ctype":"publication","rating":3,"rids":1},{"id":408,"label":"Der Baader Meinhof Komplex","ctype":"publication","rating":6,"rids":1},{"id":410,"label":"Das Schwarzbuch des Kommunismus","ctype":"publication","rating":4,"rids":1},{"id":413,"label":"Effi Briest","ctype":"publication","rating":4,"rids":1},{"id":415,"label":"Frau Jenny Treibel ","ctype":"publication","rating":6,"rids":1},{"id":417,"label":"Die Macht der Gewohnheit ","ctype":"publication","rating":4,"rids":1},{"id":418,"label":"Die Verwirrungen des Zoeglings Toerless ","ctype":"publication","rating":3,"rids":1},{"id":425,"label":"The Firm, The Market, and the Law","ctype":"publication","rating":4,"rids":1},{"id":433,"label":"Rationalismus in der Politik","ctype":"publication","rating":4,"rids":1},{"id":436,"label":"Essays (de Montaigne)","ctype":"publication","rating":4,"rids":1},{"id":437,"label":"Kapitalismus und Freiheit","ctype":"publication","rating":8,"rids":1},{"id":438,"label":"Chancen, die ich meine","ctype":"publication","rating":4,"rids":1},{"id":442,"label":"Die Ethik der Freiheit","ctype":"publication","rating":4,"rids":1},{"id":444,"label":"Die protestantische Ethik und der Geist des Kapitalismus","ctype":"publication","rating":9,"rids":2},{"id":446,"label":"Eine Verteidigung der Rechte der Frau","ctype":"publication","rating":4,"rids":1},{"id":447,"label":"Das Nonplusultra der Schlagfertigkeit","ctype":"publication","rating":5,"rids":1},{"id":448,"label":"Biedermann und die Brandstifter","ctype":"publication","rating":5,"rids":1},{"id":454,"label":"Montauk","ctype":"publication","rating":6,"rids":1},{"id":460,"label":"Ein Gespraech im Hause Stein ueber den abwesenden Herrn von Goethe ","ctype":"publication","rating":4,"rids":1},{"id":466,"label":"Die tintenblauen Eidgenossen","ctype":"publication","rating":6,"rids":1},{"id":467,"label":"Die Verfolgung und Ermordung Jean Paul Marats...","ctype":"publication","rating":4,"rids":1},{"id":470,"label":"Die Kapitalistische Revolution","ctype":"publication","rating":4,"rids":2},{"id":475,"label":"Geschichten aus dem Wiener Wald ","ctype":"publication","rating":4,"rids":1},{"id":476,"label":"Kasimir und Karoline ","ctype":"publication","rating":4,"rids":1},{"id":481,"label":"The Development Frontier","ctype":"publication","rating":4,"rids":1},{"id":483,"label":"Die offene Gesellschaft und ihre Feinde","ctype":"publication","rating":7,"rids":2},{"id":489,"label":"Finanztheoretische Untersuchungen","ctype":"publication","rating":4,"rids":1},{"id":490,"label":"Gespraeche (Konfuzius)","ctype":"publication","rating":4,"rids":1},{"id":494,"label":"Economic Analysis and Political Ideology","ctype":"publication","rating":4,"rids":1},{"id":496,"label":"Der Aufstand der Massen","ctype":"publication","rating":4,"rids":1},{"id":498,"label":"Theorie der wirtschaftlichen Entwicklung","ctype":"publication","rating":4,"rids":1},{"id":499,"label":"Radetzkymarsch ","ctype":"publication","rating":4,"rids":1},{"id":503,"label":"The ultimate resource","ctype":"publication","rating":4,"rids":1},{"id":506,"label":"Politische Korrektheit: Das Schlachtfeld der Tugendwaechter","ctype":"publication","rating":3,"rids":1},{"id":507,"label":"Tao Te King","ctype":"publication","rating":4,"rids":1},{"id":508,"label":"Die Logik kollektiven Handelns","ctype":"publication","rating":4,"rids":1},{"id":509,"label":"Aufstieg und Niedergang von Nationen","ctype":"publication","rating":4,"rids":1},{"id":510,"label":"Erinnerungen von Ludwig v. Mises","ctype":"publication","rating":4,"rids":1},{"id":522,"label":"Das Ende der Grossen","ctype":"publication","rating":4,"rids":2},{"id":527,"label":"Human Action","ctype":"publication","rating":6,"rids":1},{"id":529,"label":"Die Gemeinwirtschaft","ctype":"publication","rating":4,"rids":1},{"id":530,"label":"Liberalismus","ctype":"publication","rating":4,"rids":1},{"id":531,"label":"Wohlstand fuer Alle","ctype":"publication","rating":4,"rids":1},{"id":535,"label":"ueber die Freiheit","ctype":"publication","rating":7,"rids":1},{"id":542,"label":"Zeit der Macheten","ctype":"publication","rating":8,"rids":1},{"id":547,"label":"The Calculus of Consent","ctype":"publication","rating":4,"rids":1},{"id":548,"label":"Die Grenzen der Freiheit","ctype":"publication","rating":5,"rids":1},{"id":551,"label":"Zum ewigen Frieden","ctype":"publication","rating":9,"rids":1},{"id":552,"label":"Freiheit. Vier Versuche","ctype":"publication","rating":4,"rids":1},{"id":553,"label":"The Economic Point of View","ctype":"publication","rating":4,"rids":1},{"id":557,"label":"Weltgeschichtliche Betrachtungen","ctype":"publication","rating":2,"rids":1},{"id":561,"label":"Faust I","ctype":"publication","rating":7,"rids":1},{"id":564,"label":"The History of Liberty","ctype":"publication","rating":4,"rids":1},{"id":568,"label":"ueber die Regierung","ctype":"publication","rating":5,"rids":1},{"id":569,"label":"Ein Brief ueber Toleranz","ctype":"publication","rating":4,"rids":1},{"id":570,"label":"Die Wahlverwandten","ctype":"publication","rating":4,"rids":1},{"id":571,"label":"Die Leiden des jungen Werther","ctype":"publication","rating":7,"rids":1},{"id":572,"label":"Torquato Tasso ","ctype":"publication","rating":4,"rids":1},{"id":579,"label":"Der Talisman ","ctype":"publication","rating":4,"rids":1},{"id":581,"label":"Iphigenie auf Tauris ","ctype":"publication","rating":4,"rids":1},{"id":582,"label":"Nathan der Weise","ctype":"publication","rating":3,"rids":1},{"id":590,"label":"Gib ihm Sprache: Leben und Tod des Dichters aesop Eine Nacherzaehlung","ctype":"publication","rating":9,"rids":1},{"id":594,"label":"Die Leute von Seldwyla Band 1","ctype":"publication","rating":9,"rids":1},{"id":595,"label":"Prinzipien einer neuen Wissenschaft","ctype":"publication","rating":4,"rids":1},{"id":596,"label":"The Intellecual and the Market Place","ctype":"publication","rating":4,"rids":1},{"id":599,"label":"Die Idee der Freiheit: Eine Bibliothek von 111 Werken der liberalen Geistesgeschichte ","ctype":"publication","rating":6,"rids":101},{"id":600,"label":"Evolutionaere Erkenntnistheorie: Angeborene Erkenntnisstrukturen im Kontext von Biologie, Psychologie","ctype":"publication","rating":6,"rids":1},{"id":604,"label":"Die Ratten ","ctype":"publication","rating":4,"rids":1},{"id":605,"label":"Vor Sonnenuntergang ","ctype":"publication","rating":4,"rids":1},{"id":607,"label":"Die Strudlhofstiege ","ctype":"publication","rating":4,"rids":1},{"id":609,"label":"The Man versus the State","ctype":"publication","rating":4,"rids":1},{"id":610,"label":"The Anti-Federalist","ctype":"publication","rating":4,"rids":1},{"id":613,"label":"Unterm Rad ","ctype":"publication","rating":4,"rids":1},{"id":615,"label":"Marktwirtschaft von unten","ctype":"publication","rating":4,"rids":1},{"id":616,"label":"Der Schwierige ","ctype":"publication","rating":4,"rids":1},{"id":617,"label":"Der Tor und der Tod ","ctype":"publication","rating":5,"rids":1},{"id":619,"label":"Economics in One Lesson","ctype":"publication","rating":6,"rids":3},{"id":620,"label":"ueber die Pflicht zum Ungehorsam gegen den Staat","ctype":"publication","rating":6,"rids":1},{"id":621,"label":"Der Auftrag (Heiner M\u00fcller)","ctype":"publication","rating":4,"rids":1},{"id":623,"label":"Professor Unrat ","ctype":"publication","rating":6,"rids":1},{"id":624,"label":"Das Kaethchen von Heilbronn ","ctype":"publication","rating":4,"rids":1},{"id":625,"label":"Prinz Friedrich von Homburg ","ctype":"publication","rating":4,"rids":1},{"id":629,"label":"Der Neid und die Gesellschaft","ctype":"publication","rating":4,"rids":1},{"id":633,"label":"Recht, Gesetz und Freiheit","ctype":"publication","rating":4,"rids":1},{"id":634,"label":"Die verhaengnisvolle Anmassung","ctype":"publication","rating":4,"rids":1},{"id":635,"label":"Die Verfassung der Freiheit","ctype":"publication","rating":4,"rids":1},{"id":636,"label":"Der Besuch der alten Dame","ctype":"publication","rating":8,"rids":2},{"id":643,"label":"Der Weg zur Knechtschaft","ctype":"publication","rating":8,"rids":1},{"id":645,"label":"F\u00fchren, leisten, leben","ctype":"publication","rating":9,"rids":2},{"id":646,"label":"Freedom and Reform","ctype":"publication","rating":4,"rids":1},{"id":651,"label":"Fruehlings Erwachen ","ctype":"publication","rating":4,"rids":1},{"id":652,"label":"Wettbewerb und Monopolkampf","ctype":"publication","rating":4,"rids":1},{"id":654,"label":"Der Prozess","ctype":"publication","rating":7,"rids":1},{"id":657,"label":"Die Physiker","ctype":"publication","rating":9,"rids":1},{"id":658,"label":"Don Karlos ","ctype":"publication","rating":5,"rids":1},{"id":659,"label":"Kabale und Liebe ","ctype":"publication","rating":5,"rids":1},{"id":660,"label":"Maria Stuart ","ctype":"publication","rating":5,"rids":1},{"id":661,"label":"Wallenstein ","ctype":"publication","rating":4,"rids":1},{"id":662,"label":"oekonomische Erklaerung menschlichen Verhaltens","ctype":"publication","rating":4,"rids":1},{"id":664,"label":"Dantons Tod","ctype":"publication","rating":8,"rids":2},{"id":665,"label":"Woyzeck","ctype":"publication","rating":7,"rids":1},{"id":669,"label":"Die Raeuber ","ctype":"publication","rating":4,"rids":1},{"id":670,"label":"Die Gesetzgebung des Lykurgus und Solon","ctype":"publication","rating":4,"rids":1},{"id":671,"label":"Wilhelm Tell","ctype":"publication","rating":8,"rids":2},{"id":676,"label":"Maria Magdalene ","ctype":"publication","rating":4,"rids":1},{"id":677,"label":"Politische ueberzeugungen und nationaloekonomische Theorie","ctype":"publication","rating":4,"rids":1},{"id":680,"label":"Menschliches, Allzumenschliches","ctype":"publication","rating":4,"rids":1},{"id":684,"label":"Der Staat - Die grosse Fiktion","ctype":"publication","rating":7,"rids":1},{"id":685,"label":"Lern und Arbeitsstrategien","ctype":"publication","rating":4,"rids":1},{"id":696,"label":"Der Snob ","ctype":"publication","rating":4,"rids":1},{"id":698,"label":"Vom Geist der Gesetze","ctype":"publication","rating":4,"rids":1},{"id":703,"label":"Scherz, Satire, Ironie und tiefere Bedeutung ","ctype":"publication","rating":4,"rids":2},{"id":708,"label":"Das Wunder Europa","ctype":"publication","rating":6,"rids":2},{"id":710,"label":"Der Mythos des Staates","ctype":"publication","rating":4,"rids":1},{"id":712,"label":"Macht oder oekonomisches Gesetz","ctype":"publication","rating":4,"rids":1},{"id":715,"label":"Der Alpenkoenig und der Menschenfeind ","ctype":"publication","rating":4,"rids":1},{"id":717,"label":"Der Grossinquisitor","ctype":"publication","rating":3,"rids":1},{"id":720,"label":"Verfall und Untergang des Roemischen Reiches","ctype":"publication","rating":4,"rids":1},{"id":723,"label":"Politische und oekonomische Essays","ctype":"publication","rating":4,"rids":1},{"id":724,"label":"Wohlstand und Armut der Nationen","ctype":"publication","rating":6,"rids":1},{"id":729,"label":"Betrachtungen ueber die Franzoesische Revolution","ctype":"publication","rating":4,"rids":1},{"id":730,"label":"Die Elixiere des Teufels ","ctype":"publication","rating":4,"rids":1},{"id":731,"label":"Institutionen, institutioneller Wandel und Wirtschaftsleistung","ctype":"publication","rating":4,"rids":1},{"id":733,"label":"Berlin Alexanderplatz ","ctype":"publication","rating":4,"rids":1},{"id":735,"label":"Wirtschaftslenkung und Marktwirtschaft","ctype":"publication","rating":4,"rids":1},{"id":736,"label":"Die Demokratie in Amerika","ctype":"publication","rating":7,"rids":1},{"id":738,"label":"Oekonomie fuer den Menschen","ctype":"publication","rating":5,"rids":1},{"id":739,"label":"Das siebte Kreuz","ctype":"publication","rating":4,"rids":1},{"id":740,"label":"Liberalismus neu gefasst","ctype":"publication","rating":4,"rids":1},{"id":741,"label":"The State","ctype":"publication","rating":4,"rids":1},{"id":744,"label":"Der Archipel Gulag","ctype":"publication","rating":4,"rids":1},{"id":745,"label":"Gettysburg Address und andere Reden","ctype":"publication","rating":4,"rids":1},{"id":746,"label":"An Essay on the History of Civil Society","ctype":"publication","rating":4,"rids":1},{"id":747,"label":"Der Wohlstand der Nationen","ctype":"publication","rating":4,"rids":1},{"id":748,"label":"Theorie der ethischen Gefuehle","ctype":"publication","rating":7,"rids":1},{"id":750,"label":"Gemeindefreiheit als Rettung Europas","ctype":"publication","rating":9,"rids":2},{"id":751,"label":"Wie Proust Ihr Leben veraendern kann. Eine Anleitung.","ctype":"publication","rating":4,"rids":1},{"id":755,"label":"The Federalist Papers","ctype":"publication","rating":4,"rids":1},{"id":757,"label":"Liebelei ","ctype":"publication","rating":4,"rids":1},{"id":761,"label":"Die Dreigroschenoper ","ctype":"publication","rating":7,"rids":1},{"id":762,"label":"Leben des Galilei ","ctype":"publication","rating":8,"rids":1},{"id":763,"label":"Mutter Courage und ihre Kinder: Eine Chronik aus dem Dreissigjaehrigen Krieg (edition suhrkamp)","ctype":"publication","rating":6,"rids":1},{"id":764,"label":"ueber die Staatsgewalt","ctype":"publication","rating":4,"rids":1},{"id":765,"label":"Gross und klein ","ctype":"publication","rating":4,"rids":1},{"id":766,"label":"Freedom and the Law","ctype":"publication","rating":4,"rids":1},{"id":767,"label":"Grundsaetze der Volkswirtschaftslehre","ctype":"publication","rating":4,"rids":1},{"id":768,"label":"Die Bienenfabel, The Fable of the Bees","ctype":"publication","rating":6,"rids":1},{"id":769,"label":"Vom Geist der Eroberung und der Usurpation","ctype":"publication","rating":4,"rids":1},{"id":770,"label":"Geschichte Europas im 19. Jahrhundert","ctype":"publication","rating":4,"rids":1},{"id":771,"label":"Professor Bernhardi ","ctype":"publication","rating":4,"rids":1},{"id":772,"label":"Reigen ","ctype":"publication","rating":4,"rids":1},{"id":773,"label":"Atlas Shrugged","ctype":"publication","rating":5,"rids":2},{"id":782,"label":"Flow-Zustand","ctype":"knowledge","rating":9,"rids":2},{"id":786,"label":"Bewusst nach oben wirken","ctype":"knowledge","rating":8,"rids":1},{"id":792,"label":"Presentation Excellence","ctype":"knowledge","rating":5,"rids":1},{"id":794,"label":"Meine Regeln und Leits\u00e4tze","ctype":"knowledge","rating":9,"rids":1},{"id":796,"label":"Konzentrationsproblem","ctype":"knowledge","rating":7,"rids":1},{"id":805,"label":"Neurolinguistisches Programmieren (NLP)","ctype":"knowledge","rating":6,"rids":5},{"id":811,"label":"\u00dcberzeugungsarbeit leisten","ctype":"knowledge","rating":7,"rids":6},{"id":812,"label":"Thomas Kis","ctype":"person","rating":5,"rids":5},{"id":813,"label":"Die Psychologie des \u00dcberzeugens","ctype":"publication","rating":8,"rids":3},{"id":814,"label":"Moreno Babini","ctype":"person","rating":7,"rids":2},{"id":815,"label":"ZKB Schulung Kommunizieren Vertiefung","ctype":"event","rating":3,"rids":4},{"id":817,"label":"Individuelle Lernregeln","ctype":"knowledge","rating":6,"rids":1},{"id":830,"label":"Wiener Klassik","ctype":"knowledge","rating":5,"rids":1},{"id":842,"label":"Sokrates","ctype":"person","rating":5,"rids":1},{"id":843,"label":"Platon","ctype":"person","rating":5,"rids":2},{"id":844,"label":"Aristotoles","ctype":"person","rating":5,"rids":1},{"id":857,"label":"David Hume","ctype":"person","rating":5,"rids":1},{"id":859,"label":"Immanuel Kant","ctype":"person","rating":9,"rids":1},{"id":872,"label":"Friedrich Nietzsche","ctype":"person","rating":6,"rids":1},{"id":887,"label":"Ludwig von Mises","ctype":"person","rating":8,"rids":4},{"id":888,"label":"Friedrich August Hayek","ctype":"person","rating":8,"rids":1},{"id":894,"label":"Wolfgang Amadeus Mozart","ctype":"person","rating":5,"rids":1},{"id":895,"label":"Ludwig van Beethoven","ctype":"person","rating":9,"rids":2},{"id":896,"label":"Gioachino Rossini","ctype":"person","rating":5,"rids":1},{"id":898,"label":"Felix Mendelssohn Bartholdy","ctype":"person","rating":5,"rids":1},{"id":899,"label":"Robert Schumann","ctype":"person","rating":5,"rids":1},{"id":900,"label":"Frederic Chopin","ctype":"person","rating":5,"rids":1},{"id":902,"label":"Giuseppe Verdi","ctype":"person","rating":5,"rids":1},{"id":903,"label":"Richard Wagner","ctype":"person","rating":5,"rids":1},{"id":906,"label":"Johannes Brahms","ctype":"person","rating":5,"rids":1},{"id":907,"label":"Georges Bizet","ctype":"person","rating":5,"rids":1},{"id":909,"label":"Edvard Grieg","ctype":"person","rating":5,"rids":1},{"id":932,"label":"Theorie der Meme","ctype":"knowledge","rating":7,"rids":1},{"id":990,"label":"Metaphysik","ctype":"knowledge","rating":7,"rids":1},{"id":1083,"label":"Aussagenlogik","ctype":"knowledge","rating":4,"rids":1},{"id":1084,"label":"Pr\u00e4dikatenlogik","ctype":"knowledge","rating":5,"rids":1},{"id":1085,"label":"B\u00fcrgertum","ctype":"knowledge","rating":6,"rids":1},{"id":1091,"label":"Jenseits von Gut und B\u00f6se","ctype":"publication","rating":7,"rids":1},{"id":1094,"label":"Hans Albert","ctype":"person","rating":7,"rids":3},{"id":1095,"label":"Traktat \u00fcber kritische Vernunft","ctype":"publication","rating":4,"rids":2},{"id":1100,"label":"Schwarzer Schwan","ctype":"knowledge","rating":7,"rids":2},{"id":1103,"label":"Anker-Effekt (Anchoring)","ctype":"knowledge","rating":6,"rids":1},{"id":1104,"label":"Daniel Kahnemann","ctype":"person","rating":5,"rids":1},{"id":1108,"label":"Ich sing auf die Verr\u00fcckten ","ctype":"publication","rating":8,"rids":1},{"id":1111,"label":"Wie ein Baum den man f\u00e4llt (Reinhard Mey)","ctype":"publication","rating":6,"rids":1},{"id":1112,"label":"Lob vor Fuulheit (Mani Matter)","ctype":"publication","rating":9,"rids":2},{"id":1542,"label":"Lukas Reimann","ctype":"person","rating":5,"rids":1},{"id":1684,"label":"Meine Begegnung mit der Literatur","ctype":"knowledge","rating":7,"rids":1},{"id":1704,"label":"Eine  Theorie der Meme","ctype":"knowledge","rating":8,"rids":2},{"id":2413,"label":"Bildung","ctype":"knowledge","rating":5,"rids":1},{"id":2420,"label":"Kommunikationskurs","ctype":"knowledge","rating":5,"rids":1},{"id":2435,"label":"Kaffee","ctype":"knowledge","rating":5,"rids":1},{"id":2447,"label":"Buch ver\u00f6ffentlichen","ctype":"knowledge","rating":7,"rids":2},{"id":2449,"label":"Grosse Literatur","ctype":"knowledge","rating":5,"rids":2},{"id":2454,"label":"B\u00fccher schreiben","ctype":"knowledge","rating":5,"rids":2},{"id":2477,"label":"Reziprozit\u00e4t und Empathie","ctype":"knowledge","rating":5,"rids":1},{"id":2492,"label":"Randbemerkung zu Proust","ctype":"knowledge","rating":5,"rids":1},{"id":2534,"label":"Struktur und Subjekt (am Beispiel Musik)","ctype":"knowledge","rating":8,"rids":2},{"id":2552,"label":"Patriotismus","ctype":"knowledge","rating":4,"rids":3},{"id":2590,"label":"Tr\u00e4ume","ctype":"knowledge","rating":5,"rids":1},{"id":2607,"label":"Frust, Frust, Frust","ctype":"knowledge","rating":5,"rids":1},{"id":2625,"label":"Mein Wissensmanagement","ctype":"knowledge","rating":5,"rids":1},{"id":2650,"label":"Eine Geschichte der Frustration","ctype":"knowledge","rating":5,"rids":1},{"id":2717,"label":"Himmlische Musik","ctype":"knowledge","rating":5,"rids":1},{"id":2751,"label":"Wie man Freunde gewinnt (Tagebuch-Eintrag)","ctype":"knowledge","rating":3,"rids":1},{"id":2756,"label":"Groll","ctype":"knowledge","rating":5,"rids":1},{"id":2761,"label":"Was f\u00fcr ein Traum","ctype":"knowledge","rating":5,"rids":1},{"id":2789,"label":"Ein neues Experiment (2x 4-Stunden-Schlaf)","ctype":"knowledge","rating":5,"rids":1},{"id":2945,"label":"Wenn ich heute sterben w\u00fcrde","ctype":"knowledge","rating":6,"rids":1},{"id":2951,"label":"Pr\u00e4gung","ctype":"knowledge","rating":5,"rids":1},{"id":2970,"label":"Gute Musik","ctype":"knowledge","rating":6,"rids":2},{"id":3021,"label":"Politische Korrektheit","ctype":"knowledge","rating":5,"rids":1},{"id":3044,"label":"A new Europe. Winston Churchill (Rede)","ctype":"knowledge","rating":7,"rids":1},{"id":3059,"label":"Hoffnung ist Gewissheit des Sinns (Zitat, Vaclav Havel)","ctype":"knowledge","rating":4,"rids":2},{"id":3062,"label":"Vaclav Havel","ctype":"person","rating":7,"rids":1},{"id":3063,"label":"Der Westen und der Rest der Welt","ctype":"publication","rating":8,"rids":1},{"id":3067,"label":"Poincar\u00e9s Vermutung: Die Geschichte eines mathematischen Abenteuers","ctype":"publication","rating":5,"rids":1},{"id":3074,"label":"Jeremias Gotthelf","ctype":"person","rating":5,"rids":1},{"id":3077,"label":"Conrad Ferdinand Meyer","ctype":"person","rating":4,"rids":1},{"id":3078,"label":"Alfred Escher","ctype":"person","rating":8,"rids":1},{"id":3085,"label":"Le Corbusier ","ctype":"person","rating":5,"rids":3},{"id":3086,"label":"Die Schule zerst\u00f6rt Kreativit\u00e4t","ctype":"knowledge","rating":6,"rids":1},{"id":3107,"label":"Wert der Demokratie","ctype":"knowledge","rating":8,"rids":1},{"id":3120,"label":"Eidgenossenschaftliches","ctype":"knowledge","rating":7,"rids":1},{"id":3128,"label":"Margaret Thatcher","ctype":"person","rating":8,"rids":3},{"id":3133,"label":"Wenn ich Literatur beurteile","ctype":"knowledge","rating":4,"rids":1},{"id":3135,"label":"Nach dem Lernen am gleich schlafen legen","ctype":"knowledge","rating":6,"rids":1},{"id":3141,"label":"Neurowissenschaft (Artikel)","ctype":"knowledge","rating":6,"rids":1},{"id":3162,"label":"Henri Poincar\u00e9","ctype":"person","rating":5,"rids":1},{"id":3166,"label":"Der Kanon (Reich-Ranicki): Erz\u00e4hlungen","ctype":"knowledge","rating":7,"rids":1},{"id":3179,"label":"On Freedom and Free Markets (Interview mit Milton Friedman)","ctype":"knowledge","rating":7,"rids":1},{"id":3183,"label":"Grundregeln des Lernens","ctype":"knowledge","rating":9,"rids":1},{"id":3193,"label":"Oblomow: Roman: Roman in vier Teilen","ctype":"publication","rating":8,"rids":1},{"id":3196,"label":"Checkliste Reden halten","ctype":"knowledge","rating":6,"rids":1},{"id":3245,"label":"Zum Tode Alles Gute (Buchprojekt)","ctype":"knowledge","rating":8,"rids":2},{"id":3247,"label":"Kano-Klassifikation","ctype":"knowledge","rating":5,"rids":1},{"id":3248,"label":"Ein-Kriteriums-Klassifikation","ctype":"knowledge","rating":4,"rids":1},{"id":3250,"label":"Die h\u00e4ufigsten Verhandlungsfehler","ctype":"knowledge","rating":7,"rids":1},{"id":3251,"label":"Verhandlung Vorbereitung","ctype":"knowledge","rating":6,"rids":1},{"id":3252,"label":"Schlagfertigkeit","ctype":"knowledge","rating":7,"rids":1},{"id":3253,"label":"Checkliste: Gespr\u00e4che f\u00fchren","ctype":"knowledge","rating":8,"rids":5},{"id":3256,"label":"Gefl\u00fcgelte Worte","ctype":"knowledge","rating":5,"rids":3},{"id":3257,"label":"Zitate Sammlung","ctype":"knowledge","rating":7,"rids":10},{"id":3259,"label":"Rhetorische Figuren: Klangfiguren","ctype":"knowledge","rating":5,"rids":2},{"id":3260,"label":"Rhetorische Figuren: Satz- und Wortfiguren","ctype":"knowledge","rating":5,"rids":2},{"id":3261,"label":"Rhetorische Figuren: Allgemein","ctype":"knowledge","rating":5,"rids":3},{"id":3262,"label":"Rhetorik: Eristik","ctype":"knowledge","rating":5,"rids":1},{"id":3265,"label":"Textbausteine","ctype":"knowledge","rating":9,"rids":3},{"id":3269,"label":"Die Idee zum eigenen Think Tank","ctype":"knowledge","rating":4,"rids":2},{"id":3270,"label":"Think Tank - Grunds\u00e4tze zur Ideologie","ctype":"knowledge","rating":5,"rids":2},{"id":3271,"label":"Think Tank - Zur Frage der wissenschaftlichen Methode","ctype":"knowledge","rating":5,"rids":2},{"id":3278,"label":"Baby-Sitting the Economy","ctype":"knowledge","rating":6,"rids":1},{"id":3279,"label":"Paul Krugman","ctype":"person","rating":4,"rids":1},{"id":3280,"label":"Meine Investments Grundlagen","ctype":"knowledge","rating":6,"rids":1},{"id":3281,"label":"Investment-Aussichten nach Inflationserwartungen","ctype":"knowledge","rating":4,"rids":1},{"id":3282,"label":"Bewahre vor der Oblomowerei","ctype":"knowledge","rating":7,"rids":1},{"id":3325,"label":"Meine Ern\u00e4hrung","ctype":"knowledge","rating":7,"rids":1},{"id":3330,"label":"F\u00fcr alle Fragen offen: Antworten zur Weltliteratur","ctype":"publication","rating":6,"rids":1},{"id":3335,"label":"IFJ-Apero - Wie baue ich ein Internet-Startup auf","ctype":"event","rating":6,"rids":1},{"id":3336,"label":"Marcus Kuhn","ctype":"person","rating":4,"rids":1},{"id":3349,"label":"Objektivismus von Ayn Rand","ctype":"knowledge","rating":6,"rids":2},{"id":3370,"label":"The Lord of the Rings","ctype":"publication","rating":3,"rids":3},{"id":3380,"label":"Die Reziprozit\u00e4t","ctype":"knowledge","rating":5,"rids":1},{"id":3419,"label":"Checkliste zur \u00c4nderung von Gewohnheiten","ctype":"knowledge","rating":5,"rids":1},{"id":3420,"label":"Carl Gustav Jung","ctype":"person","rating":7,"rids":2},{"id":3436,"label":"Herman Melville","ctype":"person","rating":5,"rids":1},{"id":3440,"label":"eLearning: Warum das Internet den Bildungsmarkt erobert (Artikel)","ctype":"knowledge","rating":6,"rids":2},{"id":3441,"label":"LAB Profil","ctype":"knowledge","rating":5,"rids":3},{"id":3442,"label":"LAB Profil Template","ctype":"knowledge","rating":8,"rids":3},{"id":3444,"label":"Stand Out in Your Interview (Artikel)","ctype":"knowledge","rating":6,"rids":3},{"id":3445,"label":"How to get motivated","ctype":"knowledge","rating":9,"rids":1},{"id":3454,"label":"Meine Architektur","ctype":"knowledge","rating":7,"rids":2},{"id":3456,"label":"Die Konservativen","ctype":"knowledge","rating":7,"rids":4},{"id":3457,"label":"Sigmund Freud","ctype":"person","rating":5,"rids":2},{"id":3458,"label":"Psychoanalyse","ctype":"knowledge","rating":5,"rids":1},{"id":3463,"label":"Verhandeln nach Harvard","ctype":"knowledge","rating":6,"rids":2},{"id":3464,"label":"11 Books Every Young Leader Must Read","ctype":"knowledge","rating":3,"rids":6},{"id":3466,"label":"... trotzdem Ja zum Leben sagen: Ein Psychologe erlebt das Konzentrationslager","ctype":"publication","rating":6,"rids":1},{"id":3468,"label":"The Bonfire of the Vanities (dt. Fegefeuer der Eitelkeiten)","ctype":"publication","rating":4,"rids":1},{"id":3469,"label":"A Man in Full","ctype":"publication","rating":4,"rids":1},{"id":3471,"label":"Liar's Poker","ctype":"publication","rating":5,"rids":1},{"id":3472,"label":"Robert Cialdini","ctype":"person","rating":6,"rids":1},{"id":3474,"label":"True North","ctype":"publication","rating":5,"rids":1},{"id":3476,"label":"Meine Gesch\u00e4ftsideen","ctype":"collection","rating":7,"rids":1},{"id":3479,"label":"Sabotage","ctype":"knowledge","rating":9,"rids":1},{"id":3493,"label":"Presentation Checklist","ctype":"knowledge","rating":5,"rids":1},{"id":3494,"label":"Eignungs- und Neigungstest","ctype":"knowledge","rating":6,"rids":1},{"id":3495,"label":"Eignungs- und Neigungstest ZKB Besprechung mit Personal","ctype":"event","rating":4,"rids":1},{"id":3507,"label":"Online Learning","ctype":"knowledge","rating":7,"rids":4},{"id":3508,"label":"Structure Your Presentation Like a Story","ctype":"knowledge","rating":7,"rids":1},{"id":3509,"label":"Textbausteine Politik und Wirtschaft","ctype":"knowledge","rating":9,"rids":3},{"id":3512,"label":"M\u00fcdigkeit","ctype":"knowledge","rating":7,"rids":3},{"id":3516,"label":"Fr\u00fchst\u00fcck","ctype":"knowledge","rating":3,"rids":1},{"id":3517,"label":"Gewohnheiten \u00e4ndern","ctype":"knowledge","rating":7,"rids":1},{"id":3518,"label":"Mein Kleidungsstil","ctype":"knowledge","rating":8,"rids":1},{"id":3524,"label":"K\u00f6nig Leopolds Selbstgespr\u00e4ch","ctype":"publication","rating":7,"rids":1},{"id":3525,"label":"V\u00f6lkermord in Ruanda","ctype":"knowledge","rating":7,"rids":1},{"id":3529,"label":"Konservative Kulturkritik: Vielfalt, Eigenart, Sch\u00f6nheit","ctype":"knowledge","rating":3,"rids":1},{"id":3544,"label":"Das Reptil in uns","ctype":"knowledge","rating":7,"rids":1},{"id":3547,"label":"Verhandeln nach Harvard-Prinzip Kurs ZKB","ctype":"event","rating":3,"rids":1},{"id":3555,"label":"\u00c4sop und die Volkswirtschaft (Buchidee)","ctype":"knowledge","rating":8,"rids":1},{"id":3557,"label":"Story Board erstellen","ctype":"knowledge","rating":6,"rids":2},{"id":3560,"label":"Meine Ziele 2012","ctype":"knowledge","rating":6,"rids":1},{"id":3574,"label":"Schindler's List (Movie)","ctype":"publication","rating":9,"rids":1},{"id":3577,"label":"The Lord of the Rings: The Return of the King (Movie)","ctype":"publication","rating":8,"rids":1},{"id":3578,"label":"The Lord of the Rings: The Two Towers (Movie)","ctype":"publication","rating":8,"rids":1},{"id":3579,"label":"The Lord of the Rings: The Fellowship of the Ring (Movie)","ctype":"publication","rating":7,"rids":1},{"id":3597,"label":"There Will Be Blood (Movie)","ctype":"publication","rating":9,"rids":2},{"id":3603,"label":"The Pianist (Movie)","ctype":"publication","rating":8,"rids":1},{"id":3666,"label":"The Baader Meinhof Complex (Movie)","ctype":"publication","rating":6,"rids":1},{"id":3781,"label":"The Office (TV Series)","ctype":"publication","rating":9,"rids":1},{"id":3782,"label":"The Office (TV Series)","ctype":"publication","rating":7,"rids":1},{"id":3824,"label":"Getting to Yes","ctype":"publication","rating":7,"rids":1},{"id":3825,"label":"Le Corbusier (Buch)","ctype":"publication","rating":5,"rids":1},{"id":3831,"label":"Arbeitslosigkeit als Schicksalsproblem - Ein fiktives Interview mit Ludwig von Mises","ctype":"knowledge","rating":7,"rids":1},{"id":4015,"label":"Schnelllesen","ctype":"knowledge","rating":5,"rids":1},{"id":4058,"label":"Daniel Bumann","ctype":"person","rating":5,"rids":1},{"id":4059,"label":"Werte eines Sternekochs","ctype":"knowledge","rating":4,"rids":1},{"id":4165,"label":"Eine noch m\u00f6gliche Geschichte","ctype":"collection","rating":6,"rids":1},{"id":4166,"label":"\u00dcbersicht f\u00fcr Schreibt\u00e4tigkeit","ctype":"knowledge","rating":3,"rids":3},{"id":4172,"label":"\u00dcberzeugen mit der Mehrheit","ctype":"knowledge","rating":5,"rids":1},{"id":4173,"label":"Recruiting and Sourcing","ctype":"knowledge","rating":7,"rids":2},{"id":4175,"label":"Edward de Bono","ctype":"person","rating":4,"rids":1},{"id":4176,"label":"Denkh\u00fcte von De Bono","ctype":"knowledge","rating":6,"rids":1},{"id":4177,"label":"Lesehilfe","ctype":"knowledge","rating":4,"rids":1},{"id":4185,"label":"Meine Ziele 2013","ctype":"knowledge","rating":8,"rids":2},{"id":4186,"label":"Honor\u00e9 de Balzac","ctype":"person","rating":5,"rids":1},{"id":4187,"label":"Stendhal","ctype":"person","rating":5,"rids":1},{"id":4188,"label":"Gustave Flaubert","ctype":"person","rating":5,"rids":1},{"id":4193,"label":"Usability and User Experience","ctype":"knowledge","rating":8,"rids":1},{"id":4195,"label":"Personal knowledge base","ctype":"knowledge","rating":7,"rids":1},{"id":4196,"label":"Knowledge Management Tools for personal usage","ctype":"knowledge","rating":7,"rids":3},{"id":4202,"label":"Georges Danton","ctype":"person","rating":4,"rids":1},{"id":4212,"label":"Yaron Brook","ctype":"person","rating":6,"rids":2},{"id":4213,"label":"Ayn Rand Institute (Organization)","ctype":"knowledge","rating":4,"rids":1},{"id":4215,"label":"How Ayn Rand's Ideas Can End Big Government","ctype":"event","rating":6,"rids":3},{"id":4216,"label":"Kai John","ctype":"person","rating":2,"rids":1},{"id":4222,"label":"Winston Churchill","ctype":"person","rating":6,"rids":2},{"id":4223,"label":"Kreativit\u00e4tstechniken - In 10 Schritten Ideen finden, bewerten, umsetzen","ctype":"publication","rating":5,"rids":1},{"id":4225,"label":"Christian H\u00fcbscher","ctype":"person","rating":4,"rids":1},{"id":4227,"label":"CSM Certified Scrum Master Kurs","ctype":"event","rating":6,"rids":1},{"id":4228,"label":"Peter Stevens","ctype":"person","rating":7,"rids":1},{"id":4237,"label":"Javascript Frameworks","ctype":"knowledge","rating":4,"rids":1},{"id":4239,"label":"Literaturtheorie: Eine kurze Einf\u00fchrung","ctype":"publication","rating":5,"rids":1},{"id":4248,"label":"Ken Robinson","ctype":"person","rating":6,"rids":1},{"id":4249,"label":"The Element (Buch)","ctype":"publication","rating":5,"rids":1},{"id":4250,"label":"Out of Our Minds: Learning to be Creative (Buch)","ctype":"publication","rating":6,"rids":1},{"id":4251,"label":"Arten der Intelligenz","ctype":"knowledge","rating":5,"rids":3},{"id":4256,"label":"Mit Pr\u00e4sentieren Wirkung erzielen","ctype":"knowledge","rating":8,"rids":1},{"id":4268,"label":"Lesbarkeit","ctype":"knowledge","rating":6,"rids":1},{"id":4269,"label":"Writing tips from Pixar","ctype":"knowledge","rating":5,"rids":2},{"id":4274,"label":"CSS und Front End Frameworks","ctype":"knowledge","rating":5,"rids":1},{"id":4275,"label":"Meine Archetypen","ctype":"knowledge","rating":8,"rids":1},{"id":4289,"label":"See What I Mean","ctype":"publication","rating":8,"rids":1},{"id":4290,"label":"Comics als Kommunikationsmittel","ctype":"knowledge","rating":5,"rids":1},{"id":4297,"label":"Web-Tutorials: So lernst Du richtig coden","ctype":"knowledge","rating":4,"rids":1},{"id":4302,"label":"Dashing: Freies und schickes Dashboard-Framework auf Sinatra-Basis","ctype":"knowledge","rating":4,"rids":1},{"id":4307,"label":"Services Schreiben","ctype":"knowledge","rating":3,"rids":1},{"id":4312,"label":"Der zerbrochene Krug","ctype":"publication","rating":7,"rids":1},{"id":4327,"label":"How to Tell a Story with Data","ctype":"knowledge","rating":6,"rids":3},{"id":4328,"label":"Zehn Tugenden f\u00fcr die moderne Zeit (Artikel)","ctype":"knowledge","rating":8,"rids":1},{"id":4331,"label":"Icons","ctype":"knowledge","rating":6,"rids":2},{"id":4335,"label":"Shops f\u00fcr Kleidung","ctype":"knowledge","rating":8,"rids":1},{"id":4344,"label":"Fjodor Dostojewski","ctype":"person","rating":7,"rids":1},{"id":4354,"label":"Allgemeinbildung - Werke der Weltliteratur: Das muss man wissen","ctype":"publication","rating":5,"rids":1},{"id":4366,"label":"Realismus (Literatur)","ctype":"knowledge","rating":6,"rids":11},{"id":4367,"label":"Romantik (Literatur)","ctype":"knowledge","rating":7,"rids":4},{"id":4368,"label":"Kritischer Rationalismus","ctype":"knowledge","rating":6,"rids":3},{"id":4369,"label":"Romantik (Musik)","ctype":"knowledge","rating":4,"rids":9},{"id":4371,"label":"Ferdinand de Saussure","ctype":"person","rating":6,"rids":1},{"id":4373,"label":"Pierre-Joseph Proudhon","ctype":"person","rating":2,"rids":1},{"id":4374,"label":"Anarchismus","ctype":"knowledge","rating":5,"rids":7},{"id":4379,"label":"Mein Vokabular","ctype":"knowledge","rating":9,"rids":4},{"id":4381,"label":"Satire","ctype":"knowledge","rating":6,"rids":8},{"id":4397,"label":"Storytelling","ctype":"knowledge","rating":6,"rids":5},{"id":4403,"label":"Aldous Huxley","ctype":"person","rating":5,"rids":1},{"id":4404,"label":"Sch\u00f6ne neue Welt (Brave New World)","ctype":"publication","rating":5,"rids":2},{"id":4405,"label":"Elementarteilchen (Roman)","ctype":"publication","rating":7,"rids":1},{"id":4406,"label":"Michel Houellebecq","ctype":"person","rating":4,"rids":2},{"id":4410,"label":"Procrastination - Albert and Rex (reptile brain)","ctype":"knowledge","rating":8,"rids":4},{"id":4411,"label":"Procrastination","ctype":"knowledge","rating":7,"rids":2},{"id":4419,"label":"10 Tips for Designing Presentations That Don\u2019t Suck","ctype":"knowledge","rating":6,"rids":2},{"id":4428,"label":"Marcel Proust","ctype":"person","rating":4,"rids":2},{"id":4448,"label":"Typographie","ctype":"collection","rating":4,"rids":1},{"id":4450,"label":"CSS compendium","ctype":"knowledge","rating":4,"rids":2},{"id":4463,"label":"Peter Drucker","ctype":"person","rating":6,"rids":1},{"id":4464,"label":"Oliver Reichenstein","ctype":"person","rating":6,"rids":1},{"id":4465,"label":"Ornament and Crime","ctype":"knowledge","rating":3,"rids":1},{"id":4466,"label":"Type of Signs","ctype":"knowledge","rating":7,"rids":2},{"id":4467,"label":"Icons vs Labels vs Both","ctype":"knowledge","rating":4,"rids":2},{"id":4469,"label":"CSS Peeling Sticky","ctype":"knowledge","rating":3,"rids":1},{"id":4474,"label":"Sandro St\u00e4heli","ctype":"person","rating":6,"rids":1},{"id":4475,"label":"Bernhard M\u00e4der","ctype":"person","rating":6,"rids":1},{"id":4476,"label":"Mattia Regi","ctype":"person","rating":2,"rids":1},{"id":4477,"label":"Sandra Soliva","ctype":"person","rating":4,"rids":2},{"id":4478,"label":"Dominik Burger","ctype":"person","rating":3,"rids":3},{"id":4481,"label":"10 Storytelling Tips To Help You Be More Persuasive","ctype":"knowledge","rating":8,"rids":3},{"id":4488,"label":"Meine Musik","ctype":"knowledge","rating":8,"rids":2},{"id":4491,"label":"Die Kunst des klugen Handelns","ctype":"publication","rating":8,"rids":1},{"id":4493,"label":"Denkfehler","ctype":"collection","rating":8,"rids":3},{"id":4522,"label":"Mein Design","ctype":"knowledge","rating":7,"rids":4},{"id":4523,"label":"Dashboard Overview","ctype":"knowledge","rating":5,"rids":1},{"id":4527,"label":"Swiss Graphic Design: The Origins and Growth of an International Style 1920-1965","ctype":"publication","rating":5,"rids":2},{"id":4532,"label":"Ochsenbein: Erfinder der modernen Schweiz","ctype":"publication","rating":5,"rids":1},{"id":4533,"label":"Ulrich Ochsenbein","ctype":"person","rating":4,"rids":1},{"id":4553,"label":"Eine M\u00f6gliche Sicht Der Dinge","ctype":"collection","rating":8,"rids":3},{"id":4575,"label":"Checkliste - Gut Schreiben","ctype":"knowledge","rating":8,"rids":3},{"id":4603,"label":"Raphael Ebinger","ctype":"person","rating":3,"rids":1},{"id":4604,"label":"Web Design Agenturen","ctype":"knowledge","rating":4,"rids":2},{"id":4615,"label":"Conduct job interviews","ctype":"knowledge","rating":8,"rids":3},{"id":4622,"label":"Swiss Typography","ctype":"knowledge","rating":7,"rids":9},{"id":4680,"label":"Steven Pinker","ctype":"person","rating":7,"rids":1},{"id":4681,"label":"Evolution\u00e4re Psychologie und Erkenntnistheorie","ctype":"knowledge","rating":4,"rids":5},{"id":4683,"label":"Susan Blackmore","ctype":"person","rating":4,"rids":2},{"id":4685,"label":"Memetik","ctype":"knowledge","rating":6,"rids":3},{"id":4686,"label":"Sam Harris","ctype":"person","rating":5,"rids":1},{"id":4691,"label":"Video Publishing","ctype":"knowledge","rating":6,"rids":3},{"id":4692,"label":"Tradition und Paradigmen","ctype":"knowledge","rating":8,"rids":2},{"id":4696,"label":"Noam Chomsky","ctype":"person","rating":6,"rids":2},{"id":4698,"label":"Peter Sloterdijk","ctype":"person","rating":2,"rids":1},{"id":4712,"label":"Die Wahrheit \u00fcber H\u00e4nsel und Gretel: Die Dokumentation des M\u00e4rchens der Br\u00fcder Grimm","ctype":"publication","rating":8,"rids":1},{"id":4715,"label":"High- and low-context cultures","ctype":"knowledge","rating":6,"rids":1},{"id":4720,"label":"Wille zur Macht","ctype":"knowledge","rating":6,"rids":1},{"id":4722,"label":"Macht (Roman)","ctype":"knowledge","rating":8,"rids":3},{"id":4723,"label":"Franz\u00f6sisch mit Duolinguo lernen","ctype":"event","rating":5,"rids":1},{"id":4724,"label":"Franz\u00f6sisch lernen mit Duolingo II","ctype":"event","rating":5,"rids":1},{"id":4749,"label":"Geordnete Anarchie (Artikel)","ctype":"knowledge","rating":6,"rids":2},{"id":4750,"label":"Anthony de Jasay","ctype":"person","rating":4,"rids":1},{"id":4764,"label":"Literaturtheorien","ctype":"knowledge","rating":4,"rids":1},{"id":4767,"label":"Grid Systems in Graphic Design\/Raster Systeme F\u00fcr Die Visuelle Gestaltung","ctype":"publication","rating":7,"rids":1},{"id":4768,"label":"Josef M\u00fcller-Brockmann","ctype":"person","rating":6,"rids":4},{"id":4770,"label":"Typographie: Ein Gestaltungslehrbuch","ctype":"publication","rating":6,"rids":1},{"id":4771,"label":"Emil Ruder","ctype":"person","rating":5,"rids":1},{"id":4773,"label":"Alfred Escher 1819 - 1882. Der Aufbruch zur modernen Schweiz","ctype":"publication","rating":4,"rids":1},{"id":4775,"label":"Die Politologie des David Hume","ctype":"knowledge","rating":6,"rids":1},{"id":4777,"label":"Free Will (Book)","ctype":"publication","rating":8,"rids":1},{"id":4778,"label":"Der freie Wille","ctype":"knowledge","rating":7,"rids":1},{"id":4784,"label":"Swissted: Vintage Rock Posters Remixed and Reimagined","ctype":"publication","rating":4,"rids":1},{"id":4792,"label":"Introduction: Quantum World","ctype":"knowledge","rating":6,"rids":1},{"id":4795,"label":"Node.js Compilation","ctype":"knowledge","rating":6,"rids":1},{"id":4796,"label":"Entwicklungshilfe","ctype":"collection","rating":4,"rids":1},{"id":4805,"label":"Pal\u00e4olibertarismus","ctype":"knowledge","rating":5,"rids":2},{"id":4806,"label":"Marc Bettinger","ctype":"person","rating":4,"rids":1},{"id":4808,"label":"Think Again: How to Reason and Argue (Argumentationskurs)","ctype":"event","rating":7,"rids":2},{"id":4815,"label":"James C. Scott","ctype":"person","rating":3,"rids":1},{"id":4818,"label":"Was ist das Schweizerische an der Schweizer Literatur? (Peter von Matt)","ctype":"knowledge","rating":4,"rids":1},{"id":4822,"label":"10 Thesen von Dieter Rams \u00fcber gutes Produktdesign","ctype":"knowledge","rating":7,"rids":1},{"id":4840,"label":"Politica","ctype":"publication","rating":3,"rids":1},{"id":4842,"label":"Der Verrat der Intellektuellen ","ctype":"publication","rating":4,"rids":1},{"id":4843,"label":"Macht (Guglielmo Ferrero)","ctype":"publication","rating":2,"rids":1},{"id":4844,"label":"A Modest Proposal","ctype":"publication","rating":6,"rids":1},{"id":4845,"label":"Was ist gute Literatur? (Buch)","ctype":"publication","rating":8,"rids":8},{"id":4846,"label":"Der Kanon. Die deutsche Literatur. Romane.","ctype":"publication","rating":4,"rids":19},{"id":4847,"label":"Die Blechtrommel","ctype":"publication","rating":4,"rids":1},{"id":4848,"label":"Der Kanon. Die deutsche Literatur. Dramen.","ctype":"publication","rating":6,"rids":41},{"id":4849,"label":"Emilia Galotti","ctype":"publication","rating":4,"rids":1},{"id":4850,"label":"Die Landeskirche ist links","ctype":"knowledge","rating":7,"rids":1},{"id":4851,"label":"Matt Ridley","ctype":"person","rating":3,"rids":1},{"id":4881,"label":"Adam Westbrook","ctype":"person","rating":5,"rids":2},{"id":4911,"label":"F\u00f6deralismus","ctype":"knowledge","rating":6,"rids":3},{"id":4921,"label":"Applaus dem Anarchismus: \u00dcber Autonomie, W\u00fcrde, gute Arbeit und Spiel","ctype":"publication","rating":3,"rids":1},{"id":4926,"label":"Sind Sie tolerant? (Entwurf)","ctype":"knowledge","rating":6,"rids":1},{"id":4936,"label":"Steal Like an Artist","ctype":"publication","rating":6,"rids":1},{"id":4941,"label":"Die Figur des Lehrers im Besuch der alten Dame als Intellektueller","ctype":"knowledge","rating":7,"rids":2},{"id":4946,"label":"\u00dcber Literaturkritik","ctype":"publication","rating":5,"rids":1},{"id":4961,"label":"Le conservatisme, source de progr\u00e8s (Artikel)","ctype":"knowledge","rating":6,"rids":2},{"id":4996,"label":"Kommunale Intelligenz: Potenzialentfaltung in St\u00e4dten und Gemeinden","ctype":"publication","rating":6,"rids":1},{"id":5011,"label":"If You Want to Write ","ctype":"publication","rating":3,"rids":2},{"id":5026,"label":"Untersch\u00e4tzte Wirkung des gymnasialen Unterrichts","ctype":"knowledge","rating":6,"rids":2},{"id":5031,"label":"Herbert Matter","ctype":"person","rating":6,"rids":2},{"id":5036,"label":"Graphic Icons: Visionaries Who Shaped Modern Graphic Design","ctype":"publication","rating":6,"rids":2},{"id":5046,"label":"Josef M\u00fcller-Brockmann: Ein Pionier der Schweizer Grafik (Buch)","ctype":"publication","rating":3,"rids":2},{"id":5051,"label":"Die Kunst des Erz\u00e4hlens (Buch)","ctype":"publication","rating":8,"rids":2},{"id":5071,"label":"Darwin und Foucault (Buch)","ctype":"publication","rating":2,"rids":2},{"id":5076,"label":"Michel Foucault","ctype":"person","rating":4,"rids":1},{"id":5096,"label":"Public Choice Theory, Neue Politische \u00d6konomie","ctype":"knowledge","rating":6,"rids":5},{"id":5101,"label":"Hans-Hermann Hoppe","ctype":"person","rating":6,"rids":2},{"id":5111,"label":"Regeln f\u00fcr eine freie Gesellschaft: Ein James-Buchanan-Brevier","ctype":"publication","rating":6,"rids":2},{"id":5126,"label":"Die 14 Kennzeichen des Ur-Faschismus nach Umberto Eco","ctype":"knowledge","rating":6,"rids":1},{"id":5131,"label":"Hamed Abdel-Samad","ctype":"person","rating":4,"rids":2},{"id":5141,"label":"M\u00fcnchhausen-Trilemma","ctype":"knowledge","rating":7,"rids":1},{"id":5146,"label":"House of Cards Zitate","ctype":"knowledge","rating":6,"rids":1},{"id":5161,"label":"Textbausteine Witze","ctype":"knowledge","rating":8,"rids":2},{"id":5181,"label":"Ballade vom Nationalrat Hugo Sanders","ctype":"publication","rating":6,"rids":2},{"id":5186,"label":"Hie ir Schwyz (Mani Matter)","ctype":"publication","rating":5,"rids":2},{"id":5196,"label":"Die letzten Tage der Menschheit","ctype":"publication","rating":4,"rids":1},{"id":5206,"label":"Was heisst autobiografisch?","ctype":"knowledge","rating":7,"rids":1},{"id":5231,"label":"Paul Watzlawick","ctype":"person","rating":5,"rids":1},{"id":5251,"label":"Professionalit\u00e4t statt Authentizit\u00e4t","ctype":"knowledge","rating":6,"rids":2},{"id":5276,"label":"Unsere Landeskirche","ctype":"knowledge","rating":4,"rids":1},{"id":5306,"label":"Sprachs\u00fcnden","ctype":"knowledge","rating":6,"rids":1},{"id":5346,"label":"Die Kunst des Biedermeier","ctype":"publication","rating":6,"rids":2},{"id":5356,"label":"Biedermeier: Die Erfindung der Einfachheit","ctype":"publication","rating":6,"rids":2},{"id":5373,"label":"Video Camera Basics","ctype":"event","rating":6,"rids":1},{"id":5376,"label":"Die Ermordung einer Butterblume","ctype":"publication","rating":4,"rids":1},{"id":5378,"label":"The Future of Architecture in 100 Buildings","ctype":"publication","rating":3,"rids":1},{"id":5388,"label":"Luzide Tr\u00e4ume","ctype":"knowledge","rating":6,"rids":2},{"id":5392,"label":"Vokabular der Literatur und Erz\u00e4hlens (Meta)","ctype":"knowledge","rating":6,"rids":1},{"id":5394,"label":"Zettelkasten","ctype":"knowledge","rating":4,"rids":2},{"id":5395,"label":"Lernen Schwerpunkte (Backlog, Log)","ctype":"collection","rating":9,"rids":5},{"id":5413,"label":"Entwicklungshilfe: Schamloses Spiel mit Armut","ctype":"publication","rating":4,"rids":3},{"id":5415,"label":"Psychologische Grundkonflikte I: Abh\u00e4ngigkeit vs. Individuation \u2013 filmschreiben","ctype":"publication","rating":5,"rids":1},{"id":5421,"label":"Das Falsche Pferd (Songtext)","ctype":"publication","rating":4,"rids":1},{"id":5434,"label":"SPIEGEL Essay: Zur Theorie der Demokratie - DER SPIEGEL 32\/1987","ctype":"publication","rating":7,"rids":2},{"id":5435,"label":"Dokumentierte Tr\u00e4ume 2015","ctype":"knowledge","rating":8,"rids":4},{"id":5450,"label":"Grunds\u00e4tze der guten Politik","ctype":"knowledge","rating":9,"rids":1},{"id":5451,"label":"Mein Management","ctype":"knowledge","rating":8,"rids":2},{"id":5466,"label":"iconomix - Die Gefahren der Entwicklungshilfe und der Ungleichheit","ctype":"publication","rating":6,"rids":1},{"id":5476,"label":"Macht - Titelvorschl\u00e4ge","ctype":"knowledge","rating":6,"rids":1},{"id":5477,"label":"Traumdeutungen","ctype":"knowledge","rating":7,"rids":1},{"id":5478,"label":"Im Ausland einkaufen (Versuch einer Argumentation)","ctype":"knowledge","rating":6,"rids":1},{"id":5502,"label":"Was ist ein Klassiker?","ctype":"publication","rating":7,"rids":3},{"id":5506,"label":"Figurenrede","ctype":"knowledge","rating":3,"rids":1},{"id":5515,"label":"\u201eNeue deutsche Medienmacher\u201c als Sprachpolizisten  - Tichys Einblick","ctype":"publication","rating":5,"rids":3},{"id":5522,"label":"Machine intelligence","ctype":"publication","rating":7,"rids":1},{"id":5570,"label":"The Notecard System: The Key For Remembering, Organizing And Using Everything You Read","ctype":"publication","rating":7,"rids":1},{"id":5593,"label":"Beinahe N\u00fctzliches 1: Fireboard  (Buchprojekt)","ctype":"knowledge","rating":9,"rids":1},{"id":5608,"label":"Beinahe N\u00fctzliches 2: Wissens-Management mit Raisin Picker (Buchprojekt)","ctype":"knowledge","rating":9,"rids":1},{"id":5612,"label":"Meine Musik Playlists","ctype":"collection","rating":9,"rids":2},{"id":5617,"label":"Video-Serie Spontane Ordnung (Fractile)","ctype":"collection","rating":9,"rids":2},{"id":5622,"label":"Mein Vokabular: Was ich vermeiden m\u00f6chte","ctype":"knowledge","rating":7,"rids":1},{"id":5628,"label":"Superintelligent (Buchprojekt)","ctype":"knowledge","rating":9,"rids":2},{"id":5634,"label":"Ephraim Kishon","ctype":"person","rating":6,"rids":1},{"id":5639,"label":"Aktive Verben","ctype":"knowledge","rating":6,"rids":1},{"id":5644,"label":"Checkliste Literatur - Was es zu vermeiden gilt (Klischees)","ctype":"knowledge","rating":8,"rids":2},{"id":5651,"label":"Gemeinderatssitzungen Winterthur (Log)","ctype":"knowledge","rating":6,"rids":1},{"id":5667,"label":"Editorial SVPdirekt 2014-04","ctype":"knowledge","rating":6,"rids":1},{"id":5699,"label":"Argumentieren","ctype":"knowledge","rating":7,"rids":1},{"id":5704,"label":"Dokumentierte Tr\u00e4ume 2016","ctype":"knowledge","rating":8,"rids":1},{"id":5706,"label":"ModernityCharacteristics","ctype":"publication","rating":4,"rids":2},{"id":5738,"label":"The Dictator\u2019s Handbook","ctype":"publication","rating":8,"rids":1},{"id":5754,"label":"Schweizer Ausdr\u00fccke","ctype":"knowledge","rating":7,"rids":1}]}
+{
+  "nodes": [
+    {
+      "id": 7,
+      "label": "Sample text",
+      "ctype": "person",
+      "rating": 8,
+      "rids": 1
+    },
+    {
+      "id": 16,
+      "label": "Sample text",
+      "ctype": "person",
+      "rating": 5,
+      "rids": 1
+    },
+    {
+      "id": 17,
+      "label": "Sample text",
+      "ctype": "person",
+      "rating": 4,
+      "rids": 2
+    },
+    {
+      "id": 23,
+      "label": "Sample text",
+      "ctype": "person",
+      "rating": 6,
+      "rids": 1
+    },
+    {
+      "id": 26,
+      "label": "Sample text",
+      "ctype": "person",
+      "rating": 5,
+      "rids": 1
+    },
+    {
+      "id": 42,
+      "label": "Sample text",
+      "ctype": "person",
+      "rating": 5,
+      "rids": 1
+    },
+    {
+      "id": 59,
+      "label": "Sample text",
+      "ctype": "person",
+      "rating": 5,
+      "rids": 1
+    },
+    {
+      "id": 78,
+      "label": "Sample text",
+      "ctype": "person",
+      "rating": 5,
+      "rids": 1
+    },
+    {
+      "id": 82,
+      "label": "Sample text",
+      "ctype": "person",
+      "rating": 5,
+      "rids": 1
+    },
+    {
+      "id": 92,
+      "label": "Sample text",
+      "ctype": "person",
+      "rating": 7,
+      "rids": 1
+    },
+    {
+      "id": 93,
+      "label": "Sample text",
+      "ctype": "person",
+      "rating": 7,
+      "rids": 2
+    },
+    {
+      "id": 99,
+      "label": "Sample text",
+      "ctype": "person",
+      "rating": 5,
+      "rids": 2
+    },
+    {
+      "id": 109,
+      "label": "Sample text",
+      "ctype": "person",
+      "rating": 5,
+      "rids": 2
+    },
+    {
+      "id": 117,
+      "label": "Sample text",
+      "ctype": "person",
+      "rating": 5,
+      "rids": 1
+    },
+    {
+      "id": 118,
+      "label": "Sample text",
+      "ctype": "person",
+      "rating": 9,
+      "rids": 7
+    },
+    {
+      "id": 128,
+      "label": "Sample text",
+      "ctype": "person",
+      "rating": 5,
+      "rids": 1
+    },
+    {
+      "id": 131,
+      "label": "Sample text",
+      "ctype": "person",
+      "rating": 6,
+      "rids": 1
+    },
+    {
+      "id": 140,
+      "label": "Sample text",
+      "ctype": "person",
+      "rating": 5,
+      "rids": 1
+    },
+    {
+      "id": 145,
+      "label": "Sample text",
+      "ctype": "person",
+      "rating": 5,
+      "rids": 1
+    },
+    {
+      "id": 154,
+      "label": "Sample text",
+      "ctype": "person",
+      "rating": 8,
+      "rids": 2
+    },
+    {
+      "id": 168,
+      "label": "Sample text",
+      "ctype": "person",
+      "rating": 6,
+      "rids": 1
+    },
+    {
+      "id": 172,
+      "label": "Sample text",
+      "ctype": "person",
+      "rating": 5,
+      "rids": 1
+    },
+    {
+      "id": 173,
+      "label": "Sample text",
+      "ctype": "person",
+      "rating": 5,
+      "rids": 1
+    },
+    {
+      "id": 177,
+      "label": "Sample text",
+      "ctype": "person",
+      "rating": 5,
+      "rids": 1
+    },
+    {
+      "id": 178,
+      "label": "Sample text",
+      "ctype": "person",
+      "rating": 5,
+      "rids": 2
+    },
+    {
+      "id": 181,
+      "label": "Sample text",
+      "ctype": "person",
+      "rating": 8,
+      "rids": 2
+    },
+    {
+      "id": 193,
+      "label": "Sample text",
+      "ctype": "person",
+      "rating": 6,
+      "rids": 2
+    },
+    {
+      "id": 213,
+      "label": "Sample text",
+      "ctype": "person",
+      "rating": 8,
+      "rids": 1
+    },
+    {
+      "id": 214,
+      "label": "Sample text",
+      "ctype": "person",
+      "rating": 5,
+      "rids": 1
+    },
+    {
+      "id": 227,
+      "label": "Sample text",
+      "ctype": "person",
+      "rating": 9,
+      "rids": 1
+    },
+    {
+      "id": 230,
+      "label": "Sample text",
+      "ctype": "person",
+      "rating": 5,
+      "rids": 1
+    },
+    {
+      "id": 243,
+      "label": "Sample text",
+      "ctype": "person",
+      "rating": 6,
+      "rids": 1
+    },
+    {
+      "id": 244,
+      "label": "Sample text",
+      "ctype": "person",
+      "rating": 5,
+      "rids": 1
+    },
+    {
+      "id": 252,
+      "label": "Sample text",
+      "ctype": "person",
+      "rating": 6,
+      "rids": 3
+    },
+    {
+      "id": 261,
+      "label": "Sample text",
+      "ctype": "person",
+      "rating": 5,
+      "rids": 2
+    },
+    {
+      "id": 274,
+      "label": "Sample text",
+      "ctype": "person",
+      "rating": 5,
+      "rids": 1
+    },
+    {
+      "id": 286,
+      "label": "Sample text",
+      "ctype": "person",
+      "rating": 5,
+      "rids": 1
+    },
+    {
+      "id": 287,
+      "label": "Sample text",
+      "ctype": "person",
+      "rating": 5,
+      "rids": 1
+    },
+    {
+      "id": 296,
+      "label": "Sample text",
+      "ctype": "publication",
+      "rating": 4,
+      "rids": 1
+    },
+    {
+      "id": 297,
+      "label": "Sample text",
+      "ctype": "publication",
+      "rating": 4,
+      "rids": 1
+    },
+    {
+      "id": 300,
+      "label": "Sample text",
+      "ctype": "publication",
+      "rating": 4,
+      "rids": 1
+    },
+    {
+      "id": 302,
+      "label": "Sample text",
+      "ctype": "publication",
+      "rating": 6,
+      "rids": 1
+    },
+    {
+      "id": 311,
+      "label": "Sample text",
+      "ctype": "publication",
+      "rating": 4,
+      "rids": 1
+    },
+    {
+      "id": 315,
+      "label": "Sample text",
+      "ctype": "publication",
+      "rating": 4,
+      "rids": 1
+    },
+    {
+      "id": 317,
+      "label": "Sample text",
+      "ctype": "publication",
+      "rating": 4,
+      "rids": 5
+    },
+    {
+      "id": 318,
+      "label": "Sample text",
+      "ctype": "publication",
+      "rating": 8,
+      "rids": 2
+    },
+    {
+      "id": 321,
+      "label": "Sample text",
+      "ctype": "publication",
+      "rating": 8,
+      "rids": 1
+    },
+    {
+      "id": 332,
+      "label": "Sample text",
+      "ctype": "publication",
+      "rating": 4,
+      "rids": 1
+    },
+    {
+      "id": 333,
+      "label": "Sample text",
+      "ctype": "publication",
+      "rating": 4,
+      "rids": 1
+    },
+    {
+      "id": 337,
+      "label": "Sample text",
+      "ctype": "publication",
+      "rating": 6,
+      "rids": 1
+    },
+    {
+      "id": 339,
+      "label": "Sample text",
+      "ctype": "publication",
+      "rating": 4,
+      "rids": 1
+    },
+    {
+      "id": 340,
+      "label": "Sample text",
+      "ctype": "publication",
+      "rating": 4,
+      "rids": 1
+    },
+    {
+      "id": 342,
+      "label": "Sample text",
+      "ctype": "publication",
+      "rating": 4,
+      "rids": 1
+    },
+    {
+      "id": 344,
+      "label": "Sample text",
+      "ctype": "publication",
+      "rating": 4,
+      "rids": 2
+    },
+    {
+      "id": 349,
+      "label": "Sample text",
+      "ctype": "publication",
+      "rating": 6,
+      "rids": 1
+    },
+    {
+      "id": 350,
+      "label": "Sample text",
+      "ctype": "publication",
+      "rating": 7,
+      "rids": 1
+    },
+    {
+      "id": 351,
+      "label": "Sample text",
+      "ctype": "publication",
+      "rating": 4,
+      "rids": 1
+    },
+    {
+      "id": 356,
+      "label": "Sample text",
+      "ctype": "publication",
+      "rating": 4,
+      "rids": 1
+    },
+    {
+      "id": 363,
+      "label": "Sample text",
+      "ctype": "publication",
+      "rating": 5,
+      "rids": 1
+    },
+    {
+      "id": 370,
+      "label": "Sample text",
+      "ctype": "publication",
+      "rating": 4,
+      "rids": 1
+    },
+    {
+      "id": 372,
+      "label": "Sample text",
+      "ctype": "publication",
+      "rating": 4,
+      "rids": 1
+    },
+    {
+      "id": 374,
+      "label": "Sample text",
+      "ctype": "publication",
+      "rating": 4,
+      "rids": 1
+    },
+    {
+      "id": 385,
+      "label": "Sample text",
+      "ctype": "publication",
+      "rating": 9,
+      "rids": 1
+    },
+    {
+      "id": 387,
+      "label": "Sample text",
+      "ctype": "publication",
+      "rating": 4,
+      "rids": 1
+    },
+    {
+      "id": 395,
+      "label": "Sample text",
+      "ctype": "publication",
+      "rating": 4,
+      "rids": 1
+    },
+    {
+      "id": 397,
+      "label": "Sample text",
+      "ctype": "publication",
+      "rating": 4,
+      "rids": 1
+    },
+    {
+      "id": 398,
+      "label": "Sample text",
+      "ctype": "publication",
+      "rating": 3,
+      "rids": 1
+    },
+    {
+      "id": 408,
+      "label": "Sample text",
+      "ctype": "publication",
+      "rating": 6,
+      "rids": 1
+    },
+    {
+      "id": 410,
+      "label": "Sample text",
+      "ctype": "publication",
+      "rating": 4,
+      "rids": 1
+    },
+    {
+      "id": 413,
+      "label": "Sample text",
+      "ctype": "publication",
+      "rating": 4,
+      "rids": 1
+    },
+    {
+      "id": 415,
+      "label": "Sample text",
+      "ctype": "publication",
+      "rating": 6,
+      "rids": 1
+    },
+    {
+      "id": 417,
+      "label": "Sample text",
+      "ctype": "publication",
+      "rating": 4,
+      "rids": 1
+    },
+    {
+      "id": 418,
+      "label": "Sample text",
+      "ctype": "publication",
+      "rating": 3,
+      "rids": 1
+    },
+    {
+      "id": 425,
+      "label": "Sample text",
+      "ctype": "publication",
+      "rating": 4,
+      "rids": 1
+    },
+    {
+      "id": 433,
+      "label": "Sample text",
+      "ctype": "publication",
+      "rating": 4,
+      "rids": 1
+    },
+    {
+      "id": 436,
+      "label": "Sample text",
+      "ctype": "publication",
+      "rating": 4,
+      "rids": 1
+    },
+    {
+      "id": 437,
+      "label": "Sample text",
+      "ctype": "publication",
+      "rating": 8,
+      "rids": 1
+    },
+    {
+      "id": 438,
+      "label": "Sample text",
+      "ctype": "publication",
+      "rating": 4,
+      "rids": 1
+    },
+    {
+      "id": 442,
+      "label": "Sample text",
+      "ctype": "publication",
+      "rating": 4,
+      "rids": 1
+    },
+    {
+      "id": 444,
+      "label": "Sample text",
+      "ctype": "publication",
+      "rating": 9,
+      "rids": 2
+    },
+    {
+      "id": 446,
+      "label": "Sample text",
+      "ctype": "publication",
+      "rating": 4,
+      "rids": 1
+    },
+    {
+      "id": 447,
+      "label": "Sample text",
+      "ctype": "publication",
+      "rating": 5,
+      "rids": 1
+    },
+    {
+      "id": 448,
+      "label": "Sample text",
+      "ctype": "publication",
+      "rating": 5,
+      "rids": 1
+    },
+    {
+      "id": 454,
+      "label": "Sample text",
+      "ctype": "publication",
+      "rating": 6,
+      "rids": 1
+    },
+    {
+      "id": 460,
+      "label": "Sample text",
+      "ctype": "publication",
+      "rating": 4,
+      "rids": 1
+    },
+    {
+      "id": 466,
+      "label": "Sample text",
+      "ctype": "publication",
+      "rating": 6,
+      "rids": 1
+    },
+    {
+      "id": 467,
+      "label": "Sample text",
+      "ctype": "publication",
+      "rating": 4,
+      "rids": 1
+    },
+    {
+      "id": 470,
+      "label": "Sample text",
+      "ctype": "publication",
+      "rating": 4,
+      "rids": 2
+    },
+    {
+      "id": 475,
+      "label": "Sample text",
+      "ctype": "publication",
+      "rating": 4,
+      "rids": 1
+    },
+    {
+      "id": 476,
+      "label": "Sample text",
+      "ctype": "publication",
+      "rating": 4,
+      "rids": 1
+    },
+    {
+      "id": 481,
+      "label": "Sample text",
+      "ctype": "publication",
+      "rating": 4,
+      "rids": 1
+    },
+    {
+      "id": 483,
+      "label": "Sample text",
+      "ctype": "publication",
+      "rating": 7,
+      "rids": 2
+    },
+    {
+      "id": 489,
+      "label": "Sample text",
+      "ctype": "publication",
+      "rating": 4,
+      "rids": 1
+    },
+    {
+      "id": 490,
+      "label": "Sample text",
+      "ctype": "publication",
+      "rating": 4,
+      "rids": 1
+    },
+    {
+      "id": 494,
+      "label": "Sample text",
+      "ctype": "publication",
+      "rating": 4,
+      "rids": 1
+    },
+    {
+      "id": 496,
+      "label": "Sample text",
+      "ctype": "publication",
+      "rating": 4,
+      "rids": 1
+    },
+    {
+      "id": 498,
+      "label": "Sample text",
+      "ctype": "publication",
+      "rating": 4,
+      "rids": 1
+    },
+    {
+      "id": 499,
+      "label": "Sample text",
+      "ctype": "publication",
+      "rating": 4,
+      "rids": 1
+    },
+    {
+      "id": 503,
+      "label": "Sample text",
+      "ctype": "publication",
+      "rating": 4,
+      "rids": 1
+    },
+    {
+      "id": 506,
+      "label": "Sample text",
+      "ctype": "publication",
+      "rating": 3,
+      "rids": 1
+    },
+    {
+      "id": 507,
+      "label": "Sample text",
+      "ctype": "publication",
+      "rating": 4,
+      "rids": 1
+    },
+    {
+      "id": 508,
+      "label": "Sample text",
+      "ctype": "publication",
+      "rating": 4,
+      "rids": 1
+    },
+    {
+      "id": 509,
+      "label": "Sample text",
+      "ctype": "publication",
+      "rating": 4,
+      "rids": 1
+    },
+    {
+      "id": 510,
+      "label": "Sample text",
+      "ctype": "publication",
+      "rating": 4,
+      "rids": 1
+    },
+    {
+      "id": 522,
+      "label": "Sample text",
+      "ctype": "publication",
+      "rating": 4,
+      "rids": 2
+    },
+    {
+      "id": 527,
+      "label": "Sample text",
+      "ctype": "publication",
+      "rating": 6,
+      "rids": 1
+    },
+    {
+      "id": 529,
+      "label": "Sample text",
+      "ctype": "publication",
+      "rating": 4,
+      "rids": 1
+    },
+    {
+      "id": 530,
+      "label": "Sample text",
+      "ctype": "publication",
+      "rating": 4,
+      "rids": 1
+    },
+    {
+      "id": 531,
+      "label": "Sample text",
+      "ctype": "publication",
+      "rating": 4,
+      "rids": 1
+    },
+    {
+      "id": 535,
+      "label": "Sample text",
+      "ctype": "publication",
+      "rating": 7,
+      "rids": 1
+    },
+    {
+      "id": 542,
+      "label": "Sample text",
+      "ctype": "publication",
+      "rating": 8,
+      "rids": 1
+    },
+    {
+      "id": 547,
+      "label": "Sample text",
+      "ctype": "publication",
+      "rating": 4,
+      "rids": 1
+    },
+    {
+      "id": 548,
+      "label": "Sample text",
+      "ctype": "publication",
+      "rating": 5,
+      "rids": 1
+    },
+    {
+      "id": 551,
+      "label": "Sample text",
+      "ctype": "publication",
+      "rating": 9,
+      "rids": 1
+    },
+    {
+      "id": 552,
+      "label": "Sample text",
+      "ctype": "publication",
+      "rating": 4,
+      "rids": 1
+    },
+    {
+      "id": 553,
+      "label": "Sample text",
+      "ctype": "publication",
+      "rating": 4,
+      "rids": 1
+    },
+    {
+      "id": 557,
+      "label": "Sample text",
+      "ctype": "publication",
+      "rating": 2,
+      "rids": 1
+    },
+    {
+      "id": 561,
+      "label": "Sample text",
+      "ctype": "publication",
+      "rating": 7,
+      "rids": 1
+    },
+    {
+      "id": 564,
+      "label": "Sample text",
+      "ctype": "publication",
+      "rating": 4,
+      "rids": 1
+    },
+    {
+      "id": 568,
+      "label": "Sample text",
+      "ctype": "publication",
+      "rating": 5,
+      "rids": 1
+    },
+    {
+      "id": 569,
+      "label": "Sample text",
+      "ctype": "publication",
+      "rating": 4,
+      "rids": 1
+    },
+    {
+      "id": 570,
+      "label": "Sample text",
+      "ctype": "publication",
+      "rating": 4,
+      "rids": 1
+    },
+    {
+      "id": 571,
+      "label": "Sample text",
+      "ctype": "publication",
+      "rating": 7,
+      "rids": 1
+    },
+    {
+      "id": 572,
+      "label": "Sample text",
+      "ctype": "publication",
+      "rating": 4,
+      "rids": 1
+    },
+    {
+      "id": 579,
+      "label": "Sample text",
+      "ctype": "publication",
+      "rating": 4,
+      "rids": 1
+    },
+    {
+      "id": 581,
+      "label": "Sample text",
+      "ctype": "publication",
+      "rating": 4,
+      "rids": 1
+    },
+    {
+      "id": 582,
+      "label": "Sample text",
+      "ctype": "publication",
+      "rating": 3,
+      "rids": 1
+    },
+    {
+      "id": 590,
+      "label": "Sample text",
+      "ctype": "publication",
+      "rating": 9,
+      "rids": 1
+    },
+    {
+      "id": 594,
+      "label": "Sample text",
+      "ctype": "publication",
+      "rating": 9,
+      "rids": 1
+    },
+    {
+      "id": 595,
+      "label": "Sample text",
+      "ctype": "publication",
+      "rating": 4,
+      "rids": 1
+    },
+    {
+      "id": 596,
+      "label": "Sample text",
+      "ctype": "publication",
+      "rating": 4,
+      "rids": 1
+    },
+    {
+      "id": 599,
+      "label": "Sample text",
+      "ctype": "publication",
+      "rating": 6,
+      "rids": 101
+    },
+    {
+      "id": 600,
+      "label": "Sample text",
+      "ctype": "publication",
+      "rating": 6,
+      "rids": 1
+    },
+    {
+      "id": 604,
+      "label": "Sample text",
+      "ctype": "publication",
+      "rating": 4,
+      "rids": 1
+    },
+    {
+      "id": 605,
+      "label": "Sample text",
+      "ctype": "publication",
+      "rating": 4,
+      "rids": 1
+    },
+    {
+      "id": 607,
+      "label": "Sample text",
+      "ctype": "publication",
+      "rating": 4,
+      "rids": 1
+    },
+    {
+      "id": 609,
+      "label": "Sample text",
+      "ctype": "publication",
+      "rating": 4,
+      "rids": 1
+    },
+    {
+      "id": 610,
+      "label": "Sample text",
+      "ctype": "publication",
+      "rating": 4,
+      "rids": 1
+    },
+    {
+      "id": 613,
+      "label": "Sample text",
+      "ctype": "publication",
+      "rating": 4,
+      "rids": 1
+    },
+    {
+      "id": 615,
+      "label": "Sample text",
+      "ctype": "publication",
+      "rating": 4,
+      "rids": 1
+    },
+    {
+      "id": 616,
+      "label": "Sample text",
+      "ctype": "publication",
+      "rating": 4,
+      "rids": 1
+    },
+    {
+      "id": 617,
+      "label": "Sample text",
+      "ctype": "publication",
+      "rating": 5,
+      "rids": 1
+    },
+    {
+      "id": 619,
+      "label": "Sample text",
+      "ctype": "publication",
+      "rating": 6,
+      "rids": 3
+    },
+    {
+      "id": 620,
+      "label": "Sample text",
+      "ctype": "publication",
+      "rating": 6,
+      "rids": 1
+    },
+    {
+      "id": 621,
+      "label": "Sample text",
+      "ctype": "publication",
+      "rating": 4,
+      "rids": 1
+    },
+    {
+      "id": 623,
+      "label": "Sample text",
+      "ctype": "publication",
+      "rating": 6,
+      "rids": 1
+    },
+    {
+      "id": 624,
+      "label": "Sample text",
+      "ctype": "publication",
+      "rating": 4,
+      "rids": 1
+    },
+    {
+      "id": 625,
+      "label": "Sample text",
+      "ctype": "publication",
+      "rating": 4,
+      "rids": 1
+    },
+    {
+      "id": 629,
+      "label": "Sample text",
+      "ctype": "publication",
+      "rating": 4,
+      "rids": 1
+    },
+    {
+      "id": 633,
+      "label": "Sample text",
+      "ctype": "publication",
+      "rating": 4,
+      "rids": 1
+    },
+    {
+      "id": 634,
+      "label": "Sample text",
+      "ctype": "publication",
+      "rating": 4,
+      "rids": 1
+    },
+    {
+      "id": 635,
+      "label": "Sample text",
+      "ctype": "publication",
+      "rating": 4,
+      "rids": 1
+    },
+    {
+      "id": 636,
+      "label": "Sample text",
+      "ctype": "publication",
+      "rating": 8,
+      "rids": 2
+    },
+    {
+      "id": 643,
+      "label": "Sample text",
+      "ctype": "publication",
+      "rating": 8,
+      "rids": 1
+    },
+    {
+      "id": 645,
+      "label": "Sample text",
+      "ctype": "publication",
+      "rating": 9,
+      "rids": 2
+    },
+    {
+      "id": 646,
+      "label": "Sample text",
+      "ctype": "publication",
+      "rating": 4,
+      "rids": 1
+    },
+    {
+      "id": 651,
+      "label": "Sample text",
+      "ctype": "publication",
+      "rating": 4,
+      "rids": 1
+    },
+    {
+      "id": 652,
+      "label": "Sample text",
+      "ctype": "publication",
+      "rating": 4,
+      "rids": 1
+    },
+    {
+      "id": 654,
+      "label": "Sample text",
+      "ctype": "publication",
+      "rating": 7,
+      "rids": 1
+    },
+    {
+      "id": 657,
+      "label": "Sample text",
+      "ctype": "publication",
+      "rating": 9,
+      "rids": 1
+    },
+    {
+      "id": 658,
+      "label": "Sample text",
+      "ctype": "publication",
+      "rating": 5,
+      "rids": 1
+    },
+    {
+      "id": 659,
+      "label": "Sample text",
+      "ctype": "publication",
+      "rating": 5,
+      "rids": 1
+    },
+    {
+      "id": 660,
+      "label": "Sample text",
+      "ctype": "publication",
+      "rating": 5,
+      "rids": 1
+    },
+    {
+      "id": 661,
+      "label": "Sample text",
+      "ctype": "publication",
+      "rating": 4,
+      "rids": 1
+    },
+    {
+      "id": 662,
+      "label": "Sample text",
+      "ctype": "publication",
+      "rating": 4,
+      "rids": 1
+    },
+    {
+      "id": 664,
+      "label": "Sample text",
+      "ctype": "publication",
+      "rating": 8,
+      "rids": 2
+    },
+    {
+      "id": 665,
+      "label": "Sample text",
+      "ctype": "publication",
+      "rating": 7,
+      "rids": 1
+    },
+    {
+      "id": 669,
+      "label": "Sample text",
+      "ctype": "publication",
+      "rating": 4,
+      "rids": 1
+    },
+    {
+      "id": 670,
+      "label": "Sample text",
+      "ctype": "publication",
+      "rating": 4,
+      "rids": 1
+    },
+    {
+      "id": 671,
+      "label": "Sample text",
+      "ctype": "publication",
+      "rating": 8,
+      "rids": 2
+    },
+    {
+      "id": 676,
+      "label": "Sample text",
+      "ctype": "publication",
+      "rating": 4,
+      "rids": 1
+    },
+    {
+      "id": 677,
+      "label": "Sample text",
+      "ctype": "publication",
+      "rating": 4,
+      "rids": 1
+    },
+    {
+      "id": 680,
+      "label": "Sample text",
+      "ctype": "publication",
+      "rating": 4,
+      "rids": 1
+    },
+    {
+      "id": 684,
+      "label": "Sample text",
+      "ctype": "publication",
+      "rating": 7,
+      "rids": 1
+    },
+    {
+      "id": 685,
+      "label": "Sample text",
+      "ctype": "publication",
+      "rating": 4,
+      "rids": 1
+    },
+    {
+      "id": 696,
+      "label": "Sample text",
+      "ctype": "publication",
+      "rating": 4,
+      "rids": 1
+    },
+    {
+      "id": 698,
+      "label": "Sample text",
+      "ctype": "publication",
+      "rating": 4,
+      "rids": 1
+    },
+    {
+      "id": 703,
+      "label": "Sample text",
+      "ctype": "publication",
+      "rating": 4,
+      "rids": 2
+    },
+    {
+      "id": 708,
+      "label": "Sample text",
+      "ctype": "publication",
+      "rating": 6,
+      "rids": 2
+    },
+    {
+      "id": 710,
+      "label": "Sample text",
+      "ctype": "publication",
+      "rating": 4,
+      "rids": 1
+    },
+    {
+      "id": 712,
+      "label": "Sample text",
+      "ctype": "publication",
+      "rating": 4,
+      "rids": 1
+    },
+    {
+      "id": 715,
+      "label": "Sample text",
+      "ctype": "publication",
+      "rating": 4,
+      "rids": 1
+    },
+    {
+      "id": 717,
+      "label": "Sample text",
+      "ctype": "publication",
+      "rating": 3,
+      "rids": 1
+    },
+    {
+      "id": 720,
+      "label": "Sample text",
+      "ctype": "publication",
+      "rating": 4,
+      "rids": 1
+    },
+    {
+      "id": 723,
+      "label": "Sample text",
+      "ctype": "publication",
+      "rating": 4,
+      "rids": 1
+    },
+    {
+      "id": 724,
+      "label": "Sample text",
+      "ctype": "publication",
+      "rating": 6,
+      "rids": 1
+    },
+    {
+      "id": 729,
+      "label": "Sample text",
+      "ctype": "publication",
+      "rating": 4,
+      "rids": 1
+    },
+    {
+      "id": 730,
+      "label": "Sample text",
+      "ctype": "publication",
+      "rating": 4,
+      "rids": 1
+    },
+    {
+      "id": 731,
+      "label": "Sample text",
+      "ctype": "publication",
+      "rating": 4,
+      "rids": 1
+    },
+    {
+      "id": 733,
+      "label": "Sample text",
+      "ctype": "publication",
+      "rating": 4,
+      "rids": 1
+    },
+    {
+      "id": 735,
+      "label": "Sample text",
+      "ctype": "publication",
+      "rating": 4,
+      "rids": 1
+    },
+    {
+      "id": 736,
+      "label": "Sample text",
+      "ctype": "publication",
+      "rating": 7,
+      "rids": 1
+    },
+    {
+      "id": 738,
+      "label": "Sample text",
+      "ctype": "publication",
+      "rating": 5,
+      "rids": 1
+    },
+    {
+      "id": 739,
+      "label": "Sample text",
+      "ctype": "publication",
+      "rating": 4,
+      "rids": 1
+    },
+    {
+      "id": 740,
+      "label": "Sample text",
+      "ctype": "publication",
+      "rating": 4,
+      "rids": 1
+    },
+    {
+      "id": 741,
+      "label": "Sample text",
+      "ctype": "publication",
+      "rating": 4,
+      "rids": 1
+    },
+    {
+      "id": 744,
+      "label": "Sample text",
+      "ctype": "publication",
+      "rating": 4,
+      "rids": 1
+    },
+    {
+      "id": 745,
+      "label": "Sample text",
+      "ctype": "publication",
+      "rating": 4,
+      "rids": 1
+    },
+    {
+      "id": 746,
+      "label": "Sample text",
+      "ctype": "publication",
+      "rating": 4,
+      "rids": 1
+    },
+    {
+      "id": 747,
+      "label": "Sample text",
+      "ctype": "publication",
+      "rating": 4,
+      "rids": 1
+    },
+    {
+      "id": 748,
+      "label": "Sample text",
+      "ctype": "publication",
+      "rating": 7,
+      "rids": 1
+    },
+    {
+      "id": 750,
+      "label": "Sample text",
+      "ctype": "publication",
+      "rating": 9,
+      "rids": 2
+    },
+    {
+      "id": 751,
+      "label": "Sample text",
+      "ctype": "publication",
+      "rating": 4,
+      "rids": 1
+    },
+    {
+      "id": 755,
+      "label": "Sample text",
+      "ctype": "publication",
+      "rating": 4,
+      "rids": 1
+    },
+    {
+      "id": 757,
+      "label": "Sample text",
+      "ctype": "publication",
+      "rating": 4,
+      "rids": 1
+    },
+    {
+      "id": 761,
+      "label": "Sample text",
+      "ctype": "publication",
+      "rating": 7,
+      "rids": 1
+    },
+    {
+      "id": 762,
+      "label": "Sample text",
+      "ctype": "publication",
+      "rating": 8,
+      "rids": 1
+    },
+    {
+      "id": 763,
+      "label": "Sample text",
+      "ctype": "publication",
+      "rating": 6,
+      "rids": 1
+    },
+    {
+      "id": 764,
+      "label": "Sample text",
+      "ctype": "publication",
+      "rating": 4,
+      "rids": 1
+    },
+    {
+      "id": 765,
+      "label": "Sample text",
+      "ctype": "publication",
+      "rating": 4,
+      "rids": 1
+    },
+    {
+      "id": 766,
+      "label": "Sample text",
+      "ctype": "publication",
+      "rating": 4,
+      "rids": 1
+    },
+    {
+      "id": 767,
+      "label": "Sample text",
+      "ctype": "publication",
+      "rating": 4,
+      "rids": 1
+    },
+    {
+      "id": 768,
+      "label": "Sample text",
+      "ctype": "publication",
+      "rating": 6,
+      "rids": 1
+    },
+    {
+      "id": 769,
+      "label": "Sample text",
+      "ctype": "publication",
+      "rating": 4,
+      "rids": 1
+    },
+    {
+      "id": 770,
+      "label": "Sample text",
+      "ctype": "publication",
+      "rating": 4,
+      "rids": 1
+    },
+    {
+      "id": 771,
+      "label": "Sample text",
+      "ctype": "publication",
+      "rating": 4,
+      "rids": 1
+    },
+    {
+      "id": 772,
+      "label": "Sample text",
+      "ctype": "publication",
+      "rating": 4,
+      "rids": 1
+    },
+    {
+      "id": 773,
+      "label": "Sample text",
+      "ctype": "publication",
+      "rating": 5,
+      "rids": 2
+    },
+    {
+      "id": 782,
+      "label": "Sample text",
+      "ctype": "knowledge",
+      "rating": 9,
+      "rids": 2
+    },
+    {
+      "id": 786,
+      "label": "Sample text",
+      "ctype": "knowledge",
+      "rating": 8,
+      "rids": 1
+    },
+    {
+      "id": 792,
+      "label": "Sample text",
+      "ctype": "knowledge",
+      "rating": 5,
+      "rids": 1
+    },
+    {
+      "id": 794,
+      "label": "Sample text",
+      "ctype": "knowledge",
+      "rating": 9,
+      "rids": 1
+    },
+    {
+      "id": 796,
+      "label": "Sample text",
+      "ctype": "knowledge",
+      "rating": 7,
+      "rids": 1
+    },
+    {
+      "id": 805,
+      "label": "Sample text",
+      "ctype": "knowledge",
+      "rating": 6,
+      "rids": 5
+    },
+    {
+      "id": 811,
+      "label": "Sample text",
+      "ctype": "knowledge",
+      "rating": 7,
+      "rids": 6
+    },
+    {
+      "id": 812,
+      "label": "Sample text",
+      "ctype": "person",
+      "rating": 5,
+      "rids": 5
+    },
+    {
+      "id": 813,
+      "label": "Sample text",
+      "ctype": "publication",
+      "rating": 8,
+      "rids": 3
+    },
+    {
+      "id": 814,
+      "label": "Sample text",
+      "ctype": "person",
+      "rating": 7,
+      "rids": 2
+    },
+    {
+      "id": 815,
+      "label": "Sample text",
+      "ctype": "event",
+      "rating": 3,
+      "rids": 4
+    },
+    {
+      "id": 817,
+      "label": "Sample text",
+      "ctype": "knowledge",
+      "rating": 6,
+      "rids": 1
+    },
+    {
+      "id": 830,
+      "label": "Sample text",
+      "ctype": "knowledge",
+      "rating": 5,
+      "rids": 1
+    },
+    {
+      "id": 842,
+      "label": "Sample text",
+      "ctype": "person",
+      "rating": 5,
+      "rids": 1
+    },
+    {
+      "id": 843,
+      "label": "Sample text",
+      "ctype": "person",
+      "rating": 5,
+      "rids": 2
+    },
+    {
+      "id": 844,
+      "label": "Sample text",
+      "ctype": "person",
+      "rating": 5,
+      "rids": 1
+    },
+    {
+      "id": 857,
+      "label": "Sample text",
+      "ctype": "person",
+      "rating": 5,
+      "rids": 1
+    },
+    {
+      "id": 859,
+      "label": "Sample text",
+      "ctype": "person",
+      "rating": 9,
+      "rids": 1
+    },
+    {
+      "id": 872,
+      "label": "Sample text",
+      "ctype": "person",
+      "rating": 6,
+      "rids": 1
+    },
+    {
+      "id": 887,
+      "label": "Sample text",
+      "ctype": "person",
+      "rating": 8,
+      "rids": 4
+    },
+    {
+      "id": 888,
+      "label": "Sample text",
+      "ctype": "person",
+      "rating": 8,
+      "rids": 1
+    },
+    {
+      "id": 894,
+      "label": "Sample text",
+      "ctype": "person",
+      "rating": 5,
+      "rids": 1
+    },
+    {
+      "id": 895,
+      "label": "Sample text",
+      "ctype": "person",
+      "rating": 9,
+      "rids": 2
+    },
+    {
+      "id": 896,
+      "label": "Sample text",
+      "ctype": "person",
+      "rating": 5,
+      "rids": 1
+    },
+    {
+      "id": 898,
+      "label": "Sample text",
+      "ctype": "person",
+      "rating": 5,
+      "rids": 1
+    },
+    {
+      "id": 899,
+      "label": "Sample text",
+      "ctype": "person",
+      "rating": 5,
+      "rids": 1
+    },
+    {
+      "id": 900,
+      "label": "Sample text",
+      "ctype": "person",
+      "rating": 5,
+      "rids": 1
+    },
+    {
+      "id": 902,
+      "label": "Sample text",
+      "ctype": "person",
+      "rating": 5,
+      "rids": 1
+    },
+    {
+      "id": 903,
+      "label": "Sample text",
+      "ctype": "person",
+      "rating": 5,
+      "rids": 1
+    },
+    {
+      "id": 906,
+      "label": "Sample text",
+      "ctype": "person",
+      "rating": 5,
+      "rids": 1
+    },
+    {
+      "id": 907,
+      "label": "Sample text",
+      "ctype": "person",
+      "rating": 5,
+      "rids": 1
+    },
+    {
+      "id": 909,
+      "label": "Sample text",
+      "ctype": "person",
+      "rating": 5,
+      "rids": 1
+    },
+    {
+      "id": 932,
+      "label": "Sample text",
+      "ctype": "knowledge",
+      "rating": 7,
+      "rids": 1
+    },
+    {
+      "id": 990,
+      "label": "Sample text",
+      "ctype": "knowledge",
+      "rating": 7,
+      "rids": 1
+    },
+    {
+      "id": 1083,
+      "label": "Sample text",
+      "ctype": "knowledge",
+      "rating": 4,
+      "rids": 1
+    },
+    {
+      "id": 1084,
+      "label": "Sample text",
+      "ctype": "knowledge",
+      "rating": 5,
+      "rids": 1
+    },
+    {
+      "id": 1085,
+      "label": "Sample text",
+      "ctype": "knowledge",
+      "rating": 6,
+      "rids": 1
+    },
+    {
+      "id": 1091,
+      "label": "Sample text",
+      "ctype": "publication",
+      "rating": 7,
+      "rids": 1
+    },
+    {
+      "id": 1094,
+      "label": "Sample text",
+      "ctype": "person",
+      "rating": 7,
+      "rids": 3
+    },
+    {
+      "id": 1095,
+      "label": "Sample text",
+      "ctype": "publication",
+      "rating": 4,
+      "rids": 2
+    },
+    {
+      "id": 1100,
+      "label": "Sample text",
+      "ctype": "knowledge",
+      "rating": 7,
+      "rids": 2
+    },
+    {
+      "id": 1103,
+      "label": "Sample text",
+      "ctype": "knowledge",
+      "rating": 6,
+      "rids": 1
+    },
+    {
+      "id": 1104,
+      "label": "Sample text",
+      "ctype": "person",
+      "rating": 5,
+      "rids": 1
+    },
+    {
+      "id": 1108,
+      "label": "Sample text",
+      "ctype": "publication",
+      "rating": 8,
+      "rids": 1
+    },
+    {
+      "id": 1111,
+      "label": "Sample text",
+      "ctype": "publication",
+      "rating": 6,
+      "rids": 1
+    },
+    {
+      "id": 1112,
+      "label": "Sample text",
+      "ctype": "publication",
+      "rating": 9,
+      "rids": 2
+    },
+    {
+      "id": 1542,
+      "label": "Sample text",
+      "ctype": "person",
+      "rating": 5,
+      "rids": 1
+    },
+    {
+      "id": 1684,
+      "label": "Sample text",
+      "ctype": "knowledge",
+      "rating": 7,
+      "rids": 1
+    },
+    {
+      "id": 1704,
+      "label": "Sample text",
+      "ctype": "knowledge",
+      "rating": 8,
+      "rids": 2
+    },
+    {
+      "id": 2413,
+      "label": "Sample text",
+      "ctype": "knowledge",
+      "rating": 5,
+      "rids": 1
+    },
+    {
+      "id": 2420,
+      "label": "Sample text",
+      "ctype": "knowledge",
+      "rating": 5,
+      "rids": 1
+    },
+    {
+      "id": 2435,
+      "label": "Sample text",
+      "ctype": "knowledge",
+      "rating": 5,
+      "rids": 1
+    },
+    {
+      "id": 2447,
+      "label": "Sample text",
+      "ctype": "knowledge",
+      "rating": 7,
+      "rids": 2
+    },
+    {
+      "id": 2449,
+      "label": "Sample text",
+      "ctype": "knowledge",
+      "rating": 5,
+      "rids": 2
+    },
+    {
+      "id": 2454,
+      "label": "Sample text",
+      "ctype": "knowledge",
+      "rating": 5,
+      "rids": 2
+    },
+    {
+      "id": 2477,
+      "label": "Sample text",
+      "ctype": "knowledge",
+      "rating": 5,
+      "rids": 1
+    },
+    {
+      "id": 2492,
+      "label": "Sample text",
+      "ctype": "knowledge",
+      "rating": 5,
+      "rids": 1
+    },
+    {
+      "id": 2534,
+      "label": "Sample text",
+      "ctype": "knowledge",
+      "rating": 8,
+      "rids": 2
+    },
+    {
+      "id": 2552,
+      "label": "Sample text",
+      "ctype": "knowledge",
+      "rating": 4,
+      "rids": 3
+    },
+    {
+      "id": 2590,
+      "label": "Sample text",
+      "ctype": "knowledge",
+      "rating": 5,
+      "rids": 1
+    },
+    {
+      "id": 2607,
+      "label": "Sample text",
+      "ctype": "knowledge",
+      "rating": 5,
+      "rids": 1
+    },
+    {
+      "id": 2625,
+      "label": "Sample text",
+      "ctype": "knowledge",
+      "rating": 5,
+      "rids": 1
+    },
+    {
+      "id": 2650,
+      "label": "Sample text",
+      "ctype": "knowledge",
+      "rating": 5,
+      "rids": 1
+    },
+    {
+      "id": 2717,
+      "label": "Sample text",
+      "ctype": "knowledge",
+      "rating": 5,
+      "rids": 1
+    },
+    {
+      "id": 2751,
+      "label": "Sample text",
+      "ctype": "knowledge",
+      "rating": 3,
+      "rids": 1
+    },
+    {
+      "id": 2756,
+      "label": "Sample text",
+      "ctype": "knowledge",
+      "rating": 5,
+      "rids": 1
+    },
+    {
+      "id": 2761,
+      "label": "Sample text",
+      "ctype": "knowledge",
+      "rating": 5,
+      "rids": 1
+    },
+    {
+      "id": 2789,
+      "label": "Sample text",
+      "ctype": "knowledge",
+      "rating": 5,
+      "rids": 1
+    },
+    {
+      "id": 2945,
+      "label": "Sample text",
+      "ctype": "knowledge",
+      "rating": 6,
+      "rids": 1
+    },
+    {
+      "id": 2951,
+      "label": "Sample text",
+      "ctype": "knowledge",
+      "rating": 5,
+      "rids": 1
+    },
+    {
+      "id": 2970,
+      "label": "Sample text",
+      "ctype": "knowledge",
+      "rating": 6,
+      "rids": 2
+    },
+    {
+      "id": 3021,
+      "label": "Sample text",
+      "ctype": "knowledge",
+      "rating": 5,
+      "rids": 1
+    },
+    {
+      "id": 3044,
+      "label": "Sample text",
+      "ctype": "knowledge",
+      "rating": 7,
+      "rids": 1
+    },
+    {
+      "id": 3059,
+      "label": "Sample text",
+      "ctype": "knowledge",
+      "rating": 4,
+      "rids": 2
+    },
+    {
+      "id": 3062,
+      "label": "Sample text",
+      "ctype": "person",
+      "rating": 7,
+      "rids": 1
+    },
+    {
+      "id": 3063,
+      "label": "Sample text",
+      "ctype": "publication",
+      "rating": 8,
+      "rids": 1
+    },
+    {
+      "id": 3067,
+      "label": "Sample text",
+      "ctype": "publication",
+      "rating": 5,
+      "rids": 1
+    },
+    {
+      "id": 3074,
+      "label": "Sample text",
+      "ctype": "person",
+      "rating": 5,
+      "rids": 1
+    },
+    {
+      "id": 3077,
+      "label": "Sample text",
+      "ctype": "person",
+      "rating": 4,
+      "rids": 1
+    },
+    {
+      "id": 3078,
+      "label": "Sample text",
+      "ctype": "person",
+      "rating": 8,
+      "rids": 1
+    },
+    {
+      "id": 3085,
+      "label": "Sample text",
+      "ctype": "person",
+      "rating": 5,
+      "rids": 3
+    },
+    {
+      "id": 3086,
+      "label": "Sample text",
+      "ctype": "knowledge",
+      "rating": 6,
+      "rids": 1
+    },
+    {
+      "id": 3107,
+      "label": "Sample text",
+      "ctype": "knowledge",
+      "rating": 8,
+      "rids": 1
+    },
+    {
+      "id": 3120,
+      "label": "Sample text",
+      "ctype": "knowledge",
+      "rating": 7,
+      "rids": 1
+    },
+    {
+      "id": 3128,
+      "label": "Sample text",
+      "ctype": "person",
+      "rating": 8,
+      "rids": 3
+    },
+    {
+      "id": 3133,
+      "label": "Sample text",
+      "ctype": "knowledge",
+      "rating": 4,
+      "rids": 1
+    },
+    {
+      "id": 3135,
+      "label": "Sample text",
+      "ctype": "knowledge",
+      "rating": 6,
+      "rids": 1
+    },
+    {
+      "id": 3141,
+      "label": "Sample text",
+      "ctype": "knowledge",
+      "rating": 6,
+      "rids": 1
+    },
+    {
+      "id": 3162,
+      "label": "Sample text",
+      "ctype": "person",
+      "rating": 5,
+      "rids": 1
+    },
+    {
+      "id": 3166,
+      "label": "Sample text",
+      "ctype": "knowledge",
+      "rating": 7,
+      "rids": 1
+    },
+    {
+      "id": 3179,
+      "label": "Sample text",
+      "ctype": "knowledge",
+      "rating": 7,
+      "rids": 1
+    },
+    {
+      "id": 3183,
+      "label": "Sample text",
+      "ctype": "knowledge",
+      "rating": 9,
+      "rids": 1
+    },
+    {
+      "id": 3193,
+      "label": "Sample text",
+      "ctype": "publication",
+      "rating": 8,
+      "rids": 1
+    },
+    {
+      "id": 3196,
+      "label": "Sample text",
+      "ctype": "knowledge",
+      "rating": 6,
+      "rids": 1
+    },
+    {
+      "id": 3245,
+      "label": "Sample text",
+      "ctype": "knowledge",
+      "rating": 8,
+      "rids": 2
+    },
+    {
+      "id": 3247,
+      "label": "Sample text",
+      "ctype": "knowledge",
+      "rating": 5,
+      "rids": 1
+    },
+    {
+      "id": 3248,
+      "label": "Sample text",
+      "ctype": "knowledge",
+      "rating": 4,
+      "rids": 1
+    },
+    {
+      "id": 3250,
+      "label": "Sample text",
+      "ctype": "knowledge",
+      "rating": 7,
+      "rids": 1
+    },
+    {
+      "id": 3251,
+      "label": "Sample text",
+      "ctype": "knowledge",
+      "rating": 6,
+      "rids": 1
+    },
+    {
+      "id": 3252,
+      "label": "Sample text",
+      "ctype": "knowledge",
+      "rating": 7,
+      "rids": 1
+    },
+    {
+      "id": 3253,
+      "label": "Sample text",
+      "ctype": "knowledge",
+      "rating": 8,
+      "rids": 5
+    },
+    {
+      "id": 3256,
+      "label": "Sample text",
+      "ctype": "knowledge",
+      "rating": 5,
+      "rids": 3
+    },
+    {
+      "id": 3257,
+      "label": "Sample text",
+      "ctype": "knowledge",
+      "rating": 7,
+      "rids": 10
+    },
+    {
+      "id": 3259,
+      "label": "Sample text",
+      "ctype": "knowledge",
+      "rating": 5,
+      "rids": 2
+    },
+    {
+      "id": 3260,
+      "label": "Sample text",
+      "ctype": "knowledge",
+      "rating": 5,
+      "rids": 2
+    },
+    {
+      "id": 3261,
+      "label": "Sample text",
+      "ctype": "knowledge",
+      "rating": 5,
+      "rids": 3
+    },
+    {
+      "id": 3262,
+      "label": "Sample text",
+      "ctype": "knowledge",
+      "rating": 5,
+      "rids": 1
+    },
+    {
+      "id": 3265,
+      "label": "Sample text",
+      "ctype": "knowledge",
+      "rating": 9,
+      "rids": 3
+    },
+    {
+      "id": 3269,
+      "label": "Sample text",
+      "ctype": "knowledge",
+      "rating": 4,
+      "rids": 2
+    },
+    {
+      "id": 3270,
+      "label": "Sample text",
+      "ctype": "knowledge",
+      "rating": 5,
+      "rids": 2
+    },
+    {
+      "id": 3271,
+      "label": "Sample text",
+      "ctype": "knowledge",
+      "rating": 5,
+      "rids": 2
+    },
+    {
+      "id": 3278,
+      "label": "Sample text",
+      "ctype": "knowledge",
+      "rating": 6,
+      "rids": 1
+    },
+    {
+      "id": 3279,
+      "label": "Sample text",
+      "ctype": "person",
+      "rating": 4,
+      "rids": 1
+    },
+    {
+      "id": 3280,
+      "label": "Sample text",
+      "ctype": "knowledge",
+      "rating": 6,
+      "rids": 1
+    },
+    {
+      "id": 3281,
+      "label": "Sample text",
+      "ctype": "knowledge",
+      "rating": 4,
+      "rids": 1
+    },
+    {
+      "id": 3282,
+      "label": "Sample text",
+      "ctype": "knowledge",
+      "rating": 7,
+      "rids": 1
+    },
+    {
+      "id": 3325,
+      "label": "Sample text",
+      "ctype": "knowledge",
+      "rating": 7,
+      "rids": 1
+    },
+    {
+      "id": 3330,
+      "label": "Sample text",
+      "ctype": "publication",
+      "rating": 6,
+      "rids": 1
+    },
+    {
+      "id": 3335,
+      "label": "Sample text",
+      "ctype": "event",
+      "rating": 6,
+      "rids": 1
+    },
+    {
+      "id": 3336,
+      "label": "Sample text",
+      "ctype": "person",
+      "rating": 4,
+      "rids": 1
+    },
+    {
+      "id": 3349,
+      "label": "Sample text",
+      "ctype": "knowledge",
+      "rating": 6,
+      "rids": 2
+    },
+    {
+      "id": 3370,
+      "label": "Sample text",
+      "ctype": "publication",
+      "rating": 3,
+      "rids": 3
+    },
+    {
+      "id": 3380,
+      "label": "Sample text",
+      "ctype": "knowledge",
+      "rating": 5,
+      "rids": 1
+    },
+    {
+      "id": 3419,
+      "label": "Sample text",
+      "ctype": "knowledge",
+      "rating": 5,
+      "rids": 1
+    },
+    {
+      "id": 3420,
+      "label": "Sample text",
+      "ctype": "person",
+      "rating": 7,
+      "rids": 2
+    },
+    {
+      "id": 3436,
+      "label": "Sample text",
+      "ctype": "person",
+      "rating": 5,
+      "rids": 1
+    },
+    {
+      "id": 3440,
+      "label": "Sample text",
+      "ctype": "knowledge",
+      "rating": 6,
+      "rids": 2
+    },
+    {
+      "id": 3441,
+      "label": "Sample text",
+      "ctype": "knowledge",
+      "rating": 5,
+      "rids": 3
+    },
+    {
+      "id": 3442,
+      "label": "Sample text",
+      "ctype": "knowledge",
+      "rating": 8,
+      "rids": 3
+    },
+    {
+      "id": 3444,
+      "label": "Sample text",
+      "ctype": "knowledge",
+      "rating": 6,
+      "rids": 3
+    },
+    {
+      "id": 3445,
+      "label": "Sample text",
+      "ctype": "knowledge",
+      "rating": 9,
+      "rids": 1
+    },
+    {
+      "id": 3454,
+      "label": "Sample text",
+      "ctype": "knowledge",
+      "rating": 7,
+      "rids": 2
+    },
+    {
+      "id": 3456,
+      "label": "Sample text",
+      "ctype": "knowledge",
+      "rating": 7,
+      "rids": 4
+    },
+    {
+      "id": 3457,
+      "label": "Sample text",
+      "ctype": "person",
+      "rating": 5,
+      "rids": 2
+    },
+    {
+      "id": 3458,
+      "label": "Sample text",
+      "ctype": "knowledge",
+      "rating": 5,
+      "rids": 1
+    },
+    {
+      "id": 3463,
+      "label": "Sample text",
+      "ctype": "knowledge",
+      "rating": 6,
+      "rids": 2
+    },
+    {
+      "id": 3464,
+      "label": "Sample text",
+      "ctype": "knowledge",
+      "rating": 3,
+      "rids": 6
+    },
+    {
+      "id": 3466,
+      "label": "Sample text",
+      "ctype": "publication",
+      "rating": 6,
+      "rids": 1
+    },
+    {
+      "id": 3468,
+      "label": "Sample text",
+      "ctype": "publication",
+      "rating": 4,
+      "rids": 1
+    },
+    {
+      "id": 3469,
+      "label": "Sample text",
+      "ctype": "publication",
+      "rating": 4,
+      "rids": 1
+    },
+    {
+      "id": 3471,
+      "label": "Sample text",
+      "ctype": "publication",
+      "rating": 5,
+      "rids": 1
+    },
+    {
+      "id": 3472,
+      "label": "Sample text",
+      "ctype": "person",
+      "rating": 6,
+      "rids": 1
+    },
+    {
+      "id": 3474,
+      "label": "Sample text",
+      "ctype": "publication",
+      "rating": 5,
+      "rids": 1
+    },
+    {
+      "id": 3476,
+      "label": "Sample text",
+      "ctype": "collection",
+      "rating": 7,
+      "rids": 1
+    },
+    {
+      "id": 3479,
+      "label": "Sample text",
+      "ctype": "knowledge",
+      "rating": 9,
+      "rids": 1
+    },
+    {
+      "id": 3493,
+      "label": "Sample text",
+      "ctype": "knowledge",
+      "rating": 5,
+      "rids": 1
+    },
+    {
+      "id": 3494,
+      "label": "Sample text",
+      "ctype": "knowledge",
+      "rating": 6,
+      "rids": 1
+    },
+    {
+      "id": 3495,
+      "label": "Sample text",
+      "ctype": "event",
+      "rating": 4,
+      "rids": 1
+    },
+    {
+      "id": 3507,
+      "label": "Sample text",
+      "ctype": "knowledge",
+      "rating": 7,
+      "rids": 4
+    },
+    {
+      "id": 3508,
+      "label": "Sample text",
+      "ctype": "knowledge",
+      "rating": 7,
+      "rids": 1
+    },
+    {
+      "id": 3509,
+      "label": "Sample text",
+      "ctype": "knowledge",
+      "rating": 9,
+      "rids": 3
+    },
+    {
+      "id": 3512,
+      "label": "Sample text",
+      "ctype": "knowledge",
+      "rating": 7,
+      "rids": 3
+    },
+    {
+      "id": 3516,
+      "label": "Sample text",
+      "ctype": "knowledge",
+      "rating": 3,
+      "rids": 1
+    },
+    {
+      "id": 3517,
+      "label": "Sample text",
+      "ctype": "knowledge",
+      "rating": 7,
+      "rids": 1
+    },
+    {
+      "id": 3518,
+      "label": "Sample text",
+      "ctype": "knowledge",
+      "rating": 8,
+      "rids": 1
+    },
+    {
+      "id": 3524,
+      "label": "Sample text",
+      "ctype": "publication",
+      "rating": 7,
+      "rids": 1
+    },
+    {
+      "id": 3525,
+      "label": "Sample text",
+      "ctype": "knowledge",
+      "rating": 7,
+      "rids": 1
+    },
+    {
+      "id": 3529,
+      "label": "Sample text",
+      "ctype": "knowledge",
+      "rating": 3,
+      "rids": 1
+    },
+    {
+      "id": 3544,
+      "label": "Sample text",
+      "ctype": "knowledge",
+      "rating": 7,
+      "rids": 1
+    },
+    {
+      "id": 3547,
+      "label": "Sample text",
+      "ctype": "event",
+      "rating": 3,
+      "rids": 1
+    },
+    {
+      "id": 3555,
+      "label": "Sample text",
+      "ctype": "knowledge",
+      "rating": 8,
+      "rids": 1
+    },
+    {
+      "id": 3557,
+      "label": "Sample text",
+      "ctype": "knowledge",
+      "rating": 6,
+      "rids": 2
+    },
+    {
+      "id": 3560,
+      "label": "Sample text",
+      "ctype": "knowledge",
+      "rating": 6,
+      "rids": 1
+    },
+    {
+      "id": 3574,
+      "label": "Sample text",
+      "ctype": "publication",
+      "rating": 9,
+      "rids": 1
+    },
+    {
+      "id": 3577,
+      "label": "Sample text",
+      "ctype": "publication",
+      "rating": 8,
+      "rids": 1
+    },
+    {
+      "id": 3578,
+      "label": "Sample text",
+      "ctype": "publication",
+      "rating": 8,
+      "rids": 1
+    },
+    {
+      "id": 3579,
+      "label": "Sample text",
+      "ctype": "publication",
+      "rating": 7,
+      "rids": 1
+    },
+    {
+      "id": 3597,
+      "label": "Sample text",
+      "ctype": "publication",
+      "rating": 9,
+      "rids": 2
+    },
+    {
+      "id": 3603,
+      "label": "Sample text",
+      "ctype": "publication",
+      "rating": 8,
+      "rids": 1
+    },
+    {
+      "id": 3666,
+      "label": "Sample text",
+      "ctype": "publication",
+      "rating": 6,
+      "rids": 1
+    },
+    {
+      "id": 3781,
+      "label": "Sample text",
+      "ctype": "publication",
+      "rating": 9,
+      "rids": 1
+    },
+    {
+      "id": 3782,
+      "label": "Sample text",
+      "ctype": "publication",
+      "rating": 7,
+      "rids": 1
+    },
+    {
+      "id": 3824,
+      "label": "Sample text",
+      "ctype": "publication",
+      "rating": 7,
+      "rids": 1
+    },
+    {
+      "id": 3825,
+      "label": "Sample text",
+      "ctype": "publication",
+      "rating": 5,
+      "rids": 1
+    },
+    {
+      "id": 3831,
+      "label": "Sample text",
+      "ctype": "knowledge",
+      "rating": 7,
+      "rids": 1
+    },
+    {
+      "id": 4015,
+      "label": "Sample text",
+      "ctype": "knowledge",
+      "rating": 5,
+      "rids": 1
+    },
+    {
+      "id": 4058,
+      "label": "Sample text",
+      "ctype": "person",
+      "rating": 5,
+      "rids": 1
+    },
+    {
+      "id": 4059,
+      "label": "Sample text",
+      "ctype": "knowledge",
+      "rating": 4,
+      "rids": 1
+    },
+    {
+      "id": 4165,
+      "label": "Sample text",
+      "ctype": "collection",
+      "rating": 6,
+      "rids": 1
+    },
+    {
+      "id": 4166,
+      "label": "Sample text",
+      "ctype": "knowledge",
+      "rating": 3,
+      "rids": 3
+    },
+    {
+      "id": 4172,
+      "label": "Sample text",
+      "ctype": "knowledge",
+      "rating": 5,
+      "rids": 1
+    },
+    {
+      "id": 4173,
+      "label": "Sample text",
+      "ctype": "knowledge",
+      "rating": 7,
+      "rids": 2
+    },
+    {
+      "id": 4175,
+      "label": "Sample text",
+      "ctype": "person",
+      "rating": 4,
+      "rids": 1
+    },
+    {
+      "id": 4176,
+      "label": "Sample text",
+      "ctype": "knowledge",
+      "rating": 6,
+      "rids": 1
+    },
+    {
+      "id": 4177,
+      "label": "Sample text",
+      "ctype": "knowledge",
+      "rating": 4,
+      "rids": 1
+    },
+    {
+      "id": 4185,
+      "label": "Sample text",
+      "ctype": "knowledge",
+      "rating": 8,
+      "rids": 2
+    },
+    {
+      "id": 4186,
+      "label": "Sample text",
+      "ctype": "person",
+      "rating": 5,
+      "rids": 1
+    },
+    {
+      "id": 4187,
+      "label": "Sample text",
+      "ctype": "person",
+      "rating": 5,
+      "rids": 1
+    },
+    {
+      "id": 4188,
+      "label": "Sample text",
+      "ctype": "person",
+      "rating": 5,
+      "rids": 1
+    },
+    {
+      "id": 4193,
+      "label": "Sample text",
+      "ctype": "knowledge",
+      "rating": 8,
+      "rids": 1
+    },
+    {
+      "id": 4195,
+      "label": "Sample text",
+      "ctype": "knowledge",
+      "rating": 7,
+      "rids": 1
+    },
+    {
+      "id": 4196,
+      "label": "Sample text",
+      "ctype": "knowledge",
+      "rating": 7,
+      "rids": 3
+    },
+    {
+      "id": 4202,
+      "label": "Sample text",
+      "ctype": "person",
+      "rating": 4,
+      "rids": 1
+    },
+    {
+      "id": 4212,
+      "label": "Sample text",
+      "ctype": "person",
+      "rating": 6,
+      "rids": 2
+    },
+    {
+      "id": 4213,
+      "label": "Sample text",
+      "ctype": "knowledge",
+      "rating": 4,
+      "rids": 1
+    },
+    {
+      "id": 4215,
+      "label": "Sample text",
+      "ctype": "event",
+      "rating": 6,
+      "rids": 3
+    },
+    {
+      "id": 4216,
+      "label": "Sample text",
+      "ctype": "person",
+      "rating": 2,
+      "rids": 1
+    },
+    {
+      "id": 4222,
+      "label": "Sample text",
+      "ctype": "person",
+      "rating": 6,
+      "rids": 2
+    },
+    {
+      "id": 4223,
+      "label": "Sample text",
+      "ctype": "publication",
+      "rating": 5,
+      "rids": 1
+    },
+    {
+      "id": 4225,
+      "label": "Sample text",
+      "ctype": "person",
+      "rating": 4,
+      "rids": 1
+    },
+    {
+      "id": 4227,
+      "label": "Sample text",
+      "ctype": "event",
+      "rating": 6,
+      "rids": 1
+    },
+    {
+      "id": 4228,
+      "label": "Sample text",
+      "ctype": "person",
+      "rating": 7,
+      "rids": 1
+    },
+    {
+      "id": 4237,
+      "label": "Sample text",
+      "ctype": "knowledge",
+      "rating": 4,
+      "rids": 1
+    },
+    {
+      "id": 4239,
+      "label": "Sample text",
+      "ctype": "publication",
+      "rating": 5,
+      "rids": 1
+    },
+    {
+      "id": 4248,
+      "label": "Sample text",
+      "ctype": "person",
+      "rating": 6,
+      "rids": 1
+    },
+    {
+      "id": 4249,
+      "label": "Sample text",
+      "ctype": "publication",
+      "rating": 5,
+      "rids": 1
+    },
+    {
+      "id": 4250,
+      "label": "Sample text",
+      "ctype": "publication",
+      "rating": 6,
+      "rids": 1
+    },
+    {
+      "id": 4251,
+      "label": "Sample text",
+      "ctype": "knowledge",
+      "rating": 5,
+      "rids": 3
+    },
+    {
+      "id": 4256,
+      "label": "Sample text",
+      "ctype": "knowledge",
+      "rating": 8,
+      "rids": 1
+    },
+    {
+      "id": 4268,
+      "label": "Sample text",
+      "ctype": "knowledge",
+      "rating": 6,
+      "rids": 1
+    },
+    {
+      "id": 4269,
+      "label": "Sample text",
+      "ctype": "knowledge",
+      "rating": 5,
+      "rids": 2
+    },
+    {
+      "id": 4274,
+      "label": "Sample text",
+      "ctype": "knowledge",
+      "rating": 5,
+      "rids": 1
+    },
+    {
+      "id": 4275,
+      "label": "Sample text",
+      "ctype": "knowledge",
+      "rating": 8,
+      "rids": 1
+    },
+    {
+      "id": 4289,
+      "label": "Sample text",
+      "ctype": "publication",
+      "rating": 8,
+      "rids": 1
+    },
+    {
+      "id": 4290,
+      "label": "Sample text",
+      "ctype": "knowledge",
+      "rating": 5,
+      "rids": 1
+    },
+    {
+      "id": 4297,
+      "label": "Sample text",
+      "ctype": "knowledge",
+      "rating": 4,
+      "rids": 1
+    },
+    {
+      "id": 4302,
+      "label": "Sample text",
+      "ctype": "knowledge",
+      "rating": 4,
+      "rids": 1
+    },
+    {
+      "id": 4307,
+      "label": "Sample text",
+      "ctype": "knowledge",
+      "rating": 3,
+      "rids": 1
+    },
+    {
+      "id": 4312,
+      "label": "Sample text",
+      "ctype": "publication",
+      "rating": 7,
+      "rids": 1
+    },
+    {
+      "id": 4327,
+      "label": "Sample text",
+      "ctype": "knowledge",
+      "rating": 6,
+      "rids": 3
+    },
+    {
+      "id": 4328,
+      "label": "Sample text",
+      "ctype": "knowledge",
+      "rating": 8,
+      "rids": 1
+    },
+    {
+      "id": 4331,
+      "label": "Sample text",
+      "ctype": "knowledge",
+      "rating": 6,
+      "rids": 2
+    },
+    {
+      "id": 4335,
+      "label": "Sample text",
+      "ctype": "knowledge",
+      "rating": 8,
+      "rids": 1
+    },
+    {
+      "id": 4344,
+      "label": "Sample text",
+      "ctype": "person",
+      "rating": 7,
+      "rids": 1
+    },
+    {
+      "id": 4354,
+      "label": "Sample text",
+      "ctype": "publication",
+      "rating": 5,
+      "rids": 1
+    },
+    {
+      "id": 4366,
+      "label": "Sample text",
+      "ctype": "knowledge",
+      "rating": 6,
+      "rids": 11
+    },
+    {
+      "id": 4367,
+      "label": "Sample text",
+      "ctype": "knowledge",
+      "rating": 7,
+      "rids": 4
+    },
+    {
+      "id": 4368,
+      "label": "Sample text",
+      "ctype": "knowledge",
+      "rating": 6,
+      "rids": 3
+    },
+    {
+      "id": 4369,
+      "label": "Sample text",
+      "ctype": "knowledge",
+      "rating": 4,
+      "rids": 9
+    },
+    {
+      "id": 4371,
+      "label": "Sample text",
+      "ctype": "person",
+      "rating": 6,
+      "rids": 1
+    },
+    {
+      "id": 4373,
+      "label": "Sample text",
+      "ctype": "person",
+      "rating": 2,
+      "rids": 1
+    },
+    {
+      "id": 4374,
+      "label": "Sample text",
+      "ctype": "knowledge",
+      "rating": 5,
+      "rids": 7
+    },
+    {
+      "id": 4379,
+      "label": "Sample text",
+      "ctype": "knowledge",
+      "rating": 9,
+      "rids": 4
+    },
+    {
+      "id": 4381,
+      "label": "Sample text",
+      "ctype": "knowledge",
+      "rating": 6,
+      "rids": 8
+    },
+    {
+      "id": 4397,
+      "label": "Sample text",
+      "ctype": "knowledge",
+      "rating": 6,
+      "rids": 5
+    },
+    {
+      "id": 4403,
+      "label": "Sample text",
+      "ctype": "person",
+      "rating": 5,
+      "rids": 1
+    },
+    {
+      "id": 4404,
+      "label": "Sample text",
+      "ctype": "publication",
+      "rating": 5,
+      "rids": 2
+    },
+    {
+      "id": 4405,
+      "label": "Sample text",
+      "ctype": "publication",
+      "rating": 7,
+      "rids": 1
+    },
+    {
+      "id": 4406,
+      "label": "Sample text",
+      "ctype": "person",
+      "rating": 4,
+      "rids": 2
+    },
+    {
+      "id": 4410,
+      "label": "Sample text",
+      "ctype": "knowledge",
+      "rating": 8,
+      "rids": 4
+    },
+    {
+      "id": 4411,
+      "label": "Sample text",
+      "ctype": "knowledge",
+      "rating": 7,
+      "rids": 2
+    },
+    {
+      "id": 4419,
+      "label": "Sample text",
+      "ctype": "knowledge",
+      "rating": 6,
+      "rids": 2
+    },
+    {
+      "id": 4428,
+      "label": "Sample text",
+      "ctype": "person",
+      "rating": 4,
+      "rids": 2
+    },
+    {
+      "id": 4448,
+      "label": "Sample text",
+      "ctype": "collection",
+      "rating": 4,
+      "rids": 1
+    },
+    {
+      "id": 4450,
+      "label": "Sample text",
+      "ctype": "knowledge",
+      "rating": 4,
+      "rids": 2
+    },
+    {
+      "id": 4463,
+      "label": "Sample text",
+      "ctype": "person",
+      "rating": 6,
+      "rids": 1
+    },
+    {
+      "id": 4464,
+      "label": "Sample text",
+      "ctype": "person",
+      "rating": 6,
+      "rids": 1
+    },
+    {
+      "id": 4465,
+      "label": "Sample text",
+      "ctype": "knowledge",
+      "rating": 3,
+      "rids": 1
+    },
+    {
+      "id": 4466,
+      "label": "Sample text",
+      "ctype": "knowledge",
+      "rating": 7,
+      "rids": 2
+    },
+    {
+      "id": 4467,
+      "label": "Sample text",
+      "ctype": "knowledge",
+      "rating": 4,
+      "rids": 2
+    },
+    {
+      "id": 4469,
+      "label": "Sample text",
+      "ctype": "knowledge",
+      "rating": 3,
+      "rids": 1
+    },
+    {
+      "id": 4474,
+      "label": "Sample text",
+      "ctype": "person",
+      "rating": 6,
+      "rids": 1
+    },
+    {
+      "id": 4475,
+      "label": "Sample text",
+      "ctype": "person",
+      "rating": 6,
+      "rids": 1
+    },
+    {
+      "id": 4476,
+      "label": "Sample text",
+      "ctype": "person",
+      "rating": 2,
+      "rids": 1
+    },
+    {
+      "id": 4477,
+      "label": "Sample text",
+      "ctype": "person",
+      "rating": 4,
+      "rids": 2
+    },
+    {
+      "id": 4478,
+      "label": "Sample text",
+      "ctype": "person",
+      "rating": 3,
+      "rids": 3
+    },
+    {
+      "id": 4481,
+      "label": "Sample text",
+      "ctype": "knowledge",
+      "rating": 8,
+      "rids": 3
+    },
+    {
+      "id": 4488,
+      "label": "Sample text",
+      "ctype": "knowledge",
+      "rating": 8,
+      "rids": 2
+    },
+    {
+      "id": 4491,
+      "label": "Sample text",
+      "ctype": "publication",
+      "rating": 8,
+      "rids": 1
+    },
+    {
+      "id": 4493,
+      "label": "Sample text",
+      "ctype": "collection",
+      "rating": 8,
+      "rids": 3
+    },
+    {
+      "id": 4522,
+      "label": "Sample text",
+      "ctype": "knowledge",
+      "rating": 7,
+      "rids": 4
+    },
+    {
+      "id": 4523,
+      "label": "Sample text",
+      "ctype": "knowledge",
+      "rating": 5,
+      "rids": 1
+    },
+    {
+      "id": 4527,
+      "label": "Sample text",
+      "ctype": "publication",
+      "rating": 5,
+      "rids": 2
+    },
+    {
+      "id": 4532,
+      "label": "Sample text",
+      "ctype": "publication",
+      "rating": 5,
+      "rids": 1
+    },
+    {
+      "id": 4533,
+      "label": "Sample text",
+      "ctype": "person",
+      "rating": 4,
+      "rids": 1
+    },
+    {
+      "id": 4553,
+      "label": "Sample text",
+      "ctype": "collection",
+      "rating": 8,
+      "rids": 3
+    },
+    {
+      "id": 4575,
+      "label": "Sample text",
+      "ctype": "knowledge",
+      "rating": 8,
+      "rids": 3
+    },
+    {
+      "id": 4603,
+      "label": "Sample text",
+      "ctype": "person",
+      "rating": 3,
+      "rids": 1
+    },
+    {
+      "id": 4604,
+      "label": "Sample text",
+      "ctype": "knowledge",
+      "rating": 4,
+      "rids": 2
+    },
+    {
+      "id": 4615,
+      "label": "Sample text",
+      "ctype": "knowledge",
+      "rating": 8,
+      "rids": 3
+    },
+    {
+      "id": 4622,
+      "label": "Sample text",
+      "ctype": "knowledge",
+      "rating": 7,
+      "rids": 9
+    },
+    {
+      "id": 4680,
+      "label": "Sample text",
+      "ctype": "person",
+      "rating": 7,
+      "rids": 1
+    },
+    {
+      "id": 4681,
+      "label": "Sample text",
+      "ctype": "knowledge",
+      "rating": 4,
+      "rids": 5
+    },
+    {
+      "id": 4683,
+      "label": "Sample text",
+      "ctype": "person",
+      "rating": 4,
+      "rids": 2
+    },
+    {
+      "id": 4685,
+      "label": "Sample text",
+      "ctype": "knowledge",
+      "rating": 6,
+      "rids": 3
+    },
+    {
+      "id": 4686,
+      "label": "Sample text",
+      "ctype": "person",
+      "rating": 5,
+      "rids": 1
+    },
+    {
+      "id": 4691,
+      "label": "Sample text",
+      "ctype": "knowledge",
+      "rating": 6,
+      "rids": 3
+    },
+    {
+      "id": 4692,
+      "label": "Sample text",
+      "ctype": "knowledge",
+      "rating": 8,
+      "rids": 2
+    },
+    {
+      "id": 4696,
+      "label": "Sample text",
+      "ctype": "person",
+      "rating": 6,
+      "rids": 2
+    },
+    {
+      "id": 4698,
+      "label": "Sample text",
+      "ctype": "person",
+      "rating": 2,
+      "rids": 1
+    },
+    {
+      "id": 4712,
+      "label": "Sample text",
+      "ctype": "publication",
+      "rating": 8,
+      "rids": 1
+    },
+    {
+      "id": 4715,
+      "label": "Sample text",
+      "ctype": "knowledge",
+      "rating": 6,
+      "rids": 1
+    },
+    {
+      "id": 4720,
+      "label": "Sample text",
+      "ctype": "knowledge",
+      "rating": 6,
+      "rids": 1
+    },
+    {
+      "id": 4722,
+      "label": "Sample text",
+      "ctype": "knowledge",
+      "rating": 8,
+      "rids": 3
+    },
+    {
+      "id": 4723,
+      "label": "Sample text",
+      "ctype": "event",
+      "rating": 5,
+      "rids": 1
+    },
+    {
+      "id": 4724,
+      "label": "Sample text",
+      "ctype": "event",
+      "rating": 5,
+      "rids": 1
+    },
+    {
+      "id": 4749,
+      "label": "Sample text",
+      "ctype": "knowledge",
+      "rating": 6,
+      "rids": 2
+    },
+    {
+      "id": 4750,
+      "label": "Sample text",
+      "ctype": "person",
+      "rating": 4,
+      "rids": 1
+    },
+    {
+      "id": 4764,
+      "label": "Sample text",
+      "ctype": "knowledge",
+      "rating": 4,
+      "rids": 1
+    },
+    {
+      "id": 4767,
+      "label": "Sample text",
+      "ctype": "publication",
+      "rating": 7,
+      "rids": 1
+    },
+    {
+      "id": 4768,
+      "label": "Sample text",
+      "ctype": "person",
+      "rating": 6,
+      "rids": 4
+    },
+    {
+      "id": 4770,
+      "label": "Sample text",
+      "ctype": "publication",
+      "rating": 6,
+      "rids": 1
+    },
+    {
+      "id": 4771,
+      "label": "Sample text",
+      "ctype": "person",
+      "rating": 5,
+      "rids": 1
+    },
+    {
+      "id": 4773,
+      "label": "Sample text",
+      "ctype": "publication",
+      "rating": 4,
+      "rids": 1
+    },
+    {
+      "id": 4775,
+      "label": "Sample text",
+      "ctype": "knowledge",
+      "rating": 6,
+      "rids": 1
+    },
+    {
+      "id": 4777,
+      "label": "Sample text",
+      "ctype": "publication",
+      "rating": 8,
+      "rids": 1
+    },
+    {
+      "id": 4778,
+      "label": "Sample text",
+      "ctype": "knowledge",
+      "rating": 7,
+      "rids": 1
+    },
+    {
+      "id": 4784,
+      "label": "Sample text",
+      "ctype": "publication",
+      "rating": 4,
+      "rids": 1
+    },
+    {
+      "id": 4792,
+      "label": "Sample text",
+      "ctype": "knowledge",
+      "rating": 6,
+      "rids": 1
+    },
+    {
+      "id": 4795,
+      "label": "Sample text",
+      "ctype": "knowledge",
+      "rating": 6,
+      "rids": 1
+    },
+    {
+      "id": 4796,
+      "label": "Sample text",
+      "ctype": "collection",
+      "rating": 4,
+      "rids": 1
+    },
+    {
+      "id": 4805,
+      "label": "Sample text",
+      "ctype": "knowledge",
+      "rating": 5,
+      "rids": 2
+    },
+    {
+      "id": 4806,
+      "label": "Sample text",
+      "ctype": "person",
+      "rating": 4,
+      "rids": 1
+    },
+    {
+      "id": 4808,
+      "label": "Sample text",
+      "ctype": "event",
+      "rating": 7,
+      "rids": 2
+    },
+    {
+      "id": 4815,
+      "label": "Sample text",
+      "ctype": "person",
+      "rating": 3,
+      "rids": 1
+    },
+    {
+      "id": 4818,
+      "label": "Sample text",
+      "ctype": "knowledge",
+      "rating": 4,
+      "rids": 1
+    },
+    {
+      "id": 4822,
+      "label": "Sample text",
+      "ctype": "knowledge",
+      "rating": 7,
+      "rids": 1
+    },
+    {
+      "id": 4840,
+      "label": "Sample text",
+      "ctype": "publication",
+      "rating": 3,
+      "rids": 1
+    },
+    {
+      "id": 4842,
+      "label": "Sample text",
+      "ctype": "publication",
+      "rating": 4,
+      "rids": 1
+    },
+    {
+      "id": 4843,
+      "label": "Sample text",
+      "ctype": "publication",
+      "rating": 2,
+      "rids": 1
+    },
+    {
+      "id": 4844,
+      "label": "Sample text",
+      "ctype": "publication",
+      "rating": 6,
+      "rids": 1
+    },
+    {
+      "id": 4845,
+      "label": "Sample text",
+      "ctype": "publication",
+      "rating": 8,
+      "rids": 8
+    },
+    {
+      "id": 4846,
+      "label": "Sample text",
+      "ctype": "publication",
+      "rating": 4,
+      "rids": 19
+    },
+    {
+      "id": 4847,
+      "label": "Sample text",
+      "ctype": "publication",
+      "rating": 4,
+      "rids": 1
+    },
+    {
+      "id": 4848,
+      "label": "Sample text",
+      "ctype": "publication",
+      "rating": 6,
+      "rids": 41
+    },
+    {
+      "id": 4849,
+      "label": "Sample text",
+      "ctype": "publication",
+      "rating": 4,
+      "rids": 1
+    },
+    {
+      "id": 4850,
+      "label": "Sample text",
+      "ctype": "knowledge",
+      "rating": 7,
+      "rids": 1
+    },
+    {
+      "id": 4851,
+      "label": "Sample text",
+      "ctype": "person",
+      "rating": 3,
+      "rids": 1
+    },
+    {
+      "id": 4881,
+      "label": "Sample text",
+      "ctype": "person",
+      "rating": 5,
+      "rids": 2
+    },
+    {
+      "id": 4911,
+      "label": "Sample text",
+      "ctype": "knowledge",
+      "rating": 6,
+      "rids": 3
+    },
+    {
+      "id": 4921,
+      "label": "Sample text",
+      "ctype": "publication",
+      "rating": 3,
+      "rids": 1
+    },
+    {
+      "id": 4926,
+      "label": "Sample text",
+      "ctype": "knowledge",
+      "rating": 6,
+      "rids": 1
+    },
+    {
+      "id": 4936,
+      "label": "Sample text",
+      "ctype": "publication",
+      "rating": 6,
+      "rids": 1
+    },
+    {
+      "id": 4941,
+      "label": "Sample text",
+      "ctype": "knowledge",
+      "rating": 7,
+      "rids": 2
+    },
+    {
+      "id": 4946,
+      "label": "Sample text",
+      "ctype": "publication",
+      "rating": 5,
+      "rids": 1
+    },
+    {
+      "id": 4961,
+      "label": "Sample text",
+      "ctype": "knowledge",
+      "rating": 6,
+      "rids": 2
+    },
+    {
+      "id": 4996,
+      "label": "Sample text",
+      "ctype": "publication",
+      "rating": 6,
+      "rids": 1
+    },
+    {
+      "id": 5011,
+      "label": "Sample text",
+      "ctype": "publication",
+      "rating": 3,
+      "rids": 2
+    },
+    {
+      "id": 5026,
+      "label": "Sample text",
+      "ctype": "knowledge",
+      "rating": 6,
+      "rids": 2
+    },
+    {
+      "id": 5031,
+      "label": "Sample text",
+      "ctype": "person",
+      "rating": 6,
+      "rids": 2
+    },
+    {
+      "id": 5036,
+      "label": "Sample text",
+      "ctype": "publication",
+      "rating": 6,
+      "rids": 2
+    },
+    {
+      "id": 5046,
+      "label": "Sample text",
+      "ctype": "publication",
+      "rating": 3,
+      "rids": 2
+    },
+    {
+      "id": 5051,
+      "label": "Sample text",
+      "ctype": "publication",
+      "rating": 8,
+      "rids": 2
+    },
+    {
+      "id": 5071,
+      "label": "Sample text",
+      "ctype": "publication",
+      "rating": 2,
+      "rids": 2
+    },
+    {
+      "id": 5076,
+      "label": "Sample text",
+      "ctype": "person",
+      "rating": 4,
+      "rids": 1
+    },
+    {
+      "id": 5096,
+      "label": "Sample text",
+      "ctype": "knowledge",
+      "rating": 6,
+      "rids": 5
+    },
+    {
+      "id": 5101,
+      "label": "Sample text",
+      "ctype": "person",
+      "rating": 6,
+      "rids": 2
+    },
+    {
+      "id": 5111,
+      "label": "Sample text",
+      "ctype": "publication",
+      "rating": 6,
+      "rids": 2
+    },
+    {
+      "id": 5126,
+      "label": "Sample text",
+      "ctype": "knowledge",
+      "rating": 6,
+      "rids": 1
+    },
+    {
+      "id": 5131,
+      "label": "Sample text",
+      "ctype": "person",
+      "rating": 4,
+      "rids": 2
+    },
+    {
+      "id": 5141,
+      "label": "Sample text",
+      "ctype": "knowledge",
+      "rating": 7,
+      "rids": 1
+    },
+    {
+      "id": 5146,
+      "label": "Sample text",
+      "ctype": "knowledge",
+      "rating": 6,
+      "rids": 1
+    },
+    {
+      "id": 5161,
+      "label": "Sample text",
+      "ctype": "knowledge",
+      "rating": 8,
+      "rids": 2
+    },
+    {
+      "id": 5181,
+      "label": "Sample text",
+      "ctype": "publication",
+      "rating": 6,
+      "rids": 2
+    },
+    {
+      "id": 5186,
+      "label": "Sample text",
+      "ctype": "publication",
+      "rating": 5,
+      "rids": 2
+    },
+    {
+      "id": 5196,
+      "label": "Sample text",
+      "ctype": "publication",
+      "rating": 4,
+      "rids": 1
+    },
+    {
+      "id": 5206,
+      "label": "Sample text",
+      "ctype": "knowledge",
+      "rating": 7,
+      "rids": 1
+    },
+    {
+      "id": 5231,
+      "label": "Sample text",
+      "ctype": "person",
+      "rating": 5,
+      "rids": 1
+    },
+    {
+      "id": 5251,
+      "label": "Sample text",
+      "ctype": "knowledge",
+      "rating": 6,
+      "rids": 2
+    },
+    {
+      "id": 5276,
+      "label": "Sample text",
+      "ctype": "knowledge",
+      "rating": 4,
+      "rids": 1
+    },
+    {
+      "id": 5306,
+      "label": "Sample text",
+      "ctype": "knowledge",
+      "rating": 6,
+      "rids": 1
+    },
+    {
+      "id": 5346,
+      "label": "Sample text",
+      "ctype": "publication",
+      "rating": 6,
+      "rids": 2
+    },
+    {
+      "id": 5356,
+      "label": "Sample text",
+      "ctype": "publication",
+      "rating": 6,
+      "rids": 2
+    },
+    {
+      "id": 5373,
+      "label": "Sample text",
+      "ctype": "event",
+      "rating": 6,
+      "rids": 1
+    },
+    {
+      "id": 5376,
+      "label": "Sample text",
+      "ctype": "publication",
+      "rating": 4,
+      "rids": 1
+    },
+    {
+      "id": 5378,
+      "label": "Sample text",
+      "ctype": "publication",
+      "rating": 3,
+      "rids": 1
+    },
+    {
+      "id": 5388,
+      "label": "Sample text",
+      "ctype": "knowledge",
+      "rating": 6,
+      "rids": 2
+    },
+    {
+      "id": 5392,
+      "label": "Sample text",
+      "ctype": "knowledge",
+      "rating": 6,
+      "rids": 1
+    },
+    {
+      "id": 5394,
+      "label": "Sample text",
+      "ctype": "knowledge",
+      "rating": 4,
+      "rids": 2
+    },
+    {
+      "id": 5395,
+      "label": "Sample text",
+      "ctype": "collection",
+      "rating": 9,
+      "rids": 5
+    },
+    {
+      "id": 5413,
+      "label": "Sample text",
+      "ctype": "publication",
+      "rating": 4,
+      "rids": 3
+    },
+    {
+      "id": 5415,
+      "label": "Sample text",
+      "ctype": "publication",
+      "rating": 5,
+      "rids": 1
+    },
+    {
+      "id": 5421,
+      "label": "Sample text",
+      "ctype": "publication",
+      "rating": 4,
+      "rids": 1
+    },
+    {
+      "id": 5434,
+      "label": "Sample text",
+      "ctype": "publication",
+      "rating": 7,
+      "rids": 2
+    },
+    {
+      "id": 5435,
+      "label": "Sample text",
+      "ctype": "knowledge",
+      "rating": 8,
+      "rids": 4
+    },
+    {
+      "id": 5450,
+      "label": "Sample text",
+      "ctype": "knowledge",
+      "rating": 9,
+      "rids": 1
+    },
+    {
+      "id": 5451,
+      "label": "Sample text",
+      "ctype": "knowledge",
+      "rating": 8,
+      "rids": 2
+    },
+    {
+      "id": 5466,
+      "label": "Sample text",
+      "ctype": "publication",
+      "rating": 6,
+      "rids": 1
+    },
+    {
+      "id": 5476,
+      "label": "Sample text",
+      "ctype": "knowledge",
+      "rating": 6,
+      "rids": 1
+    },
+    {
+      "id": 5477,
+      "label": "Sample text",
+      "ctype": "knowledge",
+      "rating": 7,
+      "rids": 1
+    },
+    {
+      "id": 5478,
+      "label": "Sample text",
+      "ctype": "knowledge",
+      "rating": 6,
+      "rids": 1
+    },
+    {
+      "id": 5502,
+      "label": "Sample text",
+      "ctype": "publication",
+      "rating": 7,
+      "rids": 3
+    },
+    {
+      "id": 5506,
+      "label": "Sample text",
+      "ctype": "knowledge",
+      "rating": 3,
+      "rids": 1
+    },
+    {
+      "id": 5515,
+      "label": "Sample text",
+      "ctype": "publication",
+      "rating": 5,
+      "rids": 3
+    },
+    {
+      "id": 5522,
+      "label": "Sample text",
+      "ctype": "publication",
+      "rating": 7,
+      "rids": 1
+    },
+    {
+      "id": 5570,
+      "label": "Sample text",
+      "ctype": "publication",
+      "rating": 7,
+      "rids": 1
+    },
+    {
+      "id": 5593,
+      "label": "Sample text",
+      "ctype": "knowledge",
+      "rating": 9,
+      "rids": 1
+    },
+    {
+      "id": 5608,
+      "label": "Sample text",
+      "ctype": "knowledge",
+      "rating": 9,
+      "rids": 1
+    },
+    {
+      "id": 5612,
+      "label": "Sample text",
+      "ctype": "collection",
+      "rating": 9,
+      "rids": 2
+    },
+    {
+      "id": 5617,
+      "label": "Sample text",
+      "ctype": "collection",
+      "rating": 9,
+      "rids": 2
+    },
+    {
+      "id": 5622,
+      "label": "Sample text",
+      "ctype": "knowledge",
+      "rating": 7,
+      "rids": 1
+    },
+    {
+      "id": 5628,
+      "label": "Sample text",
+      "ctype": "knowledge",
+      "rating": 9,
+      "rids": 2
+    },
+    {
+      "id": 5634,
+      "label": "Sample text",
+      "ctype": "person",
+      "rating": 6,
+      "rids": 1
+    },
+    {
+      "id": 5639,
+      "label": "Sample text",
+      "ctype": "knowledge",
+      "rating": 6,
+      "rids": 1
+    },
+    {
+      "id": 5644,
+      "label": "Sample text",
+      "ctype": "knowledge",
+      "rating": 8,
+      "rids": 2
+    },
+    {
+      "id": 5651,
+      "label": "Sample text",
+      "ctype": "knowledge",
+      "rating": 6,
+      "rids": 1
+    },
+    {
+      "id": 5667,
+      "label": "Sample text",
+      "ctype": "knowledge",
+      "rating": 6,
+      "rids": 1
+    },
+    {
+      "id": 5699,
+      "label": "Sample text",
+      "ctype": "knowledge",
+      "rating": 7,
+      "rids": 1
+    },
+    {
+      "id": 5704,
+      "label": "Sample text",
+      "ctype": "knowledge",
+      "rating": 8,
+      "rids": 1
+    },
+    {
+      "id": 5706,
+      "label": "Sample text",
+      "ctype": "publication",
+      "rating": 4,
+      "rids": 2
+    },
+    {
+      "id": 5738,
+      "label": "Sample text",
+      "ctype": "publication",
+      "rating": 8,
+      "rids": 1
+    },
+    {
+      "id": 5754,
+      "label": "Sample text",
+      "ctype": "knowledge",
+      "rating": 7,
+      "rids": 1
+    }
+  ]
+}

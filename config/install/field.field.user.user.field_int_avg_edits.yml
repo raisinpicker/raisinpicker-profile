@@ -1,4 +1,3 @@
-
 langcode: en
 status: true
 dependencies:
@@ -6,8 +5,7 @@ dependencies:
     - field.storage.user.field_int_avg_edits
   module:
     - user
-_core:
-  default_config_hash: EP1xzFwBrcizelidvnnI10YiNIKZIcBZPvZ3IADvhuw
+
 id: user.user.field_int_avg_edits
 field_name: field_int_avg_edits
 entity_type: user

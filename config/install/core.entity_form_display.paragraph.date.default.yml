@@ -1,4 +1,3 @@
-
 langcode: en
 status: true
 dependencies:
@@ -8,8 +7,13 @@ dependencies:
     - paragraphs.paragraphs_type.date
   module:
     - datetime_range
-_core:
-  default_config_hash: 8bZTh-5fitCP9UkcsggmxFFRbny7Xl-DOssGVQdbgow
+    - field_layout
+    - layout_discovery
+third_party_settings:
+  field_layout:
+    id: layout_onecol
+    settings: {  }
+
 id: paragraph.date.default
 targetEntityType: paragraph
 bundle: date
@@ -25,7 +29,7 @@ content:
     weight: 0
     settings:
       size: 60
-      placeholder: ''
+      placeholder: 'Enter date title here'
     third_party_settings: {  }
     type: string_textfield
     region: content

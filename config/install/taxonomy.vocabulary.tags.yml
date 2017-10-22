@@ -1,4 +1,3 @@
-
 langcode: en
 status: true
 dependencies:
@@ -7,8 +6,7 @@ dependencies:
 third_party_settings:
   private_taxonomy:
     private: 0
-_core:
-  default_config_hash: lO5ziR5dVI1PpEeHZsSOfQ-Y7NWihSDKW8-MMf6uoms
+
 name: Tags
 vid: tags
 description: 'Use tags to group articles on similar topics into categories.'

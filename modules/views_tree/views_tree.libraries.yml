@@ -1,0 +1,10 @@
+views_tree:
+  version: VERSION
+  css:
+    layout:
+      css/collapsible.css: {}
+  js:
+    js/collapsible.js: {}
+  dependencies:
+    - core/drupal
+    - core/drupalSettings

@@ -1,4 +1,3 @@
-
 langcode: en
 status: true
 dependencies:
@@ -15,8 +14,7 @@ dependencies:
     - node
     - user
     - views_autocomplete_filters
-_core:
-  default_config_hash: Nds3nqZ7TgZrYnfZ_3vvxMsXCu_Z4odYhEp_ViwfkCM
+
 id: finder
 label: Finder
 module: views

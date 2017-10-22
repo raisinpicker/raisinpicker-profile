@@ -1,4 +1,3 @@
-
 langcode: en
 status: true
 dependencies:
@@ -7,8 +6,7 @@ dependencies:
     - node.type.person
     - taxonomy.vocabulary.person_tags
     - taxonomy.vocabulary.tags
-_core:
-  default_config_hash: sBqNKqOBl2oMAzw2MR3YDv4KgbCphMzgX-hyZFeMOgI
+
 id: node.person.field_tags
 field_name: field_tags
 entity_type: node

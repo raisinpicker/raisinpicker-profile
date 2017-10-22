@@ -1,0 +1,7 @@
+rp_finder.autocomplete:
+  path: '/rp-finder-autocomplete/{field_name}/{count}'
+  defaults:
+    _controller: '\Drupal\rp_finder\Controller\AutocompleteController::handleAutocomplete'
+    _format: json
+  requirements:
+    _access: 'TRUE'

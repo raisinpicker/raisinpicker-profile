@@ -1,17 +1,15 @@
-
 langcode: en
 status: true
 dependencies:
   config:
     - field.storage.paragraph.field_title
     - paragraphs.paragraphs_type.table
-_core:
-  default_config_hash: EY9jheun12FcHsPGqqVQQcPmLFZxan7qg_6LdbCQLmU
+
 id: paragraph.table.field_title
 field_name: field_title
 entity_type: paragraph
 bundle: table
-label: 'Table title'
+label: Table
 description: ''
 required: false
 translatable: true

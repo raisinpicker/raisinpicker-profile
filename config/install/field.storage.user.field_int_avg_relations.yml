@@ -1,11 +1,9 @@
-
 langcode: en
 status: true
 dependencies:
   module:
     - user
-_core:
-  default_config_hash: xQF9-N6GDsyGTqYT5YOBsK5JN4p7AX9dcEVvLNX0FME
+
 id: user.field_int_avg_relations
 field_name: field_int_avg_relations
 entity_type: user

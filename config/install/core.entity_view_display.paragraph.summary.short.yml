@@ -1,4 +1,3 @@
-
 langcode: en
 status: true
 dependencies:
@@ -9,8 +8,7 @@ dependencies:
     - paragraphs.paragraphs_type.summary
   module:
     - ds
-_core:
-  default_config_hash: i2uO2yeGCABmehK4mLjAwy-EvYfasvzh_LfiuxgeM9w
+
 id: paragraph.summary.short
 targetEntityType: paragraph
 bundle: summary
