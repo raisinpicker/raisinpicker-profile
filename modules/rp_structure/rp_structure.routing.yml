@@ -1,10 +1,11 @@
+
 rp_structure_simple:
   path: 'home'
   defaults:
     _controller: '\Drupal\rp_structure\Controller\HomeController::front'
     _title: 'Raisin Picker | knowledge management'
   requirements:
-    _permission: 'access home page'
+    _permission: 'rp access homepage'
 rp_structure_cheatsheet:
   path: 'cheatsheet'
   defaults:
