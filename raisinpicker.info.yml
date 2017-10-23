@@ -52,9 +52,6 @@ dependencies:
   - image
   - inline_form_errors
   - layout_discovery
-  - leaflet
-  - leaflet_more_maps
-  - leaflet_views
   - link
   - menu_ui
   - node
@@ -63,7 +60,6 @@ dependencies:
   - page_cache
   - path
   - pathauto
-  - private_taxonomy
   - redirect
   - rest
   - rules
