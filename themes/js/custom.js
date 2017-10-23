@@ -1,0 +1,1 @@
+(function ($){ $.material.init(); })(jQuery);

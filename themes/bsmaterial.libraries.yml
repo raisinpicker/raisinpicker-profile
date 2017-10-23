@@ -1,0 +1,31 @@
+global-styling:
+  css:
+    theme:
+      css/bsmaterial.min.css: {}
+bootstrap-scripts:
+  js:
+    js/affix.js: {}
+    js/alert.js: {}
+    js/button.js: {}
+    js/carousel.js: {}
+    js/collapse.js: {}
+    js/dropdown.js: {}
+    js/modal.js: {}
+    js/scrollspy.js: {}
+    js/tab.js: {}
+    js/transition.js: {}
+    js/bsmaterial.min.js: {}
+    js/custom.js: {}
+    js/tooltip.js: {}
+#    js/popover.js: {}
+roboto:
+  css:
+    theme:
+      '//fonts.googleapis.com/css?family=Roboto:300,400,500': { type: external, minified: true }
+  license:
+    name: SIL Open Font License 1.1
+    url: http://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=OFL
+material-icons:
+  css:
+    theme:
+      '//fonts.googleapis.com/icon?family=Material+Icons': { type: external, minified: true }

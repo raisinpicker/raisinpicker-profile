@@ -1,0 +1,56 @@
+{#
+/**
+ * @file
+ * Default theme implementation for a dropbutton wrapper.
+ *
+ * Available variables:
+ * - children: Contains the child elements of the dropbutton menu.
+ *
+ * @see template_preprocess()
+ *
+ * @ingroup themeable
+ */
+
+{% if children %}
+  {% spaceless %}
+    <div class="paragraphs-dropbutton-wrapper">
+      {{ children }}
+    </div>
+  {% endspaceless %}
+{% endif %}
+
+
+
+{% spaceless %}
+  {%
+    set classes = [
+      'btn',
+    ]
+  %}
+  {% block input %}
+        <button{{ attributes.addClass(classes) }}>{{ label }}</button>{{ children }}
+    {%
+      set classes = [
+        'btn',
+        'dropdown-toggle',
+      ]
+    %}
+    <button{{ split_button_attributes.addClass(classes) }} type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+      <span class="caret"></span>
+      <span class="sr-only">{{ 'Toggle Dropdown'|t }}</span>
+    </button>
+    {{ children }}
+  {% endblock %}
+{% endspaceless %}
+#}
+
+{% if children %}
+  {% spaceless %}
+    <div class="btn-group">
+      <button type="button" class="btn btn-primary btn-sm dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Actions <span class="caret"></span></button>
+      <ul class="dropdown-menu">
+        {{ children }}
+      </ul>
+    </div>
+  {% endspaceless %}
+{% endif %}
