@@ -1,0 +1,7 @@
+# Define the menu links for this module
+
+rp_relation_relation.admin.structure.settings:
+  title: Relation Settings
+  description: 'Configure relation entity'
+  route_name:  rp_relation.relation_settings
+  parent: system.admin_structure
