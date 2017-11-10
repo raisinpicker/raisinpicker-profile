@@ -13,7 +13,6 @@ dependencies:
   - admin_toolbar_tools
   - auto_entitylabel
   - automated_cron
-  - backup_migrate
   - better_exposed_filters
   - block
   - block_content
@@ -32,8 +31,6 @@ dependencies:
   - datetime
   - datetime_range
   - dblog
-  - default_content
-  - devel
   - diff
   - dynamic_page_cache
   - editor
