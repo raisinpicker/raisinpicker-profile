@@ -1,10 +1,8 @@
 langcode: en
 status: true
 dependencies:
-  enforced:
-    module:
-      - rp_structure
-
+  module:
+    - taxonomy
 name: 'Publication Tags'
 vid: publication_tags
 description: 'Use tags to categorize publications.'

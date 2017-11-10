@@ -1,6 +1,0 @@
-langcode: en
-status: true
-dependencies: {  }
-id: comment
-label: Comment
-behavior_plugins: {  }

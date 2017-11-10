@@ -2,11 +2,7 @@ langcode: en
 status: true
 dependencies:
   module:
-    - private_taxonomy
-third_party_settings:
-  private_taxonomy:
-    private: 0
-
+    - taxonomy
 name: Tags
 vid: tags
 description: 'Use tags to group articles on similar topics into categories.'

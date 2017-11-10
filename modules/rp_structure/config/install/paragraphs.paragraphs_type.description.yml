@@ -1,6 +1,0 @@
-langcode: en
-status: true
-dependencies: {  }
-id: description
-label: Description
-behavior_plugins: {  }
