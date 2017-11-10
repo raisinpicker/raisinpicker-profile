@@ -1,5 +1,6 @@
 type: module
 name : Raisin Picker Shortcut
-description : Shortcuts
+description : Shortcuts for Raisin Picker
+package: Raisin Picker
 core : 8.x
 version: '8.x-0.1'
