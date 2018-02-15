@@ -63,7 +63,6 @@ dependencies:
   - search_api
   - search_api_autocomplete
   - search_api_db
-  - search_api_views_taxonomy
   - serialization
   - system
   - tablefield
