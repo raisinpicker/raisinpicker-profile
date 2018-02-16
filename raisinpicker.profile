@@ -13,5 +13,4 @@ use Drupal\Core\Form\FormStateInterface;
  */
 function raisinpicker_form_install_configure_form_alter(&$form, FormStateInterface $form_state) {
 	$form['site_information']['site_name']['#placeholder'] = t('Raisin Picker');
-	$form['#submit'][] = 'raisinpicker_form_install_configure_submit';
 }
