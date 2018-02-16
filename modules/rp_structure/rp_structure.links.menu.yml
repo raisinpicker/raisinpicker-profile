@@ -248,7 +248,7 @@ rp_structure.logout:
 
 # footer menu
 rp_structure.footer_version:
-  title: 'v0.4 (alpha)'
+  title: 'v0.4'
   description: 'Current version'
   route_name: '<nolink>'   
   menu_name: footer
