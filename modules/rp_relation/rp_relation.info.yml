@@ -1,9 +1,0 @@
-name: Relation
-type: module
-description: Demonstrates how to create a content entity.
-package: Raisin Picker
-# core: 8.x
-# These modules are required by the tests, must be available at bootstrap time
-dependencies:
-  - drupal:options
-  - examples:examples
