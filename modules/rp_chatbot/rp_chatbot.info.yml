@@ -1,0 +1,9 @@
+name: RP Chatbot
+description: Intents for integration with Chatbot API and DialogFlow (former api.ai)
+package: Raisin Picker
+type: module
+core: 8.x
+version: '8.x-1.x-dev'
+dependencies:
+  - api_ai_webhook
+  - chatbot_api
