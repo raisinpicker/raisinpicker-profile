@@ -18,7 +18,6 @@ dependencies:
   - block_content
   - bootstrap_layouts
   - breakpoint
-  - bulk_update_fields
   - chosen
   - chosen_field
   - chosen_lib
@@ -78,7 +77,6 @@ dependencies:
   - views_data_export
   - views_infinite_scroll
   - views_simplechart
-  - views_tree
   - views_ui
   - ds
   - menu_link_content
@@ -94,4 +92,3 @@ dependencies:
   - rp_slider
 themes:
   - bsmaterial
-  - adminimal_theme
