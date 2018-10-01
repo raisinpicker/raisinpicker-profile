@@ -10,7 +10,6 @@ placeholder_text_single: 'Choose an option'
 no_results_text: 'No results match'
 disabled_themes:
   seven: '0'
-  adminimal_theme: '0'
   bootstrap: '0'
   bsmaterial: '0'
 chosen_include: 2
