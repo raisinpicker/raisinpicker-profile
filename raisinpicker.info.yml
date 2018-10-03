@@ -92,3 +92,4 @@ dependencies:
   - rp_slider
 themes:
   - bsmaterial
+  - seven
