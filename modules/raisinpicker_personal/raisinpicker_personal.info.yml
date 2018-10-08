@@ -1,9 +1,0 @@
-name: Raisin Picker Personal
-type: module
-description: Raisin Picker for personal knowledge management. (coming soon).
-version: 8.x-0.1
-core: 8.x
-package: Raisin Picker
-dependencies:
-  - rp_structure
-hidden: true
