@@ -38,6 +38,10 @@
         "drupal/term_reference_tree": "^1.0@alpha",
         "drupal/views_autocomplete_filters": "^1.2",
         "drupal/views_data_export": "^1.0@alpha",
-        "drupal/views_infinite_scroll": "^1.5"
+        "drupal/views_infinite_scroll": "^1.5",
+        "bower-asset/chosen": "^1.8",
+        "bower-asset/d3": "^5.7",
+        "bower-asset/datatables": "^1.10",
+        "bower-asset/jquery-ui-slider-pips": "^1.11"
     }
 }
