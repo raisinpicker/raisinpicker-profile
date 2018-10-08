@@ -1,0 +1,8 @@
+name: Raisin Picker Media
+type: module
+description: Add support for media (files, images, video, audio)
+package: Raisin Picker
+core: 8.x
+version: '8.x-1.x-dev'
+dependencies:
+  - media
