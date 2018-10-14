@@ -129,36 +129,29 @@ rp_structure.tools_map:
   menu_name: main
   weight: 0
 
-rp_structure.train:
-  title: 'Train'
-  route_name: '<front>'
-  menu_name: main
-  expanded: TRUE
-  weight: 5
-
-rp_structure.train_review:
+rp_structure.reports_review:
   title: 'Reviews'
   description: ''
-  parent: rp_structure.train
+  parent: rp_structure.reports
   route_name: 'view.review.page_1'   
-  menu_name: main
-  weight: 1
-
-rp_structure.train_relevant:
-  title: 'Relevant content (soon)'
-  description: ''
-  parent: rp_structure.train
-  route_name: '<front>'   
   menu_name: main
   weight: 2
 
-rp_structure.train_quiz:
-  title: 'Quiz (soon)'
+rp_structure.reports_relevant:
+  title: 'Relevant content (soon)'
   description: ''
-  parent: rp_structure.train
+  parent: rp_structure.reports
   route_name: '<front>'   
   menu_name: main
-  weight: 3
+  weight: 9
+
+rp_structure.reports_quiz:
+  title: 'Quiz (soon)'
+  description: ''
+  parent: rp_structure.reports
+  route_name: '<front>'   
+  menu_name: main
+  weight: 10
 
 rp_structure.reports:
   title: 'Report'
@@ -181,7 +174,7 @@ rp_structure.reports_recent:
   parent: rp_structure.reports
   route_name: 'view.recent.page_1'   
   menu_name: main
-  weight: 2
+  weight: 3
 
 rp_structure.reports_analytics:
   title: 'Analytics (soon)'
@@ -189,13 +182,15 @@ rp_structure.reports_analytics:
   parent: rp_structure.reports
   route_name: '<front>'   
   menu_name: main
-  weight: 3
+  weight: 6
 
+
+# user menu
 rp_structure.starred:
   title: 'star'
   description: 'Starred content'
   route_name: 'view.star.page_1'
-  menu_name: main
+  menu_name: user
   weight: 20
   options: 
     attributes:
@@ -208,7 +203,7 @@ rp_structure.account:
   title: 'settings'
   description: 'Account settings'
   route_name: 'rp_structure_settings'
-  menu_name: main
+  menu_name: user
   weight: 21
   options: 
     attributes:
@@ -219,7 +214,7 @@ rp_structure.cheatsheet:
   title: 'help_outline'
   description: 'Cheat Sheet'
   route_name: 'rp_structure_cheatsheet'
-  menu_name: main
+  menu_name: user
   weight: 22
   options: 
     attributes:
@@ -231,7 +226,7 @@ rp_structure.logout:
   title: 'power_settings_new'
   description: 'Logout'
   route_name: 'user.logout'
-  menu_name: main
+  menu_name: user
   weight: 23
   options: 
     attributes:
