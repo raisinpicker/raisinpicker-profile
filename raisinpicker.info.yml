@@ -91,5 +91,5 @@ dependencies:
   - rp_shortcut
   - rp_slider
 themes:
-  - bsmaterial
+  - radix_material
   - seven

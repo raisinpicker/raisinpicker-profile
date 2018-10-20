@@ -4,6 +4,12 @@
   	"description": "Raisin Picker installation profile",
   	"homepage": "https://github.com/raisinpicker/raisinpicker-profile",
     "license": "GPL-2.0+",
+    "authors": [
+        {
+            "name": "Simon Buechi",
+            "email": "simon.buechi@gmail.com"
+        }
+    ],
     "minimum-stability": "dev",
     "prefer-stable": true,
     "repositories": {
@@ -20,7 +26,6 @@
         "drupal/bootstrap": "^3.13",
         "drupal/bootstrap_layouts": "^5.0",
         "drupal/chosen": "^2.4",
-        "drupal/content_access": "1.x-dev",
         "drupal/csv_serialization": "^1.0",
         "drupal/datatables": "^1.0@RC",
         "drupal/diff": "^1.0@RC",
@@ -41,6 +46,7 @@
         "drupal/views_autocomplete_filters": "^1.2",
         "drupal/views_data_export": "^1.0@alpha",
         "drupal/views_infinite_scroll": "^1.5",
+        "raisinpicker/radix_material": "^1.0",
         "bower-asset/chosen": "^1.8",
         "bower-asset/d3": "^5.7",
         "bower-asset/datatables": "^1.10",
