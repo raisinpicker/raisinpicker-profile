@@ -1,0 +1,15 @@
+<?php
+/**
+use Drupal\Core\Form\FormStateInterface;
+
+
+ * Implements hook_form_FORM_ID_alter().
+
+function userpoints_default_form_transaction_userpoints_default_points_add_form_alter(&$form, FormStateInterface $form_state, $form_id) {
+  $form['actions']['submit']['#submit'][] = '_userpoints_default_form_transaction_userpoints_default_points_add_form_alter';
+}
+
+function _userpoints_default_form_transaction_userpoints_default_points_add_form_alter(&$form, FormStateInterface $form_state) {
+  $form_state->setRedirect('view.user_points_default_totals.page_userpoints_default_userpointstab', ['user' => $form_state->getFormObject()->getEntity()->getTargetEntityId()]);
+}
+ */

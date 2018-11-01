@@ -1,0 +1,7 @@
+name: 'Raisin Picker Points'
+type: module
+description: 'Provides a point system for users.'
+package: Raisin Picker
+core: 8.x
+dependencies:
+ - transaction:transaction (>=8.x-1.0-alpha2)

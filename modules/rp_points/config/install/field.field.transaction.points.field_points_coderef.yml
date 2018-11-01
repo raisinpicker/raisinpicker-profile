@@ -1,0 +1,18 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.transaction.field_points_coderef
+    - transaction.type.points
+id: transaction.points.field_points_coderef
+field_name: field_points_coderef
+entity_type: transaction
+bundle: points
+label: 'Internal reference'
+description: 'Enter an optional reference code for this transaction. This is for internal tracking and is not shown to the end user.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

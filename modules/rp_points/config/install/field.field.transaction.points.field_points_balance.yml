@@ -1,0 +1,22 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.transaction.field_points_balance
+    - transaction.type.points
+id: transaction.points.field_points_balance
+field_name: field_points_balance
+entity_type: transaction
+bundle: points
+label: Balance
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: decimal

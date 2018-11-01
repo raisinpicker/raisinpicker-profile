@@ -1,0 +1,23 @@
+langcode: en
+status: true
+dependencies:
+  module:
+    - transaction
+  enforced:
+      module:
+        - rp_points
+id: transaction.field_points_reason
+field_name: field_points_reason
+entity_type: transaction
+type: string
+settings:
+  max_length: 255
+  is_ascii: false
+  case_sensitive: false
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false
