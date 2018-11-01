@@ -1,8 +1,0 @@
-name: Raisin Picker Modal
-type: module
-description: custom modal form, see http://www.mediacurrent.com/blog/loading-and-rendering-modal-forms-drupal-8
-package: Raisin Picker
-core: 8.x
-version: '8.x-1.x-dev'
-dependencies:
-  - chosen
