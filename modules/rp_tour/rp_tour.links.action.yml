@@ -1,5 +1,0 @@
-rp_tour_action:
-  route_name: rp_tour.1_action
-  title: 'Tour test action'
-  appears_on:
-    - rp_tour.1
