@@ -1,0 +1,5 @@
+services:
+  raisinpicker.route_subscriber:
+    class: Drupal\raisinpicker\Routing\RouteSubscriber
+    tags:
+      - { name: event_subscriber }

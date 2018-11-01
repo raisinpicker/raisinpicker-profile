@@ -66,7 +66,6 @@ dependencies:
   - system
   - tablefield
   - taxonomy
-  - term_reference_tree
   - text
   - token
   - toolbar
@@ -83,13 +82,11 @@ dependencies:
   - ds_extras
   - views
   - paragraphs
-  - rp_structure
-  - rp_chosen
   - rp_d3
-  - rp_finder
   - rp_graph
   - rp_shortcut
-  - rp_slider
+libraries:
+  - raisinpicker/nouislider
 themes:
-  - radix_material
+  - bsmaterial
   - seven

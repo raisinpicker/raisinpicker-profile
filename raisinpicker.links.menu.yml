@@ -1,0 +1,256 @@
+raisinpicker.create:
+  title: 'Create'
+  route_name: '<front>'
+  menu_name: main
+  expanded: TRUE
+  weight: 1
+
+raisinpicker.create_knowledge:
+  title: 'Create knowledge'
+  description: ''
+  parent: raisinpicker.create
+  route_name: 'node.add'
+  route_parameters:
+    node_type: 'knowledge'    
+  menu_name: main
+  weight: 1
+
+raisinpicker.create_publication:
+  title: 'Create publication'
+  description: ''
+  parent: raisinpicker.create
+  route_name: 'node.add'
+  route_parameters:
+    node_type: 'publication'    
+  menu_name: main
+  weight: 2
+
+raisinpicker.create_person:
+  title: 'Create person'
+  description: ''
+  parent: raisinpicker.create
+  route_name: 'node.add'
+  route_parameters:
+    node_type: 'person'    
+  menu_name: main
+  weight: 3
+
+raisinpicker.create_event:
+  title: 'Create event'
+  description: ''
+  parent: raisinpicker.create
+  route_name: 'node.add'
+  route_parameters:
+    node_type: 'event'    
+  menu_name: main
+  weight: 4
+
+raisinpicker.create_object:
+  title: 'Create object'
+  description: ''
+  parent: raisinpicker.create
+  route_name: 'node.add'
+  route_parameters:
+    node_type: 'object'    
+  menu_name: main
+  weight: 5
+
+raisinpicker.create_place:
+  title: 'Create place'
+  description: ''
+  parent: raisinpicker.create
+  route_name: 'node.add'
+  route_parameters:
+    node_type: 'place'    
+  menu_name: main
+  weight: 6
+
+raisinpicker.create_collection:
+  title: 'Create collection'
+  description: ''
+  parent: raisinpicker.create
+  route_name: 'node.add'
+  route_parameters:
+    node_type: 'collection'    
+  menu_name: main
+  weight: 7
+
+raisinpicker.tasks:
+  title: 'Manage'
+  route_name: '<front>'
+  menu_name: main
+  expanded: TRUE
+  weight: 2
+
+raisinpicker.tasks_taxonomy:
+  title: 'Tags'
+  description: 'Manage tags'
+  parent: raisinpicker.tasks
+  route_name: 'entity.taxonomy_vocabulary.collection'   
+  menu_name: main
+  weight: 1
+
+raisinpicker.tasks_undone:
+  title: 'Filling gaps (soon)'
+  description: 'Content with missing information'
+  parent: raisinpicker.tasks
+  route_name: '<front>'   
+  menu_name: main
+  weight: 10
+
+raisinpicker.tasks_bulk:
+  title: 'Bulk operations'
+  description: ''
+  parent: raisinpicker.tasks
+  route_name: 'view.bulk.page_1'   
+  menu_name: main
+  weight: 5
+
+raisinpicker.tasks_import:
+  title: 'Import (soon)'
+  description: ''
+  parent: raisinpicker.tasks
+  route_name: '<front>'   
+  menu_name: main
+  weight: 6
+
+raisinpicker.tools:
+  title: 'Visualize'
+  route_name: '<front>'
+  menu_name: main
+  expanded: TRUE
+  weight: 4
+
+raisinpicker.tools_map:
+  title: 'Map'
+  description: 'Geographical map of location data'
+  parent: raisinpicker.tools
+  route_name: 'view.map.page_1'   
+  menu_name: main
+  weight: 0
+
+raisinpicker.reports_review:
+  title: 'Reviews'
+  description: ''
+  parent: raisinpicker.reports
+  route_name: 'view.review.page_1'   
+  menu_name: main
+  weight: 2
+
+raisinpicker.reports_relevant:
+  title: 'Relevant content (soon)'
+  description: ''
+  parent: raisinpicker.reports
+  route_name: '<front>'   
+  menu_name: main
+  weight: 9
+
+raisinpicker.reports_quiz:
+  title: 'Quiz (soon)'
+  description: ''
+  parent: raisinpicker.reports
+  route_name: '<front>'   
+  menu_name: main
+  weight: 10
+
+raisinpicker.reports:
+  title: 'Report'
+  route_name: '<front>'
+  menu_name: main
+  expanded: TRUE
+  weight: 5
+
+raisinpicker.reports_index:
+  title: 'Index'
+  description: 'List of all content'
+  parent: raisinpicker.reports
+  route_name: 'view.content_list.page_1'   
+  menu_name: main
+  weight: 1
+
+raisinpicker.reports_recent:
+  title: 'Recent activity'
+  description: ''
+  parent: raisinpicker.reports
+  route_name: 'view.recent.page_1'   
+  menu_name: main
+  weight: 3
+
+raisinpicker.reports_analytics:
+  title: 'Analytics (soon)'
+  description: ''
+  parent: raisinpicker.reports
+  route_name: '<front>'   
+  menu_name: main
+  weight: 6
+
+
+# user menu
+raisinpicker.starred:
+  title: 'star'
+  description: 'Starred content'
+  route_name: 'view.star.page_1'
+  menu_name: account
+  weight: 20
+  options: 
+    attributes:
+      data-toggle: 'tooltip'
+      class: 'use-ajax material-icons small'
+      data-dialog-type : 'modal'
+      title: 'Starred content'
+
+raisinpicker.account:
+  title: 'settings'
+  description: 'Account settings'
+  route_name: 'raisinpicker_settings'
+  menu_name: account
+  weight: 21
+  options: 
+    attributes:
+      data-toggle: 'tooltip'      
+      class: 'material-icons small'
+
+raisinpicker.cheatsheet:
+  title: 'help_outline'
+  description: 'Cheat Sheet'
+  route_name: 'raisinpicker_cheatsheet'
+  menu_name: account
+  weight: 22
+  options: 
+    attributes:
+      data-toggle: 'tooltip'      
+      class: 'use-ajax material-icons small'
+      data-dialog-type : 'modal'
+
+raisinpicker.logout:
+  title: 'power_settings_new'
+  description: 'Logout'
+  route_name: 'user.logout'
+  menu_name: account
+  weight: 23
+  options: 
+    attributes:
+      data-toggle: 'tooltip'
+      class: 'material-icons small'
+
+# footer menu
+raisinpicker.footer_version:
+  title: 'v0.4'
+  description: 'Current version'
+  route_name: '<nolink>'   
+  menu_name: footer
+  weight: 1
+
+raisinpicker.footer_project:
+  title: 'About'
+  description: 'Raisin Picker project site'
+  url: 'https://raisinpicker.github.io'   
+  menu_name: footer
+  weight: 2
+
+raisinpicker.footer_contact:
+  title: 'Contact'
+  description: 'Get in touch / ask question'
+  url: 'https://github.com/simonbuechi'   
+  menu_name: footer
+  weight: 3

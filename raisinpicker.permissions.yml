@@ -1,0 +1,20 @@
+rp access homepage:
+  title: 'Access home page'
+rp feature review:
+  title: 'Enable review feature'
+rp feature quiz:
+  title: 'Enable quiz feature'
+rp feature location:
+  title: 'Enable location feature'
+rp feature date:
+  title: 'Enable date feature'
+rp feature relation:
+  title: 'Enable relation feature'
+rp feature relevance:
+  title: 'Enable relevance feature'
+rp feature starring:
+  title: 'Enable starring feature'
+rp access api:
+  title: 'Enable access to general API'
+rp access voiceapi:
+  title: 'Enable access to voice API'  
