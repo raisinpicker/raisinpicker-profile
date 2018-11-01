@@ -65,7 +65,7 @@ class NodeViewCountViewsTest extends NodeViewCountTestBase {
    * Assert that views row with given title and count columns values exists.
    *
    * @param string $title
-   *   Title of the node
+   *   Title of the node.
    * @param int $count
    *   Count of views.
    */

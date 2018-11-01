@@ -4,9 +4,12 @@ namespace Drupal\nodeviewcount;
 
 use Drupal\Core\Config\ConfigFactoryInterface;
 use Drupal\Core\Database\Connection;
+use Drupal\Core\Datetime\DrupalDateTime;
 use Drupal\Core\Session\AccountInterface;
 use Drupal\node\NodeInterface;
 use Drupal\user\UserInterface;
+
+define('DEFAULT_TIME_FORMAT', 'Y-m-d H:i:sP');
 
 /**
  * Provides an class for interfering with nodeviewcount records.
@@ -44,14 +47,17 @@ class NodeViewCountRecordsManager implements NodeViewCountRecordsManagerInterfac
    * {@inheritdoc}
    */
   public function insertRecord($uid, $nid) {
+    $timeZone = date_default_timezone_get();
+    $dateTime = new DrupalDateTime('NOW', $timeZone);
+    $stringDate = $dateTime->format(DEFAULT_TIME_FORMAT);
     $fields = array(
       'nid' => $nid,
       'uid' => $uid,
-      'timestamp' => REQUEST_TIME,
+      'datetime' => strtotime($stringDate),
     );
     $this->connection->insert('nodeviewcount')
-      ->fields($fields)
-      ->execute();
+    ->fields($fields)
+    ->execute();
   }
 
   /**
@@ -82,9 +88,12 @@ class NodeViewCountRecordsManager implements NodeViewCountRecordsManagerInterfac
    * {@inheritdoc}
    */
   public function deleteOldRecords($time) {
+    $timeZone = date_default_timezone_get();
+    $timeNow = new DrupalDateTime('NOW', $timeZone);
+    $unixDate = strtotime($timeNow) - $time;
     $this->connection->delete('nodeviewcount')
-      ->condition('timestamp', REQUEST_TIME - $time, '<')
-      ->execute();
+    ->condition('datetime', $unixDate, '<')
+    ->execute();
   }
 
   /**

@@ -78,8 +78,8 @@ class NodeViewCountController implements ContainerInjectionInterface {
    */
   public function updateCounter(Request $request) {
     $data = ['status' => FALSE];
-    $nid = $request->request->filter('nid', FALSE, FALSE, FILTER_VALIDATE_INT);
-    $uid = $request->request->filter('uid', FALSE, FALSE, FILTER_VALIDATE_INT);
+    $nid = $request->request->filter('nid', FALSE, FILTER_VALIDATE_INT);
+    $uid = $request->request->filter('uid', FALSE, FILTER_VALIDATE_INT);
     $view_mode = $request->get('view_mode');
     if ($nid !== FALSE && $uid !== FALSE) {
       /** @var \Drupal\node\NodeTypeInterface[] $node_types */

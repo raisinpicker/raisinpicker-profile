@@ -6,9 +6,11 @@
  */
 
 /**
- * Implements hook_views_data().
+ * Implements hook_views_data_alter().
+ *
+ * Alter DB tables defined via hook_views_data().
  */
-function nodeviewcount_views_data() {
+function nodeviewcount_views_data_alter (array &$data) {
   $data['nodeviewcount']['table']['group'] = t('Node count');
   $data['nodeviewcount']['table']['base'] = [
     'field' => 'nid',
@@ -24,15 +26,10 @@ function nodeviewcount_views_data() {
   ];
   $data['nodeviewcount']['nid'] = [
     'title' => t('Node id'),
-    'help' => t('Node id.'),
-    'relationship' => [
-      'base' => 'node_field_data',
-      'base field' => 'nid',
-      'id' => 'standard',
-      'label' => t('Node View Count Node'),
-    ],
     'field' => [
-      'id' => 'numeric',
+      'title' => t('Node id'),
+      'help' => t('Node id'),
+      'id' => 'node_view_count_node_id',
       'click sortable' => TRUE,
     ],
     'filter' => [
@@ -45,8 +42,38 @@ function nodeviewcount_views_data() {
       'id' => 'numeric',
     ],
   ];
+  $data['nodeviewcount']['id'] = [
+    'title' => t('ID'),
+    'field' => [
+      'title' => t('Id'),
+      'help' => t('View count id.'),
+      'id' => 'node_view_count_id',
+      'click sortable' => TRUE,
+    ],
+    'filter' => [
+      'id' => 'numeric',
+    ],
+    'sort' => [
+      'id' => 'standard',
+    ],
+
+  ];
+  $data['nodeviewcount']['datetime'] = [
+    'title' => t('Timestamp '),
+    'help' => t('When user view of node.'),
+    'field' => [
+      'id' => 'date',
+      'click sortable' => TRUE,
+    ],
+    'filter' => [
+      'id' => 'date',
+    ],
+    'sort' => [
+      'id' => 'date',
+    ],
+  ];
   $data['nodeviewcount']['uid'] = [
-    'title' => t('Who view'),
+    'title' => t('Who view(id)'),
     'help' => t('Who view  of node.'),
     'relationship' => [
       'base' => 'users_field_data',
@@ -68,20 +95,5 @@ function nodeviewcount_views_data() {
       'id' => 'numeric',
     ],
   ];
-  $data['nodeviewcount']['timestamp'] = [
-    'title' => t('Timestamp'),
-    'help' => t('When user view of node.'),
-    'field' => [
-      'id' => 'date',
-      'click sortable' => TRUE,
-    ],
-    'filter' => [
-      'id' => 'date',
-    ],
-    'sort' => [
-      'id' => 'date',
-    ],
-  ];
-
   return $data;
 }

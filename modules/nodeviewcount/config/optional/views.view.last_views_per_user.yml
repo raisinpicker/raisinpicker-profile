@@ -137,10 +137,10 @@ display:
             operator: ''
           group: 1
       sorts:
-        timestamp:
-          id: timestamp
+        datetime:
+          id: datetime
           table: nodeviewcount
-          field: timestamp
+          field: datetime
           relationship: none
           group_type: group
           admin_label: ''

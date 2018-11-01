@@ -30,9 +30,10 @@ function nodeviewcount_schema() {
         'unsigned' => TRUE,
         'not null' => TRUE,
       ],
-      'timestamp' => [
-        'description' => 'The Unix timestamp when the node was view.',
-        'type' => 'int',
+      'datetime' => [
+        'description' => 'The date and time when the node was view.',
+        'type' => 'varchar',
+        'length' => 100,
         'not null' => TRUE,
         'default' => 0,
       ],
@@ -40,7 +41,7 @@ function nodeviewcount_schema() {
     'primary key' => ['id'],
     'indexes' => [
       'nid_uid' => ['uid', 'nid'],
-      'timestamp' => ['timestamp'],
+      'datetime' => ['datetime'],
     ],
   ];
 

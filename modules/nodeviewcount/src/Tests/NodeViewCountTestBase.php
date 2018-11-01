@@ -93,10 +93,9 @@ abstract class NodeViewCountTestBase extends WebTestBase {
     $this->client = \Drupal::service('http_client_factory')
       ->fromOptions(['config/curl' => [CURLOPT_TIMEOUT => 20]]);
     $this->drupalCreateContentType([
-        'type' => 'tracked_page',
-        'name' => 'Basic page with tracking',
-      ]
-    );
+      'type' => 'tracked_page',
+      'name' => 'Basic page with tracking',
+    ]);
     // Create one more content type.
     $this->drupalCreateContentType([
       'type' => 'not_tracked_page',
@@ -149,7 +148,7 @@ abstract class NodeViewCountTestBase extends WebTestBase {
    *   Created user entity.
    */
   protected function createUserWithRole($user_role_name) {
-    // Create a user assigned to that role.;
+    // Create a user assigned to that role.
     $edit['name'] = $this->randomMachineName();
     $edit['mail'] = $edit['name'] . '@example.com';
     $edit['pass'] = user_password();
