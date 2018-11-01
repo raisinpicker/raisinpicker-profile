@@ -1,6 +1,6 @@
 <?php
 
-namespace Drupal\rp_structure\Controller;
+namespace Drupal\raisinpicker\Controller;
 
 use Drupal\Core\Controller\ControllerBase;
 use Symfony\Component\HttpFoundation\RedirectResponse;
@@ -13,7 +13,7 @@ class HomeController extends ControllerBase {
    * {@inheritdoc}
    */
   protected function getModuleName() {
-    return 'rp_structure';
+    return 'raisinpicker';
   }
 
   public function front() {

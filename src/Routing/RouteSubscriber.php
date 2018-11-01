@@ -1,13 +1,13 @@
 <?php
 
-namespace Drupal\rp_structure\Routing;
+namespace Drupal\raisinpicker\Routing;
 use Drupal\Core\Routing\RouteSubscriberBase;
 use Symfony\Component\Routing\RouteCollection;
 
 /**
  * Class RouteSubscriber.
  *
- * @package Drupal\rp_structure\Routing
+ * @package Drupal\raisinpicker\Routing
  * Listens to the dynamic route events.
  */
 class RouteSubscriber extends RouteSubscriberBase {
@@ -18,10 +18,10 @@ class RouteSubscriber extends RouteSubscriberBase {
 
     /*   routes to be shown in front theme */
     $term_routes = [
-      'entity.taxonomy_term.add_form',
+   /*   'entity.taxonomy_term.add_form',
       'entity.taxonomy_vocabulary.overview_form',
       'entity.entity_form_display.taxonomy_term.default',
-      'entity.entity_view_display.taxonomy_term.default',
+      'entity.entity_view_display.taxonomy_term.default', */
       'entity.user.edit_form'
     ];
     foreach ($collection->all() as $name => $route) {

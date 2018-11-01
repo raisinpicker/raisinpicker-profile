@@ -1,6 +1,6 @@
 <?php
 
-namespace Drupal\rp_chosen\Plugin\Field\FieldWidget;
+namespace Drupal\raisinpicker\Plugin\Field\FieldWidget;
 
 use Drupal\Core\Form\FormStateInterface;
 use Drupal\Core\Field\FieldItemListInterface;
