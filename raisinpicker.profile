@@ -49,9 +49,13 @@ function raisinpicker_field_widget_info() {
       'label' => t('noUiSlider field'),
       'field types' => array('integer'),
     ),
+    'rp_chosen_widget' => array(
+      'label' => t('RP Chosen'),
+      'field types' => array('entity_reference'),
+    ),
   );
 }
-
+  
 
 /**
  * Implements hook_field_widget_form_alter().
@@ -115,9 +119,9 @@ function raisinpicker_field_widget_daterange_datelist_form_alter(&$element, &$fo
  */
 function raisinpicker_theme() {
   return [
-    'term_tree_list' => [
+    'term_tree' => [
       'render element' => 'element',
-      'function' => 'theme_term_tree_list',
+      'function' => 'raisinpicker_term_tree',
     ],
     'cheatsheet' => [
     ],
@@ -127,7 +131,7 @@ function raisinpicker_theme() {
 /**
  * Themes the term tree display (as opposed to the select widget).
  */
-function theme_term_tree_list($variables) {
+function raisinpicker_term_tree($variables) {
   $element = &$variables['element'];
   $data = &$element['#data'];
 

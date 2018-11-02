@@ -10,7 +10,7 @@ use Drupal\Core\Form\FormStateInterface;
  * Plugin implementation of the thumbnail field formatter.
  *
  * @FieldFormatter(
- *   id = "raisinpicker",
+ *   id = "term_tree",
  *   label = @Translation("Term Reference Tree"),
  *   field_types = {
  *     "entity_reference"

@@ -1,6 +1,6 @@
 <?php
 
-namespace Drupal\rp_slider\Plugin\Field\FieldWidget;
+namespace Drupal\raisinpicker\Plugin\Field\FieldWidget;
 
 use Drupal\Core\Field\FieldItemListInterface;
 use Drupal\Core\Field\WidgetBase;
@@ -11,7 +11,7 @@ use Drupal\Core\Form\FormStateInterface;
  *
  * @FieldWidget(
  *   id = "nouislider_widget",
- *   module = "rp_slider",
+ *   module = "raisinpicker",
  *   label = @Translation("noUiSlider field"),
  *   field_types = {
  *     "integer",
@@ -36,7 +36,7 @@ public function formElement(FieldItemListInterface $items, $delta, array $elemen
       '#attributes' => array('class' => array('rating-input hidden')),
       '#attached' => array(
         'library' => array(
-          'rp_slider/nouislider',
+          'raisinpicker/nouislider',
         ),
       ),
     ];
