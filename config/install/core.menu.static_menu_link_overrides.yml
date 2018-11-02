@@ -5,33 +5,33 @@ definitions:
     parent: ''
     weight: 0
     expanded: false
-  rp_structure__actions_bulk:
+  raisinpicker__actions_bulk:
     weight: -50
     menu_name: main
-    parent: rp_structure.actions
+    parent: raisinpicker.actions
     enabled: true
     expanded: false
-  rp_structure__actions_import:
+  raisinpicker__actions_import:
     weight: -49
     menu_name: main
-    parent: rp_structure.actions
+    parent: raisinpicker.actions
     expanded: false
     enabled: true
-  rp_structure__tasks_reminders:
+  raisinpicker__tasks_reminders:
     weight: -48
-    parent: rp_structure.actions
+    parent: raisinpicker.actions
     menu_name: main
     expanded: false
     enabled: true
-  rp_structure__tasks_wip:
+  raisinpicker__tasks_wip:
     weight: -47
-    parent: rp_structure.actions
+    parent: raisinpicker.actions
     menu_name: main
     expanded: false
     enabled: true
-  rp_structure__tasks_untagged:
+  raisinpicker__tasks_untagged:
     weight: -46
-    parent: rp_structure.actions
+    parent: raisinpicker.actions
     menu_name: main
     expanded: false
     enabled: true
@@ -41,37 +41,37 @@ definitions:
     parent: ''
     enabled: false
     expanded: false
-  rp_structure__create:
+  raisinpicker__create:
     weight: -49
     menu_name: main
     parent: ''
     expanded: true
     enabled: true
-  rp_structure__tasks:
+  raisinpicker__tasks:
     weight: -48
     menu_name: main
     parent: ''
     expanded: true
     enabled: true
-  rp_structure__tools:
+  raisinpicker__tools:
     weight: -47
     menu_name: main
     parent: ''
     expanded: true
     enabled: true
-  rp_structure__reports:
+  raisinpicker__reports:
     weight: -46
     menu_name: main
     parent: ''
     expanded: true
     enabled: true
-  rp_structure__train:
+  raisinpicker__train:
     weight: -45
     menu_name: main
     parent: ''
     expanded: true
     enabled: true
-  rp_structure__starred:
+  raisinpicker__starred:
     weight: -44
     menu_name: main
     parent: ''

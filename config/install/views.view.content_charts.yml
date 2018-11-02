@@ -7,6 +7,8 @@ dependencies:
     - node
     - user
     - views_simplechart
+_core:
+  default_config_hash: nDG560dKSWDf3RcyLLqi8g_8Kbe60Wdw097u0eJa3Nk
 id: content_charts
 label: 'Content charts'
 module: views

@@ -4,6 +4,8 @@ dependencies:
   module:
     - user
     - views_simplechart
+_core:
+  default_config_hash: WzO2_ahcKPe-60QBW5cRxxi32Bz_5LruSwo4rDYGBuo
 id: front_chart_activity
 label: Activity
 module: views

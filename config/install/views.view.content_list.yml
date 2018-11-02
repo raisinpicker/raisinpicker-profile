@@ -14,7 +14,8 @@ dependencies:
     - datatables
     - node
     - user
-
+_core:
+  default_config_hash: J5sGJNkBUhB3vegcwemx6qbE4X0CzlPLmFTirSW0iHY
 id: content_list
 label: 'Content List'
 module: views
@@ -456,7 +457,7 @@ display:
       arguments: {  }
       display_extenders: {  }
     cache_metadata:
-      max-age: 0
+      max-age: -1
       contexts:
         - 'languages:language_content'
         - 'languages:language_interface'
@@ -587,7 +588,7 @@ display:
             label: Rating
           plugin_id: standard
     cache_metadata:
-      max-age: 0
+      max-age: -1
       contexts:
         - 'languages:language_content'
         - 'languages:language_interface'
@@ -684,7 +685,7 @@ display:
         options: {  }
       css_class: datatable
     cache_metadata:
-      max-age: 0
+      max-age: -1
       contexts:
         - 'languages:language_content'
         - 'languages:language_interface'

@@ -4,7 +4,8 @@ dependencies:
   module:
     - node
     - user
-
+_core:
+  default_config_hash: iO6NNMT7PegcI0JBv9KDRF7l6z1Ja1u5xtXinnSv4ZU
 id: last_views_per_user
 label: 'Last views per user'
 module: views
@@ -127,7 +128,7 @@ display:
           plugin_id: field
       filters:
         status:
-          value: '1'
+          value: true
           table: node_field_data
           field: status
           plugin_id: boolean
@@ -138,10 +139,10 @@ display:
             operator: ''
           group: 1
       sorts:
-        timestamp:
-          id: timestamp
+        datetime:
+          id: datetime
           table: nodeviewcount
-          field: timestamp
+          field: datetime
           relationship: none
           group_type: group
           admin_label: ''

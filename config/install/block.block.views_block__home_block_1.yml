@@ -1,18 +1,17 @@
 langcode: en
-status: true
+status: false
 dependencies:
   config:
     - views.view.home
   module:
     - system
-    - user
     - views
   theme:
-    - bsmaterial
+    - radix_material
 id: views_block__home_block_1
-theme: bsmaterial
+theme: radix_material
 region: content
-weight: 0
+weight: -5
 provider: null
 plugin: 'views_block:home-block_1'
 settings:
@@ -28,10 +27,3 @@ visibility:
     pages: '<front>'
     negate: false
     context_mapping: {  }
-  user_role:
-    id: user_role
-    roles:
-      authenticated: authenticated
-    negate: false
-    context_mapping:
-      user: '@user.current_user_context:current_user'

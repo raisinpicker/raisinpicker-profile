@@ -8,7 +8,8 @@ dependencies:
     - node
     - user
     - views_infinite_scroll
-
+_core:
+  default_config_hash: SspEb79myl6DbtBTMQP21hD2PulYX_9zxxeXliTj8VM
 id: history
 label: History
 module: views
@@ -613,7 +614,7 @@ display:
       arguments: {  }
       display_extenders: {  }
     cache_metadata:
-      max-age: 0
+      max-age: -1
       contexts:
         - 'languages:language_content'
         - 'languages:language_interface'
@@ -673,7 +674,7 @@ display:
       display_extenders: {  }
       path: history
     cache_metadata:
-      max-age: 0
+      max-age: -1
       contexts:
         - 'languages:language_content'
         - 'languages:language_interface'

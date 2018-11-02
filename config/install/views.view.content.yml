@@ -5,7 +5,8 @@ dependencies:
     - node
     - user
     - views_autocomplete_filters
-
+_core:
+  default_config_hash: lg3luy1Y-5VXTxPCQe01tM6E_uDo_09YT89SmRbBAXs
 id: content
 label: Content
 module: node

@@ -7,7 +7,8 @@ dependencies:
     - ds
     - node
     - user
-
+_core:
+  default_config_hash: CAbG-f5ktRUjeCDmCljrQNLotgbGnGD_JzMWyYCFFZE
 id: relevance
 label: Relevance
 module: views
@@ -385,7 +386,7 @@ display:
       arguments: {  }
       display_extenders: {  }
     cache_metadata:
-      max-age: 0
+      max-age: -1
       contexts:
         - 'languages:language_content'
         - 'languages:language_interface'
@@ -668,6 +669,8 @@ display:
           text: view
           entity_type: node
           plugin_id: entity_link
+          output_url_as_text: false
+          absolute: false
     cache_metadata:
       max-age: -1
       contexts:
@@ -686,7 +689,7 @@ display:
       display_extenders: {  }
       path: relevance
     cache_metadata:
-      max-age: 0
+      max-age: -1
       contexts:
         - 'languages:language_content'
         - 'languages:language_interface'

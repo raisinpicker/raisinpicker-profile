@@ -12,7 +12,7 @@ dependencies:
     - chosen_field
     - field_layout
     - layout_discovery
-    - rp_slider
+    - raisinpicker
 third_party_settings:
   field_layout:
     id: layout_onecol

@@ -4,27 +4,25 @@ dependencies:
   config:
     - views.view.search
   module:
-    - user
+    - system
     - views
   theme:
-    - bsmaterial
+    - radix_material
 id: exposedformsearchpage_1
-theme: bsmaterial
-region: navigation_collapsible
-weight: -6
+theme: radix_material
+region: sidebar_right
+weight: -7
 provider: null
 plugin: 'views_exposed_filter_block:search-page_1'
 settings:
   id: 'views_exposed_filter_block:search-page_1'
   label: ''
   provider: views
-  label_display: '0'
+  label_display: visible
   views_label: ''
 visibility:
-  user_role:
-    id: user_role
-    roles:
-      authenticated: authenticated
+  request_path:
+    id: request_path
+    pages: '<front>'
     negate: false
-    context_mapping:
-      user: '@user.current_user_context:current_user'
+    context_mapping: {  }

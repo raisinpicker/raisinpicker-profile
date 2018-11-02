@@ -14,7 +14,8 @@ dependencies:
     - node
     - user
     - views_autocomplete_filters
-
+_core:
+  default_config_hash: cxjq-oN3z5_pq519ujutzHDtHcEAwYCEyG_cwGH2u60
 id: finder
 label: Finder
 module: views
@@ -48,26 +49,27 @@ display:
       exposed_form:
         type: bef
         options:
-          submit_button: Apply
+          submit_button: Go
           reset_button: false
           reset_button_label: Reset
           exposed_sorts_label: 'Sort by'
           expose_sort_order: false
           sort_asc_label: Asc
           sort_desc_label: Desc
-          input_required: false
+          input_required: true
           text_input_required: ''
           bef:
             general:
               allow_secondary: false
               secondary_label: 'Advanced options'
-              autosubmit: false
-              autosubmit_hide: false
+              autosubmit: true
+              autosubmit_exclude_textfield: true
+              autosubmit_hide: true
             title:
               bef_format: default
               more_options:
                 is_secondary: false
-                placeholder_text: ''
+                placeholder_text: 'Enter title...'
           text_input_required_format: basic_html
       pager:
         type: some
@@ -135,7 +137,7 @@ display:
           click_sort_column: value
           type: string
           settings:
-            link_to_entity: false
+            link_to_entity: true
           group_column: value
           group_columns: {  }
           group_rows: true
@@ -172,7 +174,7 @@ display:
           exposed: true
           expose:
             operator_id: title_op
-            label: Title
+            label: ''
             description: ''
             use_operator: false
             operator: title_op
@@ -184,7 +186,9 @@ display:
               authenticated: authenticated
               anonymous: '0'
               administrator: '0'
-              editor: '0'
+              subscribed_user: '0'
+              technical: '0'
+            placeholder: ''
             autocomplete_filter: 1
             autocomplete_min_chars: '2'
             autocomplete_items: '10'
@@ -255,7 +259,20 @@ display:
           plugin_id: bundle
       sorts: {  }
       title: Finder
-      header: {  }
+      header:
+        area:
+          id: area
+          table: views
+          field: area
+          relationship: none
+          group_type: group
+          admin_label: ''
+          empty: true
+          tokenize: false
+          content:
+            value: 'Finder <i class="material-icons small" data-toggle="tooltip" title="find content by entering title">help_outline</i>'
+            format: full_html
+          plugin_id: text
       footer: {  }
       empty: {  }
       relationships: {  }

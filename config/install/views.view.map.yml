@@ -8,6 +8,8 @@ dependencies:
   module:
     - geolocation
     - paragraphs
+_core:
+  default_config_hash: KC3ydtB727mZw9YSKNVh90Z9iOboDGV2hoFVpHHgGRc
 id: map
 label: Map
 module: views

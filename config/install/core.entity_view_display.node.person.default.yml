@@ -12,7 +12,7 @@ dependencies:
   module:
     - ds
     - entity_reference_revisions
-    - term_reference_tree
+    - raisinpicker
     - user
 third_party_settings:
   ds:
@@ -165,7 +165,7 @@ content:
     type: number_unformatted
     region: left
   field_tags:
-    type: term_reference_tree
+    type: term_tree
     weight: 10
     region: left
     label: above

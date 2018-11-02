@@ -11,6 +11,8 @@ dependencies:
   module:
     - node
     - user
+_core:
+  default_config_hash: 81vG7gJMK5yg1yWywBvZajCzeESIXVL3ThFFYgeXDVI
 id: relations
 label: Relations
 module: views
@@ -58,7 +60,7 @@ display:
       style:
         type: default
         options:
-          row_class: ''
+          row_class: 'row mb-3'
           default_row_class: false
           uses_fields: false
       row:
@@ -510,7 +512,7 @@ display:
       style:
         type: default
         options:
-          row_class: ''
+          row_class: 'row mb-3'
           default_row_class: false
           uses_fields: false
       row:

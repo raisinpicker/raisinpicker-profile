@@ -1,18 +1,20 @@
 langcode: en
 status: true
 dependencies:
+  config:
+    - system.menu.admin
   module:
-    - taxonomy
+    - node
     - user
 _core:
-  default_config_hash: vCK8tRwN4HRNcjroLcdOSfnfH0YFwwhBnokFsfm2wKU
-id: internal_terms
-label: 'Internal Terms'
+  default_config_hash: jrG98jWRP1A6Of0Bgy5ye35ub9d6LuhaEt7eB6jx4j8
+id: node_views_count_statistics
+label: 'Node views count statistics'
 module: views
 description: ''
 tag: ''
-base_table: taxonomy_term_field_data
-base_field: tid
+base_table: node_field_data
+base_field: nid
 core: 8.x
 display:
   default:
@@ -24,9 +26,9 @@ display:
       access:
         type: perm
         options:
-          perm: 'access content'
+          perm: 'administer modules'
       cache:
-        type: tag
+        type: none
         options: {  }
       query:
         type: views_query
@@ -47,9 +49,26 @@ display:
           sort_asc_label: Asc
           sort_desc_label: Desc
       pager:
-        type: none
+        type: full
         options:
+          items_per_page: 20
           offset: 0
+          id: 0
+          total_pages: null
+          tags:
+            previous: '‹ Previous'
+            next: 'Next ›'
+            first: '« First'
+            last: 'Last »'
+          expose:
+            items_per_page: false
+            items_per_page_label: 'Items per page'
+            items_per_page_options: '5, 10, 25, 50'
+            items_per_page_options_all: false
+            items_per_page_options_all_label: '- All -'
+            offset: false
+            offset_label: Offset
+          quantity: 9
       style:
         type: table
         options:
@@ -62,23 +81,9 @@ display:
           summary: ''
           description: ''
           columns:
-            name: name
-            uuid: uuid
-            tid: tid
+            title: title
           info:
-            name:
-              sortable: false
-              default_sort_order: asc
-              align: ''
-              separator: ''
-              empty_column: false
-              responsive: ''
-            uuid:
-              align: ''
-              separator: ''
-              empty_column: false
-              responsive: ''
-            tid:
+            title:
               sortable: false
               default_sort_order: asc
               align: ''
@@ -95,62 +100,14 @@ display:
           hide_empty: false
           default_field_elements: true
       fields:
-        name:
-          id: name
-          table: taxonomy_term_field_data
-          field: name
-          entity_type: taxonomy_term
-          entity_field: name
-          label: ''
-          alter:
-            alter_text: false
-            make_link: false
-            absolute: false
-            trim: false
-            word_boundary: false
-            ellipsis: false
-            strip_tags: false
-            html: false
-          hide_empty: false
-          empty_zero: false
-          type: string
-          settings:
-            link_to_entity: true
-          plugin_id: term_name
+        title:
+          id: title
+          table: node_field_data
+          field: title
           relationship: none
           group_type: group
           admin_label: ''
-          exclude: false
-          element_type: ''
-          element_class: ''
-          element_label_type: ''
-          element_label_class: ''
-          element_label_colon: true
-          element_wrapper_type: ''
-          element_wrapper_class: ''
-          element_default_classes: true
-          empty: ''
-          hide_alter_empty: true
-          click_sort_column: value
-          group_column: value
-          group_columns: {  }
-          group_rows: true
-          delta_limit: 0
-          delta_offset: 0
-          delta_reversed: false
-          delta_first_last: false
-          multi_type: separator
-          separator: ', '
-          field_api_classes: false
-          convert_spaces: false
-        uuid:
-          id: uuid
-          table: taxonomy_term_data
-          field: uuid
-          relationship: none
-          group_type: group
-          admin_label: ''
-          label: ''
+          label: Title
           exclude: false
           alter:
             alter_text: false
@@ -170,8 +127,8 @@ display:
             target: ''
             nl2br: false
             max_length: 0
-            word_boundary: true
-            ellipsis: true
+            word_boundary: false
+            ellipsis: false
             more_link: false
             more_link_text: ''
             more_link_path: ''
@@ -205,17 +162,17 @@ display:
           multi_type: separator
           separator: ', '
           field_api_classes: false
-          entity_type: taxonomy_term
-          entity_field: uuid
+          entity_type: node
+          entity_field: title
           plugin_id: field
-        tid:
-          id: tid
-          table: taxonomy_term_field_data
-          field: tid
+        nid:
+          id: nid
+          table: nodeviewcount
+          field: nid
           relationship: none
-          group_type: group
+          group_type: count
           admin_label: ''
-          label: ''
+          label: 'Count views'
           exclude: false
           alter:
             alter_text: false
@@ -248,7 +205,7 @@ display:
           element_class: ''
           element_label_type: ''
           element_label_class: ''
-          element_label_colon: false
+          element_label_colon: true
           element_wrapper_type: ''
           element_wrapper_class: ''
           element_default_classes: true
@@ -256,96 +213,146 @@ display:
           hide_empty: false
           empty_zero: false
           hide_alter_empty: true
-          click_sort_column: value
-          type: number_integer
-          settings:
-            thousand_separator: ''
-            prefix_suffix: true
-          group_column: value
-          group_columns: {  }
-          group_rows: true
-          delta_limit: 0
-          delta_offset: 0
-          delta_reversed: false
-          delta_first_last: false
-          multi_type: separator
-          separator: ', '
-          field_api_classes: false
-          entity_type: taxonomy_term
-          entity_field: tid
-          plugin_id: field
-      filters:
-        vid:
-          id: vid
-          table: taxonomy_term_field_data
-          field: vid
+          set_precision: false
+          precision: 0
+          decimal: .
+          separator: ','
+          format_plural: false
+          format_plural_string: !!binary MQNAY291bnQ=
+          prefix: ''
+          suffix: ''
+          plugin_id: numeric
+        view_node:
+          id: view_node
+          table: node
+          field: view_node
           relationship: none
           group_type: group
           admin_label: ''
-          operator: in
-          value: {  }
-          group: 1
-          exposed: true
+          label: View
+          exclude: false
+          alter:
+            alter_text: false
+            text: ''
+            make_link: false
+            path: ''
+            absolute: false
+            external: false
+            replace_spaces: false
+            path_case: none
+            trim_whitespace: false
+            alt: ''
+            rel: ''
+            link_class: ''
+            prefix: ''
+            suffix: ''
+            target: ''
+            nl2br: false
+            max_length: 0
+            word_boundary: true
+            ellipsis: true
+            more_link: false
+            more_link_text: ''
+            more_link_path: ''
+            strip_tags: false
+            trim: false
+            preserve_tags: ''
+            html: false
+          element_type: ''
+          element_class: ''
+          element_label_type: ''
+          element_label_class: ''
+          element_label_colon: true
+          element_wrapper_type: ''
+          element_wrapper_class: ''
+          element_default_classes: true
+          empty: ''
+          hide_empty: false
+          empty_zero: false
+          hide_alter_empty: true
+          text: view
+          entity_type: node
+          plugin_id: entity_link
+          output_url_as_text: false
+          absolute: false
+      filters:
+        status:
+          value: true
+          table: node_field_data
+          field: status
+          plugin_id: boolean
+          entity_type: node
+          entity_field: status
+          id: status
           expose:
-            operator_id: vid_op
-            label: Vocabulary
-            description: ''
-            use_operator: false
-            operator: vid_op
-            identifier: vid
-            required: false
-            remember: false
-            multiple: false
-            remember_roles:
-              authenticated: authenticated
-              anonymous: '0'
-              administrator: '0'
-              subscribed_user: '0'
-              technical: '0'
-            reduce: false
-          is_grouped: false
-          group_info:
+            operator: ''
+          group: 1
+      sorts:
+        nid:
+          id: nid
+          table: nodeviewcount
+          field: nid
+          relationship: none
+          group_type: count
+          admin_label: ''
+          order: DESC
+          exposed: false
+          expose:
             label: ''
-            description: ''
-            identifier: ''
-            optional: true
-            widget: select
-            multiple: false
-            remember: false
-            default_group: All
-            default_group_multiple: {  }
-            group_items: {  }
-          entity_type: taxonomy_term
-          entity_field: vid
-          plugin_id: bundle
-      sorts: {  }
+          plugin_id: standard
       header: {  }
       footer: {  }
-      empty: {  }
+      empty:
+        area:
+          id: area
+          table: views
+          field: area
+          relationship: none
+          group_type: group
+          admin_label: ''
+          empty: true
+          tokenize: false
+          content:
+            value: 'Users haven''t viewed anything yet.'
+            format: basic_html
+          plugin_id: text
       relationships: {  }
       arguments: {  }
       display_extenders: {  }
+      title: 'Node views count statistics'
+      group_by: true
     cache_metadata:
       max-age: -1
       contexts:
         - 'languages:language_content'
         - 'languages:language_interface'
-        - url
+        - url.query_args
+        - 'user.node_grants:view'
         - user.permissions
       tags: {  }
-  page_1:
+  page:
     display_plugin: page
-    id: page_1
+    id: page
     display_title: Page
     position: 1
     display_options:
       display_extenders: {  }
-      path: internal/terms
+      path: admin/config/content/node-views-count-statistics
+      menu:
+        type: normal
+        title: 'Node view count statistics'
+        description: ''
+        expanded: false
+        parent: system.admin_config_content
+        weight: 0
+        context: '0'
+        menu_name: admin
     cache_metadata:
       max-age: -1
       contexts:
         - 'languages:language_content'
         - 'languages:language_interface'
-        - url
+        - url.query_args
+        - 'user.node_grants:view'
         - user.permissions
       tags: {  }

@@ -2,25 +2,24 @@ langcode: en
 status: true
 dependencies:
   config:
-    - views.view.review
+    - views.view.home
   module:
     - system
     - views
   theme:
     - radix_material
-id: views_block__review_block_1
+id: exposedformhomepage_1
 theme: radix_material
-region: sidebar_right
-weight: -6
+region: content
+weight: -7
 provider: null
-plugin: 'views_block:review-block_1'
+plugin: 'views_exposed_filter_block:home-page_1'
 settings:
-  id: 'views_block:review-block_1'
+  id: 'views_exposed_filter_block:home-page_1'
   label: ''
   provider: views
-  label_display: visible
+  label_display: '0'
   views_label: ''
-  items_per_page: none
 visibility:
   request_path:
     id: request_path

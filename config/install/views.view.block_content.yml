@@ -5,7 +5,8 @@ dependencies:
     - block_content
     - user
     - views_autocomplete_filters
-
+_core:
+  default_config_hash: sRdjY7n9Z-clPh8Ba01Gk9lRRl7nm7VPM_bfppZ8sGE
 id: block_content
 label: 'Custom block library'
 module: views
@@ -470,7 +471,7 @@ display:
         - url
         - url.query_args
         - user.permissions
-      max-age: 0
+      max-age: -1
       tags: {  }
   page_1:
     display_plugin: page
@@ -495,5 +496,5 @@ display:
         - url
         - url.query_args
         - user.permissions
-      max-age: 0
+      max-age: -1
       tags: {  }

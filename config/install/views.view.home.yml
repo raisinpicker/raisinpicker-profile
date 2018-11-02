@@ -18,7 +18,8 @@ dependencies:
     - node
     - user
     - views_infinite_scroll
-
+_core:
+  default_config_hash: cH3BQpGD8TyxYXmldzRBxUwIi6_2Ti1-2cfsn8-LzIw
 id: home
 label: Home
 module: views
@@ -66,6 +67,7 @@ display:
               allow_secondary: false
               secondary_label: 'Advanced options'
               autosubmit: true
+              autosubmit_exclude_textfield: false
               autosubmit_hide: true
             sort:
               bef_format: bef
@@ -100,16 +102,11 @@ display:
             button_text: 'Load More'
             automatically_load_content: true
       style:
-        type: grid
+        type: default
         options:
+          row_class: ''
+          default_row_class: false
           uses_fields: false
-          columns: 2
-          automatic_width: true
-          alignment: horizontal
-          col_class_default: true
-          col_class_custom: 'col-md-6 col-sm-12'
-          row_class_default: true
-          row_class_custom: row
       row:
         type: 'ds_entity:node'
         options:
@@ -196,6 +193,8 @@ display:
           text: ''
           entity_type: node
           plugin_id: entity_link
+          output_url_as_text: false
+          absolute: false
         title:
           id: title
           table: node_field_data
@@ -559,7 +558,7 @@ display:
       arguments: {  }
       display_extenders: {  }
       use_ajax: true
-      css_class: ''
+      css_class: card-columns
     cache_metadata:
       max-age: -1
       contexts:
@@ -600,8 +599,9 @@ display:
     position: 1
     display_options:
       display_extenders: {  }
-      path: home2
-      exposed_block: false
+      path: front
+      exposed_block: true
+      enabled: true
     cache_metadata:
       max-age: -1
       contexts:

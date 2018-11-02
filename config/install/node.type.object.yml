@@ -3,7 +3,7 @@ status: true
 dependencies:
   enforced:
     module:
-      - rp_structure
+      - raisinpicker
 
 name: Object
 type: object

@@ -16,7 +16,8 @@ dependencies:
     - taxonomy
     - user
     - views_infinite_scroll
-
+_core:
+  default_config_hash: _RSUIsfyX-XJbZvZZ0ThD0UTNHhr-tqarEwXeCPYzho
 id: taxonomy_term
 label: 'Taxonomy term'
 module: taxonomy
