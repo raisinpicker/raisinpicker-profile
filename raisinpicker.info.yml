@@ -16,7 +16,6 @@ dependencies:
   - better_exposed_filters
   - block
   - block_content
-  - bootstrap_layouts
   - breakpoint
   - chosen
   - chosen_field
@@ -24,6 +23,7 @@ dependencies:
   - ckeditor
   - color
   - config
+  - components
   - csv_serialization
   - ctools
   - datatables
@@ -82,11 +82,8 @@ dependencies:
   - ds_extras
   - views
   - paragraphs
-  - rp_d3
-  - rp_graph
-  - rp_shortcut
 libraries:
   - raisinpicker/nouislider
 themes:
-  - bsmaterial
+  - radix_material
   - seven
