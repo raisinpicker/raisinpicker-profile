@@ -1,0 +1,14 @@
+raisinpicker.create_media:
+  title: 'Add media'
+  description: ''
+  parent: raisinpicker.create
+  route_name: 'entity.media.add_page'  
+  menu_name: main
+  weight: 10
+
+raisinpicker.reports_medialibrary:
+  title: 'Media library'
+  parent: raisinpicker.reports
+  route_name: 'entity.media.collection'   
+  menu_name: main
+  weight: 10
