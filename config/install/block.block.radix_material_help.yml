@@ -1,0 +1,21 @@
+langcode: en
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - radix_material
+_core:
+  default_config_hash: MhtNdV__HKRTab0ZPjkPNfYL4Ng4UPBucDLoC7Rg5Eo
+id: radix_material_help
+theme: radix_material
+region: content
+weight: -4
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  provider: help
+  label_display: '0'
+visibility: {  }

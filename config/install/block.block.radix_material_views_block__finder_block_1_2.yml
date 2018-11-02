@@ -1,0 +1,31 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.finder
+  module:
+    - system
+    - views
+  theme:
+    - radix_material
+_core:
+  default_config_hash: yels2OJN03vae1fopjv32TPdZ4rNC_e6-IyPv-XiNhE
+id: radix_material_views_block__finder_block_1_2
+theme: radix_material
+region: sidebar_right
+weight: -8
+provider: null
+plugin: 'views_block:finder-block_1'
+settings:
+  id: 'views_block:finder-block_1'
+  label: Search
+  provider: views
+  label_display: visible
+  views_label: Search
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }
