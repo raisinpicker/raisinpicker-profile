@@ -1,0 +1,13 @@
+langcode: en
+status: true
+dependencies:
+  module:
+    - media
+id: default_media
+label: 'Default Media'
+type: 'canonical_entities:media'
+pattern: '[media:bundle]/[media:name:value]'
+selection_criteria: {  }
+selection_logic: and
+weight: 0
+relationships: {  }
