@@ -4,11 +4,11 @@ dependencies:
   module:
     - node
 id: default
-label: Default
+label: 'Default Content'
 type: 'canonical_entities:node'
-pattern: '/[node:content-type:machine-name]/[node:title]'
+pattern: '[node:content-type:machine-name]/[node:title]'
 selection_criteria:
-  80c0a0d5-d659-458b-b5ee-674a8721a91b:
+  c76d84a0-b7ce-47b8-ba01-34724f1d270a:
     id: node_type
     bundles:
       collection: collection
@@ -21,7 +21,7 @@ selection_criteria:
     negate: false
     context_mapping:
       node: node
-    uuid: 80c0a0d5-d659-458b-b5ee-674a8721a91b
+    uuid: c76d84a0-b7ce-47b8-ba01-34724f1d270a
 selection_logic: and
 weight: -5
 relationships: {  }
