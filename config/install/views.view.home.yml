@@ -599,7 +599,7 @@ display:
     position: 1
     display_options:
       display_extenders: {  }
-      path: front
+      path: home
       exposed_block: true
       enabled: true
     cache_metadata:
