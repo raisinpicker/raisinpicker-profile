@@ -91,7 +91,7 @@ raisinpicker.tasks_taxonomy:
   weight: 1
 
 raisinpicker.tasks_undone:
-  title: 'Filling gaps (soon)'
+  title: 'Filling gaps'
   description: 'Content with missing information'
   parent: raisinpicker.tasks
   route_name: '<front>'   
@@ -105,14 +105,6 @@ raisinpicker.tasks_bulk:
   route_name: 'view.bulk.page_1'   
   menu_name: main
   weight: 5
-
-raisinpicker.tasks_import:
-  title: 'Import (soon)'
-  description: ''
-  parent: raisinpicker.tasks
-  route_name: '<front>'   
-  menu_name: main
-  weight: 6
 
 raisinpicker.tools:
   title: 'Visualize'
@@ -136,22 +128,6 @@ raisinpicker.reports_review:
   route_name: 'view.review.page_1'   
   menu_name: main
   weight: 2
-
-raisinpicker.reports_relevant:
-  title: 'Relevant content (soon)'
-  description: ''
-  parent: raisinpicker.reports
-  route_name: '<front>'   
-  menu_name: main
-  weight: 9
-
-raisinpicker.reports_quiz:
-  title: 'Quiz (soon)'
-  description: ''
-  parent: raisinpicker.reports
-  route_name: '<front>'   
-  menu_name: main
-  weight: 10
 
 raisinpicker.reports:
   title: 'Report'
@@ -177,28 +153,14 @@ raisinpicker.reports_recent:
   weight: 3
 
 raisinpicker.reports_analytics:
-  title: 'Analytics (soon)'
+  title: 'Analytics'
   description: ''
   parent: raisinpicker.reports
   route_name: '<front>'   
   menu_name: main
   weight: 6
 
-
 # user menu
-raisinpicker.starred:
-  title: 'star'
-  description: 'Starred content'
-  route_name: 'view.star.page_1'
-  menu_name: account
-  weight: 20
-  options: 
-    attributes:
-      data-toggle: 'tooltip'
-      class: 'use-ajax material-icons small'
-      data-dialog-type : 'modal'
-      title: 'Starred content'
-
 raisinpicker.account:
   title: 'settings'
   description: 'Account settings'
@@ -232,6 +194,19 @@ raisinpicker.logout:
     attributes:
       data-toggle: 'tooltip'
       class: 'material-icons small'
+
+raisinpicker.star:
+  title: 'star'
+  description: 'Starred content'
+  route_name: 'view.star.page_1'
+  menu_name: account
+  weight: 20
+  options: 
+    attributes:
+      data-toggle: 'tooltip'
+      class: 'use-ajax material-icons small'
+      data-dialog-type: 'modal'
+      title: 'Starred content'
 
 # footer menu
 raisinpicker.footer_version:
