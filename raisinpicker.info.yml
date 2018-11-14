@@ -11,7 +11,6 @@ dependencies:
   - address
   - admin_toolbar
   - admin_toolbar_tools
-  - auto_entitylabel
   - automated_cron
   - better_exposed_filters
   - block
@@ -58,7 +57,6 @@ dependencies:
   - pathauto
   - redirect
   - rest
-  - rules
   - search_api
   - search_api_autocomplete
   - search_api_db
@@ -69,7 +67,6 @@ dependencies:
   - text
   - token
   - toolbar
-  - typed_data
   - update
   - user
   - views_autocomplete_filters

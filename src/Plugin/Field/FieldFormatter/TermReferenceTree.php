@@ -24,7 +24,7 @@ class TermReferenceTree extends FormatterBase {
    */
   public function viewElements(FieldItemListInterface $items, $langcode) {
     $element[] = array(
-      '#theme' => 'term_tree_list',
+      '#theme' => 'term_tree',
       '#data' => $items->getValue(),
     );
     return $element;
