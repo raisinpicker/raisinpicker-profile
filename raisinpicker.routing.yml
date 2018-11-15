@@ -1,22 +1,21 @@
-
-raisinpicker_simple:
-  path: 'home'
-  defaults:
-    _controller: '\Drupal\raisinpicker\Controller\HomeController::front'
-    _title: 'Raisin Picker | knowledge management'
-  requirements:
-    _permission: 'rp access homepage'
 raisinpicker_cheatsheet:
   path: 'cheatsheet'
   defaults:
-    _controller: '\Drupal\raisinpicker\Controller\HomeController::cheatsheet'
+    _controller: '\Drupal\raisinpicker\Controller\RpPageController::cheatsheet'
     _title: 'Cheat sheet'
   requirements:
     _permission: 'access content'  
+raisinpicker_analytics:
+  path: 'analytics'
+  defaults:
+    _controller: '\Drupal\raisinpicker\Controller\RpPageController::analytics'
+    _title: 'Analytics'
+  requirements:
+    _permission: 'rp access analytics'      
 raisinpicker_settings:
   path: 'settings'
   defaults:
-    _controller: '\Drupal\raisinpicker\Controller\HomeController::settings'
+    _controller: '\Drupal\raisinpicker\Controller\RpPageController::settings'
     _title: 'User settings'
   requirements:
     _permission: 'access content'  
@@ -38,3 +37,10 @@ raisinpicker_settings:
     #    _permission: 'access content'
     #  options:
     #    _admin_route: FALSE
+#raisinpicker_simple:
+#  path: 'home'
+#  defaults:
+#    _controller: '\Drupal\raisinpicker\Controller\RpPageController::front'
+#    _title: 'Raisin Picker | knowledge management'
+#  requirements:
+#    _permission: 'rp access homepage'

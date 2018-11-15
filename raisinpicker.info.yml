@@ -1,13 +1,12 @@
 name: 'Raisin Picker'
 type: profile
 description: 'Raisin Picker, knowledge management tool, Drupal 8.x installation profile.'
-version: '8.x-1.x-dev'
+version: '8.x-1.x'
 core: 8.x
 distribution:
   name: Raisin Picker
   langcode: en
 dependencies:
-  - action
   - address
   - admin_toolbar
   - admin_toolbar_tools

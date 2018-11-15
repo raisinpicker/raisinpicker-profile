@@ -203,6 +203,14 @@ function _raisinpicker_output_list_level(&$element, &$tree) {
       $term = \Drupal\taxonomy\Entity\Term::load($item['tid']);
       $uri['options']['html'] = TRUE;
       $url = $term->toUrl();
+      $link_options = array(
+        'attributes' => array(
+          'class' => array(
+            'badge', 'badge-light', 'badge-pill',
+          ),
+        ),
+      );
+      $url->setOptions($link_options);
       $class = $item['selected'] ? 'selected' : 'unselected';
       $output .= "<li class='$class'>";
       $output .= \Drupal::service('link_generator')->generate($term->label(), $url);
