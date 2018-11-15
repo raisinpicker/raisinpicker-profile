@@ -1,0 +1,7 @@
+rp_relevance.report:
+  title: 'Relevant content'
+  description: ''
+  parent: raisinpicker.reports
+  route_name: '<front>'   
+  menu_name: main
+  weight: 9
