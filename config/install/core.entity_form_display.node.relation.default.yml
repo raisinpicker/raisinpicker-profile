@@ -10,13 +10,9 @@ dependencies:
     - node.type.relation
   module:
     - chosen_field
-    - field_layout
-    - layout_discovery
     - raisinpicker
-third_party_settings:
-  field_layout:
-    id: layout_onecol
-    settings: {  }
+_core:
+  default_config_hash: e68Cx8UwGIkesdOc_tKUwmCUawzpux88SULnLR2RZfU
 id: node.relation.default
 targetEntityType: node
 bundle: relation
@@ -53,6 +49,11 @@ content:
     settings: {  }
     third_party_settings: {  }
     type: options_buttons
+    region: content
+  url_redirects:
+    weight: 50
+    settings: {  }
+    third_party_settings: {  }
     region: content
 hidden:
   created: true

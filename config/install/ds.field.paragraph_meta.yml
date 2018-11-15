@@ -3,7 +3,7 @@ label: 'Paragraph Meta'
 ui_limit: ''
 properties:
   content:
-    value: "<p><span class=\"btn btn-xs btn-primary\" data-toggle=\"tooltip\" title=\"Edit element\"><i class=\"material-icons small\">edit</i> </span> <span class=\"btn btn-xs btn-primary\" data-toggle=\"tooltip\" title=\"Delete element\"> <i class=\"material-icons small\">delete</i> </span> <span class=\"btn btn-xs btn-primary\" data-toggle=\"tooltip\" title=\"Duplicate element\"> <i class=\"material-icons small\">content_copy</i> </span> Created on [paragraph:created] | ID [paragraph:id]</p>\r\n"
+    value: "<p class=\"small\">\r\n<a class=\"btn btn-sm btn-primary use-ajax\" data-dialog-type=\"modal\" data-toggle=\"tooltip\" href=\"/paragraphs_edit/node/[paragraph:parent_id]/paragraphs/[paragraph:id]/edit\" title=\"Edit element\">\r\n<i class=\"material-icons small\">edit</i>\r\n</a> \r\n\r\n<a class=\"btn btn-sm btn-primary\" data-toggle=\"tooltip\" href=\"/paragraphs_edit/node/[paragraph:parent_id]/paragraphs/[paragraph:id]/delete\"> \r\n<i class=\"material-icons small\" title=\"Delete element\">delete </i>\r\n</a>\r\n\r\n<a class=\"btn btn-sm btn-primary\" data-toggle=\"tooltip\" href=\"/paragraphs_edit/node/[paragraph:parent_id]/paragraphs/[paragraph:id]/clone\" title=\"Duplicate element\"> \r\n<i class=\"material-icons small\">content_copy</i>\r\n</a> \r\n\r\nCreated on [paragraph:created] | ID [paragraph:id] \r\n\r\n</p>\r\n"
     format: full_html
 type: token
 type_label: 'Token field'

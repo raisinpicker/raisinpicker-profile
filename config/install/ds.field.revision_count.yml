@@ -1,0 +1,10 @@
+id: revision_count
+label: 'Revision count'
+ui_limit: '*|default'
+properties:
+  block: 'views_block:history-block_1'
+  use_block_title: false
+type: block
+type_label: 'Block field'
+entities:
+  node: node

@@ -2,7 +2,9 @@ langcode: en
 status: true
 dependencies:
   config:
+    - field.field.node.place.body
     - field.field.node.place.field_elements
+    - field.field.node.place.field_links
     - field.field.node.place.field_rating
     - field.field.node.place.field_rel_index
     - field.field.node.place.field_rel_score
@@ -12,72 +14,47 @@ dependencies:
   module:
     - ds
     - entity_reference_revisions
+    - link
     - raisinpicker
+    - text
     - user
 third_party_settings:
   ds:
     layout:
-      id: bs_3col_stacked
-      library: null
+      id: ds_3col
+      library: ds/ds_3col
       disable_css: false
       entity_classes: no_classes
       settings:
-        layout:
-          wrapper: div
-          classes:
-            row: row
-          add_layout_class: 0
-          attributes: ''
-        regions:
-          top:
-            wrapper: div
-            classes:
-              col-sm-12: col-sm-12
-            add_region_classes: 0
-            attributes: ''
-          left:
-            wrapper: div
-            classes:
-              col-sm-12: col-sm-12
-              col-md-3: col-md-3
-            add_region_classes: 0
-            attributes: class|well
-          middle:
-            wrapper: div
-            classes:
-              col-sm-12: col-sm-12
-              col-md-6: col-md-6
-            add_region_classes: 0
-            attributes: ''
-          right:
-            wrapper: div
-            classes:
-              col-sm-12: col-sm-12
-              col-md-3: col-md-3
-            add_region_classes: 0
-            attributes: ''
-          bottom:
-            wrapper: div
-            classes:
-              col-sm-12: col-sm-12
-            add_region_classes: 1
-            attributes: ''
+        wrappers:
+          left: div
+          middle: div
+          right: div
+        outer_wrapper: div
+        attributes: ''
+        link_attribute: ''
+        link_custom: ''
+        classes:
+          layout_class: {  }
+          left: {  }
+          middle: {  }
+          right: {  }
     regions:
-      top:
-        - 'dynamic_block_field:node-tabs'
-        - flag_star
-        - flag_review
       left:
         - 'dynamic_token_field:node-node_view_icon'
-        - node_author
-        - node_changed_date
-        - node_post_date
-        - field_words
-        - field_rel_score
-        - field_rel_index
+        - flag_star
+        - flag_review
         - field_tags
+        - node_author
+        - node_post_date
+        - node_changed_date
+        - field_words
+        - 'dynamic_block_field:node-view_count'
+        - 'dynamic_block_field:node-revision_count'
       middle:
         - field_elements
+        - body
+        - field_links
       right:
         - 'dynamic_block_field:node-incoming_relations'
         - 'dynamic_block_field:node-outgoing_relations'
@@ -85,27 +62,32 @@ third_party_settings:
     fields:
       'dynamic_block_field:node-incoming_relations':
         plugin_id: 'dynamic_block_field:node-incoming_relations'
-        weight: 12
+        weight: 13
         label: hidden
         formatter: default
       'dynamic_block_field:node-outgoing_relations':
         plugin_id: 'dynamic_block_field:node-outgoing_relations'
-        weight: 13
+        weight: 14
         label: hidden
         formatter: default
-      'dynamic_block_field:node-tabs':
-        plugin_id: 'dynamic_block_field:node-tabs'
-        weight: 0
+      'dynamic_block_field:node-revision_count':
+        plugin_id: 'dynamic_block_field:node-revision_count'
+        weight: 9
+        label: hidden
+        formatter: default
+      'dynamic_block_field:node-view_count':
+        plugin_id: 'dynamic_block_field:node-view_count'
+        weight: 8
         label: hidden
         formatter: default
       'dynamic_token_field:node-add_relation_buttons':
         plugin_id: 'dynamic_token_field:node-add_relation_buttons'
-        weight: 14
+        weight: 15
         label: hidden
         formatter: default
       'dynamic_token_field:node-node_view_icon':
         plugin_id: 'dynamic_token_field:node-node_view_icon'
-        weight: 3
+        weight: 0
         label: hidden
         formatter: default
       node_author:
@@ -115,23 +97,31 @@ third_party_settings:
         formatter: author
       node_changed_date:
         plugin_id: node_changed_date
-        weight: 5
+        weight: 6
         label: above
         formatter: ds_post_date_long
       node_post_date:
         plugin_id: node_post_date
-        weight: 6
+        weight: 5
         label: above
         formatter: ds_post_date_long
-
+_core:
+  default_config_hash: cccxJlCwRhsTQnEfKFQD0PwL4CDx4ZlRBgOSenmwhKg
 id: node.place.default
 targetEntityType: node
 bundle: place
 mode: default
 content:
+  body:
+    label: hidden
+    weight: 11
+    type: text_default
+    settings: {  }
+    third_party_settings: {  }
+    region: middle
   field_elements:
     type: entity_reference_revisions_entity_view
-    weight: 11
+    weight: 10
     region: middle
     label: hidden
     settings:
@@ -146,27 +136,21 @@ content:
             lb: ''
             lb-col: false
             classes: {  }
-  field_rel_index:
-    type: number_decimal
-    weight: 9
-    region: left
+  field_links:
     label: above
+    weight: 12
+    type: link
     settings:
-      thousand_separator: ''
-      decimal_separator: .
-      scale: 2
-      prefix_suffix: true
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
     third_party_settings: {  }
-  field_rel_score:
-    weight: 8
-    label: above
-    settings: {  }
-    third_party_settings: {  }
-    type: number_unformatted
-    region: left
+    region: middle
   field_tags:
     type: term_tree
-    weight: 10
+    weight: 3
     region: left
     label: above
     settings: {  }
@@ -188,12 +172,12 @@ content:
     region: left
   flag_review:
     weight: 2
-    region: top
+    region: left
     settings: {  }
     third_party_settings: {  }
   flag_star:
     weight: 1
-    region: top
+    region: left
     settings: {  }
     third_party_settings: {  }
   flag_work_in_progress:
@@ -208,4 +192,6 @@ content:
     third_party_settings: {  }
 hidden:
   field_rating: true
+  field_rel_index: true
+  field_rel_score: true
   links: true

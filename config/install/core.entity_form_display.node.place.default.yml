@@ -4,41 +4,13 @@ dependencies:
   config:
     - field.field.node.place.field_elements
     - field.field.node.place.field_rating
-    - field.field.node.place.field_rel_index
-    - field.field.node.place.field_rel_score
     - field.field.node.place.field_tags
     - field.field.node.place.field_words
     - node.type.place
   module:
-    - ds
-    - field_layout
     - paragraphs
     - raisinpicker
-third_party_settings:
-  field_layout:
-    id: ds_2col_stacked
-    settings:
-      wrappers:
-        header: div
-        left: div
-        right: div
-        footer: div
-      outer_wrapper: div
-      attributes: ''
-      link_attribute: ''
-      link_custom: ''
-      classes:
-        layout_class:
-          row: row
-        header:
-          col-md-12: col-md-12
-        left:
-          col-md-4: col-md-4
-        right:
-          col-md-8: col-md-8
-        footer:
-          col-md-12: col-md-12
-
+    - text
 id: node.place.default
 targetEntityType: node
 bundle: place
@@ -47,7 +19,7 @@ content:
   field_elements:
     type: entity_reference_paragraphs
     weight: 3
-    region: right
+    region: content
     settings:
       title: Paragraph
       title_plural: Paragraphs
@@ -59,30 +31,30 @@ content:
   field_rating:
     type: nouislider_widget
     weight: 1
-    region: left
+    region: content
     settings: {  }
     third_party_settings: {  }
   field_tags:
     type: rp_chosen_widget
     weight: 2
-    region: left
+    region: content
     settings: {  }
     third_party_settings: {  }
   title:
     type: string_textfield
     weight: 0
-    region: header
+    region: content
     settings:
       size: 60
       placeholder: 'Enter title here'
     third_party_settings: {  }
 hidden:
   created: true
-  field_rel_index: true
-  field_rel_score: true
+  field_links: true
   field_words: true
   path: true
   promote: true
   status: true
   sticky: true
   uid: true
+  url_redirects: true

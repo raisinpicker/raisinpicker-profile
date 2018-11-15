@@ -1,11 +1,11 @@
-id: term_list
-label: 'Term List'
-ui_limit: ''
+id: view_count
+label: 'View count'
+ui_limit: '*|default'
 properties:
-  block: 'views_block:content_charts-block_2'
+  block: 'views_block:content_statistics-block_3'
   use_block_title: false
   config:
-    id: 'views_block:content_charts-block_2'
+    id: 'views_block:content_statistics-block_3'
     label: ''
     provider: views
     label_display: visible
@@ -15,4 +15,4 @@ properties:
 type: block
 type_label: 'Block field'
 entities:
-  taxonomy_term: taxonomy_term
+  node: node
